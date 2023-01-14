@@ -95,8 +95,13 @@ def get_optimizations():
     return ram
 
 def get_libs():
+    try:
+        import xformers # pylint: disable=import-outside-toplevel
+        xversion = xformers.__version__
+    except:
+        xversion = 'unavailable'
     return {
-        'xformers': shared.xformers_available,
+        'xformers': xversion,
         'accelerate': accelerate.__version__,
         'transformers': transformers.__version__,
         'safetensors': safetensors.__version__,
