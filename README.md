@@ -6,12 +6,15 @@ State & memory info are auto-updated every second if tab is visible (no updates 
 All other information is updated once upon WebUI load and can be force refreshed if required  
 
 ## Current information:
+
+- Server start time
 - Version
 - Current Model & VAE
 - Current State
 - Current Memory statistics
 
 ## System data:
+
 - Platform details
 - Torch & CUDA details
 - Active CMD flags such as `low-vram` or `med-vram`
@@ -21,6 +24,7 @@ All other information is updated once upon WebUI load and can be force refreshed
   ![screenshot](system-info.jpg)
 
 ## Models
+
 - Models
 - Hypernetworks
 - Embeddings
@@ -28,6 +32,7 @@ All other information is updated once upon WebUI load and can be force refreshed
   ![screenshot](system-info-models.jpg)
 
 ## Info Object
+
 - System object is available as JSON for quick passing of information
 
   ![screenshot](system-info-json.jpg)
