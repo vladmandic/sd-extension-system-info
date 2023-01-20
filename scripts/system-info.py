@@ -3,6 +3,7 @@ import os
 import platform
 import subprocess
 import time
+from html.parser import HTMLParser
 
 import accelerate
 import gradio as gr
@@ -35,18 +36,28 @@ def get_uptime():
     s = vars(shared.state)
     return time.strftime('%c', time.localtime(s.get('server_start', time.time())))
 
+class HTMLFilter(HTMLParser):
+    text = ""
+    def handle_data(self, data):
+        self.text += data
+
 def get_state():
     s = vars(shared.state)
     flags = 'skipped ' if s.get('skipped', False) else ''
     flags += 'interrupted ' if s.get('interrupted', False) else ''
     flags += 'needs restart' if s.get('need_restart', False) else ''
+    text = s.get('textinfo', '')
+    if text is not None and len(text) > 0:
+        f = HTMLFilter()
+        f.feed(text)
+        text = os.linesep.join([s for s in f.text.splitlines() if s])
     return {
         'started': time.strftime('%c', time.localtime(s.get('time_start', time.time()))),
         'step': f'{s.get("sampling_step", 0)} / {s.get("sampling_steps", 0)}',
         'jobs': f'{s.get("job_no", 0)} / {s.get("job_count", 0)}', # pylint: disable=consider-using-f-string
         'flags': flags,
         'job': s.get('job', ''),
-        'text': s.get('textinfo', ''),
+        'text-info': text,
     }
 
 def get_memory():
