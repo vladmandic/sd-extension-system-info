@@ -26,6 +26,7 @@ def get_cuda():
                 'current': torch.cuda.get_device_name(torch.cuda.current_device()),
                 'arch': torch.cuda.get_arch_list()[-1],
                 'capability': torch.cuda.get_device_capability(shared.device),
+                'cudnn': torch.backends.cudnn.version(),
             }
         except Exception as e:
             return { 'error': e }
