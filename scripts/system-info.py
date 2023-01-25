@@ -1,5 +1,6 @@
 import datetime
 import os
+import sys
 import platform
 import subprocess
 import time
@@ -12,7 +13,7 @@ import pytorch_lightning
 import safetensors
 import torch
 import transformers
-from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared
+from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
 
 data = {}
 
@@ -209,6 +210,19 @@ def get_models():
 def get_samplers():
     return [sampler[0] for sampler in sd_samplers.all_samplers]
 
+def get_extensions():
+    return [f"{e.name} ({'enabled' if e.enabled else 'disabled'}{' builtin' if e.is_builtin else ''})" for e in extensions.extensions]
+
+def get_loras():
+    loras = []
+    try:
+        sys.path.append(extensions.extensions_builtin_dir)
+        from Lora import lora
+        loras = [l for l in lora.available_loras.keys()]
+    except:
+        pass
+    return loras
+
 def get_full_data():
     global data # pylint: disable=global-statement
     data = {
@@ -229,7 +243,9 @@ def get_full_data():
         'hypernetworks': [name for name in shared.hypernetworks],
         'embeddings': get_embeddings(),
         'skipped': get_skipped(),
+        'loras': get_loras(),
         'schedulers': get_samplers(),
+        'extensions': get_extensions(),
         'platform': get_platform(),
         'crossattention': get_crossattention(),
         'api': shared.cmd_opts.api,
@@ -302,6 +318,7 @@ def on_ui_tabs():
                             with gr.Column():
                                 embeddings = gr.JSON(data['embeddings'], label = 'Embeddings: loaded', lines = len(data['embeddings']))
                                 skipped = gr.JSON(data['skipped'], label = 'Embeddings: skipped', lines = len(data['embeddings']))
+                                loras = gr.JSON(data['loras'], label = 'Available LORAs', lines = len(data['loras']))
                 with gr.Box():
                     with gr.Accordion('Info object', open = False, visible = True):
                         # reduce json data to avoid private info
@@ -310,13 +327,14 @@ def on_ui_tabs():
                         data.pop('skipped', None)
                         data.pop('hypernetworks', None)
                         data.pop('schedulers', None)
+                        data.pop('loras', None)
                         json = gr.JSON(data)
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
                 refresh_quick = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
                 refresh_quick.click(refresh_info_quick, inputs = [], outputs = [state, memory, timestamp, json])
                 refresh_full = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn').style(full_width = False)
-                refresh_full.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, embeddings, skipped, model, vae, timestamp, json])
+                refresh_full.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, model, vae, timestamp, json])
                 interrupt = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn')
                 interrupt.click(shared.state.interrupt, inputs = [], outputs = [])
     return (system_info_tab, 'System Info', 'system_info_tab'),
