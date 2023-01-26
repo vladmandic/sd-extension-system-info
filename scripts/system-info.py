@@ -193,10 +193,10 @@ def get_version():
         return {}
 
 def get_embeddings():
-    return [f'{v} ({sd_hijack.model_hijack.embedding_db.word_embeddings[v].vectors})' for i, v in enumerate(sd_hijack.model_hijack.embedding_db.word_embeddings)]
+    return sorted([f'{v} ({sd_hijack.model_hijack.embedding_db.word_embeddings[v].vectors})' for i, v in enumerate(sd_hijack.model_hijack.embedding_db.word_embeddings)])
 
 def get_skipped():
-    return [k for k in sd_hijack.model_hijack.embedding_db.skipped_embeddings.keys()]
+    return sorted([k for k in sd_hijack.model_hijack.embedding_db.skipped_embeddings.keys()])
 
 def get_crossattention():
     try:
@@ -205,20 +205,20 @@ def get_crossattention():
         return 'unknown'
 
 def get_models():
-    return [x.title for x in sd_models.checkpoints_list.values()]
+    return sorted([x.title for x in sd_models.checkpoints_list.values()])
 
 def get_samplers():
-    return [sampler[0] for sampler in sd_samplers.all_samplers]
+    return sorted([sampler[0] for sampler in sd_samplers.all_samplers])
 
 def get_extensions():
-    return [f"{e.name} ({'enabled' if e.enabled else 'disabled'}{' builtin' if e.is_builtin else ''})" for e in extensions.extensions]
+    return sorted([f"{e.name} ({'enabled' if e.enabled else 'disabled'}{' builtin' if e.is_builtin else ''})" for e in extensions.extensions])
 
 def get_loras():
     loras = []
     try:
         sys.path.append(extensions.extensions_builtin_dir)
         from Lora import lora
-        loras = [l for l in lora.available_loras.keys()]
+        loras = sorted([l for l in lora.available_loras.keys()])
     except:
         pass
     return loras
@@ -275,7 +275,7 @@ def refresh_info_quick():
 
 def refresh_info_full():
     get_full_data()
-    return dict2text(data['state']), dict2text(data['memory']), data['models'], data['hypernetworks'], data['embeddings'], data['skipped'], dict2text(data['model']), dict2text(data['vae']), data['timestamp'], data
+    return dict2text(data['state']), dict2text(data['memory']), data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], dict2text(data['model']), dict2text(data['vae']), data['timestamp'], data
 
 def on_ui_tabs():
     get_full_data()
