@@ -134,25 +134,6 @@ def get_repos():
             repos[key] = '(unknown)'
     return repos
 
-def get_model():
-    try:
-        return {
-            'configured': shared.opts.data['sd_model_checkpoint'],
-            'current': shared.sd_model.sd_checkpoint_info.title,
-            'configuration': os.path.basename(sd_models.find_checkpoint_config(shared.sd_model.sd_checkpoint_info)),
-        }
-    except:
-        return { 'error': 'no model config found' }
-
-def get_vae():
-    try:
-        return {
-            'configured': shared.opts.sd_vae,
-            'current': os.path.basename(shared.sd_vae.loaded_vae_file),
-        }
-    except:
-        return { 'error': 'no vae config found' }
-
 def get_platform():
     try:
         return {
@@ -230,8 +211,6 @@ def get_full_data():
         'timestamp': datetime.datetime.now().strftime('%X'),
         'uptime': get_uptime(),
         'version': get_version(),
-        'model': get_model(),
-        'vae': get_vae(),
         'torch': get_torch(),
         'cuda': get_cuda(),
         'state': get_state(),
@@ -288,9 +267,6 @@ def on_ui_tabs():
                             gr.Textbox(data['uptime'], label = 'Server start time', lines = 1)
                             gr.Textbox(dict2text(data['version']), label = 'Version', lines = len(data['version']))
                         with gr.Column():
-                            model = gr.Textbox(dict2text(data['model']), label = 'Model', lines = len(data['model']))
-                            vae = gr.Textbox(dict2text(data['vae']), label = 'VAE', lines = len(data['vae']))
-                        with gr.Column():
                             state = gr.Textbox(dict2text(data['state']), label = 'State', lines = len(data['state']))
                         with gr.Column():
                             memory = gr.Textbox(dict2text(data['memory']), label = 'Memory', lines = len(data['memory']))
@@ -334,7 +310,7 @@ def on_ui_tabs():
                 refresh_quick = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
                 refresh_quick.click(refresh_info_quick, inputs = [], outputs = [state, memory, timestamp, json])
                 refresh_full = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn').style(full_width = False)
-                refresh_full.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, model, vae, timestamp, json])
+                refresh_full.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, timestamp, json])
                 interrupt = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn')
                 interrupt.click(shared.state.interrupt, inputs = [], outputs = [])
     return (system_info_tab, 'System Info', 'system_info_tab'),
