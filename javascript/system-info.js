@@ -1,23 +1,33 @@
 // this would not be needed if automatic run gradio with loop enabled
 
 let loaded = false;
-let interval;
+let interval_sys;
+let interval_bench;
 
-function refresh() {
+function refresh_info() {
   const btn = gradioApp().getElementById('system_info_tab_refresh_btn') // we could cache this dom element
-  if (!btn) return // but ui may get destroyed
-  btn.click() // actual refresh is done from python code we just trigger it but simulating button click
+  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
+}
+
+function refresh_bench() {
+  const btn = gradioApp().getElementById('system_info_tab_refresh_bench_btn') // we could cache this dom element
+  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
 }
 
 function onHidden() { // stop refresh interval when tab is not visible
-  if (!interval) return
-  clearInterval(interval);
-  interval = undefined;
+  if (interval_sys) {
+    clearInterval(interval_sys);
+    interval_sys = undefined;
+  }
+  if (interval_bench) {
+    clearInterval(interval_bench);
+    interval_bench = undefined;
+  }
 }
 
 function onVisible() { // start refresh interval tab is when visible
-  if (interval) return // interval already started so dont start it again
-  interval = setInterval(refresh, 1000);
+  if (!interval_sys) interval_sys = setInterval(refresh_info, 2500); // check interval already started so dont start it again
+  if (!interval_bench) interval_bench = setInterval(refresh_bench, 1000); // check interval already started so dont start it again
 }
 
 function initLoading() { // triggered on gradio change to monitor when ui gets sufficiently constructed

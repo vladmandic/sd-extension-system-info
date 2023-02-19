@@ -4,32 +4,52 @@ import sys
 import platform
 import subprocess
 import time
+import json
+from hashlib import sha256
 from html.parser import HTMLParser
 
+import torch
 import accelerate
 import gradio as gr
 import psutil
-import pytorch_lightning
-import safetensors
-import torch
 import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
+from scripts.benchmark import run_benchmark
+
+### system info globals
 
 data = {}
 
-def get_cuda():
+### benchmark globals
+
+bench_text = ''
+bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data.json')
+bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
+bench_data = []
+
+
+### system info module
+
+def get_gpu():
     if not torch.cuda.is_available():
         return {}
     else:
         try:
-            return {
-                'version': torch.version.cuda,
-                'devices': torch.cuda.device_count(),
-                'current': torch.cuda.get_device_name(torch.cuda.current_device()),
-                'arch': torch.cuda.get_arch_list()[-1],
-                'capability': torch.cuda.get_device_capability(shared.device),
-                'cudnn': torch.backends.cudnn.version(),
-            }
+            if torch.version.cuda:
+                return {
+                    'device': f'{torch.cuda.get_device_name(torch.cuda.current_device())} ({str(torch.cuda.device_count())}) ({torch.cuda.get_arch_list()[-1]}) {str(torch.cuda.get_device_capability(shared.device))}',
+                    'cuda': torch.version.cuda,
+                    'cudnn': torch.backends.cudnn.version(),
+                }
+            elif torch.version.hip:
+                return {
+                    'device': f'{torch.cuda.get_device_name(torch.cuda.current_device())} ({str(torch.cuda.device_count())})',
+                    'hip': torch.version.hip,
+                }
+            else:
+                return {
+                    'device': 'unknown'
+                }
         except Exception as e:
             return { 'error': e }
 
@@ -41,6 +61,7 @@ class HTMLFilter(HTMLParser):
     text = ""
     def handle_data(self, data):
         self.text += data
+
 
 def get_state():
     s = vars(shared.state)
@@ -60,6 +81,7 @@ def get_state():
         'job': s.get('job', ''),
         'text-info': text,
     }
+
 
 def get_memory():
     def gb(val: float):
@@ -95,6 +117,7 @@ def get_memory():
         pass
     return mem
 
+
 def get_optimizations():
     ram = []
     if shared.cmd_opts.medvram:
@@ -107,6 +130,7 @@ def get_optimizations():
         ram.append('none')
     return ram
 
+
 def get_libs():
     try:
         import xformers # pylint: disable=import-outside-toplevel
@@ -117,9 +141,8 @@ def get_libs():
         'xformers': xversion,
         'accelerate': accelerate.__version__,
         'transformers': transformers.__version__,
-        'safetensors': safetensors.__version__,
-        'lightning': pytorch_lightning.__version__,
     }
+
 
 def get_repos():
     repos = {}
@@ -134,26 +157,34 @@ def get_repos():
             repos[key] = '(unknown)'
     return repos
 
+
 def get_platform():
     try:
+        if platform.system() == 'Windows':
+            release = platform.platform(aliased = True, terse = False)
+        else:
+            release = platform.release()
         return {
             'host': platform.node(),
             'arch': platform.machine(),
             'cpu': platform.processor(),
             'system': platform.system(),
-            'platform': platform.platform(aliased = True, terse = False),
-            'release': platform.release(),
-            'version': platform.version(),
+            'release': release,
+            # 'platform': platform.platform(aliased = True, terse = False),
+            # 'version': platform.version(),
             'python': platform.python_version(),
         }
     except Exception as e:
         return { 'error': e }
 
+
 def get_torch():
-    return {
-        'version': torch.__version__,
-        'precision': shared.cmd_opts.precision + (' fp32' if shared.cmd_opts.no_half else ' fp16'),
-    }
+    try:
+        ver = torch.__long_version__
+    except:
+        ver = torch.__version__
+    return f"{ver} {shared.cmd_opts.precision} {' nohalf' if shared.cmd_opts.no_half else ' half'}"
+
 
 def get_version():
     try:
@@ -167,17 +198,19 @@ def get_version():
         return {
             'updated': updated,
             'hash': githash,
-            'origin': origin.replace('\n', ''),
-            'branch': branch.replace('\n', ''),
+            'url': origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
         }
     except:
         return {}
 
+
 def get_embeddings():
     return sorted([f'{v} ({sd_hijack.model_hijack.embedding_db.word_embeddings[v].vectors})' for i, v in enumerate(sd_hijack.model_hijack.embedding_db.word_embeddings)])
 
+
 def get_skipped():
     return sorted([k for k in sd_hijack.model_hijack.embedding_db.skipped_embeddings.keys()])
+
 
 def get_crossattention():
     try:
@@ -185,14 +218,18 @@ def get_crossattention():
     except:
         return 'unknown'
 
+
 def get_models():
     return sorted([x.title for x in sd_models.checkpoints_list.values()])
+
 
 def get_samplers():
     return sorted([sampler[0] for sampler in sd_samplers.all_samplers])
 
+
 def get_extensions():
     return sorted([f"{e.name} ({'enabled' if e.enabled else 'disabled'}{' builtin' if e.is_builtin else ''})" for e in extensions.extensions])
+
 
 def get_loras():
     loras = []
@@ -204,6 +241,7 @@ def get_loras():
         pass
     return loras
 
+
 def get_full_data():
     global data # pylint: disable=global-statement
     data = {
@@ -212,7 +250,7 @@ def get_full_data():
         'uptime': get_uptime(),
         'version': get_version(),
         'torch': get_torch(),
-        'cuda': get_cuda(),
+        'gpu': get_gpu(),
         'state': get_state(),
         'memory': get_memory(),
         'optimizations': get_optimizations(),
@@ -232,29 +270,38 @@ def get_full_data():
     }
     return data
 
+
 def get_quick_data():
     data['timestamp'] = datetime.datetime.now().strftime('%X')
     data['state'] = get_state()
     data['memory'] = get_memory()
 
+
 def list2text(lst: list):
     return '\n'.join(lst)
 
+
 def dict2str(d: dict):
-    arr = [f'{name}: {d[name]}' for i, name in enumerate(d)]
+    arr = [f'{name}:{d[name]}' for i, name in enumerate(d)]
     return ' '.join(arr)
+
 
 def dict2text(d: dict):
     arr = ['{name}: {val}'.format(name = name, val = d[name] if not type(d[name]) is dict else dict2str(d[name])) for i, name in enumerate(d)] # pylint: disable=consider-using-f-string
     return list2text(arr)
 
+
 def refresh_info_quick():
     get_quick_data()
     return dict2text(data['state']), dict2text(data['memory']), data['timestamp'], data
 
+
 def refresh_info_full():
     get_full_data()
-    return dict2text(data['state']), dict2text(data['memory']), data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], dict2text(data['model']), dict2text(data['vae']), data['timestamp'], data
+    return dict2text(data['state']), dict2text(data['memory']), data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], data['timestamp'], data
+
+
+### ui definition
 
 def on_ui_tabs():
     get_full_data()
@@ -276,8 +323,8 @@ def on_ui_tabs():
                             with gr.Column():
                                 gr.Textbox(dict2text(data['platform']), label = 'Platform', lines = len(data['platform']))
                             with gr.Column():
-                                gr.Textbox(dict2text(data['torch']), label = 'Torch', lines = len(data['torch']))
-                                gr.Textbox(dict2text(data['cuda']), label = 'CUDA', lines = len(data['cuda']))
+                                gr.Textbox(data['torch'], label = 'Torch', lines = 1)
+                                gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
                                 with gr.Row():
                                     gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
                                     gr.Textbox(data['crossattention'], label = 'Cross-attention')
@@ -285,6 +332,34 @@ def on_ui_tabs():
                             with gr.Column():
                                 gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
                                 gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']))
+                with gr.Box():
+                    with gr.Accordion('Benchmarks...', open = True, visible = True):
+                        bench_load()
+                        with gr.Row():
+                            benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
+                        with gr.Row():
+                            with gr.Column(scale=3):
+                                username = gr.Textbox('', label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
+                                note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
+                            with gr.Column(scale=1):
+                                warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
+                                extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
+                                level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
+                                # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
+                            with gr.Column(scale=1):
+                                bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn').style(full_width = False)
+                                bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
+                                # bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
+                                # bench_submit_btn.click(bench_submit, inputs = [], outputs = [])
+                                # bench_link = gr.HTML('<a href="https://github.com/vladmandic/sd-extension-system-info" target="_blank">Link to online results</a>')
+                        with gr.Row():
+                            bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
+                                <span>performance is measured in iterations per second (its) and reported for different batch sizes (e.g. 1, 2, 4, 8...)</span><br>
+                                <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
+                        with gr.Row():
+                            bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
+                            refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
+                            refresh_bench_btn.click(bench_refresh, inputs = [], outputs = [bench_label])
                 with gr.Box():
                     with gr.Accordion('Models...', open = False, visible = True):
                         with gr.Row():
@@ -304,15 +379,122 @@ def on_ui_tabs():
                         data.pop('hypernetworks', None)
                         data.pop('schedulers', None)
                         data.pop('loras', None)
-                        json = gr.JSON(data)
+                        js = gr.JSON(data)
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
-                refresh_quick = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
-                refresh_quick.click(refresh_info_quick, inputs = [], outputs = [state, memory, timestamp, json])
-                refresh_full = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn').style(full_width = False)
-                refresh_full.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, timestamp, json])
-                interrupt = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn')
-                interrupt.click(shared.state.interrupt, inputs = [], outputs = [])
+                refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
+                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, timestamp, js])
+                refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style(full_width = False)
+                refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
+                interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
+                interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
     return (system_info_tab, 'System Info', 'system_info_tab'),
+
+
+### benchmarking module
+
+def bench_log(msg: str):
+    global bench_text
+    bench_text = msg
+    print('benchmark', msg)
+
+
+def bench_submit():
+    bench_log('submit not yet implemented')
+
+
+def bench_run(batches: list = [1], extra: bool = False):
+    results = []
+    for batch in batches:
+        bench_log(f'running for batch size {batch}')
+        res = run_benchmark(batch, extra)
+        results.append(str(res))
+    its = ' / '.join(results)
+    return its
+
+
+def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
+    global bench_data
+    bench_log('starting')
+    hash = sha256((dict2str(data['version']) + dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:5]
+    existing = [x for x in bench_data if (x[-1] is not None and x[-1][:5] == hash)]
+    if len(existing) > 0:
+        bench_log('replacing existing entry')
+        d = existing[0]
+    elif bench_data[-1][0] is not None:
+        bench_log('new entry')
+        bench_data.append([None] * len(bench_headers))
+        d = bench_data[-1]
+    else:
+        d = bench_data[-1]
+
+    if level == 'quick':
+        batches = [1]
+    elif level == 'normal':
+        batches = [1, 2, 4]
+    elif level == 'extensive':
+        batches = [1, 2, 4, 8, 16]
+    else:
+        batches = []
+
+    model_hash = shared.opts.data['sd_model_checkpoint'].split('[')[-1].split(']')[0]
+    if model_hash != 'cc6cb27103':
+        bench_log('using non standard model')
+
+    if warmup:
+        bench_run([1], False)
+
+    # bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
+    d[0] = str(datetime.datetime.now())
+    d[1] = bench_run(batches, extra)
+    d[2] = dict2str(data['version'])
+    d[3] = dict2str(data['platform'])
+    d[4] = f"torch:{data['torch']} {dict2str(data['libs'])}"
+    d[5] = dict2str(data['gpu'])
+    d[6] = data['crossattention'] + ' ' + ','.join(data['optimizations'])
+    d[7] = shared.opts.data['sd_model_checkpoint']
+    d[8] = username
+    d[9] = note
+    d[10] = hash
+
+    md = '| ' + ' | '.join(d) + ' |'
+    bench_log(md)
+
+    bench_save()
+    return bench_data
+
+
+def bench_load():
+    global bench_data
+    tmp = []
+    if os.path.isfile(bench_file) and os.path.getsize(bench_file) > 0:
+        try:
+            with open(bench_file, 'r') as f:
+                tmp = json.load(f)
+                bench_data = tmp
+                bench_log('data loaded: ' + bench_file)
+        except Exception as err:
+            bench_log('error loading: ' + bench_file + ' ' + str(err))
+    if len(bench_data) == 0:
+        bench_data.append([None] * len(bench_headers))
+    return bench_data
+
+
+def bench_save():
+    global bench_data
+    if bench_data[-1][0] is None:
+        del list[-1]
+    try:
+        with open(bench_file, 'w') as f:
+            json.dump(bench_data, f, indent=2, default=str)
+            bench_log('data saved: ' + bench_file)
+    except Exception as err:
+        bench_log('error saving: ' + bench_file + ' ' + str(err))
+
+
+def bench_refresh():
+    global bench_text
+    return gr.HTML.update(value = bench_text)
+
 
 script_callbacks.on_ui_tabs(on_ui_tabs)
