@@ -14,6 +14,7 @@ import gradio as gr
 import psutil
 import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
+from modules.ui_components import FormRow, FormGroup, ToolButton, FormHTML
 from scripts.benchmark import run_benchmark
 
 ### system info globals
@@ -342,8 +343,9 @@ def on_ui_tabs():
                                 username = gr.Textbox('', label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
                                 note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                             with gr.Column(scale=1):
-                                warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
-                                extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
+                                with FormRow():
+                                    warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
+                                    extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
                                 level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
                                 # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
                             with gr.Column(scale=1):
