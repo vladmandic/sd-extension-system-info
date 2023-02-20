@@ -1,0 +1,18 @@
+
+  # Benchmark Data
+
+  ## Updated: 2023-02-20T20:02:28.629Z
+  
+  ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
+
+  <br>
+
+  |Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
+  |---|---|---|---|---|---|---|---|---|---|
+  |2023-02-20T21:53:28.223Z|5.28 / 6.08 / 6.7 / 7.09 / 7.15||host:BLACKBOX arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 12GB|xformers none|MugenAi ∞.safetensors [b0ead052d2]|Eljoseto|Test2|
+|2023-02-21T01:50:17.172Z|1.62 / 2.11 / 2.3||host:DESKTOP-Q0P3NQ3 arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (2) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|protogenX53Photorealism_10.safetensors [e3cda540bf]|candi||
+|2023-02-19T18:10:54.164Z|5.8 / 6.71 / 7.54||host:BLACKBOX arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600|xformers none|ACUSTOMMIX_base4_in12.safetensors [64e0e93a17]|Eljoseto|test|
+|2023-02-20T21:36:33.100Z|6.6 / 7.55 / 8.14|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:5900X arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|SD15\-=REALISM=-\Deliberate\deliberate_v11.safetensors [57d103206a]|bruno||
+|2023-02-20T15:22:36.948Z|6.71 / 7.57 / 8.2|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:5900X arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500|xformers none|SD15\-=REALISM=-\Deliberate\deliberate_v11.safetensors [57d103206a]|||
+|2023-02-20T17:53:35.026Z|12.99 / 15.54 / 16.28|updated:2023-02-20 hash:09ff8cd2 url:https://github.com/vladmandic/automatic/tree/master|host:LEE-GENTRY arch:x86_64 cpu:x86_64 system:Linux release:5.10.16.3-microsoft-standard-WSL2 python:3.10.6|torch:1.13.1+cu116 autocast half xformers:0.0.16rc425 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (sm_86) (8, 6) cuda:11.6 cudnn:8700 10GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|lee||
+|2023-02-20T16:56:43.428Z|7.2 / 8.1 / 8.84|updated:2023-02-19 hash:fc3e9e5d url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230211+cu118 autocast half xformers:0.0.17+12c076d.d20230211 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
