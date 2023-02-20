@@ -1,10 +1,11 @@
-import datetime
 import os
 import sys
-import platform
-import subprocess
+import pwd
 import time
 import json
+import platform
+import subprocess
+import datetime
 from hashlib import sha256
 from html.parser import HTMLParser
 
@@ -15,7 +16,7 @@ import psutil
 import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
 from modules.ui_components import FormRow, FormGroup, ToolButton, FormHTML
-from scripts.benchmark import run_benchmark
+from scripts.benchmark import run_benchmark, submit_benchmark
 
 ### system info globals
 
@@ -27,6 +28,7 @@ bench_text = ''
 bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data.json')
 bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
 bench_data = []
+console_logging = None
 
 
 ### system info module
@@ -340,10 +342,16 @@ def on_ui_tabs():
                             benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
                         with gr.Row():
                             with gr.Column(scale=3):
-                                username = gr.Textbox('', label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
+                                try:
+                                    user = pwd.getpwuid(os.getuid())[0]
+                                except:
+                                    user = ''
+                                username = gr.Textbox(user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
                                 note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                             with gr.Column(scale=1):
                                 with FormRow():
+                                    global console_logging
+                                    console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
                                     warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
                                     extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
                                 level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
@@ -351,12 +359,12 @@ def on_ui_tabs():
                             with gr.Column(scale=1):
                                 bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn').style(full_width = False)
                                 bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
-                                # bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
-                                # bench_submit_btn.click(bench_submit, inputs = [], outputs = [])
-                                # bench_link = gr.HTML('<a href="https://github.com/vladmandic/sd-extension-system-info" target="_blank">Link to online results</a>')
+                                bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
+                                bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
+                                bench_link = gr.HTML('<a href="https://github.com/vladmandic/sd-extension-system-info" target="_blank">Link to online results</a>')
                         with gr.Row():
                             bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
-                                <span>performance is measured in iterations per second (its) and reported for different batch sizes (e.g. 1, 2, 4, 8...)</span><br>
+                                <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
                                 <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
                         with gr.Row():
                             bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
@@ -398,11 +406,16 @@ def on_ui_tabs():
 def bench_log(msg: str):
     global bench_text
     bench_text = msg
-    print('benchmark', msg)
+    if console_logging is not None and console_logging.value:
+        print('benchmark', msg)
 
 
-def bench_submit():
-    bench_log('submit not yet implemented')
+def bench_submit(username: str):
+    if username is None or username == '':
+        bench_log('username is required to submit results')
+        return
+    submit_benchmark(bench_data, username, console_logging.value)
+    bench_log(f'data submitted: {len(bench_data)} records')
 
 
 def bench_run(batches: list = [1], extra: bool = False):
@@ -410,6 +423,7 @@ def bench_run(batches: list = [1], extra: bool = False):
     for batch in batches:
         bench_log(f'running for batch size {batch}')
         res = run_benchmark(batch, extra)
+        bench_log(f'results batch size {batch}: {res} it/s')
         results.append(str(res))
     its = ' / '.join(results)
     return its
@@ -418,8 +432,8 @@ def bench_run(batches: list = [1], extra: bool = False):
 def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     global bench_data
     bench_log('starting')
-    hash = sha256((dict2str(data['version']) + dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:5]
-    existing = [x for x in bench_data if (x[-1] is not None and x[-1][:5] == hash)]
+    hash = sha256((dict2str(data['version']) + dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
+    existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash)]
     if len(existing) > 0:
         bench_log('replacing existing entry')
         d = existing[0]
@@ -446,13 +460,18 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     if warmup:
         bench_run([1], False)
 
+    try:
+        mem = data['memory']['gpu']['total']
+    except:
+        mem = 0
+
     # bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
     d[0] = str(datetime.datetime.now())
     d[1] = bench_run(batches, extra)
     d[2] = dict2str(data['version'])
     d[3] = dict2str(data['platform'])
     d[4] = f"torch:{data['torch']} {dict2str(data['libs'])}"
-    d[5] = dict2str(data['gpu'])
+    d[5] = dict2str(data['gpu']) + f' {str(round(mem))}GB'
     d[6] = data['crossattention'] + ' ' + ','.join(data['optimizations'])
     d[7] = shared.opts.data['sd_model_checkpoint']
     d[8] = username
@@ -488,7 +507,7 @@ def bench_save():
         del list[-1]
     try:
         with open(bench_file, 'w') as f:
-            json.dump(bench_data, f, indent=2, default=str)
+            json.dump(bench_data, f, indent=2, default=str, skipkeys=True)
             bench_log('data saved: ' + bench_file)
     except Exception as err:
         bench_log('error saving: ' + bench_file + ' ' + str(err))

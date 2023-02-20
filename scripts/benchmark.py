@@ -1,6 +1,11 @@
 import time
+import logging
+import socket
+from hashlib import sha256
+from logging.handlers import SysLogHandler
 from modules import shared
 from modules.processing import StableDiffusionProcessingTxt2Img, Processed, process_images
+
 
 args = {
     'sd_model': shared.sd_model,
@@ -20,6 +25,7 @@ args = {
     'do_not_reload_embeddings': True
 }
 
+
 def run_benchmark(batch: int, extra: bool):
     shared.state.begin()
     args['batch_size'] = batch
@@ -35,3 +41,28 @@ def run_benchmark(batch: int, extra: bool):
     shared.state.end()
     its = args['steps'] * batch / (t1 - t0)
     return round(its, 2)
+
+
+class LogFilter(logging.Filter):
+    hostname = socket.gethostname()
+    def filter(self, record):
+        record.hostname = LogFilter.hostname
+        return True
+
+
+def submit_benchmark(data, username, console_logging):
+    syslog = SysLogHandler(address=('logs3.papertrailapp.com', 32554))
+    syslog.addFilter(LogFilter())
+    format = f'%(asctime)s %(hostname)s SDBENCHMARK: {username} %(message)s'
+    formatter = logging.Formatter(format, datefmt='%b %d %H:%M:%S')
+    syslog.setFormatter(formatter)
+    remote = logging.getLogger('SDBENCHMARK')
+    remote.addHandler(syslog)
+    remote.setLevel(logging.INFO)
+    for line in data:
+        message = '|'.join(line).replace('  ', ' ').replace('"', '').strip()
+        hash = sha256(message.encode('utf-8')).hexdigest()[:6]
+        message = message + '|' + hash
+        if console_logging:
+            print('benchmark submit record:')
+        remote.info(message)
