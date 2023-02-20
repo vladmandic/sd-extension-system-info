@@ -1,6 +1,5 @@
 import os
 import sys
-import pwd
 import time
 import json
 import platform
@@ -32,6 +31,22 @@ console_logging = None
 
 
 ### system info module
+
+def get_user():
+    user = ''
+    if user == '':
+        try:
+            user = os.getlogin()
+        except:
+            pass
+    if user == '':
+        try:
+            import pwd
+            user = pwd.getpwuid(os.getuid())[0]
+        except:
+            pass
+    return user
+
 
 def get_gpu():
     if not torch.cuda.is_available():
@@ -342,11 +357,7 @@ def on_ui_tabs():
                             benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
                         with gr.Row():
                             with gr.Column(scale=3):
-                                try:
-                                    user = pwd.getpwuid(os.getuid())[0]
-                                except:
-                                    user = ''
-                                username = gr.Textbox(user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
+                                username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
                                 note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                             with gr.Column(scale=1):
                                 with FormRow():
