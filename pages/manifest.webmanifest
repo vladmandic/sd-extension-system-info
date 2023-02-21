@@ -1,8 +1,8 @@
 {
-  "name": "Human Library",
-  "short_name": "Human",
-  "icons": [{ "src": "../assets/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }],
-  "start_url": "./index.html",
+  "name": "SD WebUI Benchmark Data",
+  "short_name": "Benchmark",
+  "icons": [{ "src": "favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }],
+  "start_url": "./benchmark.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#000000",

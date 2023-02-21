@@ -80,7 +80,7 @@
 
         const grid = new Grid({
           columns: [
-            { name: 'ID', width: '50px', formatter: (cell) => html(`<span style="color: #aaa">${cell}</span>}`) },
+            { name: '', id: 'id', width: '50px', formatter: (cell) => html(`<span style="color: #CE6400">${cell}</span>`) },
             { name: 'Date', width: '130px', formatter: (cell) => `${new Date(cell).toLocaleString()}` },
             { name: 'Performance', formatter: (cell) => html(`<b>${cell.replace(/\//g, 'it/s<br>')} it/s</b>`), sort: { compare: (a, b) => perfSort(a, b) } },
             { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}`) },

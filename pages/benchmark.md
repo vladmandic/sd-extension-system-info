@@ -1,14 +1,14 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-21T17:02:22.461Z
+  ## Updated: 2023-02-21T17:13:06.884Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
   <br>
 
-  |Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
-  |---|---|---|---|---|---|---|---|---|---|
+  |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
+  |---|---|---|---|---|---|---|---|---|---|---|
   |18|2023-02-21T13:45:36.616Z|3.98 / 5.53 / 6.85|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-K9GFN11 arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers medvram|nitroDiffusion-v1.ckpt [f0f1076e5e]|firef||
 |17|2023-02-22T00:54:50.823Z|2.0 / 2.19 / 2.27|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:kalia arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia||
 |16|2023-02-21T23:10:53.836Z|1.0 / 1.3 / 1.26|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:N0R00 arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 6GB|xformers none|AbyssOrangeMix2_hard.safetensors [0fc198c490]|LucyE||
