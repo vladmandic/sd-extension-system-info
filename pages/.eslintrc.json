@@ -1,0 +1,39 @@
+{
+  "globals": {},
+  "env": {
+      "browser": true,
+      "commonjs": true,
+      "node": true,
+      "jquery": false,
+      "es2020": true
+  },
+  "parserOptions": { "ecmaVersion": 2020 },
+  "plugins": [ "html" ],
+  "extends": [
+      "eslint:recommended",
+      "plugin:json/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:node/recommended",
+      "airbnb-base"
+  ],
+  "rules": {
+      "max-len": [1, 220, 3],
+      "camelcase": "off",
+      "guard-for-in": "off",
+      "no-await-in-loop": "off",
+      "no-loop-func": "off",
+      "no-mixed-operators": "off",
+      "no-plusplus": "off",
+      "no-restricted-globals": "off",
+      "no-restricted-syntax": "off",
+      "no-return-assign": "off",
+      "no-promise-executor-return": "off",
+      "node/no-unsupported-features/es-syntax": "off",
+      "object-curly-newline": "off",
+      "prefer-destructuring": "off",
+      "promise/always-return": "off",
+      "prefer-template": "off",
+      "no-continue": "off"
+  }
+}
