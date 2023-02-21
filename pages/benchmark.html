@@ -11,14 +11,104 @@
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="favicon.png">
-    <script src="benchmark.js" type="module"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gridjs@6.0.6/dist/theme/mermaid.css">
+    <!-- <link rel="stylesheet" href="benchmark.css"> -->
     <style>
-      @font-face { font-family: 'Lato'; font-display: swap; font-style: normal; font-weight: 100; src: local('Lato'), url('lato-light.woff2') }
-      html { font-family: 'Lato', 'Segoe UI'; font-size: 16px; font-variant: small-caps; }
-      body { margin: 0; background: black; color: white; overflow-x: hidden; width: 100vw; height: 100vh; }
+      @font-face { font-family: 'Roboto'; font-display: swap; font-style: normal; font-weight: 100; src: local('Roboto'), url('roboto.ttf') }
+      html { font-family: 'Roboto', 'Segoe UI'; font-size: 14px; }
+      body { margin: 0; background: black; color: white; overflow: hidden; width: 100vw; height: 100vh; line-height: 1.5rem; }
       body::-webkit-scrollbar { display: none; }
+      div { margin-bottom: 1rem; }
+      a { color: #AAA; text-decoration: none; }
+      th { top: -2px !important; } /* fix for gridjs header */
+      input[type=search] { background-color: #333; font-size: 1.2rem; border-color: #222; color: white; margin-left: 12px; }
+      ::-webkit-scrollbar { width: 12px; }
+      ::-webkit-scrollbar-track { background: #555; }
+      ::-webkit-scrollbar-thumb { background-color: #AAA; border-radius: 2px; border-width: 0; box-shadow: 2px 2px 3px #111111; }
     </style>
   </head>
   <body>
+    <div style="margin: 12px">
+      <h1>SD WebUI Bechmark Data</h1>
+      <div>
+        Benchmark data is created using | <b>SD WebUI Extension <a href="https://github.com/vladmandic/sd-extension-system-info" style="color: #CE6400">System Info</a></b>
+      </div>
+      Last modified | <span id="modified" style="color: #AAA"></span>
+      <div>Download 
+        | <a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark-data.json" style="color: #AAA" target="_blank">DATA</a></b> |
+        | <a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark-raw.json" style="color: #AAA" target="_blank">RAW</a></b> |
+        | <a href="https://github.com/vladmandic/sd-extension-system-info/blob/main/pages/benchmark.md" style="color: #AAA" target="_blank">MD</a></b> |
+      </div>
+      <div style="color: #CCC"><i>Note | Performance is measured as iterations per second for different batch sizes (1, 2, 4, 8 ...) and using standardized txt2img settings</i></div>
+      <br>
+      <div id="table"></div> 
+      <div id="log" style="color: #AAA; position: absolute; bottom: 0"></div>
+    </div>
+    <script type="module">
+      import { Grid, html } from 'https://cdn.jsdelivr.net/npm/gridjs@6.0.6/dist/gridjs.module.js'; // eslint-disable-line import/no-unresolved, node/no-missing-import, import/extensions
+
+      const dataUrl = 'https://vladmandic.github.io/sd-extension-system-info/pages/benchmark-data.json';
+
+      const log = (...msg) => {
+        console.log('benchmark', ...msg); // eslint-disable-line no-console
+        const el = document.getElementById('log');
+        el.innerHTML = Array.isArray(msg) ? msg.join(' ') : msg;
+        el.style.display = 'block';
+        setTimeout(() => el.style.display = 'none', 2500);
+      };
+
+      async function main() {
+        let data = [];
+        const res = await fetch(dataUrl);
+        if (res.ok) {
+          data = await res.json();
+          const modified = res.headers.get('last-modified');
+          document.getElementById('modified').innerHTML = `${new Date(modified).toLocaleString()}`;
+          log('benchmark data loaded records:', data.length);
+        } else {
+          log('benchmark data load failed:', res.status, res.statusText);
+        }
+
+        const text2url = (text) => text.replace(/((|http|https|ftp):\/\/[\w?=&./-;#~%-]+(?![\w\s?&./;#~%"=-]*>))/g, "<a href='$1' target='_blank'>$1</a>").replace(/(url:)/g, '').replace('updated:', '');
+        const perfSort = (a, b) => {
+          const a0 = a.split('/');
+          const b0 = b.split('/');
+          const a1 = parseFloat(a0[a0.length - 1].trim());
+          const b1 = parseFloat(b0[b0.length - 1].trim());
+          return a1 - b1;
+        };
+
+        const grid = new Grid({
+          columns: [
+            { name: 'Date', width: '130px', formatter: (cell) => `${new Date(cell).toLocaleString()}` },
+            { name: 'Performance', formatter: (cell) => html(`<b>${cell.replace(/\//g, 'it/s<br>')} it/s</b>`), sort: { compare: (a, b) => perfSort(a, b) } },
+            { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}</b>`) },
+            { name: 'System', width: '400px' },
+            { name: 'Libraries', width: '300px' },
+            { name: 'GPU', width: '260px', formatter: (cell) => html(`${cell.replace('device:', '')}`) },
+            { name: 'Optimizations', formatter: (cell) => html(`${cell.replace(/ /g, '<br>')}`) },
+            { name: 'Model', formatter: (cell) => html(`${cell.replace(/\[/g, '<br>[')}`) },
+            'Username',
+            'Note',
+          ],
+          // pagination: true,
+          search: true,
+          sort: true,
+          resizable: true,
+          fixedHeader: true,
+          height: '78vh',
+          style: {
+            th: { 'background-color': '#CE6400', color: '#000', border: '2px solid #111', padding: '12px' },
+            td: { overflow: 'hidden', padding: '6px 10px', 'line-height': '1.5rem', 'background-color': '#333', color: '#FFF', border: '2px solid #111' },
+          },
+          data,
+        });
+        grid.render(document.getElementById('table'));
+        grid.on('rowClick', (...args) => log('row:', args));
+        grid.on('cellClick', (...args) => log('cell:', args));
+      }
+
+      window.onload = main;
+  </script>
   </body>
 </html>

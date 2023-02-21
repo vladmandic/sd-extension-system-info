@@ -1,0 +1,31 @@
+{
+  "name": "sd-extensions-system-info",
+  "version": "0.0.1",
+  "description": "",
+  "main": "benchmark-download.js",
+  "scripts": {
+    "start": "node benchmark-download.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/sd-extension-system-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vladmandic/sd-extension-system-info/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}

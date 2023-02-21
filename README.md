@@ -26,6 +26,16 @@ Creates a top-level **System Info** tab in Automatic WebUI with
 
 ![screenshot](system-info.jpg)
 
+## Benchmark
+
+- Allows to run standardized benchmark and optionally submit data to cloud logger [[details]](pages/README.md)
+
+![screenshot](benchmark.jpg)
+
+- *Note: Record is appended if any of the system properties change else benchmark data replaces existing matching record*
+
+- All results can be [viewed online](https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html)
+
 ## Models
 
 - Models (with hash)
