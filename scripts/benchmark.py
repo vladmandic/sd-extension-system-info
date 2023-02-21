@@ -57,6 +57,8 @@ def submit_benchmark(data, username, console_logging):
     formatter = logging.Formatter(format, datefmt='%b %d %H:%M:%S')
     syslog.setFormatter(formatter)
     remote = logging.getLogger('SDBENCHMARK')
+    for h in remote.handlers: # remove local handlers
+        remote.removeHandler(h)
     remote.addHandler(syslog)
     remote.setLevel(logging.INFO)
     for line in data:

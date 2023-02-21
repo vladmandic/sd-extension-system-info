@@ -1,5 +1,5 @@
 {
-  "max_id": "1564730332442439681",
+  "max_id": "1564738536962441223",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1132,6 +1132,48 @@
       "source_id": 13745906812,
       "source_name": "DESKTOP-K9GFN11",
       "hostname": "DESKTOP-K9GFN11",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1564737617407426560",
+      "source_ip": "164.68.154.59",
+      "program": "SDBENCHMARK",
+      "message": "vlado 2023-02-20 11:56:43.428913|7.2 / 8.1 / 8.84|updated:2023-02-19 hash:fc3e9e5d url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230211+cu118 autocast half xformers:0.0.17+12c076d.d20230211 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||88abf4|4bb7e0 ",
+      "received_at": "2023-02-21T12:15:41-05:00",
+      "generated_at": "2023-02-21T07:15:41-05:00",
+      "display_received_at": "Feb 21 12:15:41",
+      "source_id": 13744943742,
+      "source_name": "wsl",
+      "hostname": "wsl",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1564737617407426562",
+      "source_ip": "164.68.154.59",
+      "program": "SDBENCHMARK",
+      "message": "vlado 2023-02-21 12:15:17.912348|7.19 / 8.09 / 8.84|updated:2023-02-20 hash:d88faa6f url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230211+cu118 autocast half xformers:0.0.17+12c076d.d20230211 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||6e5033|613a17 ",
+      "received_at": "2023-02-21T12:15:41-05:00",
+      "generated_at": "2023-02-21T07:15:41-05:00",
+      "display_received_at": "Feb 21 12:15:41",
+      "source_id": 13744943742,
+      "source_name": "wsl",
+      "hostname": "wsl",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1564738536962441223",
+      "source_ip": "164.68.154.59",
+      "program": "SDBENCHMARK",
+      "message": "vlado 2023-02-21 12:19:02.243516|7.2 / 8.11 / 8.81|updated:2023-02-20 hash:d88faa6f url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230211+cu118 autocast half xformers:0.0.17+12c076d.d20230211 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||6e5033|f37a62 ",
+      "received_at": "2023-02-21T12:19:21-05:00",
+      "generated_at": "2023-02-21T07:19:21-05:00",
+      "display_received_at": "Feb 21 12:19:21",
+      "source_id": 13744943742,
+      "source_name": "wsl",
+      "hostname": "wsl",
       "severity": "Info",
       "facility": "User"
     }

@@ -24,7 +24,7 @@ data = {}
 ### benchmark globals
 
 bench_text = ''
-bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data.json')
+bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data-local.json')
 bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
 bench_data = []
 console_logging = None
@@ -372,7 +372,7 @@ def on_ui_tabs():
                                 bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
                                 bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
                                 bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
-                                bench_link = gr.HTML('<a href="https://github.com/vladmandic/sd-extension-system-info" target="_blank">Link to online results</a>')
+                                bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
                         with gr.Row():
                             bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
                                 <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
