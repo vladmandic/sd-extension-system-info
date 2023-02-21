@@ -1,5 +1,5 @@
 node_modules
 __pycache__
-*.json
-*.yaml
-build-md.js
+package.json
+pnpm-lock.yaml
+benchmark-download.js
