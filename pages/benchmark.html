@@ -80,9 +80,10 @@
 
         const grid = new Grid({
           columns: [
+            { name: 'ID', width: '50px', formatter: (cell) => html(`<span style="color: #aaa">${cell}</span>}`) },
             { name: 'Date', width: '130px', formatter: (cell) => `${new Date(cell).toLocaleString()}` },
             { name: 'Performance', formatter: (cell) => html(`<b>${cell.replace(/\//g, 'it/s<br>')} it/s</b>`), sort: { compare: (a, b) => perfSort(a, b) } },
-            { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}</b>`) },
+            { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}`) },
             { name: 'System', width: '400px' },
             { name: 'Libraries', width: '300px' },
             { name: 'GPU', width: '260px', formatter: (cell) => html(`${cell.replace('device:', '')}`) },
@@ -96,7 +97,7 @@
           sort: true,
           resizable: true,
           fixedHeader: true,
-          height: '78vh',
+          height: '75vh',
           style: {
             th: { 'background-color': '#CE6400', color: '#000', border: '2px solid #111', padding: '12px' },
             td: { overflow: 'hidden', padding: '6px 10px', 'line-height': '1.5rem', 'background-color': '#333', color: '#FFF', border: '2px solid #111' },
