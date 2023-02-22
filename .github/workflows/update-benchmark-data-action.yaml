@@ -24,7 +24,7 @@ jobs:
       with:
         node-version: 18
         cache: npm
-        cache-dependency-path: pnpm-lock.yaml
+        cache-dependency-path: pages/pnpm-lock.yaml
     - name: npm-install
       run: npm install
     - name: node-run
