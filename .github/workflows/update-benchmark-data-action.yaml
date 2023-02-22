@@ -6,11 +6,14 @@ on:
   schedule:
     - cron: '*/15 * * * *'
 
+permissions:
+  contents: write
+
 jobs:
   update-benchmark-data-job:
     runs-on: ubuntu-latest
     permissions:
-    	contents: write
+      contents: write
     steps:
       - name: actions-checkout
         uses: actions/checkout@v3
