@@ -1,4 +1,4 @@
-name: update-benchmark-data-action
+name: Update benchmark data
 
 on:
   push:
