@@ -1,5 +1,18 @@
 [
   [
+    49,
+    "2023-02-22T14:38:22.628Z",
+    "15.44 / 18.94 / 20.82",
+    "updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:TOPAZ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "069-ULTIMATE_MEGA_MERGE-deliberate_babes_a0.5-rv1.2_protogenx53_a0.5-weighted_sum.ckpt [519752a8db]",
+    "master",
+    ""
+  ],
+  [
     48,
     "2023-02-22T12:30:35.856Z",
     "15.47 / 18.75 / 20.15",
