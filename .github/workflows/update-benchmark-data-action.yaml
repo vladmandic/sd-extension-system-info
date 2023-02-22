@@ -3,6 +3,8 @@ name: update-benchmark-data-action
 on:
   push:
   workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
 
 jobs:
   update-benchmark-data-job:
