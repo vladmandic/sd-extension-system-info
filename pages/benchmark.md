@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-22T16:56:03.897Z
+  ## Updated: 2023-02-22T19:11:46.274Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |46|2023-02-22T13:27:35.009Z|22.52 / 30.65 / 39.39||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 70% PL(315w) + custom undervolt curve + 800mhz Memory OC, Custom compilation of xformers 0.0.17 (cuda 11.8), Ryzen 5800x, 48GB Ram|
+  |47|2023-02-22T12:02:44.379Z|15.75 / 18.76 / 20.78|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:TOPAZ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|0-0-0-zmix_rpg4-dpr-chill-id654.ckpt [b224b94de8]|master||
+|46|2023-02-22T13:27:35.009Z|22.52 / 30.65 / 39.39||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 70% PL(315w) + custom undervolt curve + 800mhz Memory OC, Custom compilation of xformers 0.0.17 (cuda 11.8), Ryzen 5800x, 48GB Ram|
 |45|2023-02-22T13:21:45.701Z|21.67 / 28.11 / 32.3||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 50% PL(225w) + custom undervolt curve + 800mhz Memory OC, Custom compilation of xformers 0.0.17 (cuda 11.8), Ryzen 5800x, 48GB Ram|
 |44|2023-02-22T13:04:45.237Z|22.12 / 32.92 / 38.57||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 70% PL(315w), custom compilation of xformers 0.0.17 (cuda 11.8),|
 |43|2023-02-22T18:51:57.978Z|12.89 / 14.89 / 16.49|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:Shadowmere arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|deliberate_v11.safetensors [d8691b4d16]|renar||

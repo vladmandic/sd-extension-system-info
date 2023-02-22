@@ -1,5 +1,5 @@
 {
-  "max_id": "1565088000919126021",
+  "max_id": "1565127099428298760",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1622,6 +1622,34 @@
       "source_id": 13746784498,
       "source_name": "DESKTOP-9GMPUUQ",
       "hostname": "DESKTOP-9GMPUUQ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565127078901375121",
+      "source_ip": "70.176.105.240",
+      "program": "SDBENCHMARK",
+      "message": "master 2023-02-22 12:02:44.379479|15.75 / 18.76 / 20.78|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:TOPAZ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|0-0-0-zmix_rpg4-dpr-chill-id654.ckpt [b224b94de8]|master||2f26e1|481efb ",
+      "received_at": "2023-02-22T14:03:16-05:00",
+      "generated_at": "2023-02-22T07:03:16-05:00",
+      "display_received_at": "Feb 22 14:03:16",
+      "source_id": 13746918880,
+      "source_name": "TOPAZ",
+      "hostname": "TOPAZ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565127099428298760",
+      "source_ip": "70.176.105.240",
+      "program": "SDBENCHMARK",
+      "message": "master 2023-02-22 12:02:44.379479|15.75 / 18.76 / 20.78|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:TOPAZ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|0-0-0-zmix_rpg4-dpr-chill-id654.ckpt [b224b94de8]|master||2f26e1|481efb ",
+      "received_at": "2023-02-22T14:03:21-05:00",
+      "generated_at": "2023-02-22T07:03:21-05:00",
+      "display_received_at": "Feb 22 14:03:21",
+      "source_id": 13746918880,
+      "source_name": "TOPAZ",
+      "hostname": "TOPAZ",
       "severity": "Info",
       "facility": "User"
     }
