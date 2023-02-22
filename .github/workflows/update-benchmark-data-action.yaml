@@ -1,7 +1,7 @@
 name: update-benchmark-data-action
 on:
   push:
-    branches: [ main ]
+  workflow_dispatch:
 permissions:
 	contents: write
 jobs:
