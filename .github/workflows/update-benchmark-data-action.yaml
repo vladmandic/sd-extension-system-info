@@ -1,0 +1,37 @@
+name: update-benchmark-data-action
+on:
+  push:
+    branches: [ main ]
+permissions:
+	contents: write
+jobs:
+  update-benchmark-data-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: actions-checkout
+        uses: actions/checkout@v3
+      - name: actions-setup-node
+				working-directory: pages
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x.x
+          cache: npm
+      - name: npm-install
+				working-directory: pages
+        run: npm install
+      - name: node-run
+				working-directory: pages
+			  env:
+          PAPERTRAIL: ${{ secrets.PAPERTRAIL }}
+					GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node ./benchmark-download.js
+			- name: git-commit
+				working-directory: pages
+      	uses: stefanzweifel/git-auto-commit-action@v4
+				with:
+					commit_message: 'update benchmark data'
+			    commit_options: '--no-verify'
+			    file_pattern: 'pages/*.json, pages/*.md'
+			    status_options: '--untracked-files=no'
+			    skip_fetch: true    
+			    skip_checkout: true

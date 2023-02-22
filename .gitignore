@@ -1,5 +1,4 @@
 node_modules
 __pycache__
 pnpm-lock.yaml
-benchmark-download.js
 benchmark-data-local.json
