@@ -1,4 +1,5 @@
-name: Update benchmark data
+name: update-benchmark-data
+run-name: update benchmark data
 
 on:
   push:
