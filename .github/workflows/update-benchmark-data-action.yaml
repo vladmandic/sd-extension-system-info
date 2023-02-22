@@ -1,9 +1,12 @@
 name: update-benchmark-data-action
+
 on:
   push:
   workflow_dispatch:
+
 permissions:
 	contents: write
+
 jobs:
   update-benchmark-data-job:
     runs-on: ubuntu-latest
