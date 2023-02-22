@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+  - cron: '0 * * * *'
 
 permissions:
   contents: write
@@ -12,39 +12,32 @@ permissions:
 jobs:
   update-benchmark-data-job:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     defaults:
-      working-directory: pages
+      run:
+        shell: bash
+        working-directory: pages
     steps:
-      - name: actions-checkout
-        uses: actions/checkout@v3
-
-      - name: actions-setup-node
-        uses: actions/setup-node@v3
-				working-directory: pages
-        with:
-          node-version: 18
-          cache: npm
-
-      - name: npm-install
-				working-directory: pages
-        run: npm install
-
-      - name: node-run
-				working-directory: pages
-			  env:
-          PAPERTRAIL: ${{ secrets.PAPERTRAIL }}
-					GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node ./benchmark-download.js
-
-			- name: git-commit
-      	uses: stefanzweifel/git-auto-commit-action@v4
-				working-directory: pages
-				with:
-					commit_message: 'update benchmark data'
-			    commit_options: '--no-verify'
-			    file_pattern: 'pages/*.json, pages/*.md'
-			    status_options: '--untracked-files=no'
-			    skip_fetch: true    
-			    skip_checkout: true
+    - name: actions-checkout
+      uses: actions/checkout@v3
+    - name: actions-setup-node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: npm
+        cache-dependency-path: pnpm-lock.yaml
+    - name: npm-install
+      run: npm install
+    - name: node-run
+      env:
+        PAPERTRAIL: ${{ secrets.PAPERTRAIL }}
+        GHTOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: node ./benchmark-download.js
+    - name: git-commit
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'update benchmark data'
+        commit_options: '--no-verify'
+        file_pattern: 'pages/*.json, pages/*.md'
+        status_options: '--untracked-files=no'
+        skip_fetch: true    
+        skip_checkout: true
