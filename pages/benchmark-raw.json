@@ -1,5 +1,5 @@
 {
-  "max_id": "1565009577060249610",
+  "max_id": "1565088000919126021",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1538,6 +1538,90 @@
       "source_id": 13744943742,
       "source_name": "wsl",
       "hostname": "wsl",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565075257369473028",
+      "source_ip": "125.243.126.200",
+      "program": "SDBENCHMARK",
+      "message": "jhp 2023-02-23 00:37:01.418313|9.66 / 10.84 / 11.65|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:JH-WS arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|deliberate_v11.safetensors [d8691b4d16]|jhp||1e6370|a86010 ",
+      "received_at": "2023-02-22T10:37:21-05:00",
+      "generated_at": "2023-02-22T19:37:21-05:00",
+      "display_received_at": "Feb 22 10:37:21",
+      "source_id": 13746761692,
+      "source_name": "JH-WS",
+      "hostname": "JH-WS",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565077130767937542",
+      "source_ip": "125.243.126.200",
+      "program": "SDBENCHMARK",
+      "message": "jhp 2023-02-23 00:41:27.745222|10.11 / 11.48 / 12.58 / 13.44 / 13.03|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:JH-WS arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|realisticVisionV13_v13VAEIncluded.safetensors [c35782bad8]|jhp||1e6370|475c36 ",
+      "received_at": "2023-02-22T10:44:48-05:00",
+      "generated_at": "2023-02-22T19:44:48-05:00",
+      "display_received_at": "Feb 22 10:44:48",
+      "source_id": 13746761692,
+      "source_name": "JH-WS",
+      "hostname": "JH-WS",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565079089918963714",
+      "source_ip": "95.129.59.242",
+      "program": "SDBENCHMARK",
+      "message": "renar 2023-02-22 18:51:57.978103|12.89 / 14.89 / 16.49|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:Shadowmere arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|deliberate_v11.safetensors [d8691b4d16]|renar||4b51fe|c59869 ",
+      "received_at": "2023-02-22T10:52:35-05:00",
+      "generated_at": "2023-02-22T13:52:34-05:00",
+      "display_received_at": "Feb 22 10:52:35",
+      "source_id": 13746772198,
+      "source_name": "Shadowmere",
+      "hostname": "Shadowmere",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565083048805056526",
+      "source_ip": "177.53.208.36",
+      "program": "SDBENCHMARK",
+      "message": "VandersonQK 2023-02-22 13:04:45.237707|22.12 / 32.92 / 38.57||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 70% PL(315w), custom compilation of xformers 0.0.17 (cuda 11.8),|98369f|08db5e ",
+      "received_at": "2023-02-22T11:08:19-05:00",
+      "generated_at": "2023-02-22T08:08:18-05:00",
+      "display_received_at": "Feb 22 11:08:19",
+      "source_id": 13746784498,
+      "source_name": "DESKTOP-9GMPUUQ",
+      "hostname": "DESKTOP-9GMPUUQ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565086521797820439",
+      "source_ip": "177.53.208.36",
+      "program": "SDBENCHMARK",
+      "message": "VandersonQK 2023-02-22 13:21:45.701494|21.67 / 28.11 / 32.3||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 50% PL(225w) + custom undervolt curve + 800mhz Memory OC, Custom compilation of xformers 0.0.17 (cuda 11.8), Ryzen 5800x, 48GB Ram|98369f|64fa56 ",
+      "received_at": "2023-02-22T11:22:07-05:00",
+      "generated_at": "2023-02-22T08:22:06-05:00",
+      "display_received_at": "Feb 22 11:22:07",
+      "source_id": 13746784498,
+      "source_name": "DESKTOP-9GMPUUQ",
+      "hostname": "DESKTOP-9GMPUUQ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565088000919126021",
+      "source_ip": "177.53.208.36",
+      "program": "SDBENCHMARK",
+      "message": "VandersonQK 2023-02-22 13:27:35.009874|22.52 / 30.65 / 39.39||host:DESKTOP-9GMPUUQ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+cc36858.d20230218 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|VandersonQK|RTX 4090 70% PL(315w) + custom undervolt curve + 800mhz Memory OC, Custom compilation of xformers 0.0.17 (cuda 11.8), Ryzen 5800x, 48GB Ram|98369f|dbdef0 ",
+      "received_at": "2023-02-22T11:27:59-05:00",
+      "generated_at": "2023-02-22T08:27:59-05:00",
+      "display_received_at": "Feb 22 11:27:59",
+      "source_id": 13746784498,
+      "source_name": "DESKTOP-9GMPUUQ",
+      "hostname": "DESKTOP-9GMPUUQ",
       "severity": "Info",
       "facility": "User"
     }
