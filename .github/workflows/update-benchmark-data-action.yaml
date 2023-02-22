@@ -38,7 +38,7 @@ jobs:
       with:
         commit_message: 'update benchmark data'
         commit_options: '--no-verify'
-        file_pattern: 'pages/*.json, pages/*.md'
+        file_pattern: '*.json, *.md'
         status_options: '--untracked-files=no'
         skip_fetch: true    
         skip_checkout: true
