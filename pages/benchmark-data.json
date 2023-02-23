@@ -1,5 +1,31 @@
 [
   [
+    76,
+    "2023-02-23T14:08:32.803Z",
+    "14.11 / 16.28 / 17.26",
+    "",
+    "host:boi arch:x86_64 cpu: system:Linux release:5.10.0-21-amd64 python:3.9.2",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "AbyssOrangeMix2_nsfw.safetensors [0873291ac5]",
+    "boi",
+    ""
+  ],
+  [
+    75,
+    "2023-02-23T09:31:19.463Z",
+    "4.8 / 6.43 / 7.04 / 7.56 / 6.9",
+    "updated:2023-02-05 hash:ea9bd9f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:DESKTOP-9U4UERK arch:AMD64 cpu:AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17+cc36858.d20230217 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8700 6GB",
+    "xformers medvram",
+    "SD1.5\\v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "Dahvikiin",
+    ""
+  ],
+  [
     74,
     "2023-02-23T04:00:00.122Z",
     "12.53 / 12.38 / 14.36",
