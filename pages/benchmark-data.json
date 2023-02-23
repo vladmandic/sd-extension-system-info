@@ -1,5 +1,44 @@
 [
   [
+    52,
+    "2023-02-23T08:41:13.481Z",
+    "9.05 / 11.94 / 15.31",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "AbyssOrangeMix2_sfw.safetensors [038ba203d8]",
+    "Sweet Me",
+    ""
+  ],
+  [
+    51,
+    "2023-02-23T08:39:40.589Z",
+    "6.68 / 9.59 / 13.43",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "AbyssOrangeMix2_sfw.safetensors [038ba203d8]",
+    "Sweet Me",
+    ""
+  ],
+  [
+    50,
+    "2023-02-23T08:01:25.396Z",
+    "6.9 / 10.03 / 13.05",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "AbyssOrangeMix2_sfw.safetensors [038ba203d8]",
+    "Sweet Me",
+    ""
+  ],
+  [
     49,
     "2023-02-22T14:38:22.628Z",
     "15.44 / 18.94 / 20.82",

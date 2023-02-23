@@ -1,5 +1,5 @@
 {
-  "max_id": "1565166174650687489",
+  "max_id": "1565212180478095378",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1678,6 +1678,48 @@
       "source_id": 13746918880,
       "source_name": "TOPAZ",
       "hostname": "TOPAZ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565202216086855686",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 08:01:25.396703|6.9 / 10.03 / 13.05|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||1dcc93|4016f8 ",
+      "received_at": "2023-02-22T19:01:50-05:00",
+      "generated_at": "2023-02-23T03:01:51-05:00",
+      "display_received_at": "Feb 22 19:01:50",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565211891062726658",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 08:39:40.589657|6.68 / 9.59 / 13.43|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||1dcc93|c6b68c ",
+      "received_at": "2023-02-22T19:40:17-05:00",
+      "generated_at": "2023-02-23T03:40:17-05:00",
+      "display_received_at": "Feb 22 19:40:17",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565212180478095378",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 08:41:13.481695|9.05 / 11.94 / 15.31|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||1dcc93|8a6150 ",
+      "received_at": "2023-02-22T19:41:26-05:00",
+      "generated_at": "2023-02-23T03:41:26-05:00",
+      "display_received_at": "Feb 22 19:41:26",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
       "severity": "Info",
       "facility": "User"
     }
