@@ -1,5 +1,5 @@
 {
-  "max_id": "1565400362230398984",
+  "max_id": "1565439336189702147",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2140,6 +2140,20 @@
       "source_id": 13747569987,
       "source_name": "boi",
       "hostname": "boi",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565439336189702147",
+      "source_ip": "2.203.78.188",
+      "program": "SDBENCHMARK",
+      "message": "einea 2023-02-23 16:43:05.941806|7.86 / 8.49 / 8.64|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-ND8DLC9 arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Xynaptix-V3.1.safetensors [53e2fd86a4]|einea||94b041|6af76e ",
+      "received_at": "2023-02-23T10:44:04-05:00",
+      "generated_at": "2023-02-23T11:44:04-05:00",
+      "display_received_at": "Feb 23 10:44:04",
+      "source_id": 13747683325,
+      "source_name": "DESKTOP-ND8DLC9",
+      "hostname": "DESKTOP-ND8DLC9",
       "severity": "Info",
       "facility": "User"
     }
