@@ -1,5 +1,5 @@
 {
-  "max_id": "1565451568768282640",
+  "max_id": "1565475584094695432",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2182,6 +2182,20 @@
       "source_id": 13747714660,
       "source_name": "chtholly",
       "hostname": "chtholly",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565475584094695432",
+      "source_ip": "217.114.38.159",
+      "program": "SDBENCHMARK",
+      "message": "djkacevedo 2023-02-23 13:07:41.665983|7.4 / 10.27 / 13.34|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-L3IQESA arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|user one||83af88|d7dc80 ",
+      "received_at": "2023-02-23T13:08:06-05:00",
+      "generated_at": "2023-02-23T08:08:06-05:00",
+      "display_received_at": "Feb 23 13:08:06",
+      "source_id": 13747294370,
+      "source_name": "DESKTOP-L3IQESA",
+      "hostname": "DESKTOP-L3IQESA",
       "severity": "Info",
       "facility": "User"
     }
