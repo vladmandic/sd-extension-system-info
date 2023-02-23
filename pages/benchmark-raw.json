@@ -1,5 +1,5 @@
 {
-  "max_id": "1565364493683453979",
+  "max_id": "1565383155270205456",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2056,6 +2056,34 @@
       "source_id": 13747475289,
       "source_name": "MSI",
       "hostname": "MSI",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565373952522629126",
+      "source_ip": "24.130.232.251",
+      "program": "SDBENCHMARK",
+      "message": "jhogsett 2023-02-23 03:22:46.036874|18.51 / 22.33 / 23.84|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/jhogsett/stable-diffusion-webui.git/tree/master|host:ALIENX arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v2-1_512-ema-pruned.ckpt [88ecb78256]|jhogsett||c0d97c|853c07 ",
+      "received_at": "2023-02-23T06:24:16-05:00",
+      "generated_at": "2023-02-22T22:24:16-05:00",
+      "display_received_at": "Feb 23 06:24:16",
+      "source_id": 13747499387,
+      "source_name": "ALIENX",
+      "hostname": "ALIENX",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565383155270205456",
+      "source_ip": "24.130.232.251",
+      "program": "SDBENCHMARK",
+      "message": "jhogsett 2023-02-23 04:00:00.122902|12.53 / 12.38 / 14.36|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/jhogsett/stable-diffusion-webui.git/tree/master|host:ALIEN arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|v2-0_512-base-ema.ckpt [d635794c1f]|jhogsett||f92349|bc23c2 ",
+      "received_at": "2023-02-23T07:00:50-05:00",
+      "generated_at": "2023-02-22T23:00:50-05:00",
+      "display_received_at": "Feb 23 07:00:50",
+      "source_id": 13747522372,
+      "source_name": "ALIEN",
+      "hostname": "ALIEN",
       "severity": "Info",
       "facility": "User"
     }
