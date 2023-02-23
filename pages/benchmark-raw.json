@@ -1,5 +1,5 @@
 {
-  "max_id": "1565222057556504582",
+  "max_id": "1565263521766354946",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1734,6 +1734,62 @@
       "source_id": 13747156815,
       "source_name": "DESKTOP-SQQ6AQG",
       "hostname": "DESKTOP-SQQ6AQG",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565261602192801802",
+      "source_ip": "70.176.105.240",
+      "program": "SDBENCHMARK",
+      "message": "master 2023-02-22 20:57:35.663732|17.77 / 20.91 / 22.59|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:theforce arch:x86_64 cpu:x86_64 system:Linux release:5.15.84-xanmod1 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8600 12GB|xformers none|deliberate_v11.ckpt [10a699c0f3]|master||27d6f7|6ca972 ",
+      "received_at": "2023-02-22T22:57:49-05:00",
+      "generated_at": "2023-02-22T15:57:49-05:00",
+      "display_received_at": "Feb 22 22:57:49",
+      "source_id": 13747240960,
+      "source_name": "theforce",
+      "hostname": "theforce",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565261602595463170",
+      "source_ip": "70.176.105.240",
+      "program": "SDBENCHMARK",
+      "message": "master 2023-02-22 20:57:35.663732|17.77 / 20.91 / 22.59|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:theforce arch:x86_64 cpu:x86_64 system:Linux release:5.15.84-xanmod1 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8600 12GB|xformers none|deliberate_v11.ckpt [10a699c0f3]|master||27d6f7|6ca972 ",
+      "received_at": "2023-02-22T22:57:49-05:00",
+      "generated_at": "2023-02-22T15:57:49-05:00",
+      "display_received_at": "Feb 22 22:57:49",
+      "source_id": 13747240960,
+      "source_name": "theforce",
+      "hostname": "theforce",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565262948597936138",
+      "source_ip": "217.178.129.88",
+      "program": "SDBENCHMARK",
+      "message": "hash 2023-02-23 13:01:31.406957|11.74 / 17.08 / 19.05 / 20.63 / 21.74|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:water arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|anygenV37_anygenv37.ckpt [815c974757]|hash||98b53b|c24cbe ",
+      "received_at": "2023-02-22T23:03:10-05:00",
+      "generated_at": "2023-02-23T08:03:10-05:00",
+      "display_received_at": "Feb 22 23:03:10",
+      "source_id": 13747244061,
+      "source_name": "water",
+      "hostname": "water",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565263521766354946",
+      "source_ip": "217.178.129.88",
+      "program": "SDBENCHMARK",
+      "message": "hash 2023-02-23 13:03:35.572907|12.83 / 18.85 / 20.96 / 22.59 / 23.79|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:water arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|anygenV37_anygenv37.ckpt [815c974757]|hash||98b53b|0855e6 ",
+      "received_at": "2023-02-22T23:05:27-05:00",
+      "generated_at": "2023-02-23T08:05:26-05:00",
+      "display_received_at": "Feb 22 23:05:27",
+      "source_id": 13747244061,
+      "source_name": "water",
+      "hostname": "water",
       "severity": "Info",
       "facility": "User"
     }

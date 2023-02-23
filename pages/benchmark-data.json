@@ -1,5 +1,44 @@
 [
   [
+    56,
+    "2023-02-23T13:03:35.572Z",
+    "12.83 / 18.85 / 20.96 / 22.59 / 23.79",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:water arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "anygenV37_anygenv37.ckpt [815c974757]",
+    "hash",
+    ""
+  ],
+  [
+    55,
+    "2023-02-23T13:01:31.406Z",
+    "11.74 / 17.08 / 19.05 / 20.63 / 21.74",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:water arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "anygenV37_anygenv37.ckpt [815c974757]",
+    "hash",
+    ""
+  ],
+  [
+    54,
+    "2023-02-22T20:57:35.663Z",
+    "17.77 / 20.91 / 22.59",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:theforce arch:x86_64 cpu:x86_64 system:Linux release:5.15.84-xanmod1 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8600 12GB",
+    "xformers none",
+    "deliberate_v11.ckpt [10a699c0f3]",
+    "master",
+    ""
+  ],
+  [
     53,
     "2023-02-23T09:19:19.302Z",
     "12.01 / 14.49 / 15.85",
