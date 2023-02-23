@@ -1,5 +1,44 @@
 [
   [
+    72,
+    "2023-02-23T01:45:36.871Z",
+    "1.43 / 2.49 / 3.96",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:MSI arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB",
+    "xformers lowvram",
+    "Protogen x5.3 (Photorealism)-002.safetensors [1254103966]",
+    "msmag",
+    ""
+  ],
+  [
+    71,
+    "2023-02-23T10:41:28.922Z",
+    "7.2 / 8.29 / 8.9 / 9.27 / 9.45",
+    "updated:2023-02-05 hash:3993aa4 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:ab2fac35f1d0 arch:x86_64 cpu: system:Linux release:5.15.0-60-generic python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16.dev421 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (2) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "root",
+    ""
+  ],
+  [
+    70,
+    "2023-02-23T10:41:29.601Z",
+    "7.16 / 8.24 / 8.84 / 9.14 / 9.17",
+    "updated:2023-02-05 hash:3993aa4 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:941c456c84a6 arch:x86_64 cpu: system:Linux release:5.15.0-60-generic python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16.dev421 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (2) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "root",
+    ""
+  ],
+  [
     69,
     "2023-02-23T12:54:27.741Z",
     "27.12 / 37.63 / 43.64",
