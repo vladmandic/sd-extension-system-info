@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-23T16:21:42.437Z
+  ## Updated: 2023-02-23T17:14:18.895Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |77|2023-02-23T16:43:05.941Z|7.86 / 8.49 / 8.64|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-ND8DLC9 arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Xynaptix-V3.1.safetensors [53e2fd86a4]|einea||
+  |79|2023-02-23T10:31:49.368Z|9.4 / 12.37 / 14.0 / 14.45 / 14.56|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10|torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|Anything-V3.0.ckpt [543bcbc212]|usbhost||
+|78|2023-02-23T10:24:22.705Z|9.38 / 12.41 / 13.96 / 14.35 / 14.47|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10|torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|Anything-V3.0.ckpt [543bcbc212]|usbhost||
+|77|2023-02-23T16:43:05.941Z|7.86 / 8.49 / 8.64|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-ND8DLC9 arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Xynaptix-V3.1.safetensors [53e2fd86a4]|einea||
 |76|2023-02-23T14:08:32.803Z|14.11 / 16.28 / 17.26||host:boi arch:x86_64 cpu: system:Linux release:5.10.0-21-amd64 python:3.9.2|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_nsfw.safetensors [0873291ac5]|boi||
 |75|2023-02-23T09:31:19.463Z|4.8 / 6.43 / 7.04 / 7.56 / 6.9|updated:2023-02-05 hash:ea9bd9f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:DESKTOP-9U4UERK arch:AMD64 cpu:AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17+cc36858.d20230217 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8700 6GB|xformers medvram|SD1.5\v1-5-pruned-emaonly.ckpt [cc6cb27103]|Dahvikiin||
 |74|2023-02-23T04:00:00.122Z|12.53 / 12.38 / 14.36|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/jhogsett/stable-diffusion-webui.git/tree/master|host:ALIEN arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|v2-0_512-base-ema.ckpt [d635794c1f]|jhogsett||

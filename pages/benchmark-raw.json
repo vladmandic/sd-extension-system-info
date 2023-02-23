@@ -1,5 +1,5 @@
 {
-  "max_id": "1565439336189702147",
+  "max_id": "1565451568768282640",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2154,6 +2154,34 @@
       "source_id": 13747683325,
       "source_name": "DESKTOP-ND8DLC9",
       "hostname": "DESKTOP-ND8DLC9",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565449732657176584",
+      "source_ip": "107.138.131.161",
+      "program": "SDBENCHMARK",
+      "message": "usbhost 2023-02-23 10:24:22.705514|9.38 / 12.41 / 13.96 / 14.35 / 14.47|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10|torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|Anything-V3.0.ckpt [543bcbc212]|usbhost||b9b587|3f4307 ",
+      "received_at": "2023-02-23T11:25:23-05:00",
+      "generated_at": "2023-02-23T05:25:23-05:00",
+      "display_received_at": "Feb 23 11:25:23",
+      "source_id": 13747714660,
+      "source_name": "chtholly",
+      "hostname": "chtholly",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565451568768282640",
+      "source_ip": "107.138.131.161",
+      "program": "SDBENCHMARK",
+      "message": "usbhost 2023-02-23 10:31:49.368457|9.4 / 12.37 / 14.0 / 14.45 / 14.56|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10|torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|Anything-V3.0.ckpt [543bcbc212]|usbhost||b9b587|3aa9cc ",
+      "received_at": "2023-02-23T11:32:41-05:00",
+      "generated_at": "2023-02-23T05:32:41-05:00",
+      "display_received_at": "Feb 23 11:32:41",
+      "source_id": 13747714660,
+      "source_name": "chtholly",
+      "hostname": "chtholly",
       "severity": "Info",
       "facility": "User"
     }

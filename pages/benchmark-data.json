@@ -1,5 +1,31 @@
 [
   [
+    79,
+    "2023-02-23T10:31:49.368Z",
+    "9.4 / 12.37 / 14.0 / 14.45 / 14.56",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10",
+    "torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB",
+    "xformers none",
+    "Anything-V3.0.ckpt [543bcbc212]",
+    "usbhost",
+    ""
+  ],
+  [
+    78,
+    "2023-02-23T10:24:22.705Z",
+    "9.38 / 12.41 / 13.96 / 14.35 / 14.47",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:chtholly arch:x86_64 cpu:x86_64 system:Linux release:6.1.1 python:3.10.10",
+    "torch:2.0.0.dev20230208+cu118 autocast half xformers:0.0.15.dev+0bad001.d20230120 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB",
+    "xformers none",
+    "Anything-V3.0.ckpt [543bcbc212]",
+    "usbhost",
+    ""
+  ],
+  [
     77,
     "2023-02-23T16:43:05.941Z",
     "7.86 / 8.49 / 8.64",
