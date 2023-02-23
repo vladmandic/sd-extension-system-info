@@ -1,5 +1,5 @@
 {
-  "max_id": "1565280596954099716",
+  "max_id": "1565287617652776966",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1874,6 +1874,76 @@
       "source_id": 13747280019,
       "source_name": "DESKTOP-S97464L",
       "hostname": "DESKTOP-S97464L",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565286721187397633",
+      "source_ip": "217.114.38.159",
+      "program": "SDBENCHMARK",
+      "message": "djkacevedo 2023-02-23 00:35:37.149622|15.73 / 27.43 / 37.52|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-L3IQESA arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|stable_diffusion\\v1-5-pruned-emaonly.ckpt [cc6cb27103]|djkacevedo||4852b1|846294 ",
+      "received_at": "2023-02-23T00:37:38-05:00",
+      "generated_at": "2023-02-22T19:37:37-05:00",
+      "display_received_at": "Feb 23 00:37:38",
+      "source_id": 13747294370,
+      "source_name": "DESKTOP-L3IQESA",
+      "hostname": "DESKTOP-L3IQESA",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565286828163121163",
+      "source_ip": "217.114.38.159",
+      "program": "SDBENCHMARK",
+      "message": "djkacevedo 2023-02-23 00:35:37.149622|15.73 / 27.43 / 37.52|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-L3IQESA arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|stable_diffusion\\v1-5-pruned-emaonly.ckpt [cc6cb27103]|djkacevedo||4852b1|846294 ",
+      "received_at": "2023-02-23T00:38:03-05:00",
+      "generated_at": "2023-02-22T19:38:03-05:00",
+      "display_received_at": "Feb 23 00:38:03",
+      "source_id": 13747294370,
+      "source_name": "DESKTOP-L3IQESA",
+      "hostname": "DESKTOP-L3IQESA",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565287617652764676",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 10:03:05.350736|10.11 / 13.34 / 17.17|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||1dcc93|611c22 ",
+      "received_at": "2023-02-23T00:41:12-05:00",
+      "generated_at": "2023-02-23T08:41:13-05:00",
+      "display_received_at": "Feb 23 00:41:12",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565287617652776961",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 10:10:03.857910|10.2 / 14.27 / 19.43|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||748b54|097b30 ",
+      "received_at": "2023-02-23T00:41:12-05:00",
+      "generated_at": "2023-02-23T08:41:13-05:00",
+      "display_received_at": "Feb 23 00:41:12",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565287617652776966",
+      "source_ip": "182.116.18.91",
+      "program": "SDBENCHMARK",
+      "message": "Sweet Me 2023-02-23 13:32:47.289061|10.36 / 15.97 / 21.53|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|Sweet Me||815864|7deba9 ",
+      "received_at": "2023-02-23T00:41:12-05:00",
+      "generated_at": "2023-02-23T08:41:13-05:00",
+      "display_received_at": "Feb 23 00:41:12",
+      "source_id": 13746251031,
+      "source_name": "LOSTWARD",
+      "hostname": "LOSTWARD",
       "severity": "Info",
       "facility": "User"
     }

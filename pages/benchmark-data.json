@@ -1,5 +1,31 @@
 [
   [
+    64,
+    "2023-02-23T13:32:47.289Z",
+    "10.36 / 15.97 / 21.53",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "Anything v3.0.ckpt [9ea09b5bdb]",
+    "Sweet Me",
+    ""
+  ],
+  [
+    63,
+    "2023-02-23T00:35:37.149Z",
+    "15.73 / 27.43 / 37.52",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:DESKTOP-L3IQESA arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "stable_diffusion\\v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "djkacevedo",
+    ""
+  ],
+  [
     62,
     "2023-02-23T08:10:41.222Z",
     "4.26 / 4.61 / 4.75 / 4.56 / 4.82",
