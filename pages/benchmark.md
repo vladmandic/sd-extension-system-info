@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-23T01:14:33.338Z
+  ## Updated: 2023-02-23T02:44:38.727Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |52|2023-02-23T08:41:13.481Z|9.05 / 11.94 / 15.31|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||
+  |53|2023-02-23T09:19:19.302Z|12.01 / 14.49 / 15.85|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|host:DESKTOP-SQQ6AQG arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 10GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|liufang5510||
+|52|2023-02-23T08:41:13.481Z|9.05 / 11.94 / 15.31|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||
 |51|2023-02-23T08:39:40.589Z|6.68 / 9.59 / 13.43|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||
 |50|2023-02-23T08:01:25.396Z|6.9 / 10.03 / 13.05|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:LOSTWARD arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|AbyssOrangeMix2_sfw.safetensors [038ba203d8]|Sweet Me||
 |49|2023-02-22T14:38:22.628Z|15.44 / 18.94 / 20.82|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:TOPAZ arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|069-ULTIMATE_MEGA_MERGE-deliberate_babes_a0.5-rv1.2_protogenx53_a0.5-weighted_sum.ckpt [519752a8db]|master||

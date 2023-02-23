@@ -1,5 +1,5 @@
 {
-  "max_id": "1565212180478095378",
+  "max_id": "1565222057556504582",
   "events": [
     {
       "id": "1564370541899603981",
@@ -1720,6 +1720,20 @@
       "source_id": 13746251031,
       "source_name": "LOSTWARD",
       "hostname": "LOSTWARD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565222057556504582",
+      "source_ip": "27.218.114.149",
+      "program": "SDBENCHMARK",
+      "message": "liufang5510 2023-02-23 09:19:19.302035|12.01 / 14.49 / 15.85|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|host:DESKTOP-SQQ6AQG arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 10GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|liufang5510||22578d|b25ec8 ",
+      "received_at": "2023-02-22T20:20:41-05:00",
+      "generated_at": "2023-02-23T04:20:41-05:00",
+      "display_received_at": "Feb 22 20:20:41",
+      "source_id": 13747156815,
+      "source_name": "DESKTOP-SQQ6AQG",
+      "hostname": "DESKTOP-SQQ6AQG",
       "severity": "Info",
       "facility": "User"
     }
