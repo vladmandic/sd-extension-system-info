@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-24T06:20:10.955Z
+  ## Updated: 2023-02-24T08:19:50.361Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |102|2023-02-24T13:32:16.383Z|14.37 / 16.62 / 20.14|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 12GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|果酱||
+  |103|2023-02-24T07:01:17.443Z|0.28 / 0.25 / 0.29|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:workhorse arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.8.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla K80 (1) (sm_86) (3, 7) cuda:11.7 cudnn:8500 11GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|mike||
+|102|2023-02-24T13:32:16.383Z|14.37 / 16.62 / 20.14|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 12GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|果酱||
 |101|2023-02-24T13:25:26.110Z|14.26 / 16.65 / 19.39|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 12GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|果酱||
 |100|2023-02-24T13:23:19.271Z|14.61 / 17.6 / 19.2|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|果酱||
 |99|2023-02-24T13:13:59.720Z|13.82 / 15.93 / 17.76|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 12GB|xformers none|Anything v3.0.ckpt [9ea09b5bdb]|果酱||

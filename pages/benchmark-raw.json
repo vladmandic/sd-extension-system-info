@@ -1,5 +1,5 @@
 {
-  "max_id": "1565648092445990919",
+  "max_id": "1565673808914989057",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2966,6 +2966,20 @@
       "source_id": 13748175056,
       "source_name": "DESKTOP-US85UU1",
       "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565673808914989057",
+      "source_ip": "205.178.113.10",
+      "program": "SDBENCHMARK",
+      "message": "mike 2023-02-24 07:01:17.443004|0.28 / 0.25 / 0.29|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:workhorse arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.8.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla K80 (1) (sm_86) (3, 7) cuda:11.7 cudnn:8500 11GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|mike||e5759e|9d8044 ",
+      "received_at": "2023-02-24T02:15:47-05:00",
+      "generated_at": "2023-02-24T02:15:47-05:00",
+      "display_received_at": "Feb 24 02:15:47",
+      "source_id": 13748254330,
+      "source_name": "workhorse",
+      "hostname": "workhorse",
       "severity": "Info",
       "facility": "User"
     }
