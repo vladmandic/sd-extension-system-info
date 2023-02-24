@@ -1,5 +1,5 @@
 {
-  "max_id": "1565502099922534413",
+  "max_id": "1565571659367366657",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2632,6 +2632,34 @@
       "hostname": "DESKTOP-SAUSF58",
       "severity": "Info",
       "facility": "User"
+    },
+    {
+      "id": "1565571659367366656",
+      "source_ip": "167.94.146.60",
+      "program": "logger",
+      "message": "GET / HTTP/1.1 ",
+      "received_at": "2023-02-23T19:29:53-05:00",
+      "generated_at": "2023-02-23T19:29:53-05:00",
+      "display_received_at": "Feb 23 19:29:53",
+      "source_id": 13748036631,
+      "source_name": "167.94.146.60",
+      "hostname": "167.94.146.60",
+      "severity": "Emergency",
+      "facility": "Kernel"
+    },
+    {
+      "id": "1565571659367366657",
+      "source_ip": "167.94.146.60",
+      "program": "logger",
+      "message": "Host: 169.46.82.170:32554 ",
+      "received_at": "2023-02-23T19:29:53-05:00",
+      "generated_at": "2023-02-23T19:29:53-05:00",
+      "display_received_at": "Feb 23 19:29:53",
+      "source_id": 13748036631,
+      "source_name": "167.94.146.60",
+      "hostname": "167.94.146.60",
+      "severity": "Emergency",
+      "facility": "Kernel"
     }
   ]
 }
