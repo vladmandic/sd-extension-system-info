@@ -1,5 +1,5 @@
 {
-  "max_id": "1565571659367366657",
+  "max_id": "1565642239860981761",
   "events": [
     {
       "id": "1564370541899603981",
@@ -2660,6 +2660,104 @@
       "hostname": "167.94.146.60",
       "severity": "Emergency",
       "facility": "Kernel"
+    },
+    {
+      "id": "1565637748059189248",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "28645 2023-02-24 12:52:06.370490|12.9 / 15.86 / 16.94|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|28645||1a0f4c|8c4689 ",
+      "received_at": "2023-02-23T23:52:29-05:00",
+      "generated_at": "2023-02-24T07:52:30-05:00",
+      "display_received_at": "Feb 23 23:52:29",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565638482855112707",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 12:55:12.855497|11.97 / 14.72 / 17.0|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||1a0f4c|969bee ",
+      "received_at": "2023-02-23T23:55:24-05:00",
+      "generated_at": "2023-02-24T07:55:25-05:00",
+      "display_received_at": "Feb 23 23:55:24",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565638525997723651",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 12:55:12.855497|11.97 / 14.72 / 17.0|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||1a0f4c|969bee ",
+      "received_at": "2023-02-23T23:55:35-05:00",
+      "generated_at": "2023-02-24T07:55:35-05:00",
+      "display_received_at": "Feb 23 23:55:35",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565639107537973248",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 12:57:42.756649|12.29 / 15.09 / 16.75|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||1a0f4c|99b051 ",
+      "received_at": "2023-02-23T23:57:53-05:00",
+      "generated_at": "2023-02-24T07:57:54-05:00",
+      "display_received_at": "Feb 23 23:57:53",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565639370126569475",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 12:58:28.674275|14.49 / 18.05 / 20.14|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||1a0f4c|082571 ",
+      "received_at": "2023-02-23T23:58:56-05:00",
+      "generated_at": "2023-02-24T07:58:56-05:00",
+      "display_received_at": "Feb 23 23:58:56",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565642239856787461",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 12:58:28.674275|14.49 / 18.05 / 20.14|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||1a0f4c|082571 ",
+      "received_at": "2023-02-24T00:10:20-05:00",
+      "generated_at": "2023-02-24T08:10:20-05:00",
+      "display_received_at": "Feb 24 00:10:20",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565642239860981761",
+      "source_ip": "59.61.191.226",
+      "program": "SDBENCHMARK",
+      "message": "果酱 2023-02-24 13:09:52.186905|14.12 / 15.78 / 18.24|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|host:DESKTOP-US85UU1 arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 12GB|xformers none|有涩涩.ckpt [a7529df023]|果酱||63fcef|0c1a1f ",
+      "received_at": "2023-02-24T00:10:20-05:00",
+      "generated_at": "2023-02-24T08:10:20-05:00",
+      "display_received_at": "Feb 24 00:10:20",
+      "source_id": 13748175056,
+      "source_name": "DESKTOP-US85UU1",
+      "hostname": "DESKTOP-US85UU1",
+      "severity": "Info",
+      "facility": "User"
     }
   ]
 }
