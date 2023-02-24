@@ -183,7 +183,7 @@ def get_platform():
         else:
             release = platform.release()
         return {
-            'host': platform.node(),
+            # 'host': platform.node(),
             'arch': platform.machine(),
             'cpu': platform.processor(),
             'system': platform.system(),
@@ -443,7 +443,7 @@ def bench_run(batches: list = [1], extra: bool = False):
 def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     global bench_data
     bench_log('starting')
-    hash = sha256((dict2str(data['version']) + dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
+    hash = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
     existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash)]
     if len(existing) > 0:
         bench_log('replacing existing entry')
