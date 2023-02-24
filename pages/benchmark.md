@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-24T20:16:35.048Z
+  ## Updated: 2023-02-24T22:14:59.232Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |120|2023-02-24T15:11:33.555Z|7.3 / 8.25 / 9.09|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
+  |121|2023-02-25T00:53:58.983Z|7.73 / 12.72 / 14.78 / 15.47 / 15.68|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3MQS5U2 arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 16GB|xformers lowram|model.ckpt [6112656166]|Sabin||
+|120|2023-02-24T15:11:33.555Z|7.3 / 8.25 / 9.09|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
 |119|2023-02-24T14:17:09.902Z|6.23 / 6.87 / 7.26|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:unavailable accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|Doggettx none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
 |118|2023-02-24T14:05:28.665Z|6.97 / 7.97 / 8.72|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
 |117|2023-02-24T13:53:12.973Z|6.2 / 6.91 / 7.28|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8700 12GB|Doggettx none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
