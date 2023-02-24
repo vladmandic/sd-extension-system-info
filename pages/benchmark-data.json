@@ -1,5 +1,31 @@
 [
   [
+    108,
+    "2023-02-24T23:45:55.830Z",
+    "1.6 / 1.54 / 1.5",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:baysonfoxs-MacBook-Pro.local arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.9",
+    "torch:2.0.0.dev20230210 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "baysonfox",
+    ""
+  ],
+  [
+    107,
+    "2023-02-24T16:28:59.335Z",
+    "6.66 / 7.71 / 8.22",
+    "updated:2023-02-19 hash:72022133 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:DESKTOP-HELGE arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu116 autocast half xformers:0.0.14.dev accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.6 cudnn:8302 12GB",
+    "xformers none",
+    "deliberate_v11.safetensors [d8691b4d16]",
+    "helge",
+    ""
+  ],
+  [
     106,
     "2023-02-24T14:00:15.041Z",
     "5.9 / 8.6 / 12.45",
