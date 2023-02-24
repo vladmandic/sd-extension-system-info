@@ -1,5 +1,5 @@
 {
-  "max_id": "1565811039180865550",
+  "max_id": "1565844088778055689",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3078,6 +3078,76 @@
       "source_id": 13748606611,
       "source_name": "DESKTOP-RMTUEGD",
       "hostname": "DESKTOP-RMTUEGD",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565841218984927245",
+      "source_ip": "89.233.113.34",
+      "program": "SDBENCHMARK",
+      "message": "GND 2023-02-24 19:19:53.264867|5.93 / 6.68 / 7.24|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:S3 arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|GND||94f34b|226ac9 ",
+      "received_at": "2023-02-24T13:21:01-05:00",
+      "generated_at": "2023-02-24T14:21:00-05:00",
+      "display_received_at": "Feb 24 13:21:01",
+      "source_id": 13748690948,
+      "source_name": "S3",
+      "hostname": "S3",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565841887078826024",
+      "source_ip": "5.139.179.251",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-02-24 21:22:51.263787|7.1 / 8.26 / 8.48|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:BIZONES arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|deliberate_v11.ckpt [10a699c0f3]|user||aa9ebc|39be8f ",
+      "received_at": "2023-02-24T13:23:40-05:00",
+      "generated_at": "2023-02-24T16:23:38-05:00",
+      "display_received_at": "Feb 24 13:23:40",
+      "source_id": 13748693024,
+      "source_name": "BIZONES",
+      "hostname": "BIZONES",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565842298661683273",
+      "source_ip": "5.139.179.251",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-02-24 21:23:46.619675|6.45 / 7.49 / 8.05 / 9.51 / 10.0|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:BIZONES arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|deliberate_v11.ckpt [10a699c0f3]|user||aa9ebc|f4b7e8 ",
+      "received_at": "2023-02-24T13:25:18-05:00",
+      "generated_at": "2023-02-24T16:25:17-05:00",
+      "display_received_at": "Feb 24 13:25:18",
+      "source_id": 13748693024,
+      "source_name": "BIZONES",
+      "hostname": "BIZONES",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565843772586254337",
+      "source_ip": "89.233.113.34",
+      "program": "SDBENCHMARK",
+      "message": "GND 2023-02-24 19:29:33.338476|5.72 / 6.41 / 6.89 / 7.4 / 7.8|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:S3 arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|GND||94f34b|30bb0a ",
+      "received_at": "2023-02-24T13:31:09-05:00",
+      "generated_at": "2023-02-24T14:31:09-05:00",
+      "display_received_at": "Feb 24 13:31:09",
+      "source_id": 13748690948,
+      "source_name": "S3",
+      "hostname": "S3",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565844088778055689",
+      "source_ip": "89.233.113.34",
+      "program": "SDBENCHMARK",
+      "message": "GND 2023-02-24 19:31:29.967028|6.26 / 7.02 / 7.6|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:S3 arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|GND||94f34b|6a0402 ",
+      "received_at": "2023-02-24T13:32:25-05:00",
+      "generated_at": "2023-02-24T14:32:24-05:00",
+      "display_received_at": "Feb 24 13:32:25",
+      "source_id": 13748690948,
+      "source_name": "S3",
+      "hostname": "S3",
       "severity": "Info",
       "facility": "User"
     }
