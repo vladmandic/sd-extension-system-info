@@ -1,5 +1,31 @@
 [
   [
+    105,
+    "2023-02-24T12:24:15.204Z",
+    "7.27 / 11.74 / 14.02 / 14.89 / 14.66",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:DESKTOP-3MQS5U2 arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A4000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 16GB",
+    "xformers lowram",
+    "_anime\\Anything-V3.0.ckpt [67a115286b]",
+    "Sabin",
+    "Win 10, Ryzen 1600, 16 Gb Ram (2x8 DDR4 1600 dual sided). RTX A4000 1725 mhz"
+  ],
+  [
+    104,
+    "2023-02-24T12:20:25.793Z",
+    "4.92 / 11.8 / 13.95",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "host:DESKTOP-3MQS5U2 arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A4000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 16GB",
+    "xformers lowram",
+    "model.ckpt [6112656166]",
+    "Sabin",
+    "Win 10, Ryzen 1600, 16 Gb Ram (2x8 DDR4 1600 dual sided). RTX A4000 1725 mhz"
+  ],
+  [
     103,
     "2023-02-24T07:01:17.443Z",
     "0.28 / 0.25 / 0.29",
