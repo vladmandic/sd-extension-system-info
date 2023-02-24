@@ -1,5 +1,18 @@
 [
   [
+    122,
+    "2023-02-25T07:26:53.343Z",
+    "23.37 / 35.94 / 42.66",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "anything-v4.5.ckpt [dd29dc980c]",
+    "nayuta",
+    ""
+  ],
+  [
     121,
     "2023-02-25T00:53:58.983Z",
     "7.73 / 12.72 / 14.78 / 15.47 / 15.68",

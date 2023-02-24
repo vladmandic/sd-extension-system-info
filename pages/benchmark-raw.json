@@ -1,5 +1,5 @@
 {
-  "max_id": "1565895322968965131",
+  "max_id": "1565903368189296652",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3232,6 +3232,20 @@
       "source_id": 13748325542,
       "source_name": "DESKTOP-3MQS5U2",
       "hostname": "DESKTOP-3MQS5U2",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1565903368189296652",
+      "source_ip": "14.32.62.13",
+      "program": "SDBENCHMARK",
+      "message": "nayuta 2023-02-25 07:26:53.343722|23.37 / 35.94 / 42.66|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|anything-v4.5.ckpt [dd29dc980c]|nayuta||dfa05b|ac1bc0 ",
+      "received_at": "2023-02-24T17:27:58-05:00",
+      "generated_at": "2023-02-25T02:27:48-05:00",
+      "display_received_at": "Feb 24 17:27:58",
+      "source_id": 13748850485,
+      "source_name": "blackbird",
+      "hostname": "blackbird",
       "severity": "Info",
       "facility": "User"
     }
