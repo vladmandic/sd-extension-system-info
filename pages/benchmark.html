@@ -25,6 +25,8 @@
       ::-webkit-scrollbar { width: 12px; }
       ::-webkit-scrollbar-track { background: #555; }
       ::-webkit-scrollbar-thumb { background-color: #AAA; border-radius: 2px; border-width: 0; box-shadow: 2px 2px 3px #111111; }
+      table td:nth-child(3) { background-color: #555 !important; letter-spacing: 1px; text-align: right; }
+      td.gridjs-td:last-child { white-space: nowrap; }
     </style>
   </head>
   <body>
@@ -71,6 +73,7 @@
         }
 
         const text2url = (text) => text.replace(/((|http|https|ftp):\/\/[\w?=&./-;#~%-]+(?![\w\s?&./;#~%"=-]*>))/g, "<a href='$1' target='_blank'>$1</a>").replace(/(url:)/g, '').replace('updated:', '');
+        const attrs = (text) => text.replace(/(\w*:\b)/g, "<span style='color: #AAA'>$1 </span>");
         const perfSort = (a, b) => {
           const a0 = a.split('/');
           const b0 = b.split('/');
@@ -85,11 +88,11 @@
             { name: 'Date', width: '130px', formatter: (cell) => `${new Date(cell).toLocaleString()}` },
             { name: 'Performance', formatter: (cell) => html(`<b>${cell.replace(/\//g, 'it/s<br>')} it/s</b>`), sort: { compare: (a, b) => perfSort(a, b) } },
             { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}`) },
-            { name: 'System', width: '400px' },
-            { name: 'Libraries', width: '300px' },
-            { name: 'GPU', width: '260px', formatter: (cell) => html(`${cell.replace('device:', '')}`) },
-            { name: 'Optimizations', formatter: (cell) => html(`${cell.replace(/ /g, '<br>')}`) },
-            { name: 'Model', formatter: (cell) => html(`${cell.replace(/\[/g, '<br>[')}`) },
+            { name: 'System', width: '400px', formatter: (cell) => html(attrs(cell)) },
+            { name: 'Libraries', width: '300px', formatter: (cell) => html(attrs(cell)) },
+            { name: 'GPU', width: '260px', formatter: (cell) => html(`${attrs(cell.replace('device:', ''))}`) },
+            { name: 'Optimizations', formatter: (cell) => html(cell.replace(/ /g, '<br>').toLowerCase()) },
+            { name: 'Model', width: '260px', formatter: (cell) => html(`<span style="color: bisque">${cell.split(/\/|\\/).pop().replace(/\[/g, '<br>[')}</span>`) },
             'Username',
             'Note',
           ],
@@ -100,6 +103,7 @@
           fixedHeader: true,
           height: '75vh',
           style: {
+            table: { 'line-break': 'strict' },
             th: { 'background-color': '#CE6400', color: '#000', border: '2px solid #111', padding: '12px' },
             td: { overflow: 'hidden', padding: '6px 10px', 'line-height': '1.5rem', 'background-color': '#333', color: '#FFF', border: '2px solid #111' },
           },
