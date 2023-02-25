@@ -1,5 +1,18 @@
 [
   [
+    135,
+    "2023-02-25T15:28:02.523Z",
+    "9.17 / 10.73 / 11.24",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:archlinux arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9",
+    "torch:2.0.0.dev20230224+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6900 XT (1) hip:5.3.22061-e8e78f1a 16GB",
+    "Doggettx none",
+    "Models/[Photo] Stable Diffusion/v1.5-pruned-emaonly.ckpt [cc6cb27103]",
+    "qip",
+    ""
+  ],
+  [
     134,
     "2023-02-24T22:47:44.789Z",
     "15.48 / 18.85 / 20.48 / 22.14 / 23.56",
