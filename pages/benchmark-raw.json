@@ -1,5 +1,5 @@
 {
-  "max_id": "1566246808064274438",
+  "max_id": "1566277012430176256",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3792,6 +3792,62 @@
       "source_id": 13748744388,
       "source_name": "minty.dm.ici",
       "hostname": "minty.dm.ici",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566262388288843777",
+      "source_ip": "80.220.55.214",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-02-25 23:52:23.042204|1.8 / 2.3 / 2.53|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|user||2a2d68|a69872 ",
+      "received_at": "2023-02-25T17:14:35-05:00",
+      "generated_at": "2023-02-25T19:14:33-05:00",
+      "display_received_at": "Feb 25 17:14:35",
+      "source_id": 13749654496,
+      "source_name": "WINDOWS-PC",
+      "hostname": "WINDOWS-PC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566271743583240194",
+      "source_ip": "62.240.164.130",
+      "program": "SDBENCHMARK",
+      "message": "nicem 2023-02-25 21:32:39.264170|11.76 / 16.58 / 21.46|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|nicem||013b9b|17829e ",
+      "received_at": "2023-02-25T17:51:46-05:00",
+      "generated_at": "2023-02-25T18:51:46-05:00",
+      "display_received_at": "Feb 25 17:51:46",
+      "source_id": 13749581760,
+      "source_name": "BeastPC",
+      "hostname": "BeastPC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566271743583240217",
+      "source_ip": "62.240.164.130",
+      "program": "SDBENCHMARK",
+      "message": "nicem 2023-02-25 23:50:52.528172|30.4 / 37.19 / 42.75 / 42.96 / 41.77|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|nicem||89ec44|51980e ",
+      "received_at": "2023-02-25T17:51:46-05:00",
+      "generated_at": "2023-02-25T18:51:46-05:00",
+      "display_received_at": "Feb 25 17:51:46",
+      "source_id": 13749581760,
+      "source_name": "BeastPC",
+      "hostname": "BeastPC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566277012430176256",
+      "source_ip": "185.181.236.73",
+      "program": "SDBENCHMARK",
+      "message": "JustAnotherRandomUser 2023-02-26 00:12:26.257637|10.33|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:WIN-CBSD1GH3K9R arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|NightSkyYOZORAStyleFP16V1.safetensors [4b118b2d1b]|JustAnotherRandomUser||09342f|fb055b ",
+      "received_at": "2023-02-25T18:12:42-05:00",
+      "generated_at": "2023-02-25T19:12:43-05:00",
+      "display_received_at": "Feb 25 18:12:42",
+      "source_id": 13749685066,
+      "source_name": "WIN-CBSD1GH3K9R",
+      "hostname": "WIN-CBSD1GH3K9R",
       "severity": "Info",
       "facility": "User"
     }
