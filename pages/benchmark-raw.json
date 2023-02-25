@@ -1,5 +1,5 @@
 {
-  "max_id": "1566230539822874625",
+  "max_id": "1566246808064274438",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3778,6 +3778,20 @@
       "source_id": 13749581760,
       "source_name": "BeastPC",
       "hostname": "BeastPC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566246808064274438",
+      "source_ip": "70.52.25.103",
+      "program": "SDBENCHMARK",
+      "message": "dimeglio@dm.ici 2023-02-25 16:12:16.802411|5.46 / 8.49 / 10.54|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:minty.dm.ici arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers medvram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|dimeglio@dm.ici||289a78|9baac1 ",
+      "received_at": "2023-02-25T16:12:41-05:00",
+      "generated_at": "2023-02-25T11:12:40-05:00",
+      "display_received_at": "Feb 25 16:12:41",
+      "source_id": 13748744388,
+      "source_name": "minty.dm.ici",
+      "hostname": "minty.dm.ici",
       "severity": "Info",
       "facility": "User"
     }
