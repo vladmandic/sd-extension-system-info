@@ -1,5 +1,5 @@
 {
-  "max_id": "1566049010580643848",
+  "max_id": "1566056708072202246",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3551,6 +3551,48 @@
       "received_at": "2023-02-25T03:06:42-05:00",
       "generated_at": "2023-02-24T20:06:42-05:00",
       "display_received_at": "Feb 25 03:06:42",
+      "source_id": 13749158400,
+      "source_name": "gazelle",
+      "hostname": "gazelle",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566056708063817729",
+      "source_ip": "73.34.95.173",
+      "program": "SDBENCHMARK",
+      "message": "RassilonSleeps 2023-02-25 00:59:46.224615|0.38 / 0.38 / 0.39|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx none|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, no optimizations|bec92e|a77e1d ",
+      "received_at": "2023-02-25T03:37:17-05:00",
+      "generated_at": "2023-02-24T20:37:17-05:00",
+      "display_received_at": "Feb 25 03:37:17",
+      "source_id": 13749158400,
+      "source_name": "gazelle",
+      "hostname": "gazelle",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566056708072189958",
+      "source_ip": "73.34.95.173",
+      "program": "SDBENCHMARK",
+      "message": "RassilonSleeps 2023-02-25 01:10:56.633536|0.46 / 0.45 / 0.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers none|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, w/ xformers|c973d9|f4daf0 ",
+      "received_at": "2023-02-25T03:37:17-05:00",
+      "generated_at": "2023-02-24T20:37:17-05:00",
+      "display_received_at": "Feb 25 03:37:17",
+      "source_id": 13749158400,
+      "source_name": "gazelle",
+      "hostname": "gazelle",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566056708072202246",
+      "source_ip": "73.34.95.173",
+      "program": "SDBENCHMARK",
+      "message": "RassilonSleeps 2023-02-25 01:31:38.516005|0.45 / 0.45 / 0.46|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers medvram|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, w/ xformers & medvram|919b06|710d44 ",
+      "received_at": "2023-02-25T03:37:17-05:00",
+      "generated_at": "2023-02-24T20:37:17-05:00",
+      "display_received_at": "Feb 25 03:37:17",
       "source_id": 13749158400,
       "source_name": "gazelle",
       "hostname": "gazelle",

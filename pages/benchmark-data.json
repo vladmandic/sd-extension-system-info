@@ -1,5 +1,31 @@
 [
   [
+    138,
+    "2023-02-25T01:31:38.516Z",
+    "0.45 / 0.45 / 0.46",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB",
+    "xformers medvram",
+    "3DKX_V2.safetensors [d10ad6063d]",
+    "RassilonSleeps",
+    "System76 Gazelle laptop, w/ xformers & medvram"
+  ],
+  [
+    137,
+    "2023-02-25T01:10:56.633Z",
+    "0.46 / 0.45 / 0.45",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB",
+    "xformers none",
+    "3DKX_V2.safetensors [d10ad6063d]",
+    "RassilonSleeps",
+    "System76 Gazelle laptop, w/ xformers"
+  ],
+  [
     136,
     "2023-02-25T00:59:46.224Z",
     "0.38 / 0.38 / 0.39",
