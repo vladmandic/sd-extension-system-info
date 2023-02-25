@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-25T09:14:09.362Z
+  ## Updated: 2023-02-25T11:11:53.648Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |138|2023-02-25T01:31:38.516Z|0.45 / 0.45 / 0.46|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers medvram|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, w/ xformers & medvram|
+  |139|2023-02-25T11:45:31.584Z|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|
+|138|2023-02-25T01:31:38.516Z|0.45 / 0.45 / 0.46|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers medvram|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, w/ xformers & medvram|
 |137|2023-02-25T01:10:56.633Z|0.46 / 0.45 / 0.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers none|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, w/ xformers|
 |136|2023-02-25T00:59:46.224Z|0.38 / 0.38 / 0.39|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx none|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, no optimizations|
 |135|2023-02-25T15:28:02.523Z|9.17 / 10.73 / 11.24|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:archlinux arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:2.0.0.dev20230224+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6900 XT (1) hip:5.3.22061-e8e78f1a 16GB|Doggettx none|Models/[Photo] Stable Diffusion/v1.5-pruned-emaonly.ckpt [cc6cb27103]|qip||

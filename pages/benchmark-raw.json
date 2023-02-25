@@ -1,5 +1,5 @@
 {
-  "max_id": "1566056708072202246",
+  "max_id": "1566090590599442433",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3596,6 +3596,48 @@
       "source_id": 13749158400,
       "source_name": "gazelle",
       "hostname": "gazelle",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566089751939969030",
+      "source_ip": "87.20.46.133",
+      "program": "SDBENCHMARK",
+      "message": "Harvester62 2023-02-25 11:45:31.584268|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|a6ce9e|5e9fe5 ",
+      "received_at": "2023-02-25T05:48:35-05:00",
+      "generated_at": "2023-02-25T06:48:35-05:00",
+      "display_received_at": "Feb 25 05:48:35",
+      "source_id": 13749245919,
+      "source_name": "WIN10-1",
+      "hostname": "WIN10-1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566090119121924104",
+      "source_ip": "87.20.46.133",
+      "program": "SDBENCHMARK",
+      "message": "Harvester62 2023-02-25 11:45:31.584268|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|a6ce9e|5e9fe5 ",
+      "received_at": "2023-02-25T05:50:03-05:00",
+      "generated_at": "2023-02-25T06:50:03-05:00",
+      "display_received_at": "Feb 25 05:50:03",
+      "source_id": 13749245919,
+      "source_name": "WIN10-1",
+      "hostname": "WIN10-1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566090590599442433",
+      "source_ip": "87.20.46.133",
+      "program": "SDBENCHMARK",
+      "message": "Harvester62 2023-02-25 11:45:31.584268|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|a6ce9e|5e9fe5 ",
+      "received_at": "2023-02-25T05:51:55-05:00",
+      "generated_at": "2023-02-25T06:51:55-05:00",
+      "display_received_at": "Feb 25 05:51:55",
+      "source_id": 13749245919,
+      "source_name": "WIN10-1",
+      "hostname": "WIN10-1",
       "severity": "Info",
       "facility": "User"
     }
