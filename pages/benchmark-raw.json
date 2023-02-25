@@ -1,5 +1,5 @@
 {
-  "max_id": "1566194759050129409",
+  "max_id": "1566206325288005640",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3705,6 +3705,34 @@
       "received_at": "2023-02-25T12:45:51-05:00",
       "generated_at": "2023-02-25T13:45:51-05:00",
       "display_received_at": "Feb 25 12:45:51",
+      "source_id": 13749496803,
+      "source_name": "DESKTOP-MGEKPHP",
+      "hostname": "DESKTOP-MGEKPHP",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566206325271228420",
+      "source_ip": "84.29.2.142",
+      "program": "SDBENCHMARK",
+      "message": "A 2023-02-25 18:40:48.807198|0.63 / 0.67 / 0.66|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|A||26094f|36bd53 ",
+      "received_at": "2023-02-25T13:31:49-05:00",
+      "generated_at": "2023-02-25T14:31:49-05:00",
+      "display_received_at": "Feb 25 13:31:49",
+      "source_id": 13749496803,
+      "source_name": "DESKTOP-MGEKPHP",
+      "hostname": "DESKTOP-MGEKPHP",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566206325288005640",
+      "source_ip": "84.29.2.142",
+      "program": "SDBENCHMARK",
+      "message": "A 2023-02-25 19:15:54.808197|0.6 / 0.62 / 0.64|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|v1-5-pruned-emaonly.safetensors [6ce0161689]|A||e9da7a|26493b ",
+      "received_at": "2023-02-25T13:31:49-05:00",
+      "generated_at": "2023-02-25T14:31:49-05:00",
+      "display_received_at": "Feb 25 13:31:49",
       "source_id": 13749496803,
       "source_name": "DESKTOP-MGEKPHP",
       "hostname": "DESKTOP-MGEKPHP",
