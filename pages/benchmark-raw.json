@@ -1,5 +1,5 @@
 {
-  "max_id": "1566024326883491843",
+  "max_id": "1566049010580643848",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3540,6 +3540,20 @@
       "source_id": 13749106729,
       "source_name": "archlinux",
       "hostname": "archlinux",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566049010580643848",
+      "source_ip": "73.34.95.173",
+      "program": "SDBENCHMARK",
+      "message": "RassilonSleeps 2023-02-25 00:59:46.224615|0.38 / 0.38 / 0.39|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx none|3DKX_V2.safetensors [d10ad6063d]|RassilonSleeps|System76 Gazelle laptop, no optimizations|bec92e|a77e1d ",
+      "received_at": "2023-02-25T03:06:42-05:00",
+      "generated_at": "2023-02-24T20:06:42-05:00",
+      "display_received_at": "Feb 25 03:06:42",
+      "source_id": 13749158400,
+      "source_name": "gazelle",
+      "hostname": "gazelle",
       "severity": "Info",
       "facility": "User"
     }
