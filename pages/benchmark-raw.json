@@ -1,5 +1,5 @@
 {
-  "max_id": "1566090590599442433",
+  "max_id": "1566127100392550406",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3638,6 +3638,48 @@
       "source_id": 13749245919,
       "source_name": "WIN10-1",
       "hostname": "WIN10-1",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566124915596386312",
+      "source_ip": "2.92.125.24",
+      "program": "SDBENCHMARK",
+      "message": "Sabin 2023-02-25 16:05:58.510712|8.46 / 13.2 / 15.07 / 15.48 / 15.63|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3MQS5U2 arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 16GB|xformers lowram|_anime\\Anything-V3.0.ckpt [67a115286b]|Sabin||d0efe3|0555a0 ",
+      "received_at": "2023-02-25T08:08:19-05:00",
+      "generated_at": "2023-02-25T11:08:18-05:00",
+      "display_received_at": "Feb 25 08:08:19",
+      "source_id": 13748325542,
+      "source_name": "DESKTOP-3MQS5U2",
+      "hostname": "DESKTOP-3MQS5U2",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566127100392550401",
+      "source_ip": "188.174.33.3",
+      "program": "SDBENCHMARK",
+      "message": "Tago 2023-02-25 14:11:09.403834|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|SD-v2-1_768-ema-pruned.ckpt [ad2a33c361]|valen||ffb080|54c586 ",
+      "received_at": "2023-02-25T08:17:00-05:00",
+      "generated_at": "2023-02-25T09:16:58-05:00",
+      "display_received_at": "Feb 25 08:17:00",
+      "source_id": 13749333999,
+      "source_name": "Desktop-BR0V8CV",
+      "hostname": "Desktop-BR0V8CV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566127100392550406",
+      "source_ip": "188.174.33.3",
+      "program": "SDBENCHMARK",
+      "message": "Tago 2023-02-25 14:16:27.473307|7.24 / 9.34 / 10.1|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|SD-v2-1_768-ema-pruned.ckpt [ad2a33c361]|Tago||9a173d|7baf1c ",
+      "received_at": "2023-02-25T08:17:00-05:00",
+      "generated_at": "2023-02-25T09:16:58-05:00",
+      "display_received_at": "Feb 25 08:17:00",
+      "source_id": 13749333999,
+      "source_name": "Desktop-BR0V8CV",
+      "hostname": "Desktop-BR0V8CV",
       "severity": "Info",
       "facility": "User"
     }
