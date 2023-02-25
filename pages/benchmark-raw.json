@@ -1,5 +1,5 @@
 {
-  "max_id": "1566127100392550406",
+  "max_id": "1566185219608981504",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3680,6 +3680,20 @@
       "source_id": 13749333999,
       "source_name": "Desktop-BR0V8CV",
       "hostname": "Desktop-BR0V8CV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566185219608981504",
+      "source_ip": "73.48.124.250",
+      "program": "SDBENCHMARK",
+      "message": "cc 2023-02-25 12:06:24.553286|7.35 / 9.6 / 10.2|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/tripc07/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|photo.safetensors [3126124884]|cc||63c9ab|235f12 ",
+      "received_at": "2023-02-25T12:07:57-05:00",
+      "generated_at": "2023-02-25T07:07:57-05:00",
+      "display_received_at": "Feb 25 12:07:57",
+      "source_id": 13749474497,
+      "source_name": "DESKTOP-BUKVE8H",
+      "hostname": "DESKTOP-BUKVE8H",
       "severity": "Info",
       "facility": "User"
     }
