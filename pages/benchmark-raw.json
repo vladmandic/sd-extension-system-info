@@ -1,5 +1,5 @@
 {
-  "max_id": "1566582423205113860",
+  "max_id": "1566602197674930178",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4086,6 +4086,48 @@
       "source_id": 13746918880,
       "source_name": "TOPAZ",
       "hostname": "TOPAZ",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566597156108939267",
+      "source_ip": "45.182.75.106",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-02-26 20:22:17.637401|2.69 / 3.74 / 3.09|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.9.5|torch:2.0.0.dev20230225+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device: (1) hip:5.3.22061-e8e78f1a 10GB|Doggettx medvram|v1-5-pruned.ckpt [e1441589a6]|root||5940eb|f41c3d ",
+      "received_at": "2023-02-26T15:24:50-05:00",
+      "generated_at": "2023-02-26T15:24:50-05:00",
+      "display_received_at": "Feb 26 15:24:50",
+      "source_id": 13750398766,
+      "source_name": "Xeonolinux",
+      "hostname": "Xeonolinux",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566602197674930176",
+      "source_ip": "45.182.75.106",
+      "program": "SDBENCHMARK",
+      "message": "Larbaco 2023-02-26 20:22:17.637401|2.69 / 3.74 / 3.09|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.9.5|torch:2.0.0.dev20230225+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device: (1) hip:5.3.22061-e8e78f1a 10GB|Doggettx medvram|v1-5-pruned.ckpt [e1441589a6]|root||5940eb|f41c3d ",
+      "received_at": "2023-02-26T15:44:52-05:00",
+      "generated_at": "2023-02-26T15:44:52-05:00",
+      "display_received_at": "Feb 26 15:44:52",
+      "source_id": 13750398766,
+      "source_name": "Xeonolinux",
+      "hostname": "Xeonolinux",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566602197674930178",
+      "source_ip": "45.182.75.106",
+      "program": "SDBENCHMARK",
+      "message": "Larbaco 2023-02-26 20:38:17.409604|5.27 / 5.77 / 3.98 / 3.96 / 3.97|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.9.5|torch:2.0.0.dev20230225+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device: (1) hip:5.3.22061-e8e78f1a 10GB|Doggettx none|openjourney-v2.ckpt [2fbe5ba6e2]|Larbaco|RX 6700 10GB pytorch 2.0 beta|93d41a|9dce33 ",
+      "received_at": "2023-02-26T15:44:52-05:00",
+      "generated_at": "2023-02-26T15:44:52-05:00",
+      "display_received_at": "Feb 26 15:44:52",
+      "source_id": 13750398766,
+      "source_name": "Xeonolinux",
+      "hostname": "Xeonolinux",
       "severity": "Info",
       "facility": "User"
     }
