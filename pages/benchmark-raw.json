@@ -1,5 +1,5 @@
 {
-  "max_id": "1566407281141268484",
+  "max_id": "1566458000321994756",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3946,6 +3946,62 @@
       "source_id": 13749952243,
       "source_name": "HOME",
       "hostname": "HOME",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566445890795921434",
+      "source_ip": "90.207.133.213",
+      "program": "SDBENCHMARK",
+      "message": "marks 2023-02-26 10:22:36.353272|17.89 / 20.96 / 24.7|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|illuminatidiffusion_v1.1.safetensors [cae1bee30e]|marks||d9a9a6|d048d2 ",
+      "received_at": "2023-02-26T05:23:46-05:00",
+      "generated_at": "2023-02-26T05:23:45-05:00",
+      "display_received_at": "Feb 26 05:23:46",
+      "source_id": 13750039289,
+      "source_name": "anemoi",
+      "hostname": "anemoi",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566446290521481246",
+      "source_ip": "90.207.133.213",
+      "program": "SDBENCHMARK",
+      "message": "marks 2023-02-26 10:25:12.385995|17.13 / 20.0 / 22.96|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|illuminatidiffusion_v1.1.safetensors [cae1bee30e]|marks||d9a9a6|1b8e57 ",
+      "received_at": "2023-02-26T05:25:21-05:00",
+      "generated_at": "2023-02-26T05:25:20-05:00",
+      "display_received_at": "Feb 26 05:25:21",
+      "source_id": 13750039289,
+      "source_name": "anemoi",
+      "hostname": "anemoi",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566446557681868811",
+      "source_ip": "175.213.187.113",
+      "program": "SDBENCHMARK",
+      "message": "pcm7897 2023-02-26 19:25:55.962825|8.87 / 10.08 / 11.17||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|768-v-ema.ckpt [bfcaf07557]|pcm7897||211766|b71dbc ",
+      "received_at": "2023-02-26T05:26:25-05:00",
+      "generated_at": "2023-02-26T14:26:25-05:00",
+      "display_received_at": "Feb 26 05:26:25",
+      "source_id": 13750040726,
+      "source_name": "pokute10090601",
+      "hostname": "pokute10090601",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566458000321994756",
+      "source_ip": "46.32.76.132",
+      "program": "SDBENCHMARK",
+      "message": "shell 2023-02-26 14:09:15.119205|7.21 / 8.25 / 8.91|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-32-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|shell||6522d2|c14a9e ",
+      "received_at": "2023-02-26T06:11:53-05:00",
+      "generated_at": "2023-02-26T09:11:53-05:00",
+      "display_received_at": "Feb 26 06:11:53",
+      "source_id": 13750066226,
+      "source_name": "sd",
+      "hostname": "sd",
       "severity": "Info",
       "facility": "User"
     }
