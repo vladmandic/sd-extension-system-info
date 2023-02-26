@@ -1,5 +1,5 @@
 {
-  "max_id": "1566393756104704017",
+  "max_id": "1566407281141268484",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3932,6 +3932,20 @@
       "source_id": 13749923101,
       "source_name": "Cody-MSI",
       "hostname": "Cody-MSI",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566407281141268484",
+      "source_ip": "59.174.0.216",
+      "program": "SDBENCHMARK",
+      "message": "cloud 2023-02-26 15:49:33.396125|6.87 / 10.04 / 13.89|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 22GB|Doggettx none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|cloud||5e3ca0|2f2b80 ",
+      "received_at": "2023-02-26T02:50:20-05:00",
+      "generated_at": "2023-02-26T10:50:21-05:00",
+      "display_received_at": "Feb 26 02:50:20",
+      "source_id": 13749952243,
+      "source_name": "HOME",
+      "hostname": "HOME",
       "severity": "Info",
       "facility": "User"
     }
