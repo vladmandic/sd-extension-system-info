@@ -1,5 +1,5 @@
 {
-  "max_id": "1566529396381237249",
+  "max_id": "1566582423205113860",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4072,6 +4072,20 @@
       "source_id": 13750235763,
       "source_name": "DORY-PC",
       "hostname": "DORY-PC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566582423205113860",
+      "source_ip": "70.176.105.240",
+      "program": "SDBENCHMARK",
+      "message": "master 2023-02-26 12:25:36.960374|18.3 / 22.33 / 24.11 / 25.45 / 26.88|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly-vae-fp16.ckpt [27a4ac756c]|master||f432a9|6def3c ",
+      "received_at": "2023-02-26T14:26:17-05:00",
+      "generated_at": "2023-02-26T07:26:17-05:00",
+      "display_received_at": "Feb 26 14:26:17",
+      "source_id": 13746918880,
+      "source_name": "TOPAZ",
+      "hostname": "TOPAZ",
       "severity": "Info",
       "facility": "User"
     }
