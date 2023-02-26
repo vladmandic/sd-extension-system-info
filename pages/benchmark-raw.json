@@ -1,5 +1,5 @@
 {
-  "max_id": "1566506444306694145",
+  "max_id": "1566529396381237249",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4044,6 +4044,34 @@
       "source_id": 13750107897,
       "source_name": "Dreamboy",
       "hostname": "Dreamboy",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566527488908247054",
+      "source_ip": "199.168.77.77",
+      "program": "SDBENCHMARK",
+      "message": "djabacus 2023-02-26 09:47:12.846207|10.95 / 11.4 / 13.18|updated:2023-02-20 hash:ab1ec6f3 url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|runwayML-sd-v1-5-inpainting.ckpt [c6bbc15e32]|djabacus||b2ec9e|6c8c07 ",
+      "received_at": "2023-02-26T10:48:00-05:00",
+      "generated_at": "2023-02-26T04:48:00-05:00",
+      "display_received_at": "Feb 26 10:48:00",
+      "source_id": 13750231692,
+      "source_name": "obelisk",
+      "hostname": "obelisk",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566529396381237249",
+      "source_ip": "47.62.223.186",
+      "program": "SDBENCHMARK",
+      "message": "Dory 2023-02-26 16:50:57.892246|0.52 / 0.53 / 0.67|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.12.1+cu113 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 960 (1) (compute_37) (5, 2) cuda:11.3 cudnn:8302 4GB|Doggettx medvram|anyhentai_18.safetensors [168144a879]|Dory||21a1bd|b974f9 ",
+      "received_at": "2023-02-26T10:55:35-05:00",
+      "generated_at": "2023-02-26T11:55:35-05:00",
+      "display_received_at": "Feb 26 10:55:35",
+      "source_id": 13750235763,
+      "source_name": "DORY-PC",
+      "hostname": "DORY-PC",
       "severity": "Info",
       "facility": "User"
     }
