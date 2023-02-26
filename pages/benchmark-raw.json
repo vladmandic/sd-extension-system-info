@@ -1,5 +1,5 @@
 {
-  "max_id": "1566475569762316288",
+  "max_id": "1566506444306694145",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4013,6 +4013,34 @@
       "received_at": "2023-02-26T07:21:42-05:00",
       "generated_at": "2023-02-26T07:21:41-05:00",
       "display_received_at": "Feb 26 07:21:42",
+      "source_id": 13750107897,
+      "source_name": "Dreamboy",
+      "hostname": "Dreamboy",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566506065384882176",
+      "source_ip": "86.40.23.142",
+      "program": "SDBENCHMARK",
+      "message": "Tchernobill 2023-02-26 12:24:28.488384|3.67 / 3.94 / 4.0 / 4.26 / 4.46|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 4000 (3) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|BerryMix21.ckpt [96f9887c34]|Tchernobill||adf115|1ff654 ",
+      "received_at": "2023-02-26T09:22:52-05:00",
+      "generated_at": "2023-02-26T09:22:51-05:00",
+      "display_received_at": "Feb 26 09:22:52",
+      "source_id": 13750107897,
+      "source_name": "Dreamboy",
+      "hostname": "Dreamboy",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566506444306694145",
+      "source_ip": "86.40.23.142",
+      "program": "SDBENCHMARK",
+      "message": "Tchernobill 2023-02-26 12:24:28.488384|3.67 / 3.94 / 4.0 / 4.26 / 4.46|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 4000 (3) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|BerryMix21.ckpt [96f9887c34]|Tchernobill||adf115|1ff654 ",
+      "received_at": "2023-02-26T09:24:23-05:00",
+      "generated_at": "2023-02-26T09:24:22-05:00",
+      "display_received_at": "Feb 26 09:24:23",
       "source_id": 13750107897,
       "source_name": "Dreamboy",
       "hostname": "Dreamboy",
