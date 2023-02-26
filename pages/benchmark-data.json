@@ -1,5 +1,57 @@
 [
   [
+    171,
+    "2023-02-26T11:32:47.087Z",
+    "6.78 / 7.75 / 8.46",
+    "updated:2023-02-17 hash:5b7280c4 url:https://huggingface.co/WarriorMama777/OrangeMixs/tree/main",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "farit",
+    ""
+  ],
+  [
+    170,
+    "2023-02-26T01:30:23.064Z",
+    "6.91 / 7.79 / 8.35 / 8.9 / 9.1",
+    "updated:2023-02-17 hash:5b7280c4 url:https://huggingface.co/WarriorMama777/OrangeMixs/tree/main",
+    "host:fariticle arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "farit",
+    ""
+  ],
+  [
+    169,
+    "2023-02-26T22:27:53.387Z",
+    "4.15 / 4.79 / 5.81",
+    "updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "anything-v4.0-pruned-fp16.safetensors [d5f8393fea]",
+    "MVL",
+    ""
+  ],
+  [
+    168,
+    "2023-02-26T22:21:06.020Z",
+    "2.88 / 2.94 / 3.24",
+    "updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB",
+    "xformers none",
+    "anything-v4.0-pruned-fp16.safetensors [d5f8393fea]",
+    "MVL",
+    ""
+  ],
+  [
     167,
     "2023-02-26T20:38:17.409Z",
     "5.27 / 5.77 / 3.98 / 3.96 / 3.97",
