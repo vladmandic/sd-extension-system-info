@@ -1,5 +1,5 @@
 {
-  "max_id": "1566277012430176256",
+  "max_id": "1566312132394541060",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3848,6 +3848,62 @@
       "source_id": 13749685066,
       "source_name": "WIN-CBSD1GH3K9R",
       "hostname": "WIN-CBSD1GH3K9R",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566311411766976526",
+      "source_ip": "172.56.81.224",
+      "program": "SDBENCHMARK",
+      "message": "j_pop 2023-02-25 18:28:52.675383|15.53 / 17.51 / 20.8|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|orangechillmix_v70.safetensors [a92311f07a]|j_pop||1d5e52|e90272 ",
+      "received_at": "2023-02-25T20:29:23-05:00",
+      "generated_at": "2023-02-25T13:29:22-05:00",
+      "display_received_at": "Feb 25 20:29:23",
+      "source_id": 13749756566,
+      "source_name": "DESKTOP-FT61ESV",
+      "hostname": "DESKTOP-FT61ESV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566312116598792201",
+      "source_ip": "172.56.81.224",
+      "program": "SDBENCHMARK",
+      "message": "j_pop 2023-02-25 18:31:20.602240|15.48 / 17.7 / 20.82 / 21.86 / 21.6|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|orangechillmix_v70.safetensors [a92311f07a]|j_pop||1d5e52|fdf696 ",
+      "received_at": "2023-02-25T20:32:11-05:00",
+      "generated_at": "2023-02-25T13:32:10-05:00",
+      "display_received_at": "Feb 25 20:32:11",
+      "source_id": 13749756566,
+      "source_name": "DESKTOP-FT61ESV",
+      "hostname": "DESKTOP-FT61ESV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566312123523588109",
+      "source_ip": "172.56.81.224",
+      "program": "SDBENCHMARK",
+      "message": "j_pop 2023-02-25 18:31:20.602240|15.48 / 17.7 / 20.82 / 21.86 / 21.6|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|orangechillmix_v70.safetensors [a92311f07a]|j_pop||1d5e52|fdf696 ",
+      "received_at": "2023-02-25T20:32:13-05:00",
+      "generated_at": "2023-02-25T13:32:12-05:00",
+      "display_received_at": "Feb 25 20:32:13",
+      "source_id": 13749756566,
+      "source_name": "DESKTOP-FT61ESV",
+      "hostname": "DESKTOP-FT61ESV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566312132394541060",
+      "source_ip": "172.56.81.224",
+      "program": "SDBENCHMARK",
+      "message": "j_pop 2023-02-25 18:31:20.602240|15.48 / 17.7 / 20.82 / 21.86 / 21.6|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|orangechillmix_v70.safetensors [a92311f07a]|j_pop||1d5e52|fdf696 ",
+      "received_at": "2023-02-25T20:32:15-05:00",
+      "generated_at": "2023-02-25T13:32:14-05:00",
+      "display_received_at": "Feb 25 20:32:15",
+      "source_id": 13749756566,
+      "source_name": "DESKTOP-FT61ESV",
+      "hostname": "DESKTOP-FT61ESV",
       "severity": "Info",
       "facility": "User"
     }

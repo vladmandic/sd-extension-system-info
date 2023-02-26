@@ -1,5 +1,31 @@
 [
   [
+    154,
+    "2023-02-25T18:31:20.602Z",
+    "15.48 / 17.7 / 20.82 / 21.86 / 21.6",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "orangechillmix_v70.safetensors [a92311f07a]",
+    "j_pop",
+    ""
+  ],
+  [
+    153,
+    "2023-02-25T18:28:52.675Z",
+    "15.53 / 17.51 / 20.8",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "orangechillmix_v70.safetensors [a92311f07a]",
+    "j_pop",
+    ""
+  ],
+  [
     152,
     "2023-02-26T00:12:26.257Z",
     "10.33",
