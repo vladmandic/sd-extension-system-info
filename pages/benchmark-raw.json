@@ -1,5 +1,5 @@
 {
-  "max_id": "1566312132394541060",
+  "max_id": "1566393756104704017",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3904,6 +3904,34 @@
       "source_id": 13749756566,
       "source_name": "DESKTOP-FT61ESV",
       "hostname": "DESKTOP-FT61ESV",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566393596167503872",
+      "source_ip": "70.178.130.193",
+      "program": "SDBENCHMARK",
+      "message": "Clorix 2023-02-26 00:50:52.397030|8.33 / 9.41 / 11.28 / 11.87 / 12.56||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|model.ckpt [e1441589a6]|Clorix||617a99|1c82a0 ",
+      "received_at": "2023-02-26T01:55:58-05:00",
+      "generated_at": "2023-02-25T19:55:59-05:00",
+      "display_received_at": "Feb 26 01:55:58",
+      "source_id": 13749923101,
+      "source_name": "Cody-MSI",
+      "hostname": "Cody-MSI",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566393756104704017",
+      "source_ip": "70.178.130.193",
+      "program": "SDBENCHMARK",
+      "message": "Clorix 2023-02-26 00:50:52.397030|8.33 / 9.41 / 11.28 / 11.87 / 12.56||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|model.ckpt [e1441589a6]|Clorix||617a99|1c82a0 ",
+      "received_at": "2023-02-26T01:56:36-05:00",
+      "generated_at": "2023-02-25T19:56:37-05:00",
+      "display_received_at": "Feb 26 01:56:36",
+      "source_id": 13749923101,
+      "source_name": "Cody-MSI",
+      "hostname": "Cody-MSI",
       "severity": "Info",
       "facility": "User"
     }
