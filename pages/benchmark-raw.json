@@ -1,5 +1,5 @@
 {
-  "max_id": "1566621877504487438",
+  "max_id": "1566636921466318859",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4226,6 +4226,20 @@
       "source_id": 13750455246,
       "source_name": "fariticle",
       "hostname": "fariticle",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566636921466318859",
+      "source_ip": "129.62.116.174",
+      "program": "SDBENCHMARK",
+      "message": "Michael 2023-02-26 16:29:49.450559|2.37 / 2.47 / 3.23|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:Mike arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 4GB|Doggettx medvram|Knollingcase v1.ckpt [cf836e65a7]|Michael||051512|6d1162 ",
+      "received_at": "2023-02-26T18:02:51-05:00",
+      "generated_at": "2023-02-26T12:02:51-05:00",
+      "display_received_at": "Feb 26 18:02:51",
+      "source_id": 13750488857,
+      "source_name": "Mike",
+      "hostname": "Mike",
       "severity": "Info",
       "facility": "User"
     }
