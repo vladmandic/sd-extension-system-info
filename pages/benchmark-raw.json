@@ -1,5 +1,5 @@
 {
-  "max_id": "1566951821602381834",
+  "max_id": "1566992600479756299",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4618,6 +4618,20 @@
       "source_id": 13751263934,
       "source_name": "DESKTOP-M7RLTI9",
       "hostname": "DESKTOP-M7RLTI9",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566992600479756299",
+      "source_ip": "162.248.150.99",
+      "program": "SDBENCHMARK",
+      "message": "mrgfy 2023-02-27 09:43:34.156127|2.45 / 3.2 / 2.22|updated:2023-02-26 hash:84f2d8d2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.2.1-zen1-1-zen python:3.10.9|torch:1.13.1+rocm5.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (2) hip:5.2.21151-afdc89f8 12GB|InvokeAI medvram|liberty_main.safetensors [8634d80dec]|webmaster-exit-1||508425|b2d42e ",
+      "received_at": "2023-02-27T17:36:11-05:00",
+      "generated_at": "2023-02-27T09:36:11-05:00",
+      "display_received_at": "Feb 27 17:36:11",
+      "source_id": 13751174840,
+      "source_name": "randomsec",
+      "hostname": "randomsec",
       "severity": "Info",
       "facility": "User"
     }
