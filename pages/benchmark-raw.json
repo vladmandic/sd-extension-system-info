@@ -1,5 +1,5 @@
 {
-  "max_id": "1566636921466318859",
+  "max_id": "1566653780366385157",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4240,6 +4240,34 @@
       "source_id": 13750488857,
       "source_name": "Mike",
       "hostname": "Mike",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566646443786301454",
+      "source_ip": "68.104.40.218",
+      "program": "SDBENCHMARK",
+      "message": "joviex 2023-02-26 15:40:04.606472|3.87 / 4.55 / 5.41|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|deliberate_v1.1.safetensors [d8691b4d16]|joviex||9a030c|c3c726 ",
+      "received_at": "2023-02-26T18:40:41-05:00",
+      "generated_at": "2023-02-26T10:40:40-05:00",
+      "display_received_at": "Feb 26 18:40:41",
+      "source_id": 13750508546,
+      "source_name": "EARENDIL",
+      "hostname": "EARENDIL",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566653780366385157",
+      "source_ip": "211.109.146.254",
+      "program": "SDBENCHMARK",
+      "message": "gerome 2023-02-27 09:08:09.874880|1.22 / 1.55 / 1.69|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]|gerome||ed392c|28fe65 ",
+      "received_at": "2023-02-26T19:09:50-05:00",
+      "generated_at": "2023-02-27T04:09:50-05:00",
+      "display_received_at": "Feb 26 19:09:50",
+      "source_id": 13750523640,
+      "source_name": "FormD-T1v2-REF",
+      "hostname": "FormD-T1v2-REF",
       "severity": "Info",
       "facility": "User"
     }
