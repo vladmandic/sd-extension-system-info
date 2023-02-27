@@ -1,5 +1,5 @@
 {
-  "max_id": "1566928092461711361",
+  "max_id": "1566937749733421058",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4464,6 +4464,48 @@
       "source_id": 13751199468,
       "source_name": "pc",
       "hostname": "pc",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566936307857534981",
+      "source_ip": "125.243.126.200",
+      "program": "SDBENCHMARK",
+      "message": "jhp 2023-02-24 03:39:02.154809|9.82 / 11.18 / 11.93|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:JH-WS arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|xynaptix_31.safetensors [53e2fd86a4]|jhp||1e6370|b9f644 ",
+      "received_at": "2023-02-27T13:52:30-05:00",
+      "generated_at": "2023-02-27T22:52:30-05:00",
+      "display_received_at": "Feb 27 13:52:30",
+      "source_id": 13746761692,
+      "source_name": "JH-WS",
+      "hostname": "JH-WS",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566936307857534982",
+      "source_ip": "125.243.126.200",
+      "program": "SDBENCHMARK",
+      "message": "jhp 2023-02-28 03:49:39.871482|10.63 / 11.82 / 11.89 / 13.51 / 13.93|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|realisticVisionV13_v13VAEIncluded.safetensors [c35782bad8]|jhp|with --opt-channelslast|f7addc|4a497a ",
+      "received_at": "2023-02-27T13:52:30-05:00",
+      "generated_at": "2023-02-27T22:52:30-05:00",
+      "display_received_at": "Feb 27 13:52:30",
+      "source_id": 13746761692,
+      "source_name": "JH-WS",
+      "hostname": "JH-WS",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566937749733421058",
+      "source_ip": "183.69.221.38",
+      "program": "SDBENCHMARK",
+      "message": "callo 2023-02-28 02:57:33.609633|11.11 / 15.21 / 20.83 / 30.39 / 34.79|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|callo||7d4ea9|e9f749 ",
+      "received_at": "2023-02-27T13:58:14-05:00",
+      "generated_at": "2023-02-27T21:58:15-05:00",
+      "display_received_at": "Feb 27 13:58:14",
+      "source_id": 13751199194,
+      "source_name": "Callomerlose",
+      "hostname": "Callomerlose",
       "severity": "Info",
       "facility": "User"
     }
