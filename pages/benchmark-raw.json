@@ -1,5 +1,5 @@
 {
-  "max_id": "1566863838438146050",
+  "max_id": "1566879874436751378",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4338,6 +4338,34 @@
       "source_id": 13749496803,
       "source_name": "DESKTOP-MGEKPHP",
       "hostname": "DESKTOP-MGEKPHP",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566879862927581194",
+      "source_ip": "121.13.54.188",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-02-27 19:15:05.690472|1.5 / 1.83 / 1.57|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 45 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla M40 24GB (1) (compute_37) (5, 2) cuda:11.7 cudnn:8500 22GB|Doggettx lowram|chikmix_V1_FP32.safetensors [88a341eb5e]|Administrator||9e3777|78e24c ",
+      "received_at": "2023-02-27T10:08:13-05:00",
+      "generated_at": "2023-02-27T18:08:12-05:00",
+      "display_received_at": "Feb 27 10:08:13",
+      "source_id": 13751060417,
+      "source_name": "Poweredge-R720",
+      "hostname": "Poweredge-R720",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1566879874436751378",
+      "source_ip": "121.13.54.188",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-02-27 19:15:05.690472|1.5 / 1.83 / 1.57|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 45 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla M40 24GB (1) (compute_37) (5, 2) cuda:11.7 cudnn:8500 22GB|Doggettx lowram|chikmix_V1_FP32.safetensors [88a341eb5e]|Administrator||9e3777|78e24c ",
+      "received_at": "2023-02-27T10:08:15-05:00",
+      "generated_at": "2023-02-27T18:08:15-05:00",
+      "display_received_at": "Feb 27 10:08:15",
+      "source_id": 13751060417,
+      "source_name": "Poweredge-R720",
+      "hostname": "Poweredge-R720",
       "severity": "Info",
       "facility": "User"
     }
