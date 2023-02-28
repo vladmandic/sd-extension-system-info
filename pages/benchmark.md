@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-28T09:16:15.345Z
+  ## Updated: 2023-02-28T11:13:03.843Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |206|2023-02-28T16:17:09.113Z|12.07 / 16.65 / 21.48|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|model.ckpt [89d59c3dde]|glx||
+  |208|2023-02-28T10:36:18.996Z|20.26 / 34.67 / 43.04|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100 80GB PCIe (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers lowram|Cetus-Mix.safetensors|Hittrakkz||
+|207|2023-02-28T10:32:27.677Z|20.05 / 33.58 / 42.74 / 45.49 / 46.66|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100 80GB PCIe (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers lowram|Cetus-Mix.safetensors|Hittrakkz||
+|206|2023-02-28T16:17:09.113Z|12.07 / 16.65 / 21.48|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|model.ckpt [89d59c3dde]|glx||
 |205|2023-02-28T16:15:56.898Z|8.04 / 11.48 / 18.04|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers lowram|model.ckpt [89d59c3dde]|glx||
 |204|2023-02-28T16:07:48.919Z|9.83 / 14.4 / 20.35|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers lowram|anything-v4.5.safetensors [1d1e459f9f]|glx||
 |203|2023-02-28T00:06:08.233Z|15.13 / 27.85 / 41.78 / 42.11 / 39.38|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev465 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|alexd||
