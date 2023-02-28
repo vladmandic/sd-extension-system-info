@@ -1,5 +1,5 @@
 {
-  "max_id": "1567138982930857996",
+  "max_id": "1567144235617206273",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4984,6 +4984,34 @@
       "hostname": "DESKTOP-D0FER3L",
       "severity": "Info",
       "facility": "User"
+    },
+    {
+      "id": "1567144235617206272",
+      "source_ip": "162.142.125.10",
+      "program": "logger",
+      "message": "GET / HTTP/1.1 ",
+      "received_at": "2023-02-28T03:38:44-05:00",
+      "generated_at": "2023-02-28T03:38:44-05:00",
+      "display_received_at": "Feb 28 03:38:44",
+      "source_id": 13751710111,
+      "source_name": "162.142.125.10",
+      "hostname": "162.142.125.10",
+      "severity": "Emergency",
+      "facility": "Kernel"
+    },
+    {
+      "id": "1567144235617206273",
+      "source_ip": "162.142.125.10",
+      "program": "logger",
+      "message": "Host: 173.247.107.218:32554 ",
+      "received_at": "2023-02-28T03:38:44-05:00",
+      "generated_at": "2023-02-28T03:38:44-05:00",
+      "display_received_at": "Feb 28 03:38:44",
+      "source_id": 13751710111,
+      "source_name": "162.142.125.10",
+      "hostname": "162.142.125.10",
+      "severity": "Emergency",
+      "facility": "Kernel"
     }
   ]
 }
