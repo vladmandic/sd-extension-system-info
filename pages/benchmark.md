@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-02-28T15:16:17.024Z
+  ## Updated: 2023-02-28T16:21:42.201Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |223|2023-02-28T09:57:54.927Z|7.56 / 8.57 / 9.58 / 10.03 / 10.05|updated:2023-02-27 hash:5e4a9337 url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
+  |225|2023-02-28T23:58:42.982Z|30.09 / 35.52 / 41.74|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|anything-v4.5.safetensors [1d1e459f9f]|glx||
+|224|2023-02-28T22:59:01.993Z|9.91 / 14.71 / 20.32|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|anything-v4.5.safetensors [1d1e459f9f]|glx||
+|223|2023-02-28T09:57:54.927Z|7.56 / 8.57 / 9.58 / 10.03 / 10.05|updated:2023-02-27 hash:5e4a9337 url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
 |222|2023-02-24T15:28:39.643Z|7.11 / 7.97 / 8.81|updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master|host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|sd-v15-runwayml.ckpt [cc6cb27103]|vlado||
 |221|2023-02-28T22:17:34.093Z|10.72 / 10.95 / 12.06|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.25300-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA Graphics Device (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 24GB|xformers none|WhiteDistance-v3-ema-fp32.safetensors [7f86cdf90c]|Administrator||
 |220|2023-02-28T21:54:55.342Z|14.22 / 17.2 / 21.06|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 24GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|13802||

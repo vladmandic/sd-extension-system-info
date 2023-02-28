@@ -1,5 +1,5 @@
 {
-  "max_id": "1567240925351178244",
+  "max_id": "1567255128275345413",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5318,6 +5318,48 @@
       "source_id": 13744943742,
       "source_name": "wsl",
       "hostname": "wsl",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567255128275345408",
+      "source_ip": "117.174.28.87",
+      "program": "SDBENCHMARK",
+      "message": "glx 2023-02-28 16:15:56.898553|8.04 / 11.48 / 18.04|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers lowram|model.ckpt [89d59c3dde]|glx||a8efdd|bf7929 ",
+      "received_at": "2023-02-28T10:59:23-05:00",
+      "generated_at": "2023-02-28T18:59:20-05:00",
+      "display_received_at": "Feb 28 10:59:23",
+      "source_id": 13751692344,
+      "source_name": "DESKTOP-D0FER3L",
+      "hostname": "DESKTOP-D0FER3L",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567255128275345411",
+      "source_ip": "117.174.28.87",
+      "program": "SDBENCHMARK",
+      "message": "glx 2023-02-28 22:59:01.993723|9.91 / 14.71 / 20.32|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|anything-v4.5.safetensors [1d1e459f9f]|glx||e283f9|11aeb8 ",
+      "received_at": "2023-02-28T10:59:23-05:00",
+      "generated_at": "2023-02-28T18:59:20-05:00",
+      "display_received_at": "Feb 28 10:59:23",
+      "source_id": 13751692344,
+      "source_name": "DESKTOP-D0FER3L",
+      "hostname": "DESKTOP-D0FER3L",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567255128275345413",
+      "source_ip": "117.174.28.87",
+      "program": "SDBENCHMARK",
+      "message": "glx 2023-02-28 23:58:42.982429|30.09 / 35.52 / 41.74|updated:2023-02-27 hash:ce0a3ac3 url:https://github.com/silent780/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|anything-v4.5.safetensors [1d1e459f9f]|glx||1171ab|6fea14 ",
+      "received_at": "2023-02-28T10:59:23-05:00",
+      "generated_at": "2023-02-28T18:59:20-05:00",
+      "display_received_at": "Feb 28 10:59:23",
+      "source_id": 13751692344,
+      "source_name": "DESKTOP-D0FER3L",
+      "hostname": "DESKTOP-D0FER3L",
       "severity": "Info",
       "facility": "User"
     }
