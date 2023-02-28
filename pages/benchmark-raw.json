@@ -1,5 +1,5 @@
 {
-  "max_id": "1566992600479756299",
+  "max_id": "1567021629186433025",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4632,6 +4632,62 @@
       "source_id": 13751174840,
       "source_name": "randomsec",
       "hostname": "randomsec",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567002776804978692",
+      "source_ip": "94.31.90.142",
+      "program": "SDBENCHMARK",
+      "message": "mutexr 2023-02-28 00:15:26.068075|2.48 / 2.45 / 3.36|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers medvram|Anything-V3.0-pruned.safetensors [6806d4c0f8]|mutexr||6051d9|4a481e ",
+      "received_at": "2023-02-27T18:16:38-05:00",
+      "generated_at": "2023-02-27T19:16:37-05:00",
+      "display_received_at": "Feb 27 18:16:38",
+      "source_id": 13751390287,
+      "source_name": "CoffeeWindow",
+      "hostname": "CoffeeWindow",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567014881654390787",
+      "source_ip": "199.168.77.77",
+      "program": "SDBENCHMARK",
+      "message": "zero01101 2023-02-27 18:03:55.882725|11.17 / 10.7 / 12.1|updated:2023-02-20 hash:ab1ec6f3 url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|sdv2\\v2-1_768-ema-pruned.ckpt [ad2a33c361]|zero01101|(data from username djabacus is also mine, submitted under wrong username because i'm an idiot)|b2ec9e|8610d3 ",
+      "received_at": "2023-02-27T19:04:44-05:00",
+      "generated_at": "2023-02-27T13:04:43-05:00",
+      "display_received_at": "Feb 27 19:04:44",
+      "source_id": 13750231692,
+      "source_name": "obelisk",
+      "hostname": "obelisk",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567021629186433024",
+      "source_ip": "223.87.136.217",
+      "program": "SDBENCHMARK",
+      "message": "rubym 2023-02-20 10:27:57.441857|5.18 / 5.82 / 6.04|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3SKJTVC arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500|Doggettx none|chilloutmix_NiPrunedFp32.safetensors [95afa0d9ea]|||c9d61|8c57e8 ",
+      "received_at": "2023-02-27T19:31:32-05:00",
+      "generated_at": "2023-02-28T03:31:33-05:00",
+      "display_received_at": "Feb 27 19:31:32",
+      "source_id": 13751438815,
+      "source_name": "DESKTOP-3SKJTVC",
+      "hostname": "DESKTOP-3SKJTVC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567021629186433025",
+      "source_ip": "223.87.136.217",
+      "program": "SDBENCHMARK",
+      "message": "rubym 2023-02-28 08:30:31.566315|5.91 / 6.73 / 7.36|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3SKJTVC arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|rubym||5ff735|46774d ",
+      "received_at": "2023-02-27T19:31:32-05:00",
+      "generated_at": "2023-02-28T03:31:33-05:00",
+      "display_received_at": "Feb 27 19:31:32",
+      "source_id": 13751438815,
+      "source_name": "DESKTOP-3SKJTVC",
+      "hostname": "DESKTOP-3SKJTVC",
       "severity": "Info",
       "facility": "User"
     }
