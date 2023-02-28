@@ -1,5 +1,44 @@
 [
   [
+    223,
+    "2023-02-28T09:57:54.927Z",
+    "7.56 / 8.57 / 9.58 / 10.03 / 10.05",
+    "updated:2023-02-27 hash:5e4a9337 url:https://github.com/vladmandic/automatic/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6",
+    "torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "xformers none",
+    "sd-v15-runwayml.ckpt [cc6cb27103]",
+    "vlado",
+    ""
+  ],
+  [
+    222,
+    "2023-02-24T15:28:39.643Z",
+    "7.11 / 7.97 / 8.81",
+    "updated:2023-02-24 hash:46c6b735 url:https://github.com/vladmandic/automatic/tree/master",
+    "host:wsl arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6",
+    "torch:2.0.0.dev20230224+cu118 autocast half xformers:0.0.17+57edbb7.d20230224 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "xformers none",
+    "sd-v15-runwayml.ckpt [cc6cb27103]",
+    "vlado",
+    ""
+  ],
+  [
+    221,
+    "2023-02-28T22:17:34.093Z",
+    "10.72 / 10.95 / 12.06",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.25300-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA Graphics Device (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "WhiteDistance-v3-ema-fp32.safetensors [7f86cdf90c]",
+    "Administrator",
+    ""
+  ],
+  [
     220,
     "2023-02-28T21:54:55.342Z",
     "14.22 / 17.2 / 21.06",
