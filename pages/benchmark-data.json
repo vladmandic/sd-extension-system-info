@@ -1,5 +1,31 @@
 [
   [
+    252,
+    "2023-03-01T11:17:00.142Z",
+    "14.26 / 26.66 / 39.51 / 38.91 / 39.63",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "deliberate_v11.safetensors [d8691b4d16]",
+    "callo",
+    ""
+  ],
+  [
+    251,
+    "2023-03-01T11:12:44.218Z",
+    "13.12 / 26.6 / 40.91 / 40.83 / 39.74",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "deliberate_v11.safetensors [d8691b4d16]",
+    "callo",
+    ""
+  ],
+  [
     250,
     "2023-03-01T10:56:43.609Z",
     "12.72 / 24.57 / 42.05 / 45.53 / 41.79",
