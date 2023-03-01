@@ -1,5 +1,5 @@
 {
-  "max_id": "1567504021563039747",
+  "max_id": "1567530691628036098",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6662,6 +6662,48 @@
       "source_id": 13752652294,
       "source_name": "Lappy",
       "hostname": "Lappy",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567530691623841801",
+      "source_ip": "183.221.150.64",
+      "program": "SDBENCHMARK",
+      "message": "rubym 2023-02-20 10:27:57.441857|5.18 / 5.82 / 6.04|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3SKJTVC arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500|Doggettx none|chilloutmix_NiPrunedFp32.safetensors [95afa0d9ea]|||c9d61|8c57e8 ",
+      "received_at": "2023-03-01T05:14:22-05:00",
+      "generated_at": "2023-03-01T13:14:24-05:00",
+      "display_received_at": "Mar 01 05:14:22",
+      "source_id": 13751438815,
+      "source_name": "DESKTOP-3SKJTVC",
+      "hostname": "DESKTOP-3SKJTVC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567530691623841802",
+      "source_ip": "183.221.150.64",
+      "program": "SDBENCHMARK",
+      "message": "rubym 2023-02-28 08:30:31.566315|5.91 / 6.73 / 7.36|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3SKJTVC arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|rubym||5ff735|46774d ",
+      "received_at": "2023-03-01T05:14:22-05:00",
+      "generated_at": "2023-03-01T13:14:24-05:00",
+      "display_received_at": "Mar 01 05:14:22",
+      "source_id": 13751438815,
+      "source_name": "DESKTOP-3SKJTVC",
+      "hostname": "DESKTOP-3SKJTVC",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567530691628036098",
+      "source_ip": "183.221.150.64",
+      "program": "SDBENCHMARK",
+      "message": "rubym 2023-02-28 13:26:23.886301|5.61 / 6.33 / 7.4 / 7.74 / 7.94|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:DESKTOP-3SKJTVC arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0.dev20230227+cu118 autocast half xformers:0.0.17+cc36858.d20230220 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 6GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|rubym||a2dc00|c7f68e ",
+      "received_at": "2023-03-01T05:14:22-05:00",
+      "generated_at": "2023-03-01T13:14:24-05:00",
+      "display_received_at": "Mar 01 05:14:22",
+      "source_id": 13751438815,
+      "source_name": "DESKTOP-3SKJTVC",
+      "hostname": "DESKTOP-3SKJTVC",
       "severity": "Info",
       "facility": "User"
     }
