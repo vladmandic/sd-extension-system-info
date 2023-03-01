@@ -1,5 +1,31 @@
 [
   [
+    240,
+    "2023-02-28T17:14:02.363Z",
+    "25.1 / 31.64 / 34.81",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB",
+    "xformers none",
+    "dreamlike-photoreal-2.0.ckpt [fc52756a74]",
+    "twat",
+    ""
+  ],
+  [
+    239,
+    "2023-02-28T19:49:32.767Z",
+    "5.56 / 7.0 / 8.88",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 16GB",
+    "Doggettx none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "bpd10",
+    ""
+  ],
+  [
     238,
     "2023-02-28T22:31:04.647Z",
     "18.87 / 22.71 / 24.76",

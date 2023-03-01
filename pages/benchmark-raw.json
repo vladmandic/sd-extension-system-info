@@ -1,5 +1,5 @@
 {
-  "max_id": "1567338885741207623",
+  "max_id": "1567394864503631879",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5654,6 +5654,34 @@
       "source_id": 13752202480,
       "source_name": "HALDI-W10",
       "hostname": "HALDI-W10",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567388877239533593",
+      "source_ip": "76.21.145.186",
+      "program": "SDBENCHMARK",
+      "message": "bpd10 2023-02-28 19:49:32.767337|5.56 / 7.0 / 8.88|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 16GB|Doggettx none|v2-1_512-ema-pruned.ckpt [88ecb78256]|bpd10||a1005e|491a00 ",
+      "received_at": "2023-02-28T19:50:51-05:00",
+      "generated_at": "2023-02-28T14:50:36-05:00",
+      "display_received_at": "Feb 28 19:50:51",
+      "source_id": 13752389825,
+      "source_name": "razer",
+      "hostname": "razer",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567394864503631879",
+      "source_ip": "185.229.59.251",
+      "program": "SDBENCHMARK",
+      "message": "twat 2023-02-28 17:14:02.363054|25.1 / 31.64 / 34.81|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|xformers none|dreamlike-photoreal-2.0.ckpt [fc52756a74]|twat||99a51d|095b20 ",
+      "received_at": "2023-02-28T20:14:39-05:00",
+      "generated_at": "2023-02-28T12:14:39-05:00",
+      "display_received_at": "Feb 28 20:14:39",
+      "source_id": 13752404286,
+      "source_name": "beast",
+      "hostname": "beast",
       "severity": "Info",
       "facility": "User"
     }
