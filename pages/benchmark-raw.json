@@ -1,5 +1,5 @@
 {
-  "max_id": "1567489300298383373",
+  "max_id": "1567504021563039747",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6634,6 +6634,34 @@
       "source_id": 13752425338,
       "source_name": "119.123.224.88",
       "hostname": "119.123.224.88",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567503670101336148",
+      "source_ip": "50.39.146.51",
+      "program": "SDBENCHMARK",
+      "message": "CB142 2023-03-01 00:26:39.703722|30.22 / 39.39 / 46.61|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|model.ckpt [cc6cb27103]|CB142|1|b99a35|7ffb4c ",
+      "received_at": "2023-03-01T03:27:00-05:00",
+      "generated_at": "2023-02-28T19:26:59-05:00",
+      "display_received_at": "Mar 01 03:27:00",
+      "source_id": 13752652294,
+      "source_name": "Lappy",
+      "hostname": "Lappy",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567504021563039747",
+      "source_ip": "50.39.146.51",
+      "program": "SDBENCHMARK",
+      "message": "CB142 2023-03-01 00:28:00.277765|29.29 / 39.08 / 45.78 / 45.72 / 45.92|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|model.ckpt [cc6cb27103]|CB142|1|b99a35|d4d5a4 ",
+      "received_at": "2023-03-01T03:28:24-05:00",
+      "generated_at": "2023-02-28T19:28:23-05:00",
+      "display_received_at": "Mar 01 03:28:24",
+      "source_id": 13752652294,
+      "source_name": "Lappy",
+      "hostname": "Lappy",
       "severity": "Info",
       "facility": "User"
     }
