@@ -1,5 +1,5 @@
 {
-  "max_id": "1567425831570161671",
+  "max_id": "1567469604715016203",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6032,6 +6032,20 @@
       "source_id": 13751199194,
       "source_name": "Callomerlose",
       "hostname": "Callomerlose",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567469604715016203",
+      "source_ip": "122.32.126.89",
+      "program": "SDBENCHMARK",
+      "message": "Monar 2023-03-01 15:06:40.373177|0.26|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu116 autocast half xformers:0.0.17.dev465 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA T600 (1) (compute_37) (7, 5) cuda:11.6 cudnn:8302 4GB|xformers medvram|최신\\valorantDiffusion_v1.ckpt [ace3121458]|Monar||be2582|61bad4 ",
+      "received_at": "2023-03-01T01:11:38-05:00",
+      "generated_at": "2023-03-01T10:11:38-05:00",
+      "display_received_at": "Mar 01 01:11:38",
+      "source_id": 13752570816,
+      "source_name": "2Brynhildr",
+      "hostname": "2Brynhildr",
       "severity": "Info",
       "facility": "User"
     }
