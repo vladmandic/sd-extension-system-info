@@ -1,5 +1,5 @@
 {
-  "max_id": "1567623095240540160",
+  "max_id": "1567625165079244811",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6830,6 +6830,48 @@
       "source_id": 13752988486,
       "source_name": "VOJO",
       "hostname": "VOJO",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567624803270180873",
+      "source_ip": "211.21.112.5",
+      "program": "SDBENCHMARK",
+      "message": "task(8c8js4oln2i2i5x) 2023-02-28 08:25:34.453501|6.38 / 7.27 / 8.09|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A2000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 6GB|xformers none|CounterfeitV25_25.safetensors [a074b8864e]|toshi||4da433|312055 ",
+      "received_at": "2023-03-01T11:28:20-05:00",
+      "generated_at": "2023-03-01T11:28:20-05:00",
+      "display_received_at": "Mar 01 11:28:20",
+      "source_id": 13752992969,
+      "source_name": "bigred",
+      "hostname": "bigred",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567625165079244800",
+      "source_ip": "180.158.1.217",
+      "program": "SDBENCHMARK",
+      "message": "reynold 2023-03-01 23:53:04.798724|5.63 / 8.57 / 13.26|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8302 16GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|reynold||14e3b6|b7130c ",
+      "received_at": "2023-03-01T11:29:46-05:00",
+      "generated_at": "2023-03-01T19:29:45-05:00",
+      "display_received_at": "Mar 01 11:29:46",
+      "source_id": 13752966035,
+      "source_name": "REYNOLD-HOME",
+      "hostname": "REYNOLD-HOME",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567625165079244811",
+      "source_ip": "180.158.1.217",
+      "program": "SDBENCHMARK",
+      "message": "reynold 2023-03-02 00:29:29.300415|17.03 / 22.31 / 25.9|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 16GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|reynold||2fc42e|844259 ",
+      "received_at": "2023-03-01T11:29:46-05:00",
+      "generated_at": "2023-03-01T19:29:45-05:00",
+      "display_received_at": "Mar 01 11:29:46",
+      "source_id": 13752966035,
+      "source_name": "REYNOLD-HOME",
+      "hostname": "REYNOLD-HOME",
       "severity": "Info",
       "facility": "User"
     }

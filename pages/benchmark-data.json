@@ -1,5 +1,31 @@
 [
   [
+    270,
+    "2023-03-02T00:29:29.300Z",
+    "17.03 / 22.31 / 25.9",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 16GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "reynold",
+    ""
+  ],
+  [
+    269,
+    "2023-02-28T08:25:34.453Z",
+    "6.38 / 7.27 / 8.09",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A2000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 6GB",
+    "xformers none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "toshi",
+    ""
+  ],
+  [
     268,
     "2023-03-01T10:21:02.219Z",
     "10.97 / 15.57 / 20.68 / 30.76 / 34.48",
