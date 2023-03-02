@@ -1,5 +1,5 @@
 {
-  "max_id": "1568015115947786249",
+  "max_id": "1568023188041023493",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3730,6 +3730,41 @@
       "program": "SDBENCHMARK",
       "message": "constant_bid 2023-03-02 12:15:34.133769|1.78 / 2.56 / 2.89 / 3.46 / 2.9|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|Mine\\Umix3.ckpt [f5b0252b0a]|constant_bid||834b86|26616a ",
       "generated_at": "2023-03-02T07:19:18-05:00",
+      "source_id": 13753977808
+    },
+    {
+      "id": "1568017814860783625",
+      "program": "SDBENCHMARK",
+      "message": "mainasuk 2023-03-02 18:29:07.225606|4.85 / 3.58 / 4.08|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1030-gcp python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|Doggettx none|CounterfeitV25_25.safetensors [a074b8864e]|mainasuk||94c1f7|0cd68b ",
+      "generated_at": "2023-03-02T13:30:01-05:00",
+      "source_id": 13753989194
+    },
+    {
+      "id": "1568018268336349190",
+      "program": "SDBENCHMARK",
+      "message": "mainasuk 2023-03-02 18:29:07.225606|4.85 / 3.58 / 4.08|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1030-gcp python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|Doggettx none|CounterfeitV25_25.safetensors [a074b8864e]|mainasuk||94c1f7|0cd68b ",
+      "generated_at": "2023-03-02T13:31:49-05:00",
+      "source_id": 13753989194
+    },
+    {
+      "id": "1568018284102737921",
+      "program": "SDBENCHMARK",
+      "message": "mainasuk 2023-03-02 18:29:07.225606|4.85 / 3.58 / 4.08|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1030-gcp python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|Doggettx none|CounterfeitV25_25.safetensors [a074b8864e]|mainasuk||94c1f7|0cd68b ",
+      "generated_at": "2023-03-02T13:31:53-05:00",
+      "source_id": 13753989194
+    },
+    {
+      "id": "1568023188041023492",
+      "program": "SDBENCHMARK",
+      "message": "there 2023-03-02 12:50:08.670830|2.08 / 2.99 / 3.29|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|Mine\\Umix3.ckpt [f5b0252b0a]|there||834b86|20dd64 ",
+      "generated_at": "2023-03-02T07:51:22-05:00",
+      "source_id": 13753977808
+    },
+    {
+      "id": "1568023188041023493",
+      "program": "SDBENCHMARK",
+      "message": "there 2023-03-02 12:37:36.392782|1.93 / 2.85 / 3.17|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|Doggettx none|Mine\\Umix3.ckpt [f5b0252b0a]|there||3fc4ba|18716b ",
+      "generated_at": "2023-03-02T07:51:22-05:00",
       "source_id": 13753977808
     }
   ]
