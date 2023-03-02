@@ -1,5 +1,5 @@
 {
-  "max_id": "1567966463954972689",
+  "max_id": "1567974934792290312",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3696,6 +3696,20 @@
       "message": "user 2023-03-02 16:05:37.695736|20.54 / 34.04 / 42.18|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19043-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|user||f81539|db8afa ",
       "generated_at": "2023-03-02T11:05:54-05:00",
       "source_id": 13749654496
+    },
+    {
+      "id": "1567974934775521285",
+      "program": "SDBENCHMARK",
+      "message": "mikko 2023-02-23 21:47:26.654500|0.71 / 1.17 / 1.85 / 2.45 / 3.22|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:localhost arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA TITAN X (Pascal) (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 12GB|xformers lowvram|r/v1-5-pruned-emaonly.ckpt [cc6cb27103]|T1tan||4e00eb|f77e74 ",
+      "generated_at": "2023-03-02T12:39:38-05:00",
+      "source_id": 13747862605
+    },
+    {
+      "id": "1567974934792290312",
+      "program": "SDBENCHMARK",
+      "message": "mikko 2023-03-02 17:36:28.000825|3.19 / 3.5 / 3.31|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA TITAN X (Pascal) (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|T1tan||724829|d837ba ",
+      "generated_at": "2023-03-02T12:39:38-05:00",
+      "source_id": 13747862605
     }
   ]
 }

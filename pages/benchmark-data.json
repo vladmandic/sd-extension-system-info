@@ -1,5 +1,18 @@
 [
   [
+    292,
+    "2023-03-02T17:36:28.000Z",
+    "3.19 / 3.5 / 3.31",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9",
+    "torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA TITAN X (Pascal) (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "T1tan",
+    ""
+  ],
+  [
     291,
     "2023-03-02T16:05:37.695Z",
     "20.54 / 34.04 / 42.18",
