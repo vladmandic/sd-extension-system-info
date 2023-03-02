@@ -1,5 +1,5 @@
 {
-  "max_id": "1568051693088845831",
+  "max_id": "1568078768965332993",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3794,6 +3794,27 @@
       "message": "nemz 2023-03-02 21:43:31.598052|27.18 / 37.24 / 43.96||arch:x86_64 cpu: system:Linux release:6.1.12-1-MANJARO python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|nemz||2a6837|85fe32 ",
       "generated_at": "2023-03-02T16:44:39-05:00",
       "source_id": 13754079534
+    },
+    {
+      "id": "1568074547943616523",
+      "program": "SDBENCHMARK",
+      "message": "anon 2023-03-02 12:12:33.138426|11.39 / 21.09 / 24.11 / 25.62 / 22.02|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|animefinal-full-pruned.ckpt [22fa233c2d]|||7b5ab4|74cdcf ",
+      "generated_at": "2023-03-02T07:15:28-05:00",
+      "source_id": 13754136943
+    },
+    {
+      "id": "1568076817502482435",
+      "program": "SDBENCHMARK",
+      "message": "Panchovix 2023-03-02 19:24:15.367689|21.64 / 33.57 / 37.36|updated:2023-02-20 hash:9bd6db90 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0.dev20230227+cu118 autocast half xformers:0.0.17+57edbb7.d20230227 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|2\\Anything-V3.0-pruned.safetensors [6806d4c0f8]|Panchovix|Gaming OC Mode, 3060Mhz core, +1700Mhz on VRAM|c5f335|03c0a1 ",
+      "generated_at": "2023-03-02T14:24:28-05:00",
+      "source_id": 13754144396
+    },
+    {
+      "id": "1568078768965332993",
+      "program": "SDBENCHMARK",
+      "message": "H 2023-03-02 16:31:28.175654|5.65 / 6.38 / 6.44|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 12GB|xformers none|meinamix_meinaV51WithoutVAE.safetensors [785d7a264f]|||89d1b3|3b7e92 ",
+      "generated_at": "2023-03-02T11:32:13-05:00",
+      "source_id": 13754149898
     }
   ]
 }
