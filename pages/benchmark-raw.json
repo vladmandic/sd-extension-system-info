@@ -1,5 +1,5 @@
 {
-  "max_id": "1567756146461306884",
+  "max_id": "1567802043823992835",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6998,6 +6998,48 @@
       "source_id": 13753339611,
       "source_name": "7033fb998d92",
       "hostname": "7033fb998d92",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567790800493010952",
+      "source_ip": "34.170.146.109",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-02 03:20:18.349213|5.19 / 4.04 / 4.37 / 4.44 / 4.74|updated:2023-02-22 hash:6cc93c0c url:https://github.com/viyiviyi/stable-diffusion-webui.git/tree/local|arch:x86_64 cpu:x86_64 system:Linux release:5.15.65+ python:3.7.12|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.16.0 transformers:4.25.1|device:Tesla T4 (2) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers lowram|pvc-2.safetensors [3eede11bf8]|root||420b55|22bb1e ",
+      "received_at": "2023-03-01T22:27:57-05:00",
+      "generated_at": "2023-03-01T22:27:57-05:00",
+      "display_received_at": "Mar 01 22:27:57",
+      "source_id": 13753416183,
+      "source_name": "b263e77ec3a4",
+      "hostname": "b263e77ec3a4",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567801558048104480",
+      "source_ip": "172.83.13.4",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-02 04:08:50.218442|1.9 / 2.25 / 2.59|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16+6f3c20f.d20230127 accelerate:0.12.0 transformers:4.25.1|device:Quadro P5000 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 16GB|xformers medvram|Based64mix-V3.safetensors [fdf0096972]|root||4911e0|060df7 ",
+      "received_at": "2023-03-01T23:10:42-05:00",
+      "generated_at": "2023-03-01T23:10:42-05:00",
+      "display_received_at": "Mar 01 23:10:42",
+      "source_id": 13753437769,
+      "source_name": "ndo0y5dziz",
+      "hostname": "ndo0y5dziz",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567802043823992835",
+      "source_ip": "113.118.112.188",
+      "program": "SDBENCHMARK",
+      "message": "admin 2023-03-02 12:10:50.109136|10.79 / 15.17 / 20.39|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|admin||cd80ad|811bb5 ",
+      "received_at": "2023-03-01T23:12:38-05:00",
+      "generated_at": "2023-03-02T07:11:13-05:00",
+      "display_received_at": "Mar 01 23:12:38",
+      "source_id": 13753438829,
+      "source_name": "ROG-DESKTOP",
+      "hostname": "ROG-DESKTOP",
       "severity": "Info",
       "facility": "User"
     }
