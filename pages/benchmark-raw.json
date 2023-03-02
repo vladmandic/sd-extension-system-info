@@ -1,5 +1,5 @@
 {
-  "max_id": "1567658221513129995",
+  "max_id": "1567756146461306884",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6914,6 +6914,90 @@
       "source_id": 13753090211,
       "source_name": "152-67-234-193",
       "hostname": "152-67-234-193",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567748221089005573",
+      "source_ip": "178.165.177.159",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-02 01:38:21.115842|9.65 / 10.97 / 11.72|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|User||6c411b|1da95c ",
+      "received_at": "2023-03-01T19:38:45-05:00",
+      "generated_at": "2023-03-01T20:38:46-05:00",
+      "display_received_at": "Mar 01 19:38:45",
+      "source_id": 13753321212,
+      "source_name": "DESKTOP-8U0543E",
+      "hostname": "DESKTOP-8U0543E",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567749005256081411",
+      "source_ip": "178.165.177.159",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-02 01:41:34.883169|9.71 / 10.98 / 11.76|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|User||6c411b|90b2a2 ",
+      "received_at": "2023-03-01T19:41:52-05:00",
+      "generated_at": "2023-03-01T20:41:52-05:00",
+      "display_received_at": "Mar 01 19:41:52",
+      "source_id": 13753321212,
+      "source_name": "DESKTOP-8U0543E",
+      "hostname": "DESKTOP-8U0543E",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567749640567308290",
+      "source_ip": "178.165.177.159",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-02 01:41:34.883169|9.71 / 10.98 / 11.76|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|User||6c411b|90b2a2 ",
+      "received_at": "2023-03-01T19:44:24-05:00",
+      "generated_at": "2023-03-01T20:44:24-05:00",
+      "display_received_at": "Mar 01 19:44:24",
+      "source_id": 13753321212,
+      "source_name": "DESKTOP-8U0543E",
+      "hostname": "DESKTOP-8U0543E",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567749650008686596",
+      "source_ip": "178.165.177.159",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-02 01:41:34.883169|9.71 / 10.98 / 11.76|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|User||6c411b|90b2a2 ",
+      "received_at": "2023-03-01T19:44:26-05:00",
+      "generated_at": "2023-03-01T20:44:26-05:00",
+      "display_received_at": "Mar 01 19:44:26",
+      "source_id": 13753321212,
+      "source_name": "DESKTOP-8U0543E",
+      "hostname": "DESKTOP-8U0543E",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567750057271410699",
+      "source_ip": "178.165.177.159",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-02 01:41:34.883169|9.71 / 10.98 / 11.76|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|User||6c411b|90b2a2 ",
+      "received_at": "2023-03-01T19:46:03-05:00",
+      "generated_at": "2023-03-01T20:46:03-05:00",
+      "display_received_at": "Mar 01 19:46:03",
+      "source_id": 13753321212,
+      "source_name": "DESKTOP-8U0543E",
+      "hostname": "DESKTOP-8U0543E",
+      "severity": "Info",
+      "facility": "User"
+    },
+    {
+      "id": "1567756146461306884",
+      "source_ip": "213.173.98.207",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-02 01:08:56.245472|19.01 / 34.28 / 44.67 / 43.88 / 43.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev451 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|root||9186ed|1ca69c ",
+      "received_at": "2023-03-01T20:10:15-05:00",
+      "generated_at": "2023-03-01T20:10:15-05:00",
+      "display_received_at": "Mar 01 20:10:15",
+      "source_id": 13753339611,
+      "source_name": "7033fb998d92",
+      "hostname": "7033fb998d92",
       "severity": "Info",
       "facility": "User"
     }
