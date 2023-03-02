@@ -76,9 +76,19 @@ async function main() {
   // fetch new data
   log('fetching data');
   const res = await get(data?.max_id || 0);
-  if ((res?.events?.length > 0) && (data?.max_id !== res?.max_id)) {
+  if ((res?.events?.length > 0) && (data?.max_id !== res?.max_id) || (process.argv.includes('--force'))) {
     data.max_id = res.max_id;
-    data.events = data.events.concat(res.events);
+    const combined = data.events.concat(res.events).filter((evt) => evt?.message && evt?.id); // combine existing and new data
+    combined.forEach((evt) => { // remove private and unnecessary data
+      delete evt['source_ip'];
+      delete evt['received_at'];
+      delete evt['display_received_at'];
+      delete evt['source_name'];
+      delete evt['hostname'];
+      delete evt['severity'];
+      delete evt['facility'];
+    });
+    data.events = combined;
     // save updated data
     log('saving data:', jsonDataFile);
     fs.writeFileSync(jsonDataFile, JSON.stringify(data, null, 2));
