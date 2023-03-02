@@ -1,5 +1,5 @@
 {
-  "max_id": "1567965233077731331",
+  "max_id": "1567966463954972689",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3689,6 +3689,13 @@
       "message": "lucifer 2023-03-02 06:56:59.210838|0.83 / 0.83 / 0.72|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:i386 system:Darwin release:22.4.0 python:3.10.9|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|deliberate_v2.safetensors [9aba26abdf]|lucifer||cf8b30|bc25c1 ",
       "generated_at": "2023-03-02T02:01:05-05:00",
       "source_id": 13753841826
+    },
+    {
+      "id": "1567966463954972689",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-03-02 16:05:37.695736|20.54 / 34.04 / 42.18|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19043-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|user||f81539|db8afa ",
+      "generated_at": "2023-03-02T11:05:54-05:00",
+      "source_id": 13749654496
     }
   ]
 }
