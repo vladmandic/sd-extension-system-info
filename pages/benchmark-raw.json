@@ -1,5 +1,5 @@
 {
-  "max_id": "1568427744403042339",
+  "max_id": "1568447976718909444",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4312,6 +4312,13 @@
       "message": "nemz 2023-03-03 22:37:37.640843|27.73 / 38.77 / 44.97||arch:x86_64 cpu: system:Linux release:6.1.12-1-MANJARO python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|AbyssOrangeMix_v3.0.safetensors [d124fc18f0]|nemz||2a6837|64604f ",
       "generated_at": "2023-03-03T17:38:56-05:00",
       "source_id": 13754079534
+    },
+    {
+      "id": "1568447976718909444",
+      "program": "SDBENCHMARK",
+      "message": "cingl 2023-03-04 06:58:45.145019|17.32 / 29.76 / 40.93|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|cingl||5a04f2|b846ca ",
+      "generated_at": "2023-03-04T01:59:20-05:00",
+      "source_id": 13751199468
     }
   ]
 }
