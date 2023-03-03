@@ -1,5 +1,5 @@
 {
-  "max_id": "1568184175650058243",
+  "max_id": "1568223345051349002",
   "events": [
     {
       "id": "1564370541899603981",
@@ -3934,6 +3934,76 @@
       "message": "Kewk Lightworker 2023-03-02 21:30:48.087879|27.17 / 35.16 / 40.23|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Kewk Lightworker|https://twitter.com/KewkD|5b32ba|d8c42f ",
       "generated_at": "2023-03-02T16:31:02-05:00",
       "source_id": 13754379515
+    },
+    {
+      "id": "1568216261966606363",
+      "program": "SDBENCHMARK",
+      "message": "mrgfy 2023-02-27 09:43:34.156127|2.45 / 3.2 / 2.22|updated:2023-02-26 hash:84f2d8d2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.2.1-zen1-1-zen python:3.10.9|torch:1.13.1+rocm5.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (2) hip:5.2.21151-afdc89f8 12GB|InvokeAI medvram|liberty_main.safetensors [8634d80dec]|webmaster-exit-1||508425|b2d42e ",
+      "generated_at": "2023-03-02T18:38:35-05:00",
+      "source_id": 13751174840
+    },
+    {
+      "id": "1568216888729841668",
+      "program": "SDBENCHMARK",
+      "message": "webmaster-exit-1 2023-02-27 09:43:34.156127|2.45 / 3.2 / 2.22|updated:2023-02-26 hash:84f2d8d2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.2.1-zen1-1-zen python:3.10.9|torch:1.13.1+rocm5.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (2) hip:5.2.21151-afdc89f8 12GB|InvokeAI medvram|liberty_main.safetensors [8634d80dec]|webmaster-exit-1||508425|b2d42e ",
+      "generated_at": "2023-03-02T18:41:04-05:00",
+      "source_id": 13751174840
+    },
+    {
+      "id": "1568216889258323985",
+      "program": "SDBENCHMARK",
+      "message": "webmaster-exit-1 2023-03-02 23:40:15.808534|2.91|updated:2023-02-26 hash:84f2d8d2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.2.1-273-tkg-tt python:3.10.9|torch:1.13.1+rocm5.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (2) hip:5.2.21151-afdc89f8 12GB|Doggettx medvram|woopwoopPhoto_12.ckpt [41c17cb644]|mrgfy||5ef44b|d9831b ",
+      "generated_at": "2023-03-02T18:41:04-05:00",
+      "source_id": 13751174840
+    },
+    {
+      "id": "1568222331728474123",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:02:42-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223332267110401",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:40-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223337933615113",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:41-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223341284864002",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:42-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223342266331136",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:42-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223344313151498",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:43-05:00",
+      "source_id": 13754467854
+    },
+    {
+      "id": "1568223345051349002",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-03 16:01:21.194559|5.59 / 4.57 / 5.22|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|Chilloutmix-Ni-prune-fp16-fix.safetensors [59ffe2243a]|User||301361|8bde80 ",
+      "generated_at": "2023-03-03T11:06:43-05:00",
+      "source_id": 13754467854
     }
   ]
 }
