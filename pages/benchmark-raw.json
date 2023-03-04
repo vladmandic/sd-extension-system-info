@@ -1,5 +1,5 @@
 {
-  "max_id": "1568720923882876937",
+  "max_id": "1568733513463820290",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4550,6 +4550,20 @@
       "message": "yuxiaorui 2023-03-05 01:01:08.487224|1.11 / 1.17 / 1.03|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.2.0 python:3.10.6|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|768-v-ema.ckpt [bfcaf07557]|yuxiaorui||0b04c5|1cbeb6 ",
       "generated_at": "2023-03-04T20:03:56-05:00",
       "source_id": 13755671840
+    },
+    {
+      "id": "1568732254954516480",
+      "program": "SDBENCHMARK",
+      "message": "jo 2023-03-04 18:48:34.014491|6.18 / 6.92 / 7.46|updated:2023-02-05 hash:ea9bd9fc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|Standard\\Stable Diffusion 1.5 - [v1-5-pruned-emaonly].ckpt [cc6cb27103]|jo||2f42f4|3cda58 ",
+      "generated_at": "2023-03-04T13:48:57-05:00",
+      "source_id": 13755699903
+    },
+    {
+      "id": "1568733513463820290",
+      "program": "SDBENCHMARK",
+      "message": "jo 2023-03-04 18:52:27.624538|6.17 / 6.91 / 7.44 / 8.62 / 8.76|updated:2023-02-05 hash:ea9bd9fc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|Standard\\Stable Diffusion 1.5 - [v1-5-pruned-emaonly].ckpt [cc6cb27103]|jo||2f42f4|fcf5b0 ",
+      "generated_at": "2023-03-04T13:53:57-05:00",
+      "source_id": 13755699903
     }
   ]
 }
