@@ -1,5 +1,31 @@
 [
   [
+    376,
+    "2023-03-05T04:08:21.073Z",
+    "1.67 / 2.18 / 2.38",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Perry",
+    ""
+  ],
+  [
+    375,
+    "2023-03-05T04:00:02.223Z",
+    "1.62 / 2.08 / 2.27",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Perry",
+    ""
+  ],
+  [
     374,
     "2023-03-04T22:01:48.789Z",
     "3.71 / 4.12 / 5.23",
