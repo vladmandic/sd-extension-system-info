@@ -1,5 +1,5 @@
 {
-  "max_id": "1568689481706565633",
+  "max_id": "1568720923882876937",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4543,6 +4543,13 @@
       "message": "akikanoko 2023-03-04 22:57:27.421919|11.88 / 17.75 / 20.1|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.25309-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|anything-v4.5-pruned-fp32.ckpt [1d10a19f06]|akikanoko||55d1f4|4edf12 ",
       "generated_at": "2023-03-04T17:59:01-05:00",
       "source_id": 13755598184
+    },
+    {
+      "id": "1568720923882876937",
+      "program": "SDBENCHMARK",
+      "message": "yuxiaorui 2023-03-05 01:01:08.487224|1.11 / 1.17 / 1.03|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.2.0 python:3.10.6|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|768-v-ema.ckpt [bfcaf07557]|yuxiaorui||0b04c5|1cbeb6 ",
+      "generated_at": "2023-03-04T20:03:56-05:00",
+      "source_id": 13755671840
     }
   ]
 }

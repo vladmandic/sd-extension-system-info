@@ -1,5 +1,18 @@
 [
   [
+    368,
+    "2023-03-05T01:01:08.487Z",
+    "1.11 / 1.17 / 1.03",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.2.0 python:3.10.6",
+    "torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "768-v-ema.ckpt [bfcaf07557]",
+    "yuxiaorui",
+    ""
+  ],
+  [
     367,
     "2023-03-04T22:57:27.421Z",
     "11.88 / 17.75 / 20.1",
