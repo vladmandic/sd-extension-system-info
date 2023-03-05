@@ -1,5 +1,5 @@
 {
-  "max_id": "1568986472915333125",
+  "max_id": "1569008356054712380",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4690,6 +4690,34 @@
       "message": "stuffisgood 2023-03-05 20:38:33.336879|5.01|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|saunderez-512-wd14\\saunderez-512-wd14_8949_lora.safetensors|stuffisgood||c58f9c|907e84 ",
       "generated_at": "2023-03-05T15:39:07-05:00",
       "source_id": 13756242793
+    },
+    {
+      "id": "1568999129596751872",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-05 19:13:54.770743|10.07 / 11.71 / 12.49|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Chris||829525|960017 ",
+      "generated_at": "2023-03-05T14:29:26-05:00",
+      "source_id": 13756271591
+    },
+    {
+      "id": "1568999522447831045",
+      "program": "SDBENCHMARK",
+      "message": "__ai__ 2023-03-05 11:28:30.644721|0.73|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13|torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB|Doggettx medvram|anythingV3_anythingV10.ckpt [76449d56e5]|__ai__||bc14d1|8cc2da ",
+      "generated_at": "2023-03-05T06:30:59-05:00",
+      "source_id": 13756272737
+    },
+    {
+      "id": "1569008356025348106",
+      "program": "SDBENCHMARK",
+      "message": "__ai__ 2023-03-05 11:28:30.644721|0.73|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13|torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB|Doggettx medvram|anythingV3_anythingV10.ckpt [76449d56e5]|__ai__||bc14d1|8cc2da ",
+      "generated_at": "2023-03-05T07:06:05-05:00",
+      "source_id": 13756272737
+    },
+    {
+      "id": "1569008356054712380",
+      "program": "SDBENCHMARK",
+      "message": "__ai__ 2023-03-05 11:51:56.282326|0.86|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13|torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB|Doggettx none|anythingV3_anythingV10.ckpt [76449d56e5]|__ai__||6095cf|9c1e15 ",
+      "generated_at": "2023-03-05T07:06:05-05:00",
+      "source_id": 13756272737
     }
   ]
 }

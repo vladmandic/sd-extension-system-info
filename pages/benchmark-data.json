@@ -1,5 +1,44 @@
 [
   [
+    383,
+    "2023-03-05T11:51:56.282Z",
+    "0.86",
+    "updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13",
+    "torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB",
+    "Doggettx none",
+    "anythingV3_anythingV10.ckpt [76449d56e5]",
+    "__ai__",
+    ""
+  ],
+  [
+    382,
+    "2023-03-05T11:28:30.644Z",
+    "0.73",
+    "updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13",
+    "torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB",
+    "Doggettx medvram",
+    "anythingV3_anythingV10.ckpt [76449d56e5]",
+    "__ai__",
+    ""
+  ],
+  [
+    381,
+    "2023-03-05T19:13:54.770Z",
+    "10.07 / 11.71 / 12.49",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "Chris",
+    ""
+  ],
+  [
     380,
     "2023-03-05T20:38:33.336Z",
     "5.01",
