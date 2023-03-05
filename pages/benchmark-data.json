@@ -1,5 +1,18 @@
 [
   [
+    384,
+    "2023-03-05T13:59:43.331Z",
+    "3.46 / 3.91 / 4.13",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.65+ python:3.10.5",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.16.0 transformers:4.25.1",
+    "device:Tesla P100-PCIE-16GB (1) (sm_86) (6, 0) cuda:11.7 cudnn:8500 16GB",
+    "xformers none",
+    "WhiteDistance-v3.safetensors [f20a67fdfa]",
+    "root",
+    ""
+  ],
+  [
     383,
     "2023-03-05T11:51:56.282Z",
     "0.86",
