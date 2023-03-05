@@ -1,5 +1,5 @@
 {
-  "max_id": "1568949399386763271",
+  "max_id": "1568986472915333125",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4683,6 +4683,13 @@
       "message": "38263 2023-03-05 16:09:30.886805|4.4 / 6.41 / 7.42|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers medvram|chilloutmix_NiCkpt.ckpt [3a17d0deff]|38263||37fab9|07c499 ",
       "generated_at": "2023-03-05T11:11:31-05:00",
       "source_id": 13756161452
+    },
+    {
+      "id": "1568986472915333125",
+      "program": "SDBENCHMARK",
+      "message": "stuffisgood 2023-03-05 20:38:33.336879|5.01|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|saunderez-512-wd14\\saunderez-512-wd14_8949_lora.safetensors|stuffisgood||c58f9c|907e84 ",
+      "generated_at": "2023-03-05T15:39:07-05:00",
+      "source_id": 13756242793
     }
   ]
 }

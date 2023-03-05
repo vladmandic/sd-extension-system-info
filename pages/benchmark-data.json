@@ -1,5 +1,18 @@
 [
   [
+    380,
+    "2023-03-05T20:38:33.336Z",
+    "5.01",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB",
+    "xformers medvram",
+    "saunderez-512-wd14\\saunderez-512-wd14_8949_lora.safetensors",
+    "stuffisgood",
+    ""
+  ],
+  [
     379,
     "2023-03-05T16:09:30.886Z",
     "4.4 / 6.41 / 7.42",
