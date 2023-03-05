@@ -1,5 +1,5 @@
 {
-  "max_id": "1568934077548126215",
+  "max_id": "1568949399386763271",
   "events": [
     {
       "id": "1564370541899603981",
@@ -4648,6 +4648,41 @@
       "message": "Goldendog 2023-03-05 15:06:38.610938|1.51 / 1.85 / 2.09||arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.15.0 transformers:4.25.1|device:NVIDIA P104-100 (2) (compute_37) (6, 1) cuda:11.3 cudnn:8302 8GB|xformers none|f222 inpainting.inpainting.safetensors [94e6cad2b4]|Goldendog||269246|30ff16 ",
       "generated_at": "2023-03-05T10:10:56-05:00",
       "source_id": 13756130491
+    },
+    {
+      "id": "1568946446227664903",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-05 15:58:36.582490|2.44 / 2.77 / 2.86|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA P102-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 10GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator||2cff13|020018 ",
+      "generated_at": "2023-03-05T11:00:04-05:00",
+      "source_id": 13756154566
+    },
+    {
+      "id": "1568946483930263553",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-05 15:58:36.582490|2.44 / 2.77 / 2.86|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA P102-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 10GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator||2cff13|020018 ",
+      "generated_at": "2023-03-05T11:00:13-05:00",
+      "source_id": 13756154566
+    },
+    {
+      "id": "1568946487688359939",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-05 15:58:36.582490|2.44 / 2.77 / 2.86|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA P102-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 10GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator||2cff13|020018 ",
+      "generated_at": "2023-03-05T11:00:14-05:00",
+      "source_id": 13756154566
+    },
+    {
+      "id": "1568946489563213844",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-05 15:58:36.582490|2.44 / 2.77 / 2.86|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA P102-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 10GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator||2cff13|020018 ",
+      "generated_at": "2023-03-05T11:00:15-05:00",
+      "source_id": 13756154566
+    },
+    {
+      "id": "1568949399386763271",
+      "program": "SDBENCHMARK",
+      "message": "38263 2023-03-05 16:09:30.886805|4.4 / 6.41 / 7.42|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers medvram|chilloutmix_NiCkpt.ckpt [3a17d0deff]|38263||37fab9|07c499 ",
+      "generated_at": "2023-03-05T11:11:31-05:00",
+      "source_id": 13756161452
     }
   ]
 }
