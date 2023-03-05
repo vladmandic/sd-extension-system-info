@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-05T14:12:43.508Z
+  ## Updated: 2023-03-05T15:14:25.206Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |384|2023-03-05T13:59:43.331Z|3.46 / 3.91 / 4.13|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.65+ python:3.10.5|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.16.0 transformers:4.25.1|device:Tesla P100-PCIE-16GB (1) (sm_86) (6, 0) cuda:11.7 cudnn:8500 16GB|xformers none|WhiteDistance-v3.safetensors [f20a67fdfa]|root||
+  |385|2023-03-05T22:28:22.908Z|10.22 / 11.6 / 12.38|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Perry||
+|384|2023-03-05T13:59:43.331Z|3.46 / 3.91 / 4.13|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.65+ python:3.10.5|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.16.0 transformers:4.25.1|device:Tesla P100-PCIE-16GB (1) (sm_86) (6, 0) cuda:11.7 cudnn:8500 16GB|xformers none|WhiteDistance-v3.safetensors [f20a67fdfa]|root||
 |383|2023-03-05T11:51:56.282Z|0.86|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13|torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB|Doggettx none|anythingV3_anythingV10.ckpt [76449d56e5]|__ai__||
 |382|2023-03-05T11:28:30.644Z|0.73|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.13|torch:1.12.0+cu116 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro M4000 (1) (sm_86) (5, 2) cuda:11.6 cudnn:8302 8GB|Doggettx medvram|anythingV3_anythingV10.ckpt [76449d56e5]|__ai__||
 |381|2023-03-05T19:13:54.770Z|10.07 / 11.71 / 12.49|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Chris||
