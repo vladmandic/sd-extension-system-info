@@ -1,5 +1,5 @@
 {
-  "max_id": "1569444361203277835",
+  "max_id": "1569454225149308956",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5131,6 +5131,34 @@
       "message": "heads 2023-03-06 17:56:25.092275|9.91 / 12.33 / 11.78|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|HD-22.ckpt [a05d076a39]|heads|Too slow at the moment|47784f|195204 ",
       "generated_at": "2023-03-06T12:58:27-05:00",
       "source_id": 13757327490
+    },
+    {
+      "id": "1569449432158760963",
+      "program": "SDBENCHMARK",
+      "message": "zzbest 2023-03-07 01:17:35.771747|2.33 / 3.02 / 3.43|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 62 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla P40 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 22GB|xformers lowram|anythingV3Inpainting_1-inpainting.ckpt [92cb44cc9a]|zzbest||1ebee9|e24318 ",
+      "generated_at": "2023-03-06T20:18:45-05:00",
+      "source_id": 13757344695
+    },
+    {
+      "id": "1569451889823760414",
+      "program": "SDBENCHMARK",
+      "message": "yoloswag 2023-03-06 17:27:40.130818|11.48 / 18.12 / 21.99|updated:2023-02-19 hash:076d624a url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:5.14.0-162.6.1.el9_1.0.1.x86_64 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev449 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|Realistic_Vision_V1.4.safetensors [21c6d51e3e]|yoloswag||5c8d37|438164 ",
+      "generated_at": "2023-03-06T12:28:32-05:00",
+      "source_id": 13757351758
+    },
+    {
+      "id": "1569454188038123524",
+      "program": "SDBENCHMARK",
+      "message": "zzbest 2023-03-07 01:17:35.771747|2.33 / 3.02 / 3.43|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 62 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla P40 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 22GB|xformers lowram|anythingV3Inpainting_1-inpainting.ckpt [92cb44cc9a]|zzbest||1ebee9|e24318 ",
+      "generated_at": "2023-03-06T20:37:39-05:00",
+      "source_id": 13757344695
+    },
+    {
+      "id": "1569454225149308956",
+      "program": "SDBENCHMARK",
+      "message": "Roland 2023-03-06 18:34:58.168297|2.58 / 3.37 / 3.75|updated:2023-02-13 hash:3715ece url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|0.7pastelmix_0.3abyssorange.safetensors [1a54ec8d3f]|Roland||8aec31|cfd9cb ",
+      "generated_at": "2023-03-06T13:37:47-05:00",
+      "source_id": 13757359004
     }
   ]
 }
