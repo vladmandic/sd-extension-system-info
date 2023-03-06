@@ -1,5 +1,57 @@
 [
   [
+    410,
+    "2023-03-06T17:35:04.973Z",
+    "32.0 / 38.25 / 45.41",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "R",
+    ""
+  ],
+  [
+    409,
+    "2023-03-06T17:36:20.640Z",
+    "24.61 / 34.6 / 41.97",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "liase",
+    ""
+  ],
+  [
+    408,
+    "2023-03-06T17:33:01.725Z",
+    "4.08 / 14.11 / 28.06",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers medvram",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "test",
+    ""
+  ],
+  [
+    407,
+    "2023-03-06T17:23:59.078Z",
+    "9.28 / 18.03 / 28.26",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers medvram",
+    "sd-v1-4.ckpt [fe4efff1e1]",
+    "test",
+    ""
+  ],
+  [
     406,
     "2023-03-06T17:01:25.355Z",
     "31.54 / 38.11 / 45.16",
