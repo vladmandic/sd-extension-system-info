@@ -1,5 +1,5 @@
 {
-  "max_id": "1569368379297546248",
+  "max_id": "1569378185257345028",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5047,6 +5047,13 @@
       "message": "WANG 2023-03-06 19:56:09.559213|4.37 / 6.17 / 9.72|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.9|torch:2.1.0.dev20230302+cu118 autocast half xformers:0.0.17+b89a493.d20230305 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|koreanstyle25D_koreanstyle25DBaked.safetensors [fa98706258]|WANG||5bdb4f|e8299f ",
       "generated_at": "2023-03-06T14:56:40-05:00",
       "source_id": 13757074031
+    },
+    {
+      "id": "1569378185257345028",
+      "program": "SDBENCHMARK",
+      "message": "정수정 2023-03-06 21:34:28.294579|7.83 / 9.23 / 10.1|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|정수정||d4bf43|7f4a5a ",
+      "generated_at": "2023-03-06T16:35:39-05:00",
+      "source_id": 13757132451
     }
   ]
 }
