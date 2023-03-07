@@ -1,5 +1,5 @@
 {
-  "max_id": "1569664594824310799",
+  "max_id": "1569679785322524682",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5270,6 +5270,20 @@
       "program": "SDBENCHMARK",
       "message": "R 2023-03-07 15:33:09.722970|31.59 / 39.01 / 45.32|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|1.safetensors [fa49dddec9]|R||7cdcc3|1f2aa6 ",
       "generated_at": "2023-03-07T10:33:45-05:00",
+      "source_id": 13756994103
+    },
+    {
+      "id": "1569679785318330387",
+      "program": "SDBENCHMARK",
+      "message": "R 2023-03-07 15:27:39.446836|12.16 / 16.4 / 21.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|1.safetensors [fa49dddec9]|R||6137f7|fcf008 ",
+      "generated_at": "2023-03-07T11:34:07-05:00",
+      "source_id": 13756994103
+    },
+    {
+      "id": "1569679785322524682",
+      "program": "SDBENCHMARK",
+      "message": "R 2023-03-07 16:33:54.361641|32.21 / 40.09 / 46.59|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|dvmech_200.safetensors [5be3a48487]|R||7cdcc3|160f97 ",
+      "generated_at": "2023-03-07T11:34:07-05:00",
       "source_id": 13756994103
     }
   ]
