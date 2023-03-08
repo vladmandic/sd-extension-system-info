@@ -1,5 +1,44 @@
 [
   [
+    469,
+    "2023-03-08T09:42:55.321Z",
+    "20.27 / 31.26 / 33.23",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "AbyssOrangeMix2 - SFW.safetensors [2c6c9b3e47]",
+    "dou-f",
+    ""
+  ],
+  [
+    468,
+    "2023-03-08T09:47:33.140Z",
+    "22.26 / 34.67 / 42.09",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers lowram",
+    "Chilloutmix.safetensors [a757fe8b3d]",
+    "dou-f",
+    ""
+  ],
+  [
+    467,
+    "2023-03-08T09:26:15.027Z",
+    "21.1 / 32.89 / 38.3",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers lowram",
+    "AbyssOrangeMix2 - SFW.safetensors [2c6c9b3e47]",
+    "dou-f",
+    ""
+  ],
+  [
     466,
     "2023-03-08T01:19:40.580Z",
     "18.13 / 19.66 / 21.05",
