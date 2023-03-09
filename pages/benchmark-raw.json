@@ -1,5 +1,5 @@
 {
-  "max_id": "1570299459940839441",
+  "max_id": "1570336275834269705",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5929,6 +5929,27 @@
       "message": "rainer2k1 2023-03-09 02:34:07.021787|1.04 / 1.13 / 1.34|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce GTX 1070 (2) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|Doggettx none|v1-5-pruned.ckpt [e1441589a6]|rainer2k1||a0fdea|179969 ",
       "generated_at": "2023-03-08T21:36:29-05:00",
       "source_id": 13759507092
+    },
+    {
+      "id": "1570331747072270341",
+      "program": "SDBENCHMARK",
+      "message": "piket 2023-03-09 08:43:50.762916|6.13 / 5.1 / 5.85|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|abyssorangemix2_Hard.safetensors [e714ee20aa]|piket||7bd721|ba0314 ",
+      "generated_at": "2023-03-09T03:44:46-05:00",
+      "source_id": 13759576288
+    },
+    {
+      "id": "1570331833546235909",
+      "program": "SDBENCHMARK",
+      "message": "piket 2023-03-09 08:43:50.762916|6.13 / 5.1 / 5.85|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|abyssorangemix2_Hard.safetensors [e714ee20aa]|piket||7bd721|ba0314 ",
+      "generated_at": "2023-03-09T03:45:06-05:00",
+      "source_id": 13759576288
+    },
+    {
+      "id": "1570336275834269705",
+      "program": "SDBENCHMARK",
+      "message": "Luge 2023-03-08 20:01:31.044681|2.55 / 3.36 / 3.69|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|ayonimix_V5.safetensors [b46b04432b]|Luge||d56f11|0cc584 ",
+      "generated_at": "2023-03-08T15:02:46-05:00",
+      "source_id": 13759585119
     }
   ]
 }
