@@ -1,5 +1,44 @@
 [
   [
+    508,
+    "2023-03-08T22:19:10.510Z",
+    "21.03 / 37.58 / 47.69",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "protogenX34OfficialR_1.ckpt [61a37adf76]",
+    "v1rtu0so",
+    ""
+  ],
+  [
+    507,
+    "2023-03-08T22:06:33.373Z",
+    "20.94 / 37.25 / 47.77 / 46.13 / 45.87",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "SDv1-5-pruned.ckpt [e1441589a6]",
+    "v1rtu0so",
+    ""
+  ],
+  [
+    506,
+    "2023-03-09T14:34:51.925Z",
+    "5.0 / 5.35 / 5.9",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB",
+    "xformers none",
+    "expmixLine_v20.safetensors [b3e1b725e3]",
+    "artemis",
+    ""
+  ],
+  [
     505,
     "2023-03-09T12:05:13.996Z",
     "0.24 / 0.33 / 0.32",
