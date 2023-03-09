@@ -1,5 +1,18 @@
 [
   [
+    514,
+    "2023-03-09T17:22:16.800Z",
+    "0.78 / 0.96 / error",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro P2000 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 5GB",
+    "Doggettx none",
+    "v2-1_768-ema-pruned.ckpt [ad2a33c361]",
+    "radim.kabelac",
+    ""
+  ],
+  [
     513,
     "2023-03-10T00:07:47.912Z",
     "13.74 / 22.21 / 28.21",

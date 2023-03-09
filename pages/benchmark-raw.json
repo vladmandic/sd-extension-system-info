@@ -1,5 +1,5 @@
 {
-  "max_id": "1570518785864155149",
+  "max_id": "1570522826920882176",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6013,6 +6013,13 @@
       "message": "Administrator 2023-03-10 00:07:47.912670|13.74 / 22.21 / 28.21|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|Doggettx lowram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Administrator||7f2031|892671 ",
       "generated_at": "2023-03-09T19:08:01-05:00",
       "source_id": 13760044298
+    },
+    {
+      "id": "1570522826920882176",
+      "program": "SDBENCHMARK",
+      "message": "radim.kabelac 2023-03-09 17:22:16.800880|0.78 / 0.96 / error||arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro P2000 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 5GB|Doggettx none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|radim.kabelac||cb54b2|eaa8a1 ",
+      "generated_at": "2023-03-09T12:24:03-05:00",
+      "source_id": 13760060018
     }
   ]
 }

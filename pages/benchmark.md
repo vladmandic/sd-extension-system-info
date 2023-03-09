@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-09T16:22:12.058Z
+  ## Updated: 2023-03-09T17:14:31.011Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |513|2023-03-10T00:07:47.912Z|13.74 / 22.21 / 28.21|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|Doggettx lowram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Administrator||
+  |514|2023-03-09T17:22:16.800Z|0.78 / 0.96 / error||arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Quadro P2000 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 5GB|Doggettx none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|radim.kabelac||
+|513|2023-03-10T00:07:47.912Z|13.74 / 22.21 / 28.21|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|Doggettx lowram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Administrator||
 |512|2023-03-10T00:02:10.345Z|13.6 / 22.34 / 27.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|Doggettx lowram|luckyStrikeMix_V01.safetensors [8a6ef10426]|Administrator||
 |511|2023-03-09T19:44:38.673Z|19.46 / 32.0 / 36.71|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|orangeslushymix_v10.safetensors [1a1c47054a]|domon||
 |510|2023-03-09T10:39:43.984Z|4.6 / 6.07 / 7.4 / 8.31 / 8.74|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:5.10.102.1-microsoft-standard-WSL2 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev449 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers medvram|v1-5-pruned-emaonly.safetensors [6ce0161689]|Pomee|Docker setup|
