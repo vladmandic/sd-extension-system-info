@@ -1,5 +1,5 @@
 {
-  "max_id": "1570336275834269705",
+  "max_id": "1570347222032375813",
   "events": [
     {
       "id": "1564370541899603981",
@@ -5950,6 +5950,13 @@
       "message": "Luge 2023-03-08 20:01:31.044681|2.55 / 3.36 / 3.69|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|ayonimix_V5.safetensors [b46b04432b]|Luge||d56f11|0cc584 ",
       "generated_at": "2023-03-08T15:02:46-05:00",
       "source_id": 13759585119
+    },
+    {
+      "id": "1570347222032375813",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-09 12:05:13.996016|0.24 / 0.33 / 0.32|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 4GB|xformers none|Anything_V3\\anythingV3_fp16.ckpt [812cd9f9d9]|User||939f39|cb2276 ",
+      "generated_at": "2023-03-09T07:46:18-05:00",
+      "source_id": 13759608212
     }
   ]
 }
