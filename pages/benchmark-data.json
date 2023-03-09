@@ -1,5 +1,31 @@
 [
   [
+    513,
+    "2023-03-10T00:07:47.912Z",
+    "13.74 / 22.21 / 28.21",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB",
+    "Doggettx lowram",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "Administrator",
+    ""
+  ],
+  [
+    512,
+    "2023-03-10T00:02:10.345Z",
+    "13.6 / 22.34 / 27.71",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB",
+    "Doggettx lowram",
+    "luckyStrikeMix_V01.safetensors [8a6ef10426]",
+    "Administrator",
+    ""
+  ],
+  [
     511,
     "2023-03-09T19:44:38.673Z",
     "19.46 / 32.0 / 36.71",
