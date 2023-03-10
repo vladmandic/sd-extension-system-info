@@ -1,5 +1,5 @@
 {
-  "max_id": "1570746793933848603",
+  "max_id": "1570746847046320146",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6159,6 +6159,34 @@
       "program": "SDBENCHMARK",
       "message": "Administrator14364 2023-03-10 15:12:54.276429|23.42 / 38.35 / 43.32 / 42.88 / 43.02|updated:2023-02-20 hash:0cc0ee1bc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230306+cu118 autocast half xformers:0.0.17+b89a493.d20230302 accelerate:0.16.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|grapefruitHentaiModel_grapefruitv4.safetensors [37a86dca58]|Administrator14364||29eb9f|dfdb40 ",
       "generated_at": "2023-03-10T10:14:00-05:00",
+      "source_id": 13751911480
+    },
+    {
+      "id": "1570746847042125836",
+      "program": "SDBENCHMARK",
+      "message": "Administrator14364 2023-02-28 21:42:32.053744|18.71 / 28.88 / 33.69 / 35.53 / 34.5|updated:2023-02-20 hash:0cc0ee1bc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|NanayaChiaki||f84738|84ece3 ",
+      "generated_at": "2023-03-10T10:14:13-05:00",
+      "source_id": 13751911480
+    },
+    {
+      "id": "1570746847042125840",
+      "program": "SDBENCHMARK",
+      "message": "Administrator14364 2023-03-02 15:03:33.238426|22.43 / 35.44 / 40.05 / 39.29 / 39.36|updated:2023-02-20 hash:0cc0ee1bc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0.dev20230228+cu118 autocast half xformers:0.0.17+b89a493.d20230302 accelerate:0.16.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator114514||08eea2|e1773e ",
+      "generated_at": "2023-03-10T10:14:13-05:00",
+      "source_id": 13751911480
+    },
+    {
+      "id": "1570746847042125842",
+      "program": "SDBENCHMARK",
+      "message": "Administrator14364 2023-03-02 14:37:47.030223|20.75 / 29.66 / 35.74 / 35.85 / 35.04|updated:2023-02-20 hash:0cc0ee1bc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0.dev20230228+cu118 autocast half xformers:0.0.17+b89a493.d20230302 accelerate:0.16.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Administrator1||946866|02b54a ",
+      "generated_at": "2023-03-10T10:14:13-05:00",
+      "source_id": 13751911480
+    },
+    {
+      "id": "1570746847046320146",
+      "program": "SDBENCHMARK",
+      "message": "Administrator14364 2023-03-10 15:12:54.276429|23.42 / 38.35 / 43.32 / 42.88 / 43.02|updated:2023-02-20 hash:0cc0ee1bc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230306+cu118 autocast half xformers:0.0.17+b89a493.d20230302 accelerate:0.16.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|grapefruitHentaiModel_grapefruitv4.safetensors [37a86dca58]|Administrator14364||29eb9f|dfdb40 ",
+      "generated_at": "2023-03-10T10:14:13-05:00",
       "source_id": 13751911480
     }
   ]
