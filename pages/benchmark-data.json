@@ -1,5 +1,44 @@
 [
   [
+    520,
+    "2023-03-10T14:08:11.132Z",
+    "17.31 / 31.01 / 40.28",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "chenj",
+    ""
+  ],
+  [
+    519,
+    "2023-03-10T14:03:49.608Z",
+    "18.06 / 31.42 / 41.57 / 41.08 / 39.24",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "DaLiMiHunDan-V0.2.ckpt [a5f1235eda]",
+    "chenj",
+    ""
+  ],
+  [
+    518,
+    "2023-03-10T14:59:02.520Z",
+    "25.74 / 38.12 / 42.59 / 45.46 / 42.84",
+    "updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.2-arch1-1 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "rubyon",
+    ""
+  ],
+  [
     517,
     "2023-03-10T04:08:57.651Z",
     "3.83 / 2.43 / 2.46",
