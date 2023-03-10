@@ -1,5 +1,5 @@
 {
-  "max_id": "1570861785844723712",
+  "max_id": "1570890014299185158",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6307,6 +6307,13 @@
       "message": "user 2023-03-10 23:49:27.057608|11.71 / 13.21 / 14.17|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:user arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|Counterfeit-V2.2.safetensors [7d7b896083]|user||6a23c1|c8b885 ",
       "generated_at": "2023-03-10T18:50:57-05:00",
       "source_id": 13760903426
+    },
+    {
+      "id": "1570890014299185158",
+      "program": "SDBENCHMARK",
+      "message": "SHOWTEX 2023-03-10 17:42:49.166713|11.12 / 15.97 / 18.33|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|AbyssOrangeMix2_nsfw.safetensors [0873291ac5]|SHOWTEX||14b431|ce17f1 ",
+      "generated_at": "2023-03-10T12:43:06-05:00",
+      "source_id": 13760982216
     }
   ]
 }
