@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-10T17:13:29.514Z
+  ## Updated: 2023-03-10T18:18:03.112Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |535|2023-03-10T17:42:49.166Z|11.12 / 15.97 / 18.33|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|AbyssOrangeMix2_nsfw.safetensors [0873291ac5]|SHOWTEX||
+  |536|2023-03-07T23:05:46.086Z|4.04 / 4.94 / 6.19|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|mixProV3_v3.safetensors [b6928134bb]|Admkendo||
+|535|2023-03-10T17:42:49.166Z|11.12 / 15.97 / 18.33|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|AbyssOrangeMix2_nsfw.safetensors [0873291ac5]|SHOWTEX||
 |534|2023-03-10T23:49:27.057Z|11.71 / 13.21 / 14.17|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:user arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|Counterfeit-V2.2.safetensors [7d7b896083]|user||
 |533|2023-03-10T14:48:27.226Z|13.16 / 14.8 / 16.09|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-74-lowlatency python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A5000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|vsys-admin||
 |532|2023-03-10T23:46:46.833Z|12.23 / 8.89 / 10.51 / 11.73 / 12.64|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:user arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|Counterfeit-V2.2.safetensors [7d7b896083]|user||
