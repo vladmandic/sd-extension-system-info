@@ -1,5 +1,5 @@
 {
-  "max_id": "1570955438441279493",
+  "max_id": "1570966392872808451",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6342,6 +6342,34 @@
       "message": "LinPC 2023-03-11 05:00:54.041650|10.1 / 15.23 / 20.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers lowram|cetusMix_cetusVersion2.safetensors [e911995387]|LinPC||4eb601|ae638b ",
       "generated_at": "2023-03-11T00:03:08-05:00",
       "source_id": 13761160150
+    },
+    {
+      "id": "1570966193576259593",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 22:45:06.227565|15.71 / 17.96 / 19.85 / 21.44 / 23.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Chris||768d0c|f6d3b8 ",
+      "generated_at": "2023-03-10T17:45:51-05:00",
+      "source_id": 13761186464
+    },
+    {
+      "id": "1570966247171076103",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 22:45:06.227565|15.71 / 17.96 / 19.85 / 21.44 / 23.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Chris||768d0c|f6d3b8 ",
+      "generated_at": "2023-03-10T17:46:03-05:00",
+      "source_id": 13761186464
+    },
+    {
+      "id": "1570966260446048268",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 22:45:06.227565|15.71 / 17.96 / 19.85 / 21.44 / 23.45|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Chris||768d0c|f6d3b8 ",
+      "generated_at": "2023-03-10T17:46:07-05:00",
+      "source_id": 13761186464
+    },
+    {
+      "id": "1570966392872808451",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 22:46:27.733040|16.65 / 19.4 / 21.04|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Chris||768d0c|e22294 ",
+      "generated_at": "2023-03-10T17:46:38-05:00",
+      "source_id": 13761186464
     }
   ]
 }

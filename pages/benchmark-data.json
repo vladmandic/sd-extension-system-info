@@ -1,5 +1,31 @@
 [
   [
+    540,
+    "2023-03-10T22:46:27.733Z",
+    "16.65 / 19.4 / 21.04",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Chris",
+    ""
+  ],
+  [
+    539,
+    "2023-03-10T22:45:06.227Z",
+    "15.71 / 17.96 / 19.85 / 21.44 / 23.45",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Chris",
+    ""
+  ],
+  [
     538,
     "2023-03-11T05:00:54.041Z",
     "10.1 / 15.23 / 20.92",
