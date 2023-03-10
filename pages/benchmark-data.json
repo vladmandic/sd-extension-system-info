@@ -1,5 +1,44 @@
 [
   [
+    525,
+    "2023-03-10T03:47:08.577Z",
+    "17.4 / 26.66 / 29.37 / 29.99 / 29.12",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230308+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "cover",
+    ""
+  ],
+  [
+    524,
+    "2023-03-10T03:15:06.866Z",
+    "15.93 / 25.01 / 27.28 / 27.49 / 28.33",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230308+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "cover",
+    ""
+  ],
+  [
+    523,
+    "2023-03-10T03:03:24.003Z",
+    "9.88 / 13.96 / 18.13 / 25.18 / 27.92",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "cover",
+    ""
+  ],
+  [
     522,
     "2023-03-10T15:12:54.276Z",
     "23.42 / 38.35 / 43.32 / 42.88 / 43.02",
