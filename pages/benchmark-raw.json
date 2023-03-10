@@ -1,5 +1,5 @@
 {
-  "max_id": "1570900389228900361",
+  "max_id": "1570939372503752708",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6321,6 +6321,20 @@
       "message": "ADMIN 2023-03-07 23:05:46.086193|4.04 / 4.94 / 6.19|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|mixProV3_v3.safetensors [b6928134bb]|Admkendo||7dc22c|1ff46b ",
       "generated_at": "2023-03-10T20:24:20-05:00",
       "source_id": 13761013937
+    },
+    {
+      "id": "1570939372499558403",
+      "program": "SDBENCHMARK",
+      "message": "khorosh 2023-03-10 04:08:57.651639|3.83 / 2.43 / 2.46|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Realistic_Vision_V1.3.safetensors [c35782bad8]|hfx||11db1b|9eb175 ",
+      "generated_at": "2023-03-10T16:59:15-05:00",
+      "source_id": 13760431613
+    },
+    {
+      "id": "1570939372503752708",
+      "program": "SDBENCHMARK",
+      "message": "khorosh 2023-03-10 21:08:51.156071|9.96 / 13.22 / 14.62 / 15.26 / 15.89|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Realistic_Vision_V1.3.safetensors [c35782bad8]|khorosh||f0d89b|6506a1 ",
+      "generated_at": "2023-03-10T16:59:15-05:00",
+      "source_id": 13760431613
     }
   ]
 }

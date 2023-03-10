@@ -1,5 +1,18 @@
 [
   [
+    537,
+    "2023-03-10T21:08:51.156Z",
+    "9.96 / 13.22 / 14.62 / 15.26 / 15.89",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "Realistic_Vision_V1.3.safetensors [c35782bad8]",
+    "khorosh",
+    ""
+  ],
+  [
     536,
     "2023-03-07T23:05:46.086Z",
     "4.04 / 4.94 / 6.19",
