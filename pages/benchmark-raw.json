@@ -1,5 +1,5 @@
 {
-  "max_id": "1570826649409339403",
+  "max_id": "1570849717154406427",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6251,6 +6251,27 @@
       "message": "wangzhi 2023-03-10 20:31:03.376064|13.42 / 19.53 / 22.3|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:3.10.0-1160.el7.x86_64 python:3.10.9|torch:1.13.1+cu117 autocast nohalf xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA A100 80GB PCIe (4) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers none|Orangemix/AbyssOrangeMix2_sfw.safetensors [038ba203d8]|wangzhi||2d08e9|6fe069 ",
       "generated_at": "2023-03-10T15:31:33-05:00",
       "source_id": 13760808256
+    },
+    {
+      "id": "1570848167409397765",
+      "program": "SDBENCHMARK",
+      "message": "kyouko 2023-03-10 22:55:52.329256|9.41 / 7.0 / 8.5||host:DESKTOP-1600X arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|Doggettx none|Counterfeit-V2.2.safetensors [7d7b896083]|kyouko||27bc3f|8af55a ",
+      "generated_at": "2023-03-10T17:56:48-05:00",
+      "source_id": 13760865115
+    },
+    {
+      "id": "1570848260216774672",
+      "program": "SDBENCHMARK",
+      "message": "kyouko 2023-03-10 22:55:52.329256|9.41 / 7.0 / 8.5||host:DESKTOP-1600X arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|Doggettx none|Counterfeit-V2.2.safetensors [7d7b896083]|kyouko||27bc3f|8af55a ",
+      "generated_at": "2023-03-10T17:57:10-05:00",
+      "source_id": 13760865115
+    },
+    {
+      "id": "1570849717154406427",
+      "program": "SDBENCHMARK",
+      "message": "kyouko 2023-03-10 23:00:22.911273|8.95 / 10.58 / 11.32 / 9.12 / 10.0||host:DESKTOP-1600X arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|Doggettx none|Counterfeit-V2.2.safetensors [7d7b896083]|kyouko||27bc3f|0978f9 ",
+      "generated_at": "2023-03-10T18:02:58-05:00",
+      "source_id": 13760865115
     }
   ]
 }
