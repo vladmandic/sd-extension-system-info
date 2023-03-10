@@ -1,5 +1,31 @@
 [
   [
+    517,
+    "2023-03-10T04:08:57.651Z",
+    "3.83 / 2.43 / 2.46",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "Realistic_Vision_V1.3.safetensors [c35782bad8]",
+    "hfx",
+    ""
+  ],
+  [
+    516,
+    "2023-03-10T03:57:04.167Z",
+    "4.44 / 4.64 / 2.39",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "Realistic_Vision_V1.3.safetensors [c35782bad8]",
+    "hfx",
+    ""
+  ],
+  [
     515,
     "2023-03-09T19:52:07.828Z",
     "3.72 / 5.02 / 5.86",
