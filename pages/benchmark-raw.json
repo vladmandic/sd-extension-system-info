@@ -1,5 +1,5 @@
 {
-  "max_id": "1570770861047332864",
+  "max_id": "1570801290265686017",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6230,6 +6230,20 @@
       "message": "OMGnotThatGuy 2023-03-10 03:47:08.577887|17.4 / 26.66 / 29.37 / 29.99 / 29.12|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|cover||d991a5|0fcac5 ",
       "generated_at": "2023-03-09T22:49:39-05:00",
       "source_id": 13760665780
+    },
+    {
+      "id": "1570801280513929217",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 18:49:16.061778|10.49 / 11.79 / 12.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Chris||829525|e2dee8 ",
+      "generated_at": "2023-03-10T13:50:33-05:00",
+      "source_id": 13756271591
+    },
+    {
+      "id": "1570801290265686017",
+      "program": "SDBENCHMARK",
+      "message": "Chris 2023-03-10 18:49:16.061778|10.49 / 11.79 / 12.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Chris||829525|e2dee8 ",
+      "generated_at": "2023-03-10T13:50:35-05:00",
+      "source_id": 13756271591
     }
   ]
 }
