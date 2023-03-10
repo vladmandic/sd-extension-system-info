@@ -1,5 +1,5 @@
 {
-  "max_id": "1570801290265686017",
+  "max_id": "1570826649409339403",
   "events": [
     {
       "id": "1564370541899603981",
@@ -6244,6 +6244,13 @@
       "message": "Chris 2023-03-10 18:49:16.061778|10.49 / 11.79 / 12.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Chris||829525|e2dee8 ",
       "generated_at": "2023-03-10T13:50:35-05:00",
       "source_id": 13756271591
+    },
+    {
+      "id": "1570826649409339403",
+      "program": "SDBENCHMARK",
+      "message": "wangzhi 2023-03-10 20:31:03.376064|13.42 / 19.53 / 22.3|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:3.10.0-1160.el7.x86_64 python:3.10.9|torch:1.13.1+cu117 autocast nohalf xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA A100 80GB PCIe (4) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers none|Orangemix/AbyssOrangeMix2_sfw.safetensors [038ba203d8]|wangzhi||2d08e9|6fe069 ",
+      "generated_at": "2023-03-10T15:31:33-05:00",
+      "source_id": 13760808256
     }
   ]
 }
