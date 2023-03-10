@@ -1,5 +1,57 @@
 [
   [
+    544,
+    "2023-03-08T21:54:19.980Z",
+    "15.38 / 16.09 / 16.5",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Pospo",
+    ""
+  ],
+  [
+    543,
+    "2023-03-08T21:47:20.907Z",
+    "15.73 / 17.09 / 16.66",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Pospo",
+    ""
+  ],
+  [
+    542,
+    "2023-03-10T23:47:57.958Z",
+    "17.86 / 19.18 / 21.34",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Pospo",
+    ""
+  ],
+  [
+    541,
+    "2023-03-10T22:46:35.138Z",
+    "1.35 / 2.03 / 2.74",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce GTX 1080 Ti (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 11GB",
+    "xformers medvram",
+    "NGNL_Jibril_v1_0/NGNL_Jibril_v1_0_1600.safetensors [378c6db70c]",
+    "elpollo",
+    ""
+  ],
+  [
     540,
     "2023-03-10T22:46:27.733Z",
     "16.65 / 19.4 / 21.04",
