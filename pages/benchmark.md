@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-11T20:14:26.567Z
+  ## Updated: 2023-03-11T21:11:59.132Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |565|2023-03-11T11:37:29.722Z|13.25 / 15.11 / 16.02 / 14.21 / 15.07|updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230311+cu118 autocast half xformers:unavailable accelerate:0.17.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 10GB|sdp none|2-SD-v1-5\v1-5-pruned.safetensors [1a189f0be6]|xGhostStarx|RTX Video Super Resolution 4x On|
+  |566|2023-03-12T06:04:04.321Z|4.91 / 5.29 / 5.91|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|expmixLine_v20.safetensors [b3e1b725e3]|artemis||
+|565|2023-03-11T11:37:29.722Z|13.25 / 15.11 / 16.02 / 14.21 / 15.07|updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230311+cu118 autocast half xformers:unavailable accelerate:0.17.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 10GB|sdp none|2-SD-v1-5\v1-5-pruned.safetensors [1a189f0be6]|xGhostStarx|RTX Video Super Resolution 4x On|
 |564|2023-03-11T11:07:14.670Z|13.22 / 12.09 / 13.36|updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0.dev20230212+cu118 autocast half xformers:unavailable accelerate:0.17.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 10GB|sdp none|2-SD-v1-5\v1-5-pruned.safetensors [1a189f0be6]|xGhostStarx||
 |563|2023-03-11T11:00:03.106Z|12.73 / 15.2 / 16.13|updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0.dev20230212+cu118 autocast half xformers:0.0.17+00afc12.d20230207 accelerate:0.17.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|2-SD-v1-5\v1-5-pruned.safetensors [1a189f0be6]|xGhostStarx||
 |562|2023-02-21T18:35:12.298Z|12.16 / 13.94 / 15.05|updated:2023-02-21 hash:a2c58410 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|host:DesktopXS arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0.dev20230212+cu118 autocast half xformers:0.0.17+00afc12.d20230207 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|SD-15\v1-5-pruned.safetensors [1a189f0be6]|xSinStarx||

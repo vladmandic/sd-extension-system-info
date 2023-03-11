@@ -1,5 +1,5 @@
 {
-  "max_id": "1571296480181010437",
+  "max_id": "1571318555776040960",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7203,6 +7203,34 @@
       "message": "xGhostStarx 2023-03-11 11:37:29.722229|13.25 / 15.11 / 16.02 / 14.21 / 15.07|updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230311+cu118 autocast half xformers:unavailable accelerate:0.17.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 10GB|sdp none|2-SD-v1-5\\v1-5-pruned.safetensors [1a189f0be6]|xGhostStarx|RTX Video Super Resolution 4x On|963619|689f3a ",
       "generated_at": "2023-03-11T06:38:16-05:00",
       "source_id": 13761893367
+    },
+    {
+      "id": "1571318339115073539",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-03-09 14:34:51.925294|5.0 / 5.35 / 5.9|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|expmixLine_v20.safetensors [b3e1b725e3]|artemis||20d52d|e68947 ",
+      "generated_at": "2023-03-12T01:05:08-05:00",
+      "source_id": 13759635854
+    },
+    {
+      "id": "1571318339152818187",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-03-12 06:04:04.321478|4.91 / 5.29 / 5.91|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|expmixLine_v20.safetensors [b3e1b725e3]|artemis||8182a8|5f8752 ",
+      "generated_at": "2023-03-12T01:05:08-05:00",
+      "source_id": 13759635854
+    },
+    {
+      "id": "1571318555750887426",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-03-09 14:34:51.925294|5.0 / 5.35 / 5.9|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|expmixLine_v20.safetensors [b3e1b725e3]|artemis||20d52d|e68947 ",
+      "generated_at": "2023-03-12T01:05:59-05:00",
+      "source_id": 13759635854
+    },
+    {
+      "id": "1571318555776040960",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-03-12 06:04:04.321478|4.91 / 5.29 / 5.91|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|expmixLine_v20.safetensors [b3e1b725e3]|artemis||8182a8|5f8752 ",
+      "generated_at": "2023-03-12T01:05:59-05:00",
+      "source_id": 13759635854
     }
   ]
 }

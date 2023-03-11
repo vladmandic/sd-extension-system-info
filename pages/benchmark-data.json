@@ -1,5 +1,18 @@
 [
   [
+    566,
+    "2023-03-12T06:04:04.321Z",
+    "4.91 / 5.29 / 5.91",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB",
+    "xformers none",
+    "expmixLine_v20.safetensors [b3e1b725e3]",
+    "artemis",
+    ""
+  ],
+  [
     565,
     "2023-03-11T11:37:29.722Z",
     "13.25 / 15.11 / 16.02 / 14.21 / 15.07",
