@@ -1,5 +1,44 @@
 [
   [
+    563,
+    "2023-03-11T11:00:03.106Z",
+    "12.73 / 15.2 / 16.13",
+    "updated:2023-03-11 hash:d1bcb54f url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0.dev20230212+cu118 autocast half xformers:0.0.17+00afc12.d20230207 accelerate:0.17.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 10GB",
+    "xformers none",
+    "2-SD-v1-5\\v1-5-pruned.safetensors [1a189f0be6]",
+    "xGhostStarx",
+    ""
+  ],
+  [
+    562,
+    "2023-02-21T18:35:12.298Z",
+    "12.16 / 13.94 / 15.05",
+    "updated:2023-02-21 hash:a2c58410 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/SD_Personal",
+    "host:DesktopXS arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0.dev20230212+cu118 autocast half xformers:0.0.17+00afc12.d20230207 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 10GB",
+    "xformers none",
+    "SD-15\\v1-5-pruned.safetensors [1a189f0be6]",
+    "xSinStarx",
+    ""
+  ],
+  [
+    561,
+    "2023-03-12T02:47:12.064Z",
+    "20.08 / 34.81 / 43.41 / 46.24 / 43.73",
+    "updated:2023-03-11 hash:94ffa9fc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "chenj",
+    ""
+  ],
+  [
     560,
     "2023-03-11T23:56:37.840Z",
     "20.06 / 34.55 / 44.59 / 47.2 / 44.7",
