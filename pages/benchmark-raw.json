@@ -1,5 +1,5 @@
 {
-  "max_id": "1571484455208665098",
+  "max_id": "1571496471772192773",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7413,6 +7413,20 @@
       "message": "gojas 2023-03-12 17:04:32.648770|11.79 / 25.75 / 38.91|updated:2023-03-12 hash:5c9f2bbb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230311+cu118 autocast half xformers:0.0.17+b6be33a.d20230312 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|gojas||222ecb|18d896 ",
       "generated_at": "2023-03-12T13:05:03-04:00",
       "source_id": 13762292993
+    },
+    {
+      "id": "1571496471767998467",
+      "program": "SDBENCHMARK",
+      "message": "khorosh 2023-03-10 04:08:57.651639|3.83 / 2.43 / 2.46|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Realistic_Vision_V1.3.safetensors [c35782bad8]|hfx||11db1b|9eb175 ",
+      "generated_at": "2023-03-12T06:52:58-04:00",
+      "source_id": 13760431613
+    },
+    {
+      "id": "1571496471772192773",
+      "program": "SDBENCHMARK",
+      "message": "khorosh 2023-03-12 10:50:29.652003|11.8 / 13.48 / 14.86 / 15.55 / 16.25|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|dreamshaper_331BakedVae.safetensors [1dceefec07]|khorosh||f0d89b|20c862 ",
+      "generated_at": "2023-03-12T06:52:58-04:00",
+      "source_id": 13760431613
     }
   ]
 }
