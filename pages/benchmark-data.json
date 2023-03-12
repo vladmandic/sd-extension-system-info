@@ -1,5 +1,18 @@
 [
   [
+    595,
+    "2023-03-12T06:32:20.645Z",
+    "15.05 / 17.27 / 22.07",
+    "updated:2023-03-12 hash:3c922d98 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "neverendingDreamNED_bakedVae.safetensors [d8722b4a4d]",
+    "nzbiship",
+    ""
+  ],
+  [
     594,
     "2023-03-12T11:03:30.291Z",
     "5.54 / 5.95 / 8.97",
