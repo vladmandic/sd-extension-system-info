@@ -1,5 +1,5 @@
 {
-  "max_id": "1571544009179066369",
+  "max_id": "1571599262679228417",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7567,6 +7567,13 @@
       "message": "yuno 2023-03-12 08:00:58.980106|6.66 / 8.96 / 12.23 / 17.22 / 18.82|updated:2023-03-10 hash:5fef67f6 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/unipc|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|A_2v_eciuJht9_fp16.safetensors [bdbbc37869]|yuno||fab6aa|822c75 ",
       "generated_at": "2023-03-12T04:01:52-04:00",
       "source_id": 13762417646
+    },
+    {
+      "id": "1571599262679228417",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-12 15:40:04.236265|1.71 / 1.37 / 6.52|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-58-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|deliberate.safetensors [9aba26abdf]|root||f6a753|492f3f ",
+      "generated_at": "2023-03-12T11:41:25-04:00",
+      "source_id": 13762549463
     }
   ]
 }
