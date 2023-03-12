@@ -1,5 +1,31 @@
 [
   [
+    602,
+    "2023-03-13T06:08:00.371Z",
+    "27.76 / 30.14 / 38.43",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB",
+    "xformers none",
+    "05_GoodDBFT\\Hanbok\\epoch-000035.ckpt [acb37b2959]",
+    "osuwa",
+    ""
+  ],
+  [
+    601,
+    "2023-03-09T19:58:07.601Z",
+    "11.35 / 13.69 / 20.95",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "00_PreMade\\anything-v3.0\\anything-v3-full.safetensors [abcaf14e5a]",
+    "osuwa",
+    ""
+  ],
+  [
     600,
     "2023-02-26T00:18:36.018Z",
     "8.11 / 9.29 / 12.29",

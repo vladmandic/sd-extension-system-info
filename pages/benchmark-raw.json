@@ -1,5 +1,5 @@
 {
-  "max_id": "1571621714562039813",
+  "max_id": "1571681501811236869",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7602,6 +7602,20 @@
       "message": "1 2023-02-26 00:18:36.018479|8.11 / 9.29 / 12.29|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:WIN-CBSD1GH3K9R arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|NightSkyYOZORAStyleFP16V1.safetensors [4b118b2d1b]|JustAnotherRandomUser||09342f|b35768 ",
       "generated_at": "2023-03-12T14:10:38-04:00",
       "source_id": 13762602246
+    },
+    {
+      "id": "1571681501811236868",
+      "program": "SDBENCHMARK",
+      "message": "osuwa 2023-03-09 19:58:07.601038|11.35 / 13.69 / 20.95|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|00_PreMade\\anything-v3.0\\anything-v3-full.safetensors [abcaf14e5a]|osuwa||db9e65|c208d2 ",
+      "generated_at": "2023-03-13T02:08:12-04:00",
+      "source_id": 13762740916
+    },
+    {
+      "id": "1571681501811236869",
+      "program": "SDBENCHMARK",
+      "message": "osuwa 2023-03-13 06:08:00.371243|27.76 / 30.14 / 38.43|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|05_GoodDBFT\\Hanbok\\epoch-000035.ckpt [acb37b2959]|osuwa||ff7220|bbfef0 ",
+      "generated_at": "2023-03-13T02:08:12-04:00",
+      "source_id": 13762740916
     }
   ]
 }
