@@ -1,5 +1,5 @@
 {
-  "max_id": "1571437965509570562",
+  "max_id": "1571484455208665098",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7364,6 +7364,55 @@
       "message": "timsh 2023-03-11 20:47:20.932817|8.42 / 9.81 / 10.55 / 11.11 / 11.45|updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|sd2_768-v-ema.ckpt [bfcaf07557]|timsh||17b27a|033d67 ",
       "generated_at": "2023-03-11T16:00:29-05:00",
       "source_id": 13762194228
+    },
+    {
+      "id": "1571484455200276488",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-08 23:31:49.403853|5.69 / 10.03 / 12.85 / 15.72 / 17.76|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230308 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8800 10GB|xformers medvram|grapefruitHentaiModel_grapefruitv4_noVae.safetensors [37a86dca58]|x||e6d207|8de050 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455200276489",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-09 18:35:23.487121|5.56 / 8.75 / 10.96|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230308 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers medvram|perfectWorld_perfectWorldBakedVAE.safetensors [ca883fecc7]|gojas||094488|5ea24d ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455204470784",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-09 19:10:42.943488|11.67 / 23.17 / 37.52|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230308 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|grapefruitHentaiModel_grapefruitv4_noVae.safetensors [37a86dca58]|gojas||e98e9c|a67ad5 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455204470785",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-09 19:23:26.588506|11.56 / 21.49 / 35.15|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230308 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|gojas||fab733|70a503 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455208665092",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-09 19:50:34.872613|11.73 / 21.58 / 32.63|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|gojas||f77258|551877 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455208665096",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-12 15:54:25.210420|12.44 / 26.22 / 38.52|updated:2023-03-12 hash:5c9f2bbb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230309 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|gojas||f9792d|f6ea18 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
+    },
+    {
+      "id": "1571484455208665098",
+      "program": "SDBENCHMARK",
+      "message": "gojas 2023-03-12 17:04:32.648770|11.79 / 25.75 / 38.91|updated:2023-03-12 hash:5c9f2bbb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230311+cu118 autocast half xformers:0.0.17+b6be33a.d20230312 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|gojas||222ecb|18d896 ",
+      "generated_at": "2023-03-12T13:05:03-04:00",
+      "source_id": 13762292993
     }
   ]
 }
