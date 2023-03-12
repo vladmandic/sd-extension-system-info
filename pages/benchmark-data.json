@@ -1,5 +1,31 @@
 [
   [
+    568,
+    "2023-03-12T07:37:49.722Z",
+    "10.98 / 15.25 / 18.04",
+    "updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "anyhentai_18.safetensors [168144a879]",
+    "saras",
+    ""
+  ],
+  [
+    567,
+    "2023-03-09T20:45:01.365Z",
+    "12.29 / 13.91 / 15.42",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "Doggettx none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "saras",
+    ""
+  ],
+  [
     566,
     "2023-03-12T06:04:04.321Z",
     "4.91 / 5.29 / 5.91",
