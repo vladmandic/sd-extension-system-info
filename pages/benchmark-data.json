@@ -1,5 +1,31 @@
 [
   [
+    600,
+    "2023-02-26T00:18:36.018Z",
+    "8.11 / 9.29 / 12.29",
+    "updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "host:WIN-CBSD1GH3K9R arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "NightSkyYOZORAStyleFP16V1.safetensors [4b118b2d1b]",
+    "JustAnotherRandomUser",
+    ""
+  ],
+  [
+    599,
+    "2023-03-12T15:03:18.309Z",
+    "18.5 / 32.58 / 42.9 / 45.29 / 43.53",
+    "updated:2023-03-11 hash:94ffa9fc url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers lowram",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "chenj",
+    ""
+  ],
+  [
     598,
     "2023-03-12T15:40:04.236Z",
     "1.71 / 1.37 / 6.52",
