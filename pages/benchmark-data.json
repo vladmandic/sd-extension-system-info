@@ -1,5 +1,44 @@
 [
   [
+    572,
+    "2023-03-11T20:17:07.503Z",
+    "22.61 / 34.91 / 41.15",
+    "updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0.dev20230212+cu118 autocast half xformers:0.0.17+4cd835c.d20230214 accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Brandon",
+    ""
+  ],
+  [
+    571,
+    "2023-03-11T17:57:35.601Z",
+    "6.38 / 7.14 / 7.66 / 8.63 / 8.96",
+    "updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Dave",
+    ""
+  ],
+  [
+    570,
+    "2023-03-11T16:56:18.184Z",
+    "5.81 / 6.41 / 6.53",
+    "updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Dave",
+    ""
+  ],
+  [
     569,
     "2023-03-11T18:14:06.322Z",
     "13.96 / 22.05 / 29.67",
