@@ -1,5 +1,5 @@
 {
-  "max_id": "1571856877200011271",
+  "max_id": "1571878467476316201",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7707,6 +7707,13 @@
       "message": "enovyhoo 2023-03-13 16:44:40.981721|20.13 / 33.9 / 43.2|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230311 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|kotosmix_v10.safetensors [49ef66fc4c]|enovyhoo||7271c2|bcd192 ",
       "generated_at": "2023-03-13T12:45:03-04:00",
       "source_id": 13763101726
+    },
+    {
+      "id": "1571878467476316201",
+      "program": "SDBENCHMARK",
+      "message": "Hyun 2023-03-13 19:10:20.065897|11.15 / 13.08 / 14.57|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu116 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.6 cudnn:8302 10GB|xformers none|Basil_Pastelmix_0.3.safetensors [522c82d5f0]|Hyun||0c67e9|650030 ",
+      "generated_at": "2023-03-13T15:10:51-04:00",
+      "source_id": 13763150360
     }
   ]
 }
