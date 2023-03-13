@@ -1,5 +1,31 @@
 [
   [
+    612,
+    "2023-03-13T16:44:40.981Z",
+    "20.13 / 33.9 / 43.2",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230311 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "kotosmix_v10.safetensors [49ef66fc4c]",
+    "enovyhoo",
+    ""
+  ],
+  [
+    611,
+    "2023-03-13T16:41:38.968Z",
+    "19.29 / 30.07 / 39.23",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230311 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "kotosmix_v10.safetensors [49ef66fc4c]",
+    "enovyhoo",
+    ""
+  ],
+  [
     610,
     "2023-03-13T14:32:09.018Z",
     "15.9 / 27.85 / 37.03",
