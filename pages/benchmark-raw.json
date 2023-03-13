@@ -1,5 +1,5 @@
 {
-  "max_id": "1571753186698641425",
+  "max_id": "1571785803514966022",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7630,6 +7630,27 @@
       "message": "yuno 2023-03-12 21:52:42.281571|6.38 / 8.67 / 12.52|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|animefull-final-pruned.ckpt [89d59c3dde]|yuno||fab6aa|19beb1 ",
       "generated_at": "2023-03-12T17:53:03-04:00",
       "source_id": 13762417646
+    },
+    {
+      "id": "1571777343234686979",
+      "program": "SDBENCHMARK",
+      "message": "JP 2023-03-13 11:24:06.089558|27.06 / 35.6 / 43.27|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers lowram|realisticVisionV13_v12.safetensors [8194f84cdc]|JP||86f1a7|083b27 ",
+      "generated_at": "2023-03-13T07:29:03-04:00",
+      "source_id": 13762935030
+    },
+    {
+      "id": "1571783486237491202",
+      "program": "SDBENCHMARK",
+      "message": "Noveria 2023-03-12 21:53:00.447883|15.5|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|Administrator||95c140|bad95b ",
+      "generated_at": "2023-03-12T17:53:29-04:00",
+      "source_id": 13762946115
+    },
+    {
+      "id": "1571785803514966022",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-13 12:37:17.865221|1.85 / 1.17 / 1.17 / 1.05 / 1.0|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|expmixLine_v20-Pruned.safetensors [4d651c7638]|knut|Mac Studio 2022, Mac13,1, Apple M1 Max with additional GPU option|195cce|4d1b10 ",
+      "generated_at": "2023-03-13T09:02:40-04:00",
+      "source_id": 13762950532
     }
   ]
 }
