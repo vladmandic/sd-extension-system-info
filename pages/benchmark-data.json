@@ -1,5 +1,57 @@
 [
   [
+    627,
+    "2023-03-13T18:45:24.283Z",
+    "18.62 / 28.9 / 36.0 / 33.92 / 34.07",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev473 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "SD15NewVAEpruned.ckpt [27a4ac756c]",
+    "wdpru",
+    ""
+  ],
+  [
+    626,
+    "2023-03-13T17:17:38.893Z",
+    "18.74 / 28.22 / 35.84 / 33.45 / 32.99",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev473 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "SD15NewVAEpruned.ckpt [27a4ac756c]",
+    "wdpru",
+    ""
+  ],
+  [
+    625,
+    "2023-03-12T23:12:07.236Z",
+    "16.45 / 25.88 / 33.2 / 31.86 / 30.95",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "SD15NewVAEpruned.ckpt [27a4ac756c]",
+    "wdpru",
+    ""
+  ],
+  [
+    624,
+    "2023-03-08T14:47:27.677Z",
+    "14.12 / 21.32 / 23.3 / 24.8 / 24.98",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "Doggettx none",
+    "SD15NewVAEpruned.ckpt [27a4ac756c]",
+    "wdpru",
+    ""
+  ],
+  [
     623,
     "2023-03-13T23:42:54.591Z",
     "4.48 / 4.43 / 4.68 / 5.05 / 5.21",
