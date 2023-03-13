@@ -1,5 +1,31 @@
 [
   [
+    604,
+    "2023-03-12T21:52:42.281Z",
+    "6.38 / 8.67 / 12.52",
+    "updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "animefull-final-pruned.ckpt [89d59c3dde]",
+    "yuno",
+    ""
+  ],
+  [
+    603,
+    "2023-03-12T21:48:21.528Z",
+    "7.7 / 11.97 / 19.22 / 21.73 / 21.72",
+    "updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "animefull-final-pruned.ckpt [89d59c3dde]",
+    "yuno",
+    ""
+  ],
+  [
     602,
     "2023-03-13T06:08:00.371Z",
     "27.76 / 30.14 / 38.43",
