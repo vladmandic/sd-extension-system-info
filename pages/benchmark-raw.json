@@ -1,5 +1,5 @@
 {
-  "max_id": "1571785803514966022",
+  "max_id": "1571809301205532672",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7651,6 +7651,20 @@
       "message": "knut 2023-03-13 12:37:17.865221|1.85 / 1.17 / 1.17 / 1.05 / 1.0|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|expmixLine_v20-Pruned.safetensors [4d651c7638]|knut|Mac Studio 2022, Mac13,1, Apple M1 Max with additional GPU option|195cce|4d1b10 ",
       "generated_at": "2023-03-13T09:02:40-04:00",
       "source_id": 13762950532
+    },
+    {
+      "id": "1571806708689448965",
+      "program": "SDBENCHMARK",
+      "message": "vinzl 2023-03-12 22:25:36.886060|18.69 / 29.23 / 37.63|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6|torch:2.0.0.dev20230205+cu118 autocast half xformers:0.0.17+7f4fdce.d20230205 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|vinzl||6d0239|2440ee ",
+      "generated_at": "2023-03-12T18:25:45-04:00",
+      "source_id": 13762117145
+    },
+    {
+      "id": "1571809301205532672",
+      "program": "SDBENCHMARK",
+      "message": "v1rtu0so 2023-03-12 22:35:47.419092|21.55 / 38.48 / 49.53|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|SDv2-1_768-ema-pruned.ckpt [ad2a33c361]|v1rtu0so||c9e631|e13d2e ",
+      "generated_at": "2023-03-12T18:36:02-04:00",
+      "source_id": 13759651307
     }
   ]
 }
