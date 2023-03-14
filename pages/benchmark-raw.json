@@ -1,5 +1,5 @@
 {
-  "max_id": "1572068529744834568",
+  "max_id": "1572082917176438797",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7840,6 +7840,20 @@
       "message": "wdpru 2023-03-13 18:45:24.283963|18.62 / 28.9 / 36.0 / 33.92 / 34.07|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev473 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|SD15NewVAEpruned.ckpt [27a4ac756c]|wdpru||a7517e|9c8b69 ",
       "generated_at": "2023-03-13T14:46:06-04:00",
       "source_id": 13763687328
+    },
+    {
+      "id": "1572082376362881041",
+      "program": "SDBENCHMARK",
+      "message": "KaleidRuby 2023-03-13 19:40:42.773690|22.03 / 29.81 / 36.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|anything-v4.5.ckpt [fbcf965a62]|KaleidRuby||4d10ae|17bd74 ",
+      "generated_at": "2023-03-13T15:41:08-04:00",
+      "source_id": 13763720305
+    },
+    {
+      "id": "1572082917176438797",
+      "program": "SDBENCHMARK",
+      "message": "KaleidRuby 2023-03-13 19:42:20.787506|20.85 / 29.5 / 34.77 / 36.79 / 34.42|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|anything-v4.5.ckpt [fbcf965a62]|KaleidRuby||4d10ae|a6c438 ",
+      "generated_at": "2023-03-13T15:43:17-04:00",
+      "source_id": 13763720305
     }
   ]
 }
