@@ -1,5 +1,5 @@
 {
-  "max_id": "1572255944388308994",
+  "max_id": "1572275934868975619",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8099,6 +8099,48 @@
       "message": "TopGunAdmin 2023-03-14 19:08:49.655880|13.1 / 22.26 / 27.69 / 29.08 / 27.7||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 16GB|xformers none|Realistic_Vision_V1.4.safetensors [21c6d51e3e]|TopGunAdmin||75e14f|1d690e ",
       "generated_at": "2023-03-14T15:10:50-04:00",
       "source_id": 13764098262
+    },
+    {
+      "id": "1572257145393704964",
+      "program": "SDBENCHMARK",
+      "message": "TopGunAdmin 2023-03-14 18:48:26.802840|13.52 / 23.04 / 27.98||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers none|Realistic_Vision_V1.4.safetensors [21c6d51e3e]|TopGun||6b8a51|45a7b9 ",
+      "generated_at": "2023-03-14T15:15:36-04:00",
+      "source_id": 13764098262
+    },
+    {
+      "id": "1572257145397899270",
+      "program": "SDBENCHMARK",
+      "message": "TopGunAdmin 2023-03-14 19:15:16.651096|13.19 / 22.47 / 29.14||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 16GB|xformers none|Realistic_Vision_V1.4.safetensors [21c6d51e3e]|TopGunAdmin||75e14f|164bfa ",
+      "generated_at": "2023-03-14T15:15:36-04:00",
+      "source_id": 13764098262
+    },
+    {
+      "id": "1572269448449142796",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-14 21:02:50.981968|2.02 / 1.67 / 1.71|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|v1-5-pruned-emaonly.safetensors [6ce0161689]|knut|\tMac Studio 2022, Mac13,1, Apple M1 Max with additional GPU option|195cce|763e08 ",
+      "generated_at": "2023-03-14T17:04:30-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1572273293250191367",
+      "program": "SDBENCHMARK",
+      "message": "Sipovec 2023-03-14 17:14:27.319909|9.7 / 8.36 / 9.08 / 9.71 / 10.13|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.9|torch:2.1.0.dev20230313+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|sdp none|[-Base-]\\deliberate_v2.safetensors|Sipovec||7c59af|2c7ca6 ",
+      "generated_at": "2023-03-14T13:19:48-04:00",
+      "source_id": 13764146558
+    },
+    {
+      "id": "1572275349616766987",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-14 21:26:28.053637|1.96 / 1.72 / 1.73|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|aeecff ",
+      "generated_at": "2023-03-14T17:27:57-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1572275934868975619",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-14 21:28:33.694978|1.99 / 1.73 / 1.73|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|39eeb1 ",
+      "generated_at": "2023-03-14T17:30:16-04:00",
+      "source_id": 13762950532
     }
   ]
 }
