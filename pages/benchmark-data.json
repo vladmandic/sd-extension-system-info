@@ -1,5 +1,18 @@
 [
   [
+    630,
+    "2023-03-13T15:09:56.633Z",
+    "0.03 / 0.03 / 0.03",
+    "",
+    "arch:x86_64 cpu:i386 system:Darwin release:22.3.0 python:3.10.10",
+    "torch:1.12.1 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic medvram",
+    "dalcefoPainting_3rd.safetensors [7107c05c1c]",
+    "illegal",
+    ""
+  ],
+  [
     629,
     "2023-03-13T19:42:20.787Z",
     "20.85 / 29.5 / 34.77 / 36.79 / 34.42",
