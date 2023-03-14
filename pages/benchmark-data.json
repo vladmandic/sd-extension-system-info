@@ -1,5 +1,18 @@
 [
   [
+    645,
+    "2023-03-14T14:14:52.762Z",
+    "1.33 / 1.44 / 1.56",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 full nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1660 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "anything-v4.0-pruned-fp16.safetensors [d5f8393fea]",
+    "Sergey004",
+    ""
+  ],
+  [
     644,
     "2023-03-14T21:46:44.017Z",
     "10.05 / 11.27 / 9.0 / 9.31 / 9.87",
