@@ -1,5 +1,31 @@
 [
   [
+    661,
+    "2023-03-15T05:44:56.118Z",
+    "10.14 / 11.27 / 12.1 / 12.83 / 13.49",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9",
+    "torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "captioned_merge.safetensors [2cb37aa895]",
+    "marti",
+    ""
+  ],
+  [
+    660,
+    "2023-03-14T16:45:49.193Z",
+    "24.34 / 29.73 / 34.04 / 33.87 / 33.19",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-137-generic python:3.8.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (2) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "meinamix_meinaV8.safetensors",
+    "qblocks",
+    ""
+  ],
+  [
     659,
     "2023-03-15T04:59:55.541Z",
     "10.35 / 11.43 / 11.81 / 12.37 / 11.05",
