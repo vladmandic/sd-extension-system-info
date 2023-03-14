@@ -1,5 +1,5 @@
 {
-  "max_id": "1572106649475411972",
+  "max_id": "1572192474431143942",
   "events": [
     {
       "id": "1564370541899603981",
@@ -7861,6 +7861,20 @@
       "message": "illegal 2023-03-13 15:09:56.633857|0.03 / 0.03 / 0.03||arch:x86_64 cpu:i386 system:Darwin release:22.3.0 python:3.10.10|torch:1.12.1 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic medvram|dalcefoPainting_3rd.safetensors [7107c05c1c]|illegal||0bdea3|6b3f3e ",
       "generated_at": "2023-03-13T14:17:36-04:00",
       "source_id": 13763775254
+    },
+    {
+      "id": "1572192474401796106",
+      "program": "SDBENCHMARK",
+      "message": "qip 2023-02-25 15:28:02.523044|9.17 / 10.73 / 11.24|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|host:archlinux arch:x86_64 cpu: system:Linux release:6.1.12-arch1-1 python:3.10.9|torch:2.0.0.dev20230224+rocm5.3 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6900 XT (1) hip:5.3.22061-e8e78f1a 16GB|Doggettx none|Models/[Photo] Stable Diffusion/v1.5-pruned-emaonly.ckpt [cc6cb27103]|qip||536b46|3cfceb ",
+      "generated_at": "2023-03-14T11:58:38-04:00",
+      "source_id": 13763955729
+    },
+    {
+      "id": "1572192474431143942",
+      "program": "SDBENCHMARK",
+      "message": "qip 2023-03-14 15:57:38.890334|9.1 / 10.68 / 11.08|updated:2023-03-14 hash:c19530f1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu: system:Linux release:6.2.1-arch1-1 python:3.10.9|torch:2.1.0.dev20230313+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6900 XT (1) hip:5.4.22803-474e8620 16GB|sdp none|Models/[Photo] Stable Diffusion/v1.5-pruned-emaonly.ckpt [cc6cb27103]|qip||addad5|00ff46 ",
+      "generated_at": "2023-03-14T11:58:38-04:00",
+      "source_id": 13763955729
     }
   ]
 }
