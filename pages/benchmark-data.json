@@ -1,5 +1,18 @@
 [
   [
+    662,
+    "2023-03-15T03:07:20.981Z",
+    "14.73 / 15.33 / 24.65",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.1.0.dev20230314+cu118 autocast half xformers:0.0.17+b6be33a.d20230314 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 16GB",
+    "xformers none",
+    "Replicant-V1.0_fp16.safetensors [5580a04f3c]",
+    "kalon",
+    ""
+  ],
+  [
     661,
     "2023-03-15T05:44:56.118Z",
     "10.14 / 11.27 / 12.1 / 12.83 / 13.49",

@@ -1,5 +1,5 @@
 {
-  "max_id": "1572341072464637958",
+  "max_id": "1572360856891744267",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8337,6 +8337,13 @@
       "message": "marti 2023-03-15 05:44:56.118125|10.14 / 11.27 / 12.1 / 12.83 / 13.49|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|captioned_merge.safetensors [2cb37aa895]|marti||90d22d|012853 ",
       "generated_at": "2023-03-15T01:49:06-04:00",
       "source_id": 13764012812
+    },
+    {
+      "id": "1572360856891744267",
+      "program": "SDBENCHMARK",
+      "message": "kalon 2023-03-15 03:07:20.981172|14.73 / 15.33 / 24.65|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230314+cu118 autocast half xformers:0.0.17+b6be33a.d20230314 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 16GB|xformers none|Replicant-V1.0_fp16.safetensors [5580a04f3c]|kalon||c31225|63256d ",
+      "generated_at": "2023-03-14T23:07:42-04:00",
+      "source_id": 13764397686
     }
   ]
 }
