@@ -1,5 +1,31 @@
 [
   [
+    647,
+    "2023-03-14T19:08:49.655Z",
+    "13.1 / 22.26 / 27.69 / 29.08 / 27.7",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 16GB",
+    "xformers none",
+    "Realistic_Vision_V1.4.safetensors [21c6d51e3e]",
+    "TopGunAdmin",
+    ""
+  ],
+  [
+    646,
+    "2023-03-14T18:48:26.802Z",
+    "13.52 / 23.04 / 27.98",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB",
+    "xformers none",
+    "Realistic_Vision_V1.4.safetensors [21c6d51e3e]",
+    "TopGun",
+    ""
+  ],
+  [
     645,
     "2023-03-14T14:14:52.762Z",
     "1.33 / 1.44 / 1.56",
