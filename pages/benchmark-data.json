@@ -1,5 +1,18 @@
 [
   [
+    689,
+    "2023-03-16T07:44:27.362Z",
+    "9.7 / 10.83 / 12.08 / 12.65 / 13.05",
+    "updated:2023-03-14 hash:fa6b438e url:https://github.com/vladmandic/automatic.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9",
+    "torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8700 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "marti",
+    ""
+  ],
+  [
     688,
     "2023-03-16T02:08:38.835Z",
     "22.45 / 26.1 / 30.5",

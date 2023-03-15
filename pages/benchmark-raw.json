@@ -1,5 +1,5 @@
 {
-  "max_id": "1572723553634267141",
+  "max_id": "1572733142727569411",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8638,6 +8638,27 @@
       "message": "TopGunAdmin 2023-03-16 02:08:38.835958|22.45 / 26.1 / 30.5||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230307+cu118 autocast half xformers:0.0.17+b89a493.d20230307 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 16GB|xformers none|Realistic_Vision_V1.4.safetensors [21c6d51e3e]|TopGunAdmin||75e14f|f7437b ",
       "generated_at": "2023-03-15T22:08:56-04:00",
       "source_id": 13764098262
+    },
+    {
+      "id": "1572733142719180800",
+      "program": "SDBENCHMARK",
+      "message": "marti 2023-03-15 23:58:30.214608|10.13 / 11.29 / 12.08 / 12.79 / 12.3|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|captioned_merge.safetensors [2cb37aa895]|marti||90d22d|5bc143 ",
+      "generated_at": "2023-03-16T03:47:02-04:00",
+      "source_id": 13764012812
+    },
+    {
+      "id": "1572733142727569408",
+      "program": "SDBENCHMARK",
+      "message": "marti 2023-03-16 03:35:05.158408|10.01 / 11.17 / 12.49 / 13.1 / 13.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8700 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|marti||381d1b|df8b33 ",
+      "generated_at": "2023-03-16T03:47:02-04:00",
+      "source_id": 13764012812
+    },
+    {
+      "id": "1572733142727569411",
+      "program": "SDBENCHMARK",
+      "message": "marti 2023-03-16 07:44:27.362260|9.7 / 10.83 / 12.08 / 12.65 / 13.05|updated:2023-03-14 hash:fa6b438e url:https://github.com/vladmandic/automatic.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1 autocast half xformers:0.0.17.dev473 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8700 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|marti||67b743|274302 ",
+      "generated_at": "2023-03-16T03:47:02-04:00",
+      "source_id": 13764012812
     }
   ]
 }
