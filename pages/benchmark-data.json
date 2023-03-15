@@ -1,5 +1,31 @@
 [
   [
+    666,
+    "2023-03-14T20:53:29.828Z",
+    "2.49 / 3.38 / 3.8",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB",
+    "xformers none",
+    "sd-v1-5.ckpt [cc6cb27103]",
+    "luna",
+    "first run of this with a ton of addons"
+  ],
+  [
+    665,
+    "2023-03-14T20:39:42.590Z",
+    "1.12",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "offsetNoiseAnything_v3.safetensors [1168485b2d]",
+    "MonsterAzi",
+    ""
+  ],
+  [
     664,
     "2023-03-15T08:24:24.896Z",
     "8.45 / 9.76 / 10.39",
