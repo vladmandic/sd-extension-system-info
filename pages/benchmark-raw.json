@@ -1,5 +1,5 @@
 {
-  "max_id": "1572478282799169550",
+  "max_id": "1572512655560851457",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8386,6 +8386,34 @@
       "message": "luna 2023-03-14 20:53:29.828093|2.49 / 3.38 / 3.8|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers none|sd-v1-5.ckpt [cc6cb27103]|luna|first run of this with a ton of addons|4b61dd|b64a3c ",
       "generated_at": "2023-03-14T16:54:22-04:00",
       "source_id": 13764689437
+    },
+    {
+      "id": "1572500456897429505",
+      "program": "SDBENCHMARK",
+      "message": "NickM 2023-03-14 23:10:40.217158|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cpu autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1| 0GB|Doggettx none|v1-5-pruned.ckpt [e1441589a6]|NickM||20614e|a5b6f3 ",
+      "generated_at": "2023-03-14T19:22:28-04:00",
+      "source_id": 13764737756
+    },
+    {
+      "id": "1572500456922595333",
+      "program": "SDBENCHMARK",
+      "message": "NickM 2023-03-14 23:20:30.742376|12.62|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|NickM||f4b81c|667a2b ",
+      "generated_at": "2023-03-14T19:22:28-04:00",
+      "source_id": 13764737756
+    },
+    {
+      "id": "1572511797494333446",
+      "program": "SDBENCHMARK",
+      "message": "zero01101 2023-03-14 23:05:10.935729|11.91 / 11.06 / 13.03 / 13.97 / 14.64|updated:2023-03-14 hash:6bd21bb2 url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|runwayML-sd-v1-5-pruned.ckpt [e1441589a6]|zero01101|hahaha benchmark IDs 163 and 193 were run at 180w via nvidia-smi instead of 260 and i forgot because i am very smart|b2ec9e|76dbba ",
+      "generated_at": "2023-03-14T19:07:30-04:00",
+      "source_id": 13764759117
+    },
+    {
+      "id": "1572512655560851457",
+      "program": "SDBENCHMARK",
+      "message": "zero01101 2023-03-14 23:08:46.944287|10.66 / 11.82 / 12.76 / 13.2 / 13.67|updated:2023-03-14 hash:6bd21bb2 url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB|xformers none|v2-1-768-ema-pruned.ckpt [ad2a33c361]|zero01101|hahaha benchmark IDs 163 and 193 were run at 180w via nvidia-smi instead of 260 and i forgot because i am very smart|b2ec9e|1b9cec ",
+      "generated_at": "2023-03-14T19:10:55-04:00",
+      "source_id": 13764759117
     }
   ]
 }
