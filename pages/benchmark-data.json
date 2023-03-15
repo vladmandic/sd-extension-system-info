@@ -1,5 +1,31 @@
 [
   [
+    664,
+    "2023-03-15T08:24:24.896Z",
+    "8.45 / 9.76 / 10.39",
+    "updated:2023-03-12 hash:ddc503d1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/stable",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "7th_anime_v3_C.safetensors [f6957e654e]",
+    "prompt",
+    ""
+  ],
+  [
+    663,
+    "2023-03-15T08:20:34.859Z",
+    "0.2 / 4.51 / 4.78",
+    "updated:2023-03-12 hash:ddc503d1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/stable",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "7th_anime_v3_C.safetensors [f6957e654e]",
+    "prompt",
+    ""
+  ],
+  [
     662,
     "2023-03-15T03:07:20.981Z",
     "14.73 / 15.33 / 24.65",
