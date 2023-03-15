@@ -1,5 +1,44 @@
 [
   [
+    673,
+    "2023-03-15T13:36:38.363Z",
+    "6.27 / 7.17 / 7.64",
+    "updated:2023-03-12 hash:ddc503d1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/stable",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "OldFish_v11.safetensors [7be100b0f3]",
+    "prompt",
+    ""
+  ],
+  [
+    672,
+    "2023-03-15T12:35:47.743Z",
+    "11.02 / 15.06 / 19.65",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "cornflowerStylizedAnime_v9FP16.safetensors [50e4652b02]",
+    "psSof",
+    ""
+  ],
+  [
+    671,
+    "2023-03-11T03:44:57.474Z",
+    "8.91 / 13.85 / 17.82",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers lowram",
+    "latest.ckpt [a7529df023]",
+    "psSof",
+    ""
+  ],
+  [
     670,
     "2023-03-14T23:08:46.944Z",
     "10.66 / 11.82 / 12.76 / 13.2 / 13.67",
