@@ -1,5 +1,5 @@
 {
-  "max_id": "1572658756699992092",
+  "max_id": "1572685768365879299",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8554,6 +8554,41 @@
       "message": "Duck 2023-03-15 22:51:20.917819|20.01 / 29.23 / 33.45|updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.1.0 autocast half xformers:0.0.17+b6be33a.d20230311 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|AOM3A1B.safetensors [5493a0ec49]|Duck||477685|eee2ab ",
       "generated_at": "2023-03-15T18:51:27-04:00",
       "source_id": 13765121693
+    },
+    {
+      "id": "1572681803158962178",
+      "program": "SDBENCHMARK",
+      "message": "NoInternet 2023-03-15 11:22:38.664710|28.89 / 36.8 / 41.58|updated:2023-01-30 hash:2c1bb46 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 22GB|xformers none|[v1-5-pruned-emaonly.ckpt [cc6cb27103]|NoInternet|Normal level, Extra steps, Perform warmup, Console logging|4fd054|da41ac ",
+      "generated_at": "2023-03-15T07:23:02-04:00",
+      "source_id": 13765191213
+    },
+    {
+      "id": "1572683863736627207",
+      "program": "SDBENCHMARK",
+      "message": "drop 2023-03-16 00:30:29.148241|7.54 / 8.88 / 9.48|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.1.0.dev20230315+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|-0-wait\\chilloutmix_Ni.safetensors [7234b76e42]|drop||e18d08|615a3e ",
+      "generated_at": "2023-03-15T20:31:15-04:00",
+      "source_id": 13765197862
+    },
+    {
+      "id": "1572683992988299265",
+      "program": "SDBENCHMARK",
+      "message": "drop 2023-03-16 00:30:29.148241|7.54 / 8.88 / 9.48|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.1.0.dev20230315+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|-0-wait\\chilloutmix_Ni.safetensors [7234b76e42]|drop||e18d08|615a3e ",
+      "generated_at": "2023-03-15T20:31:46-04:00",
+      "source_id": 13765197862
+    },
+    {
+      "id": "1572685768365879298",
+      "program": "SDBENCHMARK",
+      "message": "drop 2023-03-16 00:30:29.148241|7.54 / 8.88 / 9.48|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.1.0.dev20230315+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|-0-wait\\chilloutmix_Ni.safetensors [7234b76e42]|drop||e18d08|615a3e ",
+      "generated_at": "2023-03-15T20:38:49-04:00",
+      "source_id": 13765197862
+    },
+    {
+      "id": "1572685768365879299",
+      "program": "SDBENCHMARK",
+      "message": "drop 2023-03-16 00:37:56.949573|6.1 / 7.57 / 8.1|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|-0-wait\\chilloutmix_Ni.safetensors [7234b76e42]|drop||ab9ebd|e3e136 ",
+      "generated_at": "2023-03-15T20:38:49-04:00",
+      "source_id": 13765197862
     }
   ]
 }
