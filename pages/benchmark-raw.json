@@ -1,5 +1,5 @@
 {
-  "max_id": "1573014649849430026",
+  "max_id": "1573017605273464835",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9086,6 +9086,20 @@
       "message": "nzbiship 2023-03-16 09:25:27.326546|13.76 / 17.63 / 21.84|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 24GB|xformers none|chilloutmix-Ni.safetensors [7234b76e42]|nzbiship||fb8fc0|53ebed ",
       "generated_at": "2023-03-16T05:25:40-04:00",
       "source_id": 13762368020
+    },
+    {
+      "id": "1573017605269270546",
+      "program": "SDBENCHMARK",
+      "message": "saras 2023-03-09 20:45:01.365210|12.29 / 13.91 / 15.42|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|saras||51c870|16e78d ",
+      "generated_at": "2023-03-16T17:37:23-04:00",
+      "source_id": 13762040401
+    },
+    {
+      "id": "1573017605273464835",
+      "program": "SDBENCHMARK",
+      "message": "saras 2023-03-12 07:43:28.008484|13.4 / 15.17 / 17.29|updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|anyhentai_18.safetensors [168144a879]|saras||b658a6|ca862b ",
+      "generated_at": "2023-03-16T17:37:24-04:00",
+      "source_id": 13762040401
     }
   ]
 }
