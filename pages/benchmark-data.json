@@ -1,5 +1,44 @@
 [
   [
+    717,
+    "2023-03-16T21:26:13.571Z",
+    "2.49 / 2.64 / 2.82",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "benchmarks/768-v-ema.ckpt [bfcaf07557]",
+    "knut",
+    ""
+  ],
+  [
+    716,
+    "2023-03-16T21:22:25.449Z",
+    "2.07 / 2.15 / 2.25",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "knut",
+    ""
+  ],
+  [
+    715,
+    "2023-03-15T08:04:33.512Z",
+    "1.98 / 1.67 / 1.72",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "InvokeAI none",
+    "benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "knut",
+    ""
+  ],
+  [
     714,
     "2023-03-16T13:00:12.633Z",
     "15.8 / 17.9 / 21.39",
