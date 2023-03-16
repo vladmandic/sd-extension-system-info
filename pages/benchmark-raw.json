@@ -1,5 +1,5 @@
 {
-  "max_id": "1573081113818230788",
+  "max_id": "1573095052895502347",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9562,6 +9562,13 @@
       "message": "isamu 2023-03-17 01:48:01.402831|16.14 / 30.67 / 40.78|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|7th_anime_v3_B.ckpt [21422798f9]|isamu||2a7b52|af78f1 ",
       "generated_at": "2023-03-16T21:49:46-04:00",
       "source_id": 13766215090
+    },
+    {
+      "id": "1573095052895502347",
+      "program": "SDBENCHMARK",
+      "message": "BZK 2023-03-17 02:44:07.926596|6.41 / 4.39 / 5.15|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 12GB|xformers none|perfectWorld_perfectWorldBakedVAE.safetensors [ca883fecc7]|BZK||23e57c|358bfa ",
+      "generated_at": "2023-03-16T22:45:08-04:00",
+      "source_id": 13766257363
     }
   ]
 }
