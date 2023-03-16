@@ -1,5 +1,18 @@
 [
   [
+    736,
+    "2023-03-17T01:56:05.414Z",
+    "error / error / error",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:2.1.0.dev20230316 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "benchmarks/v2-1_768-ema-pruned.ckpt [ad2a33c361]",
+    "knut",
+    ""
+  ],
+  [
     735,
     "2023-03-16T23:17:07.403Z",
     "12.44 / 18.76 / 22.19",
