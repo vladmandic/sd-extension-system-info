@@ -1,5 +1,5 @@
 {
-  "max_id": "1572823755393253380",
+  "max_id": "1572852847245193225",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8799,6 +8799,13 @@
       "message": "sawar 2023-02-27 17:47:35.513356|22.51 / 34.11 / 40.84|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev465 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|AOM3A1.safetensors [f303d10812]|sawar||01be7c|b2fbba ",
       "generated_at": "2023-03-16T05:47:09-04:00",
       "source_id": 13765578408
+    },
+    {
+      "id": "1572852847245193225",
+      "program": "SDBENCHMARK",
+      "message": "zodri 2023-03-16 04:37:36.812202|0.69 / 0.66 / 0.67|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers none|deliberate.safetensors [9aba26abdf]|zodri||9299d1|eaa70c ",
+      "generated_at": "2023-03-16T00:42:40-04:00",
+      "source_id": 13765642477
     }
   ]
 }
