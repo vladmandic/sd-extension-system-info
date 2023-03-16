@@ -1,5 +1,5 @@
 {
-  "max_id": "1573040928707506184",
+  "max_id": "1573057914967601153",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9149,6 +9149,342 @@
       "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
       "generated_at": "2023-03-16T20:10:05-04:00",
       "source_id": 13762950532
+    },
+    {
+      "id": "1573046563838812189",
+      "program": "SDBENCHMARK",
+      "message": "v1rtu0so 2023-03-16 08:32:08.217368|23.1 / 40.37 / 50.26|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|SDv2-1_768-ema-pruned.ckpt [ad2a33c361]|v1rtu0so||c9e631|16924a ",
+      "generated_at": "2023-03-16T04:32:29-04:00",
+      "source_id": 13759651307
+    },
+    {
+      "id": "1573047920478052379",
+      "program": "SDBENCHMARK",
+      "message": "v1rtu0so 2023-03-16 08:37:37.884558|18.18 / 34.56 / 40.4|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|SDv2-1_768-ema-pruned.ckpt [ad2a33c361]|v1rtu0so||c9e631|170b56 ",
+      "generated_at": "2023-03-16T04:37:52-04:00",
+      "source_id": 13759651307
+    },
+    {
+      "id": "1573047964669243397",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:03-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573047974613938186",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:05-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048004045369351",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:12-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048004045369353",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:12-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048004045369354",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:12-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048004045369355",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:12-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048006557757444",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048006557757451",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048007463727108",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048007472115746",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048007472115747",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048007472115748",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:13-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048076703297568",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:29-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048076703297578",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:29-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048076703297579",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:29-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048076703297582",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:29-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048080226512905",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:30-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048080226512906",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:30-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048080239095810",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:30-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048080239095811",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:30-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048082738901006",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:31-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048082738901007",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:31-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048082738901009",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:31-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048082738901011",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:31-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048150850203658",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:38:47-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048150850203660",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:38:47-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048150862786561",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:38:47-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048150862786566",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:36:41.021466|2.16 / 2.2 / 2.32|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||864ec6|664be7 ",
+      "generated_at": "2023-03-16T20:38:47-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048737905963023",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:41:07-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048737905963024",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T20:41:07-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048737905963026",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:41:07-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573048737905963031",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:40:04.325802|2.69 / 2.78 / 2.96|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||864ec6|9af39f ",
+      "generated_at": "2023-03-16T20:41:07-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573049967294214159",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T20:46:00-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573049967294214162",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T20:46:00-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573049967294214163",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:45:06.213901|2.67 / 2.85 / 2.97|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v2-1_768-ema-pruned.ckpt [ad2a33c361]|knut||864ec6|9c1db4 ",
+      "generated_at": "2023-03-16T20:46:00-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573053611708170257",
+      "program": "SDBENCHMARK",
+      "message": "markd 2023-03-16 08:58:34.438772|17.18 / 20.13 / 21.82 / 23.06 / 22.66|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|LogQuick.safetensors [80c767b50d]|markd||eb5770|527fd4 ",
+      "generated_at": "2023-03-16T05:00:26-04:00",
+      "source_id": 13766132309
+    },
+    {
+      "id": "1573053845465133081",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-03-16T21:01:25-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573053845477715969",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-16 21:26:13.571985|2.49 / 2.64 / 2.82|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/768-v-ema.ckpt [bfcaf07557]|knut||376dbf|081888 ",
+      "generated_at": "2023-03-16T21:01:25-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573053845477715971",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:08:28.780168|2.24 / 2.33 / 2.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0.dev20230210 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||7ab12b|3c6364 ",
+      "generated_at": "2023-03-16T21:01:25-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573053845486104588",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-17 00:45:06.213901|2.67 / 2.85 / 2.97|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|benchmarks/v2-1_768-ema-pruned.ckpt [ad2a33c361]|knut||864ec6|9c1db4 ",
+      "generated_at": "2023-03-16T21:01:25-04:00",
+      "source_id": 13762950532
+    },
+    {
+      "id": "1573055751159721987",
+      "program": "SDBENCHMARK",
+      "message": "yumyai 2023-03-16 23:08:38.814270|7.48 / 12.47 / 15.93|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|mixProV3_v3.safetensors [b6928134bb]|yumyai||48b041|fd05ab ",
+      "generated_at": "2023-03-16T19:08:59-04:00",
+      "source_id": 13766138962
+    },
+    {
+      "id": "1573055905510109186",
+      "program": "SDBENCHMARK",
+      "message": "yumyai 2023-03-16 23:08:38.814270|7.48 / 12.47 / 15.93|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|mixProV3_v3.safetensors [b6928134bb]|yumyai||48b041|fd05ab ",
+      "generated_at": "2023-03-16T19:09:35-04:00",
+      "source_id": 13766138962
+    },
+    {
+      "id": "1573056175107403791",
+      "program": "SDBENCHMARK",
+      "message": "20201021PCF 2023-03-17 01:09:28.584878|10.03 / 11.03 / 12.65|updated:2023-03-12 hash:01193821 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|sdp none|dalcefoRealistic_v2.safetensors [e5eee427f7]|20201021PCF||978be5|52f2c1 ",
+      "generated_at": "2023-03-16T21:10:37-04:00",
+      "source_id": 13766140384
+    },
+    {
+      "id": "1573056760472842258",
+      "program": "SDBENCHMARK",
+      "message": "yumyai 2023-03-16 23:12:11.718598|7.85 / 13.4 / 17.25|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|revAnimated_v11.safetensors [d725be5d18]|yumyai||48b041|9b5bcd ",
+      "generated_at": "2023-03-16T19:12:59-04:00",
+      "source_id": 13766138962
+    },
+    {
+      "id": "1573056901003014147",
+      "program": "SDBENCHMARK",
+      "message": "20201021PCF 2023-03-17 01:12:23.713560|9.88 / 11.29 / 13.59 / 13.92 / 12.15|updated:2023-03-12 hash:01193821 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|sdp none|dalcefoRealistic_v2.safetensors [e5eee427f7]|20201021PCF||978be5|039cb4 ",
+      "generated_at": "2023-03-16T21:13:30-04:00",
+      "source_id": 13766140384
+    },
+    {
+      "id": "1573057914967601153",
+      "program": "SDBENCHMARK",
+      "message": "yumyai 2023-03-16 23:17:07.403182|12.44 / 18.76 / 22.19|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 24GB|xformers none|chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]|yumyai||48b041|22579b ",
+      "generated_at": "2023-03-16T19:17:35-04:00",
+      "source_id": 13766138962
     }
   ]
 }
