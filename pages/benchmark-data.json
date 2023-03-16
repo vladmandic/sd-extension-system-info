@@ -1,5 +1,31 @@
 [
   [
+    704,
+    "2023-03-16T14:24:43.957Z",
+    "27.32 / 40.35 / 42.72 / 44.08 / 43.77",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.6-arch1-1 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "wd-1-5-beta2-fp16.safetensors [4bf1855f4d]",
+    "rubyon",
+    ""
+  ],
+  [
+    703,
+    "2023-03-16T14:23:24.948Z",
+    "28.14 / 35.46 / 39.93 / 40.08 / 39.9",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.6-arch1-1 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "rubyon",
+    ""
+  ],
+  [
     702,
     "2023-03-16T04:37:36.812Z",
     "0.69 / 0.66 / 0.67",
