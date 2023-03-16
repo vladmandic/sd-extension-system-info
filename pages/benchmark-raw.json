@@ -1,5 +1,5 @@
 {
-  "max_id": "1572949874473885729",
+  "max_id": "1572978129151127565",
   "events": [
     {
       "id": "1564370541899603981",
@@ -8988,6 +8988,41 @@
       "message": "dahaus 2023-03-16 10:05:47.508634|2.59 / 2.61 / 2.76|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.8|torch:2.0.0.dev20230210 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|dalcefoPainting_v4.ckpt [d49033dba1]|dahaus||9c8c1e|b3a565 ",
       "generated_at": "2023-03-16T06:08:16-04:00",
       "source_id": 13765851914
+    },
+    {
+      "id": "1572968397623508992",
+      "program": "logger",
+      "message": "GET / HTTP/1.1 ",
+      "generated_at": "2023-03-16T06:21:52-04:00",
+      "source_id": 13765898141
+    },
+    {
+      "id": "1572968397623508993",
+      "program": "logger",
+      "message": "Host: 173.247.107.218:32554 ",
+      "generated_at": "2023-03-16T06:21:52-04:00",
+      "source_id": 13765898141
+    },
+    {
+      "id": "1572977406195724299",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-16 12:57:20.783689|12.55 / 14.35 / 15.59|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|User||0c0da0|d379d7 ",
+      "generated_at": "2023-03-16T08:57:41-04:00",
+      "source_id": 13765919044
+    },
+    {
+      "id": "1572978129146933258",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-16 12:57:20.783689|12.55 / 14.35 / 15.59|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|User||0c0da0|d379d7 ",
+      "generated_at": "2023-03-16T09:00:33-04:00",
+      "source_id": 13765919044
+    },
+    {
+      "id": "1572978129151127565",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-16 13:00:12.633446|15.8 / 17.9 / 21.39|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|User||c7f173|902938 ",
+      "generated_at": "2023-03-16T09:00:33-04:00",
+      "source_id": 13765919044
     }
   ]
 }
