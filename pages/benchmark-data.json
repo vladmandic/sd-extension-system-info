@@ -1,5 +1,44 @@
 [
   [
+    742,
+    "2023-03-17T04:57:45.182Z",
+    "12.69 / 15.48 / 20.53",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8",
+    "torch:2.1.0.dev20230314+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 12GB",
+    "xformers none",
+    "camelliablossommix_finaledition.safetensors [f74cfb86eb]",
+    "siwoo",
+    ""
+  ],
+  [
+    741,
+    "2023-03-16T03:07:35.599Z",
+    "1.05",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "revAnimated_v11.safetensors [d725be5d18]",
+    "zaux",
+    "test benchmark"
+  ],
+  [
+    740,
+    "2023-03-17T03:44:29.046Z",
+    "8.78 / 10.32 / 12.13",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "橘子abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]",
+    "cat",
+    "origin"
+  ],
+  [
     739,
     "2023-03-17T02:44:07.926Z",
     "6.41 / 4.39 / 5.15",
