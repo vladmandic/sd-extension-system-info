@@ -232,7 +232,9 @@ def get_skipped():
 
 def get_crossattention():
     try:
-        return sd_hijack.model_hijack.optimization_method
+        ca = sd_hijack.model_hijack.optimization_method
+        if ca is None: return 'none'
+        else: return ca
     except:
         return 'unknown'
 
@@ -311,12 +313,12 @@ def dict2text(d: dict):
 
 def refresh_info_quick():
     get_quick_data()
-    return dict2text(data['state']), dict2text(data['memory']), data['timestamp'], data
+    return dict2text(data['state']), dict2text(data['memory']), data['crossattention'], data['timestamp'], data
 
 
 def refresh_info_full():
     get_full_data()
-    return dict2text(data['state']), dict2text(data['memory']), data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], data['timestamp'], data
+    return dict2text(data['state']), dict2text(data['memory']), data['crossattention'], data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], data['timestamp'], data
 
 
 ### ui definition
@@ -345,7 +347,7 @@ def on_ui_tabs():
                                 gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
                                 with gr.Row():
                                     gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
-                                    gr.Textbox(data['crossattention'], label = 'Cross-attention')
+                                    crossattention = gr.Textbox(data['crossattention'], label = 'Cross-attention')
                                     gr.Textbox((data['api']), label = 'API')
                             with gr.Column():
                                 gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
@@ -404,9 +406,9 @@ def on_ui_tabs():
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
                 refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
-                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, timestamp, js])
+                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, crossattention, timestamp, js])
                 refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style(full_width = False)
-                refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
+                refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, crossattention, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
     return (system_info_tab, 'System Info', 'system_info_tab'),

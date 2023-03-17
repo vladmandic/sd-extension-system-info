@@ -9,6 +9,11 @@ function refresh_info() {
   if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
 }
 
+function refresh_info_full() {
+  const btn = gradioApp().getElementById('system_info_tab_refresh_full_btn') // we could cache this dom element
+  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
+}
+
 function refresh_bench() {
   const btn = gradioApp().getElementById('system_info_tab_refresh_bench_btn') // we could cache this dom element
   if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
@@ -26,7 +31,11 @@ function onHidden() { // stop refresh interval when tab is not visible
 }
 
 function onVisible() { // start refresh interval tab is when visible
-  if (!interval_sys) interval_sys = setInterval(refresh_info, 2500); // check interval already started so dont start it again
+  if (!interval_sys) {
+    setTimeout(refresh_info_full, 50); // do full refresh on first show
+    refresh_info_full(); // do full refresh on first show
+    interval_sys = setInterval(refresh_info, 1500); // check interval already started so dont start it again
+  }
   if (!interval_bench) interval_bench = setInterval(refresh_bench, 1000); // check interval already started so dont start it again
 }
 
