@@ -1,5 +1,5 @@
 {
-  "max_id": "1573222103145177104",
+  "max_id": "1573231919624273928",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9646,6 +9646,27 @@
       "message": "zzzzzzzz 2023-03-17 12:09:10.063120|4.29 / 4.45 / 5.53|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 Super with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|chilloutmix_Ni.safetensors [7234b76e42]|zzzzzzzz||2796d3|8be385 ",
       "generated_at": "2023-03-17T08:10:00-04:00",
       "source_id": 13766565585
+    },
+    {
+      "id": "1573231772337094684",
+      "program": "SDBENCHMARK",
+      "message": "admin 2023-03-17 12:44:07.330427|12.28 / 14.84 / 11.92|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|1\\1_AOM3A3.safetensors [eb4099ba9c]|admin||4e7780|38b782 ",
+      "generated_at": "2023-03-17T08:48:27-04:00",
+      "source_id": 13766584305
+    },
+    {
+      "id": "1573231911873200146",
+      "program": "SDBENCHMARK",
+      "message": "admin 2023-03-17 12:44:07.330427|12.28 / 14.84 / 11.92|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|1\\1_AOM3A3.safetensors [eb4099ba9c]|admin||4e7780|38b782 ",
+      "generated_at": "2023-03-17T08:49:00-04:00",
+      "source_id": 13766584305
+    },
+    {
+      "id": "1573231919624273928",
+      "program": "SDBENCHMARK",
+      "message": "admin 2023-03-17 12:44:07.330427|12.28 / 14.84 / 11.92|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|1\\1_AOM3A3.safetensors [eb4099ba9c]|admin||4e7780|38b782 ",
+      "generated_at": "2023-03-17T08:49:02-04:00",
+      "source_id": 13766584305
     }
   ]
 }
