@@ -1,5 +1,5 @@
 {
-  "max_id": "1573161695671676933",
+  "max_id": "1573169995809206283",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9624,6 +9624,20 @@
       "program": "SDBENCHMARK",
       "message": "dwatl 2023-03-16 19:09:05.387526|9.37 / 13.79 / 16.67 / 17.25 / 24.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|sd-v1-5-inpainting.ckpt [c6bbc15e32]|dwatl||acd17e|e21fb4 ",
       "generated_at": "2023-03-16T15:09:57-04:00",
+      "source_id": 13766428882
+    },
+    {
+      "id": "1573169995809206282",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-16 19:05:09.230466|10.31 / 11.68 / 16.2|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:1.13.1+cu117 full nohalf xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|sd-v1-5-inpainting.ckpt [c6bbc15e32]|dwatl||3d0a69|dbbfbb ",
+      "generated_at": "2023-03-16T15:42:56-04:00",
+      "source_id": 13766428882
+    },
+    {
+      "id": "1573169995809206283",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-16 19:42:10.262680|9.27 / 14.43 / 19.44 / 31.01 / 36.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|512-base-ema.ckpt [d635794c1f]|dwatl||acd17e|939db5 ",
+      "generated_at": "2023-03-16T15:42:56-04:00",
       "source_id": 13766428882
     }
   ]
