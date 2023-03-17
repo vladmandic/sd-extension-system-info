@@ -1,5 +1,44 @@
 [
   [
+    753,
+    "2023-03-17T14:36:05.113Z",
+    "27.7 / 35.91 / 44.43",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers none",
+    "Basic\\v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Tony",
+    ""
+  ],
+  [
+    752,
+    "2023-03-17T14:34:19.896Z",
+    "16.68 / 28.61 / 35.87",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers lowram",
+    "chilloutmix-Ni.safetensors [7234b76e42]",
+    "Ouroboros'",
+    ""
+  ],
+  [
+    751,
+    "2023-03-03T22:11:07.512Z",
+    "26.18 / 31.7 / 36.51",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers lowram",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "Ouroboros'",
+    ""
+  ],
+  [
     750,
     "2023-03-17T18:53:36.967Z",
     "6.84 / 7.65 / 8.31 / 8.84 / 9.01",
