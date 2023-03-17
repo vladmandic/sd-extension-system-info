@@ -1,5 +1,5 @@
 {
-  "max_id": "1573169995809206283",
+  "max_id": "1573222103145177104",
   "events": [
     {
       "id": "1564370541899603981",
@@ -9639,6 +9639,13 @@
       "message": "dwatl 2023-03-16 19:42:10.262680|9.27 / 14.43 / 19.44 / 31.01 / 36.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|512-base-ema.ckpt [d635794c1f]|dwatl||acd17e|939db5 ",
       "generated_at": "2023-03-16T15:42:56-04:00",
       "source_id": 13766428882
+    },
+    {
+      "id": "1573222103145177104",
+      "program": "SDBENCHMARK",
+      "message": "zzzzzzzz 2023-03-17 12:09:10.063120|4.29 / 4.45 / 5.53|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 Super with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|chilloutmix_Ni.safetensors [7234b76e42]|zzzzzzzz||2796d3|8be385 ",
+      "generated_at": "2023-03-17T08:10:00-04:00",
+      "source_id": 13766565585
     }
   ]
 }
