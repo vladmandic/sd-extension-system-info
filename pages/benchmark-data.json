@@ -1,5 +1,31 @@
 [
   [
+    844,
+    "2023-03-18T22:00:51.275Z",
+    "16.66 / 19.43 / 21.43",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "abyssorangemix2_Hard.safetensors [e714ee20aa]",
+    "Animu",
+    ""
+  ],
+  [
+    843,
+    "2023-03-18T19:17:30.396Z",
+    "8.19 / 9.93 / 11.78",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]",
+    "Animu",
+    ""
+  ],
+  [
     842,
     "2023-03-18T21:05:48.899Z",
     "8.75 / 9.96 / 11.15",
