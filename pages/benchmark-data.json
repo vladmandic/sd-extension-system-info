@@ -1,5 +1,44 @@
 [
   [
+    829,
+    "2023-03-18T16:53:49.087Z",
+    "9.17 / 10.36 / 11.44",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "yubo",
+    ""
+  ],
+  [
+    828,
+    "2023-03-18T16:43:04.617Z",
+    "14.07 / 15.97 / 17.32",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "z-old models\\new3.ckpt [8f24e6e802]",
+    "Administrator",
+    ""
+  ],
+  [
+    827,
+    "2023-03-18T16:39:32.521Z",
+    "4.6 / 5.73 / 7.08 / 7.75 / 7.69",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "z-old models\\new3.ckpt [8f24e6e802]",
+    "Administrator",
+    ""
+  ],
+  [
     826,
     "2023-03-18T14:33:09.706Z",
     "2.97 / 3.55 / 3.69",
