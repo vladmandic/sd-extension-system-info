@@ -1,5 +1,44 @@
 [
   [
+    862,
+    "2023-03-19T05:57:04.834Z",
+    "19.71 / 31.8 / 36.94",
+    "updated:2023-03-14 hash:a9fed7c36 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7",
+    "torch:2.1.0.dev20230313+cu118 autocast half xformers:0.0.17+b6be33a.d20230313 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "cornflowerStylizedAnime_v8.safetensors [db6b14037a]",
+    "user",
+    ""
+  ],
+  [
+    861,
+    "2023-03-18T16:15:34.310Z",
+    "4.64 / 5.12 / 5.26 / 5.21 / 2.66",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB",
+    "sub-quadratic none",
+    "furryVixens_v20.safetensors [8344c83793]",
+    "iDeNoh",
+    ""
+  ],
+  [
+    860,
+    "2023-03-18T16:08:42.182Z",
+    "3.6 / 4.34 / 3.33 / 3.45 / 3.51",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB",
+    "sub-quadratic medvram",
+    "furryVixens_v20.safetensors [8344c83793]",
+    "oem",
+    ""
+  ],
+  [
     859,
     "2023-03-18T16:00:29.349Z",
     "2.75 / 3.26 / 3.64 / 2.62 / 2.69",

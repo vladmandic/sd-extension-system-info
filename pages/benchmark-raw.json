@@ -1,5 +1,5 @@
 {
-  "max_id": "1573854997131743233",
+  "max_id": "1573868214574829578",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12446,6 +12446,62 @@
       "message": "oem 2023-03-17 21:41:11.701209|2.77 / 3.25 / 3.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|72283c ",
       "generated_at": "2023-03-18T12:04:54-04:00",
       "source_id": 13767481388
+    },
+    {
+      "id": "1573857631133679627",
+      "program": "SDBENCHMARK",
+      "message": "oem 2023-03-18 16:08:42.182336|3.6 / 4.34 / 3.33 / 3.45 / 3.51|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v20.safetensors [8344c83793]|oem||cb1c3c|bba999 ",
+      "generated_at": "2023-03-18T12:15:22-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573857631133683715",
+      "program": "SDBENCHMARK",
+      "message": "oem 2023-03-17 21:41:11.701209|2.77 / 3.25 / 3.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|72283c ",
+      "generated_at": "2023-03-18T12:15:22-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573857631133683716",
+      "program": "SDBENCHMARK",
+      "message": "oem 2023-03-18 16:00:29.349536|2.75 / 3.26 / 3.64 / 2.62 / 2.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v20.safetensors [8344c83793]|oem||c9db2c|daebf6 ",
+      "generated_at": "2023-03-18T12:15:22-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573858739046502409",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-18 16:08:42.182336|3.6 / 4.34 / 3.33 / 3.45 / 3.51|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v20.safetensors [8344c83793]|oem||cb1c3c|bba999 ",
+      "generated_at": "2023-03-18T12:19:46-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573858739046502412",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-18 16:15:34.310327|4.64 / 5.12 / 5.26 / 5.21 / 2.66|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic none|furryVixens_v20.safetensors [8344c83793]|iDeNoh||415448|3f9300 ",
+      "generated_at": "2023-03-18T12:19:46-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573858739046510597",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-17 21:41:11.701209|2.77 / 3.25 / 3.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|72283c ",
+      "generated_at": "2023-03-18T12:19:46-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573858739046510608",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-18 16:00:29.349536|2.75 / 3.26 / 3.64 / 2.62 / 2.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v20.safetensors [8344c83793]|oem||c9db2c|daebf6 ",
+      "generated_at": "2023-03-18T12:19:46-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573868214574829578",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-03-19 05:57:04.834620|19.71 / 31.8 / 36.94|updated:2023-03-14 hash:a9fed7c36 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:2.1.0.dev20230313+cu118 autocast half xformers:0.0.17+b6be33a.d20230313 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|cornflowerStylizedAnime_v8.safetensors [db6b14037a]|user||9cb6b8|a94e90 ",
+      "generated_at": "2023-03-19T01:57:24-04:00",
+      "source_id": 13768177834
     }
   ]
 }
