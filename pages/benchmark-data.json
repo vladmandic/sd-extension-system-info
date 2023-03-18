@@ -1,5 +1,44 @@
 [
   [
+    856,
+    "2023-03-19T01:59:40.679Z",
+    "13.55 / 19.61 / 22.08 / 23.55 / 22.1",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "galaxytimemachines_v3_2.safetensors [a31e1893cd]",
+    "CNOS",
+    "CNOS"
+  ],
+  [
+    855,
+    "2023-03-19T01:59:12.485Z",
+    "13.38 / 19.73 / 22.25",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "galaxytimemachines_v3_2.safetensors [a31e1893cd]",
+    "CNOS",
+    "CNOS"
+  ],
+  [
+    854,
+    "2023-03-19T01:57:43.100Z",
+    "12.95 / 18.09 / 20.52",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "galaxytimemachines_v3_2.safetensors [a31e1893cd]",
+    "CNOS",
+    ""
+  ],
+  [
     853,
     "2023-03-18T18:01:13.197Z",
     "0.72",
