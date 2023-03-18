@@ -1,5 +1,5 @@
 {
-  "max_id": "1573838158058147845",
+  "max_id": "1573854997131743233",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12432,6 +12432,20 @@
       "message": "sukho 2023-03-19 04:57:45.297622|18.87 / 31.82 / 39.07|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230318+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|perfectWorld_v2Baked.safetensors [79e42fb744]|sukho||4d17a7|7ac97e ",
       "generated_at": "2023-03-19T00:57:59-04:00",
       "source_id": 13768104393
+    },
+    {
+      "id": "1573854997131739136",
+      "program": "SDBENCHMARK",
+      "message": "oem 2023-03-18 16:00:29.349536|2.75 / 3.26 / 3.64 / 2.62 / 2.69|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v20.safetensors [8344c83793]|oem||c9db2c|daebf6 ",
+      "generated_at": "2023-03-18T12:04:54-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573854997131743233",
+      "program": "SDBENCHMARK",
+      "message": "oem 2023-03-17 21:41:11.701209|2.77 / 3.25 / 3.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|72283c ",
+      "generated_at": "2023-03-18T12:04:54-04:00",
+      "source_id": 13767481388
     }
   ]
 }
