@@ -1,5 +1,5 @@
 {
-  "max_id": "1573781079511461888",
+  "max_id": "1573793854866518031",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12334,6 +12334,34 @@
       "message": "Zounass 2023-03-18 17:53:11.867088|7.77 / 6.52 / 7.34 / 8.07 / 7.47|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|rpg_V4.safetensors [e04b020012]|Zounass||a7bf55|0cc1d1 ",
       "generated_at": "2023-03-18T14:11:10-04:00",
       "source_id": 13767961041
+    },
+    {
+      "id": "1573789207992909831",
+      "program": "SDBENCHMARK",
+      "message": "12483 2023-03-19 00:42:54.155188|6.45 / 7.47 / 8.21|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|12483||391e83|66e67e ",
+      "generated_at": "2023-03-18T20:43:27-04:00",
+      "source_id": 13767981477
+    },
+    {
+      "id": "1573793506076569608",
+      "program": "SDBENCHMARK",
+      "message": "Istvan 2023-03-18 17:46:36.920795|12.52 / 13.31 / 14.94|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 10GB|xformers none|Core\\Anything v3.0.ckpt [812cd9f9d9]|Istvan||7c54c8|703ad2 ",
+      "generated_at": "2023-03-18T14:00:35-04:00",
+      "source_id": 13767991835
+    },
+    {
+      "id": "1573793506076569609",
+      "program": "SDBENCHMARK",
+      "message": "Istvan 2023-03-18 17:50:53.523483|12.45 / 13.31 / 14.66|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 10GB|sdp none|Core\\Anything v3.0.ckpt [812cd9f9d9]|Istvan||f26fff|62f5cc ",
+      "generated_at": "2023-03-18T14:00:35-04:00",
+      "source_id": 13767991835
+    },
+    {
+      "id": "1573793854866518031",
+      "program": "SDBENCHMARK",
+      "message": "Szymon 2023-03-18 18:01:13.197310|0.72|updated:2023-03-14 hash:f64ad253 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic medvram|RealisticVision V13\\realisticVisionV13_v13.safetensors [c35782bad8]|Szymon|Windows 11 Home 22H2 (22621.1413) (https://github.com/lshqqytiger/stable-diffusion-webui-directml/) AMD Ryzen 5 3600 MSI Radeon RX 580 ARMOR OC 8GB MSI B450 TOMAHAWK MAX Kingston HyperX Fury 32GB (2x16GB) DDR4 3200MHz CL16HX432C16FB4K2/32 Seasonic S12II-620 80Plus Bronze 620 Watt SD Installed on Crucial MX500 1TB Sata SSD|2366ea|5bc98b ",
+      "generated_at": "2023-03-18T14:02:07-04:00",
+      "source_id": 13767993051
     }
   ]
 }
