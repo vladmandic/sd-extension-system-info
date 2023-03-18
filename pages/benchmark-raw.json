@@ -1,5 +1,5 @@
 {
-  "max_id": "1573712065900757001",
+  "max_id": "1573734630476132363",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12152,6 +12152,55 @@
       "message": "17362 2023-03-18 19:30:50.921605|15.14 / 18.12 / 19.73|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 12GB|xformers none|dosmix_.safetensors [9c59842129]|17362||629b88|8f3458 ",
       "generated_at": "2023-03-18T15:36:58-04:00",
       "source_id": 13767730948
+    },
+    {
+      "id": "1573730040577978375",
+      "program": "SDBENCHMARK",
+      "message": "elema 2023-03-18 20:47:00.108323|5.57 / 7.15 / 8.13|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 8GB|xformers medvram|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|elema||a5d71b|ffc383 ",
+      "generated_at": "2023-03-18T16:48:23-04:00",
+      "source_id": 13767823410
+    },
+    {
+      "id": "1573730188632715269",
+      "program": "SDBENCHMARK",
+      "message": "elema 2023-03-18 20:47:00.108323|5.57 / 7.15 / 8.13|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 8GB|xformers medvram|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|elema||a5d71b|ffc383 ",
+      "generated_at": "2023-03-18T16:48:59-04:00",
+      "source_id": 13767823410
+    },
+    {
+      "id": "1573730370778755077",
+      "program": "SDBENCHMARK",
+      "message": "elema 2023-03-18 20:47:00.108323|5.57 / 7.15 / 8.13|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 8GB|xformers medvram|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|elema||a5d71b|ffc383 ",
+      "generated_at": "2023-03-18T16:49:42-04:00",
+      "source_id": 13767823410
+    },
+    {
+      "id": "1573730983361048591",
+      "program": "SDBENCHMARK",
+      "message": "elema 2023-03-18 20:49:50.964280|5.11 / 6.68 / 7.54|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 8GB|xformers medvram|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|elema||a5d71b|a7a552 ",
+      "generated_at": "2023-03-18T16:52:08-04:00",
+      "source_id": 13767823410
+    },
+    {
+      "id": "1573733528678608906",
+      "program": "SDBENCHMARK",
+      "message": "KototoseFumino 2023-03-18 21:01:53.552909|8.79 / 9.54 / 10.46|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 8GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|KototoseFumino||686224|66fd35 ",
+      "generated_at": "2023-03-18T17:02:14-04:00",
+      "source_id": 13767832709
+    },
+    {
+      "id": "1573734630476132362",
+      "program": "SDBENCHMARK",
+      "message": "KotoyoseFumino 2023-03-18 21:01:53.552909|8.79 / 9.54 / 10.46|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.3 cudnn:8800 8GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|KototoseFumino||686224|66fd35 ",
+      "generated_at": "2023-03-18T17:06:36-04:00",
+      "source_id": 13767832709
+    },
+    {
+      "id": "1573734630476132363",
+      "program": "SDBENCHMARK",
+      "message": "KotoyoseFumino 2023-03-18 21:05:48.899194|8.75 / 9.96 / 11.15|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 8GB|xformers none|abyssorangemix3AOM3_aom3a3.safetensors [eb4099ba9c]|KotoyoseFumino||cb917d|8162ff ",
+      "generated_at": "2023-03-18T17:06:36-04:00",
+      "source_id": 13767832709
     }
   ]
 }
