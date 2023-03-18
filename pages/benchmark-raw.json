@@ -1,5 +1,5 @@
 {
-  "max_id": "1573748442902212635",
+  "max_id": "1573762377067982853",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12243,6 +12243,62 @@
       "message": "Animu 2023-03-18 22:00:51.275140|16.66 / 19.43 / 21.43|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|abyssorangemix2_Hard.safetensors [e714ee20aa]|Animu||2cf254|43fd3d ",
       "generated_at": "2023-03-18T18:01:29-04:00",
       "source_id": 13767871755
+    },
+    {
+      "id": "1573761001361436672",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:46:55.354462|12.42 / 15.5 / 16.38|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|babes_11.safetensors [79886b6484]|Administrator||ab0e22|d4cd28 ",
+      "generated_at": "2023-03-18T18:51:21-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573761001361436694",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:42:01.952988|8.67 / 11.7 / 17.18|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|babes_11.safetensors [79886b6484]|Administrator||6f98d7|af3794 ",
+      "generated_at": "2023-03-18T18:51:21-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762244762857489",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:46:55.354462|12.42 / 15.5 / 16.38|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|babes_11.safetensors [79886b6484]|Administrator||ab0e22|d4cd28 ",
+      "generated_at": "2023-03-18T18:56:17-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762244767051778",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:42:01.952988|8.67 / 11.7 / 17.18|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|babes_11.safetensors [79886b6484]|Administrator||6f98d7|af3794 ",
+      "generated_at": "2023-03-18T18:56:17-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762368687763461",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:46:55.354462|12.42 / 15.5 / 16.38|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|babes_11.safetensors [79886b6484]|Administrator||ab0e22|d4cd28 ",
+      "generated_at": "2023-03-18T18:56:47-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762368687763464",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:42:01.952988|8.67 / 11.7 / 17.18|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|babes_11.safetensors [79886b6484]|Administrator||6f98d7|af3794 ",
+      "generated_at": "2023-03-18T18:56:47-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762377063788552",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:46:55.354462|12.42 / 15.5 / 16.38|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|babes_11.safetensors [79886b6484]|Administrator||ab0e22|d4cd28 ",
+      "generated_at": "2023-03-18T18:56:49-04:00",
+      "source_id": 13767903323
+    },
+    {
+      "id": "1573762377067982853",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 22:42:01.952988|8.67 / 11.7 / 17.18|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|babes_11.safetensors [79886b6484]|Administrator||6f98d7|af3794 ",
+      "generated_at": "2023-03-18T18:56:49-04:00",
+      "source_id": 13767903323
     }
   ]
 }
