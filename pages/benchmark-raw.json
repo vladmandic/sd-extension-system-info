@@ -1,5 +1,5 @@
 {
-  "max_id": "1573557363569512460",
+  "max_id": "1573577506689302568",
   "events": [
     {
       "id": "1564370541899603981",
@@ -11508,6 +11508,20 @@
       "message": "idle 2023-03-18 03:21:07.663448|22.92 / 36.38 / 41.38 / 46.86 / 44.08|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.15.0 transformers:4.26.0|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|Latex.ID_Generator-2-01.ckpt [cd77ec4285]|idle|latex.id test|33fa30|6821c2 ",
       "generated_at": "2023-03-17T23:22:12-04:00",
       "source_id": 13767443138
+    },
+    {
+      "id": "1573576379088420872",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-17 21:33:46.057536|2.84 / 2.31 / 2.57|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|4b090d ",
+      "generated_at": "2023-03-17T17:37:46-04:00",
+      "source_id": 13767481388
+    },
+    {
+      "id": "1573577506689302568",
+      "program": "SDBENCHMARK",
+      "message": "iDeNoh 2023-03-17 21:41:11.701209|2.77 / 3.25 / 3.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-56-generic python:3.10.6|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|sub-quadratic medvram|furryVixens_v10.safetensors [621c4de463]|iDeNoh||342a9c|72283c ",
+      "generated_at": "2023-03-17T17:42:15-04:00",
+      "source_id": 13767481388
     }
   ]
 }
