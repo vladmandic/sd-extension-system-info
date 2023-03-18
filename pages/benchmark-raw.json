@@ -1,5 +1,5 @@
 {
-  "max_id": "1573690900943650821",
+  "max_id": "1573704275752841217",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12124,6 +12124,20 @@
       "message": "17362 2023-03-18 18:12:28.798475|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 12GB|xformers none|dosmix_.safetensors [9c59842129]|17362||629b88|51fb2b ",
       "generated_at": "2023-03-18T14:12:52-04:00",
       "source_id": 13767730948
+    },
+    {
+      "id": "1573702560202801153",
+      "program": "SDBENCHMARK",
+      "message": "zyx 2023-03-18 18:58:24.892482|8.78 / 9.69 / 10.43|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|zyx||a2e31f|a3a110 ",
+      "generated_at": "2023-03-18T14:59:08-04:00",
+      "source_id": 13767756308
+    },
+    {
+      "id": "1573704275752841217",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-18 19:04:42.488520|15.83 / 17.23 / 18.78|updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8801 24GB|xformers lowram|henmixReal_v10.safetensors [5c2e28a5ce]|Administrator||0e7521|101d12 ",
+      "generated_at": "2023-03-18T15:05:28-04:00",
+      "source_id": 13767760686
     }
   ]
 }

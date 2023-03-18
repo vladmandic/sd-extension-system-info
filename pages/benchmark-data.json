@@ -1,5 +1,31 @@
 [
   [
+    836,
+    "2023-03-18T19:04:42.488Z",
+    "15.83 / 17.23 / 18.78",
+    "updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8801 24GB",
+    "xformers lowram",
+    "henmixReal_v10.safetensors [5c2e28a5ce]",
+    "Administrator",
+    ""
+  ],
+  [
+    835,
+    "2023-03-18T18:58:24.892Z",
+    "8.78 / 9.69 / 10.43",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]",
+    "zyx",
+    ""
+  ],
+  [
     834,
     "2023-03-18T18:12:28.798Z",
     "error / error / error",
