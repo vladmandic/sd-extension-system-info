@@ -1,5 +1,31 @@
 [
   [
+    826,
+    "2023-03-18T14:33:09.706Z",
+    "2.97 / 3.55 / 3.69",
+    "updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3050 Ti Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 4GB",
+    "xformers medvram",
+    "Real\\chilloutmix_NiPrunedFp32Fix.safetensors",
+    "DiDi",
+    ""
+  ],
+  [
+    825,
+    "2023-03-18T14:15:10.169Z",
+    "10.27 / 10.99 / 12.47",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17+b89a493.d20230305 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB",
+    "xformers none",
+    "AOM3.safetensors [d124fc18f0]",
+    "apsur",
+    ""
+  ],
+  [
     824,
     "2023-03-18T02:12:35.995Z",
     "9.7 / 10.81 / 12.41",

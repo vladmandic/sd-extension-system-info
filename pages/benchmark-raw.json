@@ -1,5 +1,5 @@
 {
-  "max_id": "1573630571656171530",
+  "max_id": "1573636176236167169",
   "events": [
     {
       "id": "1564370541899603981",
@@ -12019,6 +12019,20 @@
       "message": "ID645 2023-03-18 02:12:35.995309|9.7 / 10.81 / 12.41|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|abyssorangemix2_Hard.safetensors [e714ee20aa]|ID645||093048|b6d79f ",
       "generated_at": "2023-03-17T22:13:07-04:00",
       "source_id": 13767592951
+    },
+    {
+      "id": "1573631840743501864",
+      "program": "SDBENCHMARK",
+      "message": "apsur 2023-03-18 14:15:10.169228|10.27 / 10.99 / 12.47|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:0.0.17+b89a493.d20230305 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|AOM3.safetensors [d124fc18f0]|apsur||339445|f94e79 ",
+      "generated_at": "2023-03-18T10:18:08-04:00",
+      "source_id": 13767596585
+    },
+    {
+      "id": "1573636176236167169",
+      "program": "SDBENCHMARK",
+      "message": "DiDi 2023-03-18 14:33:09.706099|2.97 / 3.55 / 3.69|updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 Ti Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 4GB|xformers medvram|Real\\chilloutmix_NiPrunedFp32Fix.safetensors|DiDi||11a757|54235b ",
+      "generated_at": "2023-03-18T10:35:23-04:00",
+      "source_id": 13767607854
     }
   ]
 }
