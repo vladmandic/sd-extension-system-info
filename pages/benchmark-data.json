@@ -1,5 +1,44 @@
 [
   [
+    916,
+    "2023-03-19T18:05:11.490Z",
+    "1.68 / 2.17 / 2.38",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "facebombmix_v1.safetensors [aad629159b]",
+    "001",
+    ""
+  ],
+  [
+    915,
+    "2023-03-19T17:49:06.200Z",
+    "11.01 / 16.95 / 24.54 / 35.05 / 39.82",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "chenj",
+    ""
+  ],
+  [
+    914,
+    "2023-03-19T17:18:09.655Z",
+    "22.25 / 25.32 / 29.15",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "OMG",
+    ""
+  ],
+  [
     913,
     "2023-03-19T22:06:51.501Z",
     "10.74 / 12.04 / 12.78 / 13.51 / 14.27",
