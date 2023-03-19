@@ -1,5 +1,5 @@
 {
-  "max_id": "1574202537987461137",
+  "max_id": "1574210864700125187",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13363,6 +13363,13 @@
       "message": "knot 2023-03-19 15:03:00.049261|11.17 / 12.14 / 13.79 / 14.35 / 14.08|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu: system:Linux release:6.2.6-273-tkg-bore python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8801 8GB|sdp none|revAnimated_v11.safetensors [d725be5d18]|knot||39158a|0bb1fe ",
       "generated_at": "2023-03-19T11:05:54-04:00",
       "source_id": 13768985292
+    },
+    {
+      "id": "1574210864700125187",
+      "program": "SDBENCHMARK",
+      "message": "Tomasz 2023-03-19 21:35:51.106121|2.43 / 4.66 / 5.59|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8801 8GB|xformers medvram|citrinedreammix_v11BakedVAE.safetensors [724566c0cc]|Tomasz||5e0c1c|20c23c ",
+      "generated_at": "2023-03-19T17:36:33-04:00",
+      "source_id": 13769006593
     }
   ]
 }
