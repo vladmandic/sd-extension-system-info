@@ -1,5 +1,5 @@
 {
-  "max_id": "1574183319787192320",
+  "max_id": "1574202537987461137",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13349,6 +13349,20 @@
       "message": "Werran 2023-03-20 02:46:59.142223|1.71 / 2.18 / 2.4|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|Werran||55141a|67baaf ",
       "generated_at": "2023-03-19T22:49:32-04:00",
       "source_id": 13768940077
+    },
+    {
+      "id": "1574201773030297613",
+      "program": "SDBENCHMARK",
+      "message": "knot 2023-03-19 15:01:46.610956|10.74 / 11.36 / 13.0 / 13.66 / 13.44|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu: system:Linux release:6.2.6-273-tkg-bore python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8801 8GB|sdp none|revAnimated_v11.safetensors [d725be5d18]|knot||39158a|415af4 ",
+      "generated_at": "2023-03-19T11:02:52-04:00",
+      "source_id": 13768985292
+    },
+    {
+      "id": "1574202537987461137",
+      "program": "SDBENCHMARK",
+      "message": "knot 2023-03-19 15:03:00.049261|11.17 / 12.14 / 13.79 / 14.35 / 14.08|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu: system:Linux release:6.2.6-273-tkg-bore python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8801 8GB|sdp none|revAnimated_v11.safetensors [d725be5d18]|knot||39158a|0bb1fe ",
+      "generated_at": "2023-03-19T11:05:54-04:00",
+      "source_id": 13768985292
     }
   ]
 }
