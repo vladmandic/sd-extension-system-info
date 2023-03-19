@@ -1,5 +1,5 @@
 {
-  "max_id": "1574051893880209411",
+  "max_id": "1574060545810804736",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13076,6 +13076,76 @@
       "message": "001 2023-03-19 18:05:11.490294|1.68 / 2.17 / 2.38|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|facebombmix_v1.safetensors [aad629159b]|001||e86c90|959b72 ",
       "generated_at": "2023-03-19T14:07:15-04:00",
       "source_id": 13768590557
+    },
+    {
+      "id": "1574059736826032133",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-18 21:25:27.510353|18.6 / 25.65 / 27.31|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||1b3e91|7b23a8 ",
+      "generated_at": "2023-03-19T07:38:27-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574059736834420738",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 00:10:28.128850|7.75 / 14.63 / 22.03|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp-no-mem medvram|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||df6118|da763e ",
+      "generated_at": "2023-03-19T07:38:27-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574059736834420740",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 00:15:12.133591|19.25 / 26.02 / 27.02 / 27.11 / 27.13|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|sd-v1-5-pruned-emaonly.ckpt [cc6cb27103]|mastermerlin||a73fa1|ae4fde ",
+      "generated_at": "2023-03-19T07:38:27-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574059736838615040",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 11:37:17.036110|18.85 / 27.62 / 27.63 / 28.12 / 29.1|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||dd027a|2d2d30 ",
+      "generated_at": "2023-03-19T07:38:27-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574059736838615042",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 01:51:50.399823|7.52 / 13.67 / 20.52|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers medvram|merlinmerge.ckpt [06ce9ea93a]|mastermerlin| |019bba|48cb9f ",
+      "generated_at": "2023-03-19T07:38:27-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574060545802416128",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-18 21:25:27.510353|18.6 / 25.65 / 27.31|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||1b3e91|7b23a8 ",
+      "generated_at": "2023-03-19T07:41:40-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574060545802416140",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 00:10:28.128850|7.75 / 14.63 / 22.03|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp-no-mem medvram|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||df6118|da763e ",
+      "generated_at": "2023-03-19T07:41:40-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574060545806610433",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 00:15:12.133591|19.25 / 26.02 / 27.02 / 27.11 / 27.13|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|sd-v1-5-pruned-emaonly.ckpt [cc6cb27103]|mastermerlin||a73fa1|ae4fde ",
+      "generated_at": "2023-03-19T07:41:40-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574060545806610434",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 11:37:17.036110|18.85 / 27.62 / 27.63 / 28.12 / 29.1|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|mastermerlin||dd027a|2d2d30 ",
+      "generated_at": "2023-03-19T07:41:40-04:00",
+      "source_id": 13768610189
+    },
+    {
+      "id": "1574060545810804736",
+      "program": "SDBENCHMARK",
+      "message": "mastermerlin 2023-03-19 01:51:50.399823|7.52 / 13.67 / 20.52|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230318+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers medvram|merlinmerge.ckpt [06ce9ea93a]|mastermerlin| |019bba|48cb9f ",
+      "generated_at": "2023-03-19T07:41:40-04:00",
+      "source_id": 13768610189
     }
   ]
 }
