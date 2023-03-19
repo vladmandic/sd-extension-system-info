@@ -1,5 +1,5 @@
 {
-  "max_id": "1574080935530516488",
+  "max_id": "1574101687675830292",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13230,6 +13230,13 @@
       "message": "CanisMinor 2023-03-19 20:01:40.743199|33.04 / 41.24 / 43.77 / 45.68 / 42.88|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17+c36468d.d20230319 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|StableDiffusion\\SD-v2.1-512.safetensors [df955bdf6b]|CanisMinor||1e507d|5f85d2 ",
       "generated_at": "2023-03-19T16:02:40-04:00",
       "source_id": 13768654300
+    },
+    {
+      "id": "1574101687675830292",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-19 13:24:06.331033|5.68 / 5.19 / 5.17|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.89+ python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (2) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|root||d2937e|7080b4 ",
+      "generated_at": "2023-03-19T09:25:10-04:00",
+      "source_id": 13768720656
     }
   ]
 }
