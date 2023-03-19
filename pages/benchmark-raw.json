@@ -1,5 +1,5 @@
 {
-  "max_id": "1574127552379932673",
+  "max_id": "1574144588355125268",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13265,6 +13265,13 @@
       "message": "op 2023-03-19 23:04:26.061361|0.74 / 0.64 / 1.14||arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8800 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|op||9c024d|88323e ",
       "generated_at": "2023-03-19T19:07:57-04:00",
       "source_id": 13768629940
+    },
+    {
+      "id": "1574144588355125268",
+      "program": "SDBENCHMARK",
+      "message": "sahir 2023-03-20 01:14:54.908260|13.2 / 17.08 / 17.92|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|7th_anime_3.1_A.ckpt [6e350084a6]|sahir||75253a|6168b3 ",
+      "generated_at": "2023-03-19T21:15:35-04:00",
+      "source_id": 13768837657
     }
   ]
 }
