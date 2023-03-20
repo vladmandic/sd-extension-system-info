@@ -1,5 +1,18 @@
 [
   [
+    961,
+    "2023-03-20T10:53:08.579Z",
+    "30.22 / 40.67 / 47.64",
+    "updated:2023-03-13 hash:eb960aa7 url:https://github.com/vladmandic/automatic.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.10",
+    "torch:2.1.0a0+gitbdd09e6 autocast half xformers:unavailable accelerate:0.18.0.dev0 transformers:4.27.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_89) (8, 9) cuda:12.1 cudnn:8801 24GB",
+    "sdp none",
+    "doomer_wave_fp16.safetensors [d0b3c20a0c]",
+    "wsl",
+    ""
+  ],
+  [
     960,
     "2023-03-20T10:06:59.919Z",
     "1.9 / 2.5 / 2.71",
