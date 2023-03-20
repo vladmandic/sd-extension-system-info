@@ -1,5 +1,5 @@
 {
-  "max_id": "1574278738676461573",
+  "max_id": "1574293854763532290",
   "events": [
     {
       "id": "1564370541899603981",
@@ -13440,6 +13440,118 @@
       "message": "Quiet 2023-03-20 09:05:52.329316|4.7 / 6.69 / 6.96|updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|mix 2.21.safetensors [ba857b89c6]|Quiet||f1f2e5|4f4613 ",
       "generated_at": "2023-03-20T05:08:43-04:00",
       "source_id": 13769161487
+    },
+    {
+      "id": "1574281220953649158",
+      "program": "SDBENCHMARK",
+      "message": "Quiet 2023-03-20 09:13:34.789594|4.99 / 7.09 / 7.4 / 6.62 / 6.23|updated:2023-03-14 hash:a9fed7c36 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Quiet||f1f2e5|d646a8 ",
+      "generated_at": "2023-03-20T05:18:35-04:00",
+      "source_id": 13769161487
+    },
+    {
+      "id": "1574290156301758470",
+      "program": "SDBENCHMARK",
+      "message": "15431 2023-03-20 09:52:19.887036|8.87 / 7.39 / 7.99|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|dalcefoPainting_2nd.safetensors [74fda0645d]|15431||301e88|f08394 ",
+      "generated_at": "2023-03-20T05:54:07-04:00",
+      "source_id": 13769185940
+    },
+    {
+      "id": "1574291405516488710",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 09:50:54.181885|1.89 / 2.49 / 2.71 / 3.19 / 3.04|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|eccffd ",
+      "generated_at": "2023-03-20T05:59:03-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293686756491273",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:07-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293815102193664",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:37-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293838942617612",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:43-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293848233000991",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:45-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293848971198471",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:45-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293849847808003",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293850372096014",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293851139653684",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293851970125832",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293852628631571",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293853345857536",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:46-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293854029529093",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:47-04:00",
+      "source_id": 13769188311
+    },
+    {
+      "id": "1574293854763532290",
+      "program": "SDBENCHMARK",
+      "message": "Max 2023-03-20 10:06:59.919675|1.9 / 2.5 / 2.71|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiCkpt.ckpt [3a17d0deff]|Max||a13d9d|29e067 ",
+      "generated_at": "2023-03-20T06:08:47-04:00",
+      "source_id": 13769188311
     }
   ]
 }
