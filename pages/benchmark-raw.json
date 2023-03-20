@@ -1,5 +1,5 @@
 {
-  "max_id": "1574507761226657878",
+  "max_id": "1574513387851919403",
   "events": [
     {
       "id": "1564370541899603981",
@@ -14140,6 +14140,20 @@
       "message": "null 2023-03-20 17:17:51.654227|10.65 / 17.5 / 20.59|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|10_deliberate_v2.safetensors [9aba26abdf]|null||217a34|f859ee ",
       "generated_at": "2023-03-20T13:18:45-04:00",
       "source_id": 13769754391
+    },
+    {
+      "id": "1574512462978535426",
+      "program": "SDBENCHMARK",
+      "message": "Patchouli.K 2023-03-21 00:34:52.703744|8.62 / 10.33 / 12.35|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Patchouli.K||e048e5|7ed867 ",
+      "generated_at": "2023-03-20T20:37:26-04:00",
+      "source_id": 13769768924
+    },
+    {
+      "id": "1574513387851919403",
+      "program": "SDBENCHMARK",
+      "message": "Tirpitz 2023-03-20 22:24:02.443065|18.07 / 19.64 / 19.63|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|xformers lowram|basil mix.ckpt [bbf07e3a1c]|Tirpitz||ddf082|a7f4bc ",
+      "generated_at": "2023-03-20T20:41:07-04:00",
+      "source_id": 13766906746
     }
   ]
 }
