@@ -1,5 +1,18 @@
 [
   [
+    980,
+    "2023-03-20T16:39:57.588Z",
+    "12.47 / 16.88 / 22.43",
+    "updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev474 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "dreamshaper_331BakedVae.safetensors [1dceefec07]",
+    "anfengchao",
+    ""
+  ],
+  [
     979,
     "2023-03-20T16:18:47.970Z",
     "32.67 / 38.4 / 40.38",
