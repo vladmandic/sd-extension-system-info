@@ -1,5 +1,31 @@
 [
   [
+    993,
+    "2023-03-20T23:12:56.282Z",
+    "9.61 / 12.44 / 15.77 / 22.7 / 24.79",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "realisticVisionV13_v13.safetensors [c35782bad8]",
+    "86135",
+    ""
+  ],
+  [
+    992,
+    "2023-03-20T23:00:22.999Z",
+    "8.48 / 9.59 / 10.72",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 16GB",
+    "xformers none",
+    "nyanMix_230303Absurd2.safetensors [8ac3e79e96]",
+    "X170",
+    ""
+  ],
+  [
     991,
     "2023-03-20T09:59:13.261Z",
     "7.86 / 8.83 / 9.55 / 9.6 / 10.11",
