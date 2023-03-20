@@ -1,5 +1,44 @@
 [
   [
+    1020,
+    "2023-03-20T17:21:21.595Z",
+    "7.82 / 9.43 / 10.54",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "darks",
+    "only --xformers"
+  ],
+  [
+    1019,
+    "2023-03-01T17:16:31.405Z",
+    "8.07 / 9.54 / 10.45",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 8GB",
+    "xformers none",
+    "theAllysMixIII_v10.safetensors [f427dd7a4f]",
+    "darks",
+    ""
+  ],
+  [
+    1018,
+    "2023-03-20T23:13:23.917Z",
+    "6.0 / 6.08 / 6.64",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "John",
+    ""
+  ],
+  [
     1017,
     "2023-03-20T21:42:32.813Z",
     "6.72 / 9.32 / 14.72",
