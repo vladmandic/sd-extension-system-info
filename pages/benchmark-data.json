@@ -1,5 +1,44 @@
 [
   [
+    1023,
+    "2023-03-21T09:46:05.734Z",
+    "0.71",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.27.2",
+    " 0GB",
+    "InvokeAI none",
+    "realisticVisionV13_v13.safetensors [c35782bad8]",
+    "ianscrivener",
+    ""
+  ],
+  [
+    1022,
+    "2023-03-21T09:33:15.588Z",
+    "0.72",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "InvokeAI none",
+    "realisticVisionV13_v13.safetensors [c35782bad8]",
+    "ianscrivener",
+    ""
+  ],
+  [
+    1021,
+    "2023-03-21T05:38:31.337Z",
+    "0.55 / 0.56 / 0.58",
+    "updated:2023-03-12 hash:3c922d98 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "AbyssOrangeMix2_Hardcore.safetensors [e714ee20aa]",
+    "maxjame5432",
+    ""
+  ],
+  [
     1020,
     "2023-03-20T17:21:21.595Z",
     "7.82 / 9.43 / 10.54",
