@@ -1,5 +1,57 @@
 [
   [
+    1071,
+    "2023-03-21T13:24:52.296Z",
+    "28.12 / 37.21 / 42.74",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "opensouler",
+    " https://discordapp.com/users/1085540472522543145"
+  ],
+  [
+    1070,
+    "2023-03-21T12:58:03.358Z",
+    "9.76 / 12.98 / 16.49",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "16-bit-landscape_PublicPrompts.ckpt [fcec7694f6]",
+    "sare",
+    ""
+  ],
+  [
+    1069,
+    "2023-03-21T12:28:52.543Z",
+    "9.81 / 12.87 / 16.39",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "model.ckpt [fe4efff1e1]",
+    "sare",
+    ""
+  ],
+  [
+    1068,
+    "2023-03-21T10:06:22.716Z",
+    "22.39 / 34.09 / 42.19",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers none",
+    "model.ckpt [fe4efff1e1]",
+    "opensouler",
+    ""
+  ],
+  [
     1067,
     "2023-03-21T10:44:16.351Z",
     "16.36 / 18.79 / 19.28",
