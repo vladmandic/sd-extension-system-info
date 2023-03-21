@@ -1,5 +1,5 @@
 {
-  "max_id": "1574762894292336642",
+  "max_id": "1574770624663040008",
   "events": [
     {
       "id": "1564370541899603981",
@@ -14686,6 +14686,13 @@
       "message": "15648 2023-03-21 16:39:12.844665|21.52 / 32.12 / 38.7||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 24GB|xformers none|CounterfeitV25_25.safetensors [a074b8864e]|15648||faae69|f8bf2b ",
       "generated_at": "2023-03-21T13:12:34-04:00",
       "source_id": 13770367832
+    },
+    {
+      "id": "1574770624663040008",
+      "program": "SDBENCHMARK",
+      "message": "arch 2023-03-21 09:42:40.240383|17.43 / 20.95 / 22.6|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.2.7-arch1-1 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|anime/AbyssOrangeMix2_nsfw_pruned_fp16_with_VAE.safetensors [e892703c61]|arch||7fe9b6|b4fa7d ",
+      "generated_at": "2023-03-21T05:43:17-04:00",
+      "source_id": 13763955729
     }
   ]
 }

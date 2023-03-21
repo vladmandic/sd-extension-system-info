@@ -1,5 +1,18 @@
 [
   [
+    1063,
+    "2023-03-21T09:42:40.240Z",
+    "17.43 / 20.95 / 22.6",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.7-arch1-1 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "anime/AbyssOrangeMix2_nsfw_pruned_fp16_with_VAE.safetensors [e892703c61]",
+    "arch",
+    ""
+  ],
+  [
     1062,
     "2023-03-21T17:10:16.727Z",
     "22.2 / 32.11 / 38.68",
