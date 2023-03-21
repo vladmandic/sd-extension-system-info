@@ -1,5 +1,31 @@
 [
   [
+    1090,
+    "2023-03-21T09:13:12.093Z",
+    "16.01 / 20.88 / 23.46",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "tc10-8000-tscb_f2-7999.ckpt [9fecaa05b3]",
+    "ocrtx",
+    ""
+  ],
+  [
+    1089,
+    "2023-03-21T17:17:28.797Z",
+    "26.92 / 36.86 / 42.12",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "v2-1_512-ema-pruned.ckpt [88ecb78256]",
+    "opensouler",
+    "https://discordapp.com/users/1085540472522543145"
+  ],
+  [
     1088,
     "2023-03-21T22:59:40.220Z",
     "1.59 / 1.47 / 1.7",
