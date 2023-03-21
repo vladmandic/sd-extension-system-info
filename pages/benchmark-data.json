@@ -1,5 +1,57 @@
 [
   [
+    1067,
+    "2023-03-21T10:44:16.351Z",
+    "16.36 / 18.79 / 19.28",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6",
+    "torch:2.0.0+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "sdp-no-mem none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "yush-work",
+    ""
+  ],
+  [
+    1066,
+    "2023-03-21T10:41:24.944Z",
+    "16.27 / 18.76 / 19.3",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6",
+    "torch:2.0.0+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "sdp-no-mem none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "yush@work",
+    ""
+  ],
+  [
+    1065,
+    "2023-03-21T18:20:37.076Z",
+    "17.29 / 31.27 / 41.34",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "retromix_10.safetensors [0587241d78]",
+    "isamu",
+    ""
+  ],
+  [
+    1064,
+    "2023-03-19T22:00:52.675Z",
+    "17.15 / 30.28 / 40.62",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "dreamshaper_4BakedVae.safetensors [7f16bbcd80]",
+    "isamu",
+    ""
+  ],
+  [
     1063,
     "2023-03-21T09:42:40.240Z",
     "17.43 / 20.95 / 22.6",
