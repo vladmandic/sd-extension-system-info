@@ -1,5 +1,31 @@
 [
   [
+    1026,
+    "2023-03-20T20:51:31.049Z",
+    "1.28",
+    "updated:2023-03-20 hash:b3b5fd8a url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.7-AMD python:3.10.10",
+    "torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6700 XT (2) hip:5.4.22803-474e8620 12GB",
+    "Doggettx medvram",
+    "icomix_V02Pruned.safetensors [76b00ee812]",
+    "webmaster-exit-1",
+    "graphics card:             ATI Navi 22 [Radeon RX 6700/6700 XT / 6800M]             ATI Cezanne cpu:                                           AMD Ryzen 5 5600G with Radeon Graphics"
+  ],
+  [
+    1025,
+    "2023-03-20T20:47:58.870Z",
+    "1.3 / 1.99 / 2.64",
+    "updated:2023-03-20 hash:b3b5fd8a url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.7-AMD python:3.10.10",
+    "torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6700 XT (2) hip:5.4.22803-474e8620 12GB",
+    "Doggettx medvram",
+    "icomix_V02Pruned.safetensors [76b00ee812]",
+    "webmaster-exit-1",
+    "graphics card:             ATI Navi 22 [Radeon RX 6700/6700 XT / 6800M]             ATI Cezanne cpu:                                           AMD Ryzen 5 5600G with Radeon Graphics"
+  ],
+  [
     1024,
     "2023-03-21T10:35:53.905Z",
     "12.4 / 18.07 / 20.8",
