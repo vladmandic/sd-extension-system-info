@@ -1,5 +1,57 @@
 [
   [
+    1099,
+    "2023-03-21T22:54:27.870Z",
+    "15.62 / 19.5 / 20.46",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 12GB",
+    "xformers none",
+    "model.ckpt [fe4efff1e1]",
+    "Admin",
+    ""
+  ],
+  [
+    1098,
+    "2023-03-21T22:50:53.241Z",
+    "30.41 / 37.65 / 44.08",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17.dev481 accelerate:0.17.1 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "chilloutmix_Ni (mostly Asianmaybe).safetensors [7234b76e42]",
+    "Alelau18",
+    ""
+  ],
+  [
+    1097,
+    "2023-03-21T22:46:06.546Z",
+    "31.3 / 38.14 / 46.44",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17.dev481 accelerate:0.17.1 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "chilloutmix_Ni (mostly Asianmaybe).safetensors [7234b76e42]",
+    "Alelau18",
+    ""
+  ],
+  [
+    1096,
+    "2023-03-21T22:45:12.564Z",
+    "24.48 / 28.24 / 30.84",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "Doggettx none",
+    "chilloutmix_Ni (mostly Asianmaybe).safetensors [7234b76e42]",
+    "Alelau18",
+    ""
+  ],
+  [
     1095,
     "2023-03-21T15:33:29.305Z",
     "15.75 / 17.41 / 19.89 / 20.79 / 20.91",
