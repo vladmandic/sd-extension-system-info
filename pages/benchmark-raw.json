@@ -1,5 +1,5 @@
 {
-  "max_id": "1574605545078435850",
+  "max_id": "1574648421036503050",
   "events": [
     {
       "id": "1564370541899603981",
@@ -14343,6 +14343,13 @@
       "message": "ianscrivener 2023-03-21 09:46:05.734665|0.71|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:2.0.0 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.27.2| 0GB|InvokeAI none|realisticVisionV13_v13.safetensors [c35782bad8]|ianscrivener||b07c9c|881767 ",
       "generated_at": "2023-03-21T05:47:19-04:00",
       "source_id": 13770029761
+    },
+    {
+      "id": "1574648421036503050",
+      "program": "SDBENCHMARK",
+      "message": "T_test 2023-03-21 10:35:53.905157|12.4 / 18.07 / 20.8|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17+c36468d.d20230317 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|Basil_mix_fixed.safetensors [0ff127093f]|T_test||9ecfef|540b42 ",
+      "generated_at": "2023-03-21T06:37:42-04:00",
+      "source_id": 13770129592
     }
   ]
 }
