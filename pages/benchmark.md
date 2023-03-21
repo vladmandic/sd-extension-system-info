@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-21T07:12:56.186Z
+  ## Updated: 2023-03-21T08:18:18.406Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1053|2023-03-21T03:08:53.274Z|14.19 / 16.5 / 19.56 / 22.14 / 21.55|updated:2023-03-21 hash:729b915c url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/gradio-3.22.1|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|Kukicha.safetensors [3fd0aca149]|yuno||
+  |1054|2023-03-21T07:18:36.224Z|6.38 / 4.5 / 5.24|updated:2023-03-04 hash:086cab66 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1030-aws python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|realdosmix_.safetensors|ubuntu||
+|1053|2023-03-21T03:08:53.274Z|14.19 / 16.5 / 19.56 / 22.14 / 21.55|updated:2023-03-21 hash:729b915c url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/gradio-3.22.1|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|Kukicha.safetensors [3fd0aca149]|yuno||
 |1052|2023-03-20T05:14:22.924Z|4.22 / 7.63 / 10.85 / 11.47 / 12.03|updated:2023-03-20 hash:986527ee url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/gradio-3.22.1|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|Kukicha.safetensors [3fd0aca149]|yuno||
 |1051|2023-03-20T22:48:30.930Z|21.29 / 26.19 / 27.33|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|Doggettx none|2023-02-21 - Top Notch 50 - (Controlnet firedancer posters Radiohead etc) - 84 images - (.25 flip) - 5000 steps (of possible 100k) - Epoc.ckpt [aafdda5242]|Administrator||
 |1050|2023-03-20T23:24:01.780Z|29.57 / 27.02 / 35.82 / 33.84 / 35.13|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|2023-02-21 - Top Notch 50 - (Controlnet firedancer posters Radiohead etc) - 84 images - (.25 flip) - 4000 steps (of possible 100k).ckpt [459b2982ff]|Administrator||

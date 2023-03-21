@@ -1,5 +1,18 @@
 [
   [
+    1054,
+    "2023-03-21T07:18:36.224Z",
+    "6.38 / 4.5 / 5.24",
+    "updated:2023-03-04 hash:086cab66 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1030-aws python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB",
+    "xformers none",
+    "realdosmix_.safetensors",
+    "ubuntu",
+    ""
+  ],
+  [
     1053,
     "2023-03-21T03:08:53.274Z",
     "14.19 / 16.5 / 19.56 / 22.14 / 21.55",
