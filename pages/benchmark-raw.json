@@ -1,5 +1,5 @@
 {
-  "max_id": "1574876697759772683",
+  "max_id": "1574886367127846924",
   "events": [
     {
       "id": "1564370541899603981",
@@ -15050,6 +15050,13 @@
       "message": "oc 2023-03-21 09:13:12.093710|16.01 / 20.88 / 23.46|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.27.2|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|tc10-8000-tscb_f2-7999.ckpt [9fecaa05b3]|ocrtx||4ce337|8ed277 ",
       "generated_at": "2023-03-21T05:44:46-04:00",
       "source_id": 13770720968
+    },
+    {
+      "id": "1574886367127846924",
+      "program": "SDBENCHMARK",
+      "message": "D20 2023-03-21 20:22:23.332997|10.69 / 11.88 / 12.65|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|D20||d6c6e6|eb3efa ",
+      "generated_at": "2023-03-21T16:23:17-04:00",
+      "source_id": 13770752164
     }
   ]
 }
