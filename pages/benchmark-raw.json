@@ -1,5 +1,5 @@
 {
-  "max_id": "1574811376222908423",
+  "max_id": "1574823490899595269",
   "events": [
     {
       "id": "1564370541899603981",
@@ -14847,6 +14847,41 @@
       "message": "opensouler 2023-03-21 13:24:52.296313|28.12 / 37.21 / 42.74|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|v2-1_512-ema-pruned.ckpt [88ecb78256]|opensouler| https://discordapp.com/users/1085540472522543145|3a5d3d|74af61 ",
       "generated_at": "2023-03-21T09:25:11-04:00",
       "source_id": 13770378644
+    },
+    {
+      "id": "1574818056855797772",
+      "program": "SDBENCHMARK",
+      "message": "Ted 2023-03-21 20:50:28.485956|8.12 / 9.17 / 9.66|updated:2023-03-12 hash:adf723a9 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Ted||fd1342|d17572 ",
+      "generated_at": "2023-03-21T16:51:46-04:00",
+      "source_id": 13770537073
+    },
+    {
+      "id": "1574823490895400963",
+      "program": "SDBENCHMARK",
+      "message": "zhang 2023-03-20 21:26:27.783135|8.09 / 10.79 / 12.46||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 16GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|zhang||c18a41|4ae746 ",
+      "generated_at": "2023-03-21T17:13:19-04:00",
+      "source_id": 13770552448
+    },
+    {
+      "id": "1574823490895400967",
+      "program": "SDBENCHMARK",
+      "message": "zhang 2023-03-21 20:14:54.143698|13.33 / 16.28 / 17.68||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|zhang||79c258|09c4c1 ",
+      "generated_at": "2023-03-21T17:13:19-04:00",
+      "source_id": 13770552448
+    },
+    {
+      "id": "1574823490895400968",
+      "program": "SDBENCHMARK",
+      "message": "zhang 2023-03-21 20:51:49.082672|13.5 / 17.08 / 18.51||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 16GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|zhang||d05650|4558d5 ",
+      "generated_at": "2023-03-21T17:13:19-04:00",
+      "source_id": 13770552448
+    },
+    {
+      "id": "1574823490899595269",
+      "program": "SDBENCHMARK",
+      "message": "zhang 2023-03-21 21:12:51.105609|16.64 / 23.07 / 26.39||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 16GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|zhang||5c4791|463e2f ",
+      "generated_at": "2023-03-21T17:13:19-04:00",
+      "source_id": 13770552448
     }
   ]
 }
