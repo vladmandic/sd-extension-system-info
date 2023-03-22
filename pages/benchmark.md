@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-22T18:17:27.258Z
+  ## Updated: 2023-03-22T19:11:25.731Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1170|2023-03-23T01:52:35.989Z|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||
+  |1172|2023-03-23T02:37:09.273Z|3.44 / 3.24 / 3.48|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast nohalf xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA CMP 40HX (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||
+|1171|2023-03-23T01:44:22.492Z|0.99 / 0.94 / 0.99|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA CMP 40HX (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||
+|1170|2023-03-23T01:52:35.989Z|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||
 |1169|2023-03-23T01:50:09.709Z|16.71 / 19.11 / 20.88||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||
 |1168|2023-03-23T01:17:12.141Z|0.99 / 0.94 / 0.99|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA CMP 40HX (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||
 |1167|2023-03-23T01:32:44.840Z|10.27 / 13.01 / 14.54 / 15.13 / 15.8|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||
