@@ -1,5 +1,5 @@
 {
-  "max_id": "1575277963690303500",
+  "max_id": "1575303436818370578",
   "events": [
     {
       "id": "1564370541899603981",
@@ -16128,6 +16128,13 @@
       "message": "True 2023-03-21 20:11:45.704483|31.58 / 38.54 / 45.68|updated:2023-03-12 hash:dfeee786 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.23403-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Kewk ||f6b585|956895 ",
       "generated_at": "2023-03-22T08:19:13-04:00",
       "source_id": 13770278501
+    },
+    {
+      "id": "1575303436818370578",
+      "program": "SDBENCHMARK",
+      "message": "dev 2023-03-22 19:55:28.932785|1.91 / 2.53 / 2.76|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.2|device:NVIDIA GeForce GTX 1080 Ti (2) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers medvram|rpg_V4.safetensors [e04b020012]|dev||cb44c5|c84f73 ",
+      "generated_at": "2023-03-22T16:07:54-04:00",
+      "source_id": 13771852939
     }
   ]
 }
