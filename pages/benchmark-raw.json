@@ -1,5 +1,5 @@
 {
-  "max_id": "1575229637552943114",
+  "max_id": "1575256408822304768",
   "events": [
     {
       "id": "1564370541899603981",
@@ -15988,6 +15988,83 @@
       "message": "Administrator 2023-03-22 23:53:55.668114|29.9 / 36.09 / 41.73|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 24GB|xformers none|kotosmix_v10.safetensors [49ef66fc4c]|Administrator||3110fc|c2b702 ",
       "generated_at": "2023-03-22T20:07:14-04:00",
       "source_id": 13771632008
+    },
+    {
+      "id": "1575251837697843218",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-23 01:12:29.814593|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 3070 Ti (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|yelanLoraCollectionOf_yelanHard.safetensors [72ad6876cc]|Administrator||d4be30|18f974 ",
+      "generated_at": "2023-03-22T21:35:27-04:00",
+      "source_id": 13771702398
+    },
+    {
+      "id": "1575251837697843219",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-23 01:32:44.840518|10.27 / 13.01 / 14.54 / 15.13 / 15.8|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||6475fb|9ea877 ",
+      "generated_at": "2023-03-22T21:35:27-04:00",
+      "source_id": 13771702398
+    },
+    {
+      "id": "1575251837697843220",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-03-23 01:17:12.141207|0.99 / 0.94 / 0.99|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.20348-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA CMP 40HX (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|final-pruned.ckpt [89d59c3dde]|Administrator||b57ac3|ab61fb ",
+      "generated_at": "2023-03-22T21:35:27-04:00",
+      "source_id": 13771702398
+    },
+    {
+      "id": "1575255659593781265",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:50:09.709516|16.71 / 19.11 / 20.88||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|33c7ad ",
+      "generated_at": "2023-03-22T21:50:37-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256086188052502",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:50:09.709516|16.71 / 19.11 / 20.88||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|33c7ad ",
+      "generated_at": "2023-03-22T21:52:18-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256304321220614",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:10-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256330615312406",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:17-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256333119311884",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:17-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256334373408791",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:17-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256335237435400",
+      "program": "SDBENCHMARK",
+      "message": "liu 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:18-04:00",
+      "source_id": 13771713218
+    },
+    {
+      "id": "1575256408822304768",
+      "program": "SDBENCHMARK",
+      "message": "liusongdi 2023-03-23 01:52:35.989576|16.69 / 19.57 / 21.26||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|[ anime b ]     himitsuHaneruV3_mihaV30.safetensors [c1be996173]|liu||57ff5f|24797e ",
+      "generated_at": "2023-03-22T21:53:35-04:00",
+      "source_id": 13771713218
     }
   ]
 }
