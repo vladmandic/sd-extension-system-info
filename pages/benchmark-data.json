@@ -1,5 +1,44 @@
 [
   [
+    1157,
+    "2023-03-22T09:49:25.537Z",
+    "6.6 / 7.27 / 7.58",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.1.18-200.fc37.x86_64 python:3.9.16",
+    "torch:2.0.0+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "Stable Diffusion/v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "zetaphor",
+    "--opt-split-attention --upcast-sampling --precision autocast"
+  ],
+  [
+    1156,
+    "2023-03-23T00:44:33.570Z",
+    "13.48 / 14.02 / 14.05",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB",
+    "Doggettx none",
+    "dreamlike-photoreal-2.0.safetensors [92970aa785]",
+    "Lachlan",
+    ""
+  ],
+  [
+    1155,
+    "2023-03-22T09:40:11.543Z",
+    "6.72 / 7.32 / 7.75",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.1.18-200.fc37.x86_64 python:3.9.16",
+    "torch:2.0.0+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "Stable Diffusion/v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "zetaphor",
+    "--opt-split-attention"
+  ],
+  [
     1154,
     "2023-03-22T23:06:11.537Z",
     "18.73 / 22.24 / 23.3",
