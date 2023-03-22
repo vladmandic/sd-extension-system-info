@@ -1,5 +1,44 @@
 [
   [
+    1143,
+    "2023-03-22T20:17:28.023Z",
+    "1.56 / 1.45 / 1.72",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB",
+    "xformers none",
+    "chilloutmix_Ni.safetensors [7234b76e42]",
+    "jay",
+    ""
+  ],
+  [
+    1142,
+    "2023-03-22T19:50:54.782Z",
+    "1.13 / 1.44 / 1.43",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB",
+    "xformers medvram",
+    "chilloutmix_Ni.safetensors [7234b76e42]",
+    "jay",
+    ""
+  ],
+  [
+    1141,
+    "2023-03-21T21:06:19.963Z",
+    "1.19 / 1.49 / 1.45",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.27.1",
+    "device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB",
+    "xformers medvram",
+    "final-prune.ckpt [89d59c3dde]",
+    "jay",
+    ""
+  ],
+  [
     1140,
     "2023-03-22T18:47:23.570Z",
     "10.4 / 12.24 / 14.7",

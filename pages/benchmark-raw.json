@@ -1,5 +1,5 @@
 {
-  "max_id": "1575152516465868813",
+  "max_id": "1575172421286285317",
   "events": [
     {
       "id": "1564370541899603981",
@@ -15736,6 +15736,55 @@
       "message": "people 2023-03-22 18:47:23.570441|10.4 / 12.24 / 14.7|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|people||1ce091|c60c9a ",
       "generated_at": "2023-03-22T15:00:44-04:00",
       "source_id": 13771381290
+    },
+    {
+      "id": "1575172421282091040",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-21 19:29:28.399054|0.48 / 0.57 / 0.96|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers medvram|final-prune.ckpt [89d59c3dde]|jay||535c81|6146f6 ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421282091041",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-21 19:38:09.520603|0.48 / 0.44 / 0.59|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:0.0.17+c36468d.d20230320 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers medvram|final-prune.ckpt [89d59c3dde]|jay||b38a1d|bde02c ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421282091042",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-21 19:53:55.367081|0.48 / 0.57 / 0.47|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers medvram|final-prune.ckpt [89d59c3dde]|jay||0977ef|53c261 ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421286285314",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-21 21:06:19.963915|1.19 / 1.49 / 1.45|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers medvram|final-prune.ckpt [89d59c3dde]|jay||d1ab6b|ae114d ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421286285315",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-22 19:50:54.782244|1.13 / 1.44 / 1.43|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers medvram|chilloutmix_Ni.safetensors [7234b76e42]|jay||8dbcf1|ac6a0d ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421286285316",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-21 22:59:40.220932|1.59 / 1.47 / 1.7|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers none|animefull-latest.ckpt [a7529df023]|jay||26611e|1700c9 ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
+    },
+    {
+      "id": "1575172421286285317",
+      "program": "SDBENCHMARK",
+      "message": "jay 2023-03-22 20:17:28.023521|1.56 / 1.45 / 1.72|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:2.0.0+cu118 full nohalf xformers:0.0.17+c36468d.d20230320 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.8 cudnn:8600 6GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|jay||012a47|247fb9 ",
+      "generated_at": "2023-03-22T16:19:53-04:00",
+      "source_id": 13768465427
     }
   ]
 }
