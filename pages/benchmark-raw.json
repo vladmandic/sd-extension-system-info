@@ -1,5 +1,5 @@
 {
-  "max_id": "1575328823585718288",
+  "max_id": "1575387853091942480",
   "events": [
     {
       "id": "1564370541899603981",
@@ -16317,6 +16317,13 @@
       "message": "wenbo 2023-03-23 06:40:05.456731|6.39 / 12.24 / 21.49 / 32.76 / 37.5|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers lowram|final-prune.ckpt [89d59c3dde]|wenbo||4e0606|f7560a ",
       "generated_at": "2023-03-23T02:41:19-04:00",
       "source_id": 13767767872
+    },
+    {
+      "id": "1575387853091942480",
+      "program": "SDBENCHMARK",
+      "message": "JEAN 2023-03-23 10:33:45.442552|1.21 / 1.43 / 1.6|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 42 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|protogenX58RebuiltScifi_10.safetensors [6a21b428a3]|JEAN||f0343a|da438f ",
+      "generated_at": "2023-03-23T06:35:55-04:00",
+      "source_id": 13772058478
     }
   ]
 }
