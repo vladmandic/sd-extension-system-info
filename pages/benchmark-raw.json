@@ -1,5 +1,5 @@
 {
-  "max_id": "1575426473307856906",
+  "max_id": "1575431654288306225",
   "events": [
     {
       "id": "1564370541899603981",
@@ -16338,6 +16338,13 @@
       "message": "daemonrat 2023-03-23 01:06:34.309734|5.48 / 6.27 / 7.58 / 7.84 / 8.13|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.9.13|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 8GB|sdp medvram,lowvram|iAmVeryBadass.safetensors [9adb568a51]|daemonrat||4f146d|a56979 ",
       "generated_at": "2023-03-22T21:09:23-04:00",
       "source_id": 13769928543
+    },
+    {
+      "id": "1575431654288306225",
+      "program": "SDBENCHMARK",
+      "message": "liuxiaohui 2023-03-23 13:27:54.484964|2.38 / 1.86 / 1.69|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|liuxiaohui||eb6d38|fe7c93 ",
+      "generated_at": "2023-03-23T09:29:59-04:00",
+      "source_id": 13772154260
     }
   ]
 }
