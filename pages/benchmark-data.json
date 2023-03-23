@@ -1,5 +1,18 @@
 [
   [
+    1185,
+    "2023-03-23T01:06:34.309Z",
+    "5.48 / 6.27 / 7.58 / 7.84 / 8.13",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.9.13",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2070 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 8GB",
+    "sdp medvram,lowvram",
+    "iAmVeryBadass.safetensors [9adb568a51]",
+    "daemonrat",
+    ""
+  ],
+  [
     1184,
     "2023-03-23T10:33:45.442Z",
     "1.21 / 1.43 / 1.6",
