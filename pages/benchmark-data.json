@@ -1,5 +1,44 @@
 [
   [
+    1211,
+    "2023-03-23T10:58:29.935Z",
+    "6.98 / 13.42 / 15.42",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.9",
+    "torch:1.13.1+cu117 full nohalf xformers:0.0.17.dev465 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "WaifuDiffusion1.5/WD1.5-Beta2-aesthetic-fp32.safetensors [711cd95c77]",
+    "root",
+    ""
+  ],
+  [
+    1210,
+    "2023-03-23T18:18:14.731Z",
+    "20.24 / 34.01 / 40.81",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "58148",
+    ""
+  ],
+  [
+    1209,
+    "2023-03-23T10:22:51.895Z",
+    "9.39 / 11.49 / 15.07",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers lowram",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "58148",
+    ""
+  ],
+  [
     1208,
     "2023-03-23T11:52:44.361Z",
     "13.48 / 15.76 / 17.26",
