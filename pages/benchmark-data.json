@@ -1,5 +1,44 @@
 [
   [
+    1189,
+    "2023-03-23T20:40:25.894Z",
+    "10.31 / 11.67 / 12.96 / 13.67 / 14.14",
+    "updated:2023-03-20 hash:1ef073a0 url:https://github.com/martianunlimited/stable-diffusion-webui-ux.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "marti",
+    ""
+  ],
+  [
+    1188,
+    "2023-03-22T21:17:22.781Z",
+    "10.49 / 11.94 / 13.27 / 14.07 / 14.47",
+    "updated:2023-03-20 hash:1ef073a0 url:https://github.com/martianunlimited/stable-diffusion-webui-ux.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9",
+    "torch:1.13.1 autocast half xformers:0.0.16 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8700 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "marti",
+    ""
+  ],
+  [
+    1187,
+    "2023-03-22T21:09:46.160Z",
+    "10.44 / 11.82 / 13.21 / 13.92 / 14.38",
+    "updated:2023-03-20 hash:1ef073a0 url:https://github.com/martianunlimited/stable-diffusion-webui-ux.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9",
+    "torch:1.13.1 autocast half xformers:0.0.17.dev476 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8700 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "marti",
+    ""
+  ],
+  [
     1186,
     "2023-03-23T13:27:54.484Z",
     "2.38 / 1.86 / 1.69",
