@@ -1,5 +1,5 @@
 {
-  "max_id": "1575484512773783553",
+  "max_id": "1575497846797553667",
   "events": [
     {
       "id": "1564370541899603981",
@@ -16548,6 +16548,13 @@
       "message": "oneechan 2023-03-23 04:59:51.611963|30.67 / 36.72 / 42.92||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:2.1.0.dev20230317+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|sdp none|toriimix-v6-pruned.safetensors [0067a8356f]|oneechan||022178|f32ffc ",
       "generated_at": "2023-03-23T01:00:02-04:00",
       "source_id": 13772282436
+    },
+    {
+      "id": "1575497846797553667",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-23 11:52:44.361095|13.48 / 15.76 / 17.26|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.18362-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|User||803691|6e81a0 ",
+      "generated_at": "2023-03-23T07:52:59-04:00",
+      "source_id": 13772316458
     }
   ]
 }

@@ -1,5 +1,18 @@
 [
   [
+    1208,
+    "2023-03-23T11:52:44.361Z",
+    "13.48 / 15.76 / 17.26",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.18362-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "User",
+    ""
+  ],
+  [
     1207,
     "2023-03-23T04:59:51.611Z",
     "30.67 / 36.72 / 42.92",
