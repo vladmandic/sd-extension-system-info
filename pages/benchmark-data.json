@@ -1,5 +1,44 @@
 [
   [
+    1221,
+    "2023-03-23T12:48:15.330Z",
+    "24.64 / 39.66 / 45.17",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "WaifuDiffusion1.5/WD1.5-Beta2-frosty-fp32.safetensors [3ca00ea7cb]",
+    "root",
+    ""
+  ],
+  [
+    1220,
+    "2023-03-23T12:57:45.561Z",
+    "16.29 / 17.92 / 19.52",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.9",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.17rc481 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "Deliberate-v2.safetensors [9aba26abdf]",
+    "root",
+    ""
+  ],
+  [
+    1219,
+    "2023-03-23T12:32:24.882Z",
+    "17.62 / 19.97 / 22.26",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.9",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.17rc481 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "WaifuDiffusion1.5/WD1.5-Beta2-aesthetic-fp32.safetensors [711cd95c77]",
+    "root",
+    ""
+  ],
+  [
     1218,
     "2023-03-23T08:10:48.570Z",
     "1.01 / 0.84 / error",
