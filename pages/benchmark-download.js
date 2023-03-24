@@ -115,8 +115,8 @@ async function main() {
       if (hashes.includes(hash)) continue; // check for duplicates
       hashes.push(hash);
       items.pop(); // remove system hash
-      const date = items[0].split(' ');
-      date.shift();
+      let date = items[0].split(' ');
+      date = date[date.length - 2] + ' ' + date[date.length - 1];
       items[0] = new Date(date).toISOString();
       items.unshift(id++);
       entries.push(items);
