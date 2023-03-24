@@ -1,5 +1,5 @@
 {
-  "max_id": "1575949178910191621",
+  "max_id": "1575959830143881225",
   "events": [
     {
       "id": "1564370541899603981",
@@ -18739,6 +18739,13 @@
       "message": "borel 2023-03-24 23:44:20.678360|4.05 / 0.82 / 2.62|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.8.10|torch:1.12.1+rocm5.1.1 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.1.20531-cacfa990 12GB|Doggettx none|Chilloutmix-Ni-pruned-fp32-fix.safetensors [fc2511737a]|borel||41de17|d727e6 ",
       "generated_at": "2023-03-24T19:46:26-04:00",
       "source_id": 13773569756
+    },
+    {
+      "id": "1575959830143881225",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-03-24 17:28:22.902277|5.18 / 9.17 / 16.62||arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|realisticVisionV13_v13VAEIncluded.safetensors [c35782bad8]|user||fd476a|4494ff ",
+      "generated_at": "2023-03-24T13:28:45-04:00",
+      "source_id": 13773604573
     }
   ]
 }
