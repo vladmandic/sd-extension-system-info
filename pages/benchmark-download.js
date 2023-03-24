@@ -121,6 +121,7 @@ async function main() {
       items.unshift(id++);
       entries.push(items);
     } catch (e) {
+      console.log('parsing record:', d); // eslint-disable-line no-console
       err('parsing error:', e.message);
     }
   }
