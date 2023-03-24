@@ -1,5 +1,31 @@
 [
   [
+    1321,
+    "2023-03-25T05:31:41.206Z",
+    "23.61 / 28.3 / 34.22",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.1.0.dev20230324+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "AOM3A3.safetensors [eb4099ba9c]",
+    "dldld",
+    ""
+  ],
+  [
+    1320,
+    "2023-03-25T01:59:46.729Z",
+    "18.22 / 30.84 / 37.87",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "Backup\\v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "Ashkar km",
+    ""
+  ],
+  [
     1319,
     "2023-03-25T05:09:09.119Z",
     "2.35 / 3.03 / 3.55",
