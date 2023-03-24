@@ -1,5 +1,18 @@
 [
   [
+    1319,
+    "2023-03-25T05:09:09.119Z",
+    "2.35 / 3.03 / 3.55",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19043-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA P102-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 10GB",
+    "xformers none",
+    "yesmix_v16Original.safetensors [3e9211917c]",
+    "HC",
+    ""
+  ],
+  [
     1318,
     "2023-03-24T12:16:35.754Z",
     "19.57 / 33.3 / 43.95 / 46.35 / 43.77",
