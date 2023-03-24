@@ -1,5 +1,5 @@
 {
-  "max_id": "1575938208934580225",
+  "max_id": "1575949178910191621",
   "events": [
     {
       "id": "1564370541899603981",
@@ -18732,6 +18732,13 @@
       "message": "wxh 2023-03-24 23:01:52.176092|15.84 / 19.24 / 21.41|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|wxh||6d1da1|9d1ca3 ",
       "generated_at": "2023-03-24T19:02:52-04:00",
       "source_id": 13773536831
+    },
+    {
+      "id": "1575949178910191621",
+      "program": "SDBENCHMARK",
+      "message": "borel 2023-03-24 23:44:20.678360|4.05 / 0.82 / 2.62|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.8.10|torch:1.12.1+rocm5.1.1 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.1.20531-cacfa990 12GB|Doggettx none|Chilloutmix-Ni-pruned-fp32-fix.safetensors [fc2511737a]|borel||41de17|d727e6 ",
+      "generated_at": "2023-03-24T19:46:26-04:00",
+      "source_id": 13773569756
     }
   ]
 }
