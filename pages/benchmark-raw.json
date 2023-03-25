@@ -1,5 +1,5 @@
 {
-  "max_id": "1576042569308233749",
+  "max_id": "1576079583621599233",
   "events": [
     {
       "id": "1564370541899603981",
@@ -18970,6 +18970,13 @@
       "message": "cover 2023-03-24 17:56:59.304775|21.39 / 34.48 / 41.11 / 41.04 / 39.0|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp-no-mem none|v1-5-pruned-emaonly.safetensors [6ce0161689]|cover||a8b98f|6a42a3 ",
       "generated_at": "2023-03-24T13:57:32-04:00",
       "source_id": 13772895859
+    },
+    {
+      "id": "1576079583621599233",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-25 00:22:46.672814|5.26 / 3.62 / 4.29|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu116 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.6 cudnn:8302 15GB|xformers none|model.ckpt [4c86efd062]|root||540ecc|303165 ",
+      "generated_at": "2023-03-24T20:24:37-04:00",
+      "source_id": 13773925340
     }
   ]
 }
