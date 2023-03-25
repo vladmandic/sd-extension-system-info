@@ -1,5 +1,57 @@
 [
   [
+    1410,
+    "2023-03-24T01:14:56.594Z",
+    "13.34 / 21.62 / 33.89",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17+6d62b0e.d20230322 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "[230313]_HazyAbyss.safetensors [d7b0072ef7]",
+    "HAN",
+    ""
+  ],
+  [
+    1409,
+    "2023-03-25T21:18:07.416Z",
+    "4.09 / 4.57 / 4.94 / 5.22 / 5.21",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 2060 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "edgeOfRealism_edgeOfRealismBakedVAE.safetensors",
+    "Sasha",
+    ""
+  ],
+  [
+    1408,
+    "2023-03-25T20:30:29.002Z",
+    "3.56 / 3.51 / 4.05",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 2060 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB",
+    "sub-quadratic none",
+    "edgeOfRealism_edgeOfRealismBakedVAE.safetensors",
+    "Sasha",
+    ""
+  ],
+  [
+    1407,
+    "2023-03-26T02:12:28.553Z",
+    "5.39 / 6.63 / 7.23 / 7.98 / 8.72",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB",
+    "xformers none",
+    "animefull-latest.ckpt [a7529df023]",
+    "Win11",
+    ""
+  ],
+  [
     1406,
     "2023-03-26T01:56:02.147Z",
     "5.64 / 6.52 / 7.33",
