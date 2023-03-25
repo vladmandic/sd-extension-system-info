@@ -1,5 +1,18 @@
 [
   [
+    1424,
+    "2023-03-26T06:06:59.392Z",
+    "2.6 / 3.13 / 3.35",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "jinSamuraiChamploo_jinV10.ckpt [db6eb5ca79]",
+    "14829",
+    ""
+  ],
+  [
     1423,
     "2023-03-25T21:50:06.916Z",
     "1.45 / 1.38 / 1.75",
