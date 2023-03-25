@@ -1,5 +1,5 @@
 {
-  "max_id": "1576408575906078727",
+  "max_id": "1576420951921451010",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20496,6 +20496,13 @@
       "message": "14829 2023-03-26 06:06:59.392972|2.6 / 3.13 / 3.35|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4060 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 8GB|xformers none|jinSamuraiChamploo_jinV10.ckpt [db6eb5ca79]|14829||90bffa|324cc9 ",
       "generated_at": "2023-03-26T02:11:54-04:00",
       "source_id": 13774348834
+    },
+    {
+      "id": "1576420951921451010",
+      "program": "SDBENCHMARK",
+      "message": "tempt 2023-03-25 17:59:32.868653|10.68 / 12.17 / 13.31|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|Doggettx none|deliberate_v2.ckpt [b4391b7978]|tempt||0e68d8|d7cda2 ",
+      "generated_at": "2023-03-25T14:01:07-04:00",
+      "source_id": 13774751620
     }
   ]
 }
