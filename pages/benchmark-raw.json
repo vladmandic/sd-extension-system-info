@@ -1,5 +1,5 @@
 {
-  "max_id": "1576211184976314368",
+  "max_id": "1576215318236413955",
   "events": [
     {
       "id": "1564370541899603981",
@@ -19186,6 +19186,195 @@
       "program": "SDBENCHMARK",
       "message": "DirSima 2023-03-25 12:03:00.196894|0.66 / 0.65 / 0.81|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|639849 ",
       "generated_at": "2023-03-25T08:07:33-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576214450657218566",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-25 17:10:54.784389|2.05 / 1.71 / 1.77|updated:2023-03-25 hash:8d2c582e url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|animelike2D_animelike2DPruned.safetensors [f23d96c149]|root||af4265|1c2ae8 ",
+      "generated_at": "2023-03-25T13:20:32-04:00",
+      "source_id": 13774223828
+    },
+    {
+      "id": "1576215137080229897",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:15-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215181808287747",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:26-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215190297559043",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:28-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215191828480009",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:29-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215193430704138",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:29-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215202377154565",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:31-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215203966795776",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:31-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215205610962950",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:32-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215265648230408",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:46-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215281838243863",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:50-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215286108045319",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:51-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215287865458692",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:51-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215290071662592",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:52-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215291476754439",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:52-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215292852486152",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:53-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215295280988160",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:53-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215296597999622",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:54-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215299705978880",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:54-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215301358534662",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:55-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215302717489153",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:55-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215305523478615",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:56-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215307289280517",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:56-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215309650673701",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:57-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215311303229445",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:57-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215312922230792",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:57-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576215318236413955",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
+      "generated_at": "2023-03-25T08:23:59-04:00",
       "source_id": 13774215447
     }
   ]
