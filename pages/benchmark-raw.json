@@ -1,5 +1,5 @@
 {
-  "max_id": "1576354546723241990",
+  "max_id": "1576378653246402572",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20188,6 +20188,76 @@
       "message": "task(1l41vgx7550lm7h) 2023-03-24 01:14:56.594782|13.34 / 21.62 / 33.89|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17+6d62b0e.d20230322 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|[230313]_HazyAbyss.safetensors [d7b0072ef7]|HAN||0aa81b|2a5b57 ",
       "generated_at": "2023-03-25T23:37:13-04:00",
       "source_id": 13771614532
+    },
+    {
+      "id": "1576367589448396805",
+      "program": "SDBENCHMARK",
+      "message": "Ace 2023-03-25 07:45:56.463212|22.66 / 31.1 / 36.28|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Ace||6abc66|2cad02 ",
+      "generated_at": "2023-03-25T21:29:02-04:00",
+      "source_id": 13773970556
+    },
+    {
+      "id": "1576367589452591104",
+      "program": "SDBENCHMARK",
+      "message": "Ace 2023-03-26 01:28:04.086877|21.35 / 30.27 / 34.49|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp-no-mem none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Ace||fcda13|d6c3b5 ",
+      "generated_at": "2023-03-25T21:29:02-04:00",
+      "source_id": 13773970556
+    },
+    {
+      "id": "1576368708891357195",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:48:50.648324|5.36 / 6.21 / 6.97|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|3d9c9b ",
+      "generated_at": "2023-03-25T23:33:29-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576368708891357198",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-25T23:33:29-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576368708891357199",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:33:09.912100|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|536748 ",
+      "generated_at": "2023-03-25T23:33:29-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576375438576631840",
+      "program": "SDBENCHMARK",
+      "message": "user 2023-03-25 22:59:36.719574|error / error / error|updated:2023-03-25 hash:a0d07fb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|dungeonsNWaifusNew_dungeonsNWaifus22.safetensors [c228c40bfd]|user||5eb462|3873c2 ",
+      "generated_at": "2023-03-25T19:01:23-04:00",
+      "source_id": 13774640680
+    },
+    {
+      "id": "1576378653246402561",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:13:00-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576378653246402562",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:13:00-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576378653246402569",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:13:00-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576378653246402572",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:12:27.021314|5.32 / 6.31 / 7.16|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|cacc57 ",
+      "generated_at": "2023-03-26T00:13:00-04:00",
+      "source_id": 13774555713
     }
   ]
 }
