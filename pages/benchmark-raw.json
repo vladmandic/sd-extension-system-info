@@ -1,5 +1,5 @@
 {
-  "max_id": "1576378653246402572",
+  "max_id": "1576388864011063327",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20258,6 +20258,237 @@
       "message": "Win11 2023-03-26 04:12:27.021314|5.32 / 6.31 / 7.16|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|cacc57 ",
       "generated_at": "2023-03-26T00:13:00-04:00",
       "source_id": 13774555713
+    },
+    {
+      "id": "1576379100237574150",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:14:47-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379100237574151",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:14:47-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379100237574152",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:14:47-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379100237574153",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:12:27.021314|5.32 / 6.31 / 7.16|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|cacc57 ",
+      "generated_at": "2023-03-26T00:14:47-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379114431098913",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:14:50-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379114439487509",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:14:50-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379114439487510",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:14:50-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576379114439487511",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:12:27.021314|5.32 / 6.31 / 7.16|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|cacc57 ",
+      "generated_at": "2023-03-26T00:14:50-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380164621905921",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:19:01-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380164621905925",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:19:01-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380164621905929",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:19:01-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380164621905930",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:15:16.845329|5.66 / 6.76 / 7.89 / 6.91 / 7.25|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|454913 ",
+      "generated_at": "2023-03-26T00:19:01-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380177737494529",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380177737494530",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380177737494532",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380177737494533",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:15:16.845329|5.66 / 6.76 / 7.89 / 6.91 / 7.25|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|454913 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380180325380106",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:07:45.284336|5.25 / 5.92 / 6.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||d761e5|913785 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380180346351618",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 02:46:26.354726|5.32 / 6.18 / 6.92|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8401 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||66de14|037336 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380180346351619",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 03:44:43.530898|error / error / error|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||81aeaf|2256b1 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576380180363128834",
+      "program": "SDBENCHMARK",
+      "message": "Win11 2023-03-26 04:15:16.845329|5.66 / 6.76 / 7.89 / 6.91 / 7.25|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 with Max-Q Design (1) (compute_37) (7, 5) cuda:11.7 cudnn:8800 16GB|xformers none|animefull-latest.ckpt [a7529df023]|Win11||8430b7|454913 ",
+      "generated_at": "2023-03-26T00:19:04-04:00",
+      "source_id": 13774555713
+    },
+    {
+      "id": "1576381859867320325",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 22:54:01.597774|13.72 / 16.42 / 18.15 / 20.13 / 19.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|dwatl||04ddbc|1ccae5 ",
+      "generated_at": "2023-03-25T12:25:43-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576381859867320326",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 23:54:45.995367|13.3 / 16.06 / 17.53|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||a172fb|0518be ",
+      "generated_at": "2023-03-25T12:25:43-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576381859867320328",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-25 16:25:36.734478|14.16 / 28.13 / 34.92|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||b9fc23|a67b83 ",
+      "generated_at": "2023-03-25T12:25:43-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576381967509938183",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 22:54:01.597774|13.72 / 16.42 / 18.15 / 20.13 / 19.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|dwatl||04ddbc|1ccae5 ",
+      "generated_at": "2023-03-25T12:26:09-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576381967509938184",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 23:54:45.995367|13.3 / 16.06 / 17.53|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||a172fb|0518be ",
+      "generated_at": "2023-03-25T12:26:09-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576381967509938190",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-25 16:25:47.816468|13.99 / 27.95 / 35.54 / 34.39 / 35.24|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||b9fc23|120256 ",
+      "generated_at": "2023-03-25T12:26:09-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576382015425667082",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 22:54:01.597774|13.72 / 16.42 / 18.15 / 20.13 / 19.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|dwatl||04ddbc|1ccae5 ",
+      "generated_at": "2023-03-25T12:26:20-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576382015425667083",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 23:54:45.995367|13.3 / 16.06 / 17.53|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||a172fb|0518be ",
+      "generated_at": "2023-03-25T12:26:20-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576382015471804422",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-25 16:25:47.816468|13.99 / 27.95 / 35.54 / 34.39 / 35.24|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||b9fc23|120256 ",
+      "generated_at": "2023-03-25T12:26:20-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1576388637963243524",
+      "program": "SDBENCHMARK",
+      "message": "Riccardo 2023-02-25 11:45:31.584268|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|a6ce9e|5e9fe5 ",
+      "generated_at": "2023-03-25T17:52:41-04:00",
+      "source_id": 13774674205
+    },
+    {
+      "id": "1576388637967437833",
+      "program": "SDBENCHMARK",
+      "message": "Riccardo 2023-03-25 21:50:06.916292|1.45 / 1.38 / 1.75|updated:2023-03-25 hash:a0d07fb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.3|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Riccardo||f9729a|5aa6ce ",
+      "generated_at": "2023-03-25T17:52:41-04:00",
+      "source_id": 13774674205
+    },
+    {
+      "id": "1576388864011063298",
+      "program": "SDBENCHMARK",
+      "message": "Riccardo 2023-02-25 11:45:31.584268|1.46 / 1.4 / 1.78|updated:2023-02-20 hash:0cc0ee1 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|host:WIN10-1 arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Harvester62|SD1.5, Notebook ASUS ROG G752VS, 32GB RAM|a6ce9e|5e9fe5 ",
+      "generated_at": "2023-03-25T17:53:35-04:00",
+      "source_id": 13774674205
+    },
+    {
+      "id": "1576388864011063327",
+      "program": "SDBENCHMARK",
+      "message": "Riccardo 2023-03-25 21:50:06.916292|1.45 / 1.38 / 1.75|updated:2023-03-25 hash:a0d07fb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.27.3|device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers medvram|sd-v1-5-pruned-emaonly_fp16.ckpt [9012b038a9]|Riccardo||f9729a|5aa6ce ",
+      "generated_at": "2023-03-25T17:53:35-04:00",
+      "source_id": 13774674205
     }
   ]
 }
