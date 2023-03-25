@@ -1,5 +1,31 @@
 [
   [
+    1355,
+    "2023-03-25T15:31:53.360Z",
+    "4.9 / 5.42 / 5.83 / 6.03 / 6.06",
+    "updated:2023-03-25 hash:009bc9f5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 6GB",
+    "Doggettx none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "geolog",
+    ""
+  ],
+  [
+    1354,
+    "2023-03-25T15:18:53.387Z",
+    "4.97 / 5.39 / 5.83 / 6.01 / 6.09",
+    "updated:2023-03-25 hash:009bc9f5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 6GB",
+    "Doggettx none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "misha",
+    ""
+  ],
+  [
     1353,
     "2023-03-25T12:09:43.261Z",
     "0.66 / 0.65 / 0.81 / 0.9 / 1.04",

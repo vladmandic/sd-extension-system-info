@@ -1,5 +1,5 @@
 {
-  "max_id": "1576215318236413955",
+  "max_id": "1576237193431789572",
   "events": [
     {
       "id": "1564370541899603981",
@@ -19376,6 +19376,20 @@
       "message": "DirSima 2023-03-25 12:09:43.261477|0.66 / 0.65 / 0.81 / 0.9 / 1.04|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|18f259 ",
       "generated_at": "2023-03-25T08:23:59-04:00",
       "source_id": 13774215447
+    },
+    {
+      "id": "1576230707217485833",
+      "program": "SDBENCHMARK",
+      "message": "misha 2023-03-25 15:18:53.387139|4.97 / 5.39 / 5.83 / 6.01 / 6.09|updated:2023-03-25 hash:009bc9f5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 6GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|misha||d59c5f|7e5421 ",
+      "generated_at": "2023-03-25T11:24:14-04:00",
+      "source_id": 13773197147
+    },
+    {
+      "id": "1576237193431789572",
+      "program": "SDBENCHMARK",
+      "message": "geolog 2023-03-25 15:31:53.360002|4.9 / 5.42 / 5.83 / 6.03 / 6.06|updated:2023-03-25 hash:009bc9f5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 6GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|geolog||d59c5f|b261ba ",
+      "generated_at": "2023-03-25T11:50:01-04:00",
+      "source_id": 13773197147
     }
   ]
 }
