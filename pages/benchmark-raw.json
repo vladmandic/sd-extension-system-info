@@ -1,5 +1,5 @@
 {
-  "max_id": "1576166995429343235",
+  "max_id": "1576179155010240520",
   "events": [
     {
       "id": "1564370541899603981",
@@ -19166,6 +19166,13 @@
       "message": "datou 2023-03-25 13:46:00.970358|9.67 / 6.7 / 8.52|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (2) (compute_37) (7, 5) cuda:11.7 cudnn:8801 22GB|Doggettx none|AnyPastel_Anything_v4.5_+_Pastel_Mix_\\anypastelAnythingV45_anypastelAnythingV45.safetensors [99d004eeec]|datou||276419|67de79 ",
       "generated_at": "2023-03-25T10:11:57-04:00",
       "source_id": 13774110745
+    },
+    {
+      "id": "1576179155010240520",
+      "program": "SDBENCHMARK",
+      "message": "jbjsi 2023-03-25 15:59:46.257258|4.47 / 4.67 / 6.8|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers medvram|crosskemonoFurryModel_crosskemonoc.safetensors [229662c887]|jbjsi||f4f394|5d2947 ",
+      "generated_at": "2023-03-25T12:00:18-04:00",
+      "source_id": 13774140964
     }
   ]
 }
