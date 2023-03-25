@@ -1,5 +1,18 @@
 [
   [
+    1351,
+    "2023-03-25T12:03:00.196Z",
+    "0.66 / 0.65 / 0.81",
+    "updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB",
+    "xformers medvram",
+    "Deliberate_v2.safetensors [9aba26abdf]",
+    "DirSima",
+    ""
+  ],
+  [
     1350,
     "2023-03-25T15:59:46.257Z",
     "4.47 / 4.67 / 6.8",

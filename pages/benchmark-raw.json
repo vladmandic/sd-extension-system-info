@@ -1,5 +1,5 @@
 {
-  "max_id": "1576179155010240520",
+  "max_id": "1576211184976314368",
   "events": [
     {
       "id": "1564370541899603981",
@@ -19173,6 +19173,20 @@
       "message": "jbjsi 2023-03-25 15:59:46.257258|4.47 / 4.67 / 6.8|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 16GB|xformers medvram|crosskemonoFurryModel_crosskemonoc.safetensors [229662c887]|jbjsi||f4f394|5d2947 ",
       "generated_at": "2023-03-25T12:00:18-04:00",
       "source_id": 13774140964
+    },
+    {
+      "id": "1576210995137921025",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:03:00.196894|0.66 / 0.65 / 0.81|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|639849 ",
+      "generated_at": "2023-03-25T08:06:48-04:00",
+      "source_id": 13774215447
+    },
+    {
+      "id": "1576211184976314368",
+      "program": "SDBENCHMARK",
+      "message": "DirSima 2023-03-25 12:03:00.196894|0.66 / 0.65 / 0.81|updated:2023-03-25 hash:8d2c582e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1050 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 4GB|xformers medvram|Deliberate_v2.safetensors [9aba26abdf]|DirSima||ea5c1e|639849 ",
+      "generated_at": "2023-03-25T08:07:33-04:00",
+      "source_id": 13774215447
     }
   ]
 }
