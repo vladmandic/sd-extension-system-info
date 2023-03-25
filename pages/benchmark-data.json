@@ -1,5 +1,18 @@
 [
   [
+    1401,
+    "2023-03-26T00:59:06.530Z",
+    "18.64 / 22.25 / 26.32",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB",
+    "xformers none",
+    "anything-v4.5-pruned.ckpt [e4b17ce185]",
+    "Ricardo",
+    ""
+  ],
+  [
     1400,
     "2023-03-25T18:55:53.649Z",
     "8.2 / 9.7 / 9.77",

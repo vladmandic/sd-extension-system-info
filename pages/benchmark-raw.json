@@ -1,5 +1,5 @@
 {
-  "max_id": "1576314221401133073",
+  "max_id": "1576329985105510402",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20069,6 +20069,13 @@
       "message": "Keyn 2023-03-25 18:55:53.649436|8.2 / 9.7 / 9.77|updated:2023-03-25 hash:b2c428a0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|deliberate_v2.ckpt [b4391b7978]|Keyn||a3f746|11d419 ",
       "generated_at": "2023-03-25T14:56:47-04:00",
       "source_id": 13774481494
+    },
+    {
+      "id": "1576329985105510402",
+      "program": "SDBENCHMARK",
+      "message": "Rica 2023-03-26 00:59:06.530485|18.64 / 22.25 / 26.32|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB|xformers none|anything-v4.5-pruned.ckpt [e4b17ce185]|Ricardo||47d125|397e38 ",
+      "generated_at": "2023-03-25T20:59:44-04:00",
+      "source_id": 13774526855
     }
   ]
 }
