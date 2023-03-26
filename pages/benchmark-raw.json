@@ -1,5 +1,5 @@
 {
-  "max_id": "1576586730247741450",
+  "max_id": "1576601093406908418",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20867,6 +20867,34 @@
       "message": "{'headers': ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash'], 'data': [['2023-03-26 17:40:34.454294', '21.88 / 25.13 / 26.47', 'updated:2023-03-25 hash:b2c428a0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master', 'arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8', 'torch:2.0.0+cu118 autocast  half xformers:unavailable accelerate:0.12.0 transformers:4.25.1', 'device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB', 'sdp none', 'animesfw-final-pruned.ckpt [22fa233c2d]', 'pily7', '', '9dda08'], ['2023-03-26 18:59:43.955052', '', 'updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master', 'arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8', 'torch:2.0.0+cu118 autocast  half xformers:unavailable accelerate:0.17.1 transformers:4.26.1', 'device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB', 'sdp none', 'meinamix_meinaV8.safetensors [30953ab0de]', '', '', '5dcd2f']]} 2023-03-26 18:59:43.955052||updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|meinamix_meinaV8.safetensors [30953ab0de]|||5dcd2f|3f11c7 ",
       "generated_at": "2023-03-26T14:59:49-04:00",
       "source_id": 13775071891
+    },
+    {
+      "id": "1576593946216419341",
+      "program": "SDBENCHMARK",
+      "message": "homi 2023-03-26 11:47:51.646043|8.23 / 9.82 / 9.95 / 8.37 / 8.94|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|homihomu||708760|357753 ",
+      "generated_at": "2023-03-26T15:28:31-04:00",
+      "source_id": 13775137742
+    },
+    {
+      "id": "1576593946216419342",
+      "program": "SDBENCHMARK",
+      "message": "homi 2023-03-26 16:26:57.042244|7.39 / 9.94 / 12.33 / 17.01 / 18.49|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|homihomu||333832|732c65 ",
+      "generated_at": "2023-03-26T15:28:31-04:00",
+      "source_id": 13775137742
+    },
+    {
+      "id": "1576593946216419343",
+      "program": "SDBENCHMARK",
+      "message": "homi 2023-03-26 19:27:39.388715|15.35 / 20.34 / 20.94 / 20.99 / 21.15|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.10|torch:2.1.0.dev20230325+cu118 autocast half xformers:0.0.17+658ebab.d20230326 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]||hardware accelerated gpu scheduling = off|74f5f3|d9277f ",
+      "generated_at": "2023-03-26T15:28:31-04:00",
+      "source_id": 13775137742
+    },
+    {
+      "id": "1576601093406908418",
+      "program": "SDBENCHMARK",
+      "message": "criso 2023-03-26 13:53:48.759136|2.44 / 3.84 / 5.33|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB|xformers medvram|aresMix_v01.safetensors [6ecece11bf]|criso||a4a78b|7389d0 ",
+      "generated_at": "2023-03-26T09:56:54-04:00",
+      "source_id": 13775154957
     }
   ]
 }
