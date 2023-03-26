@@ -1,5 +1,5 @@
 {
-  "max_id": "1576618311544913932",
+  "max_id": "1576631414303154177",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20902,6 +20902,13 @@
       "message": "colab 2023-03-26 12:04:20.717651|5.58 / 4.2 / 4.81|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||f76c25|a0949f ",
       "generated_at": "2023-03-26T08:05:20-04:00",
       "source_id": 13775197614
+    },
+    {
+      "id": "1576631414303154177",
+      "program": "SDBENCHMARK",
+      "message": "binarec 2023-03-26 20:54:16.643075|7.16 / 8.29 / 9.31 / 9.89 / 9.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|binarec||093a16|ad2d86 ",
+      "generated_at": "2023-03-26T16:57:25-04:00",
+      "source_id": 13768513779
     }
   ]
 }
