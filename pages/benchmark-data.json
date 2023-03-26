@@ -1,5 +1,57 @@
 [
   [
+    1429,
+    "2023-03-26T10:04:59.232Z",
+    "10.86 / 12.07 / 14.2",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.1.0.dev20230324+cu118 autocast half xformers:0.0.17+658ebab.d20230326 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A4000 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 16GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "mutji_cwkghrc",
+    ""
+  ],
+  [
+    1428,
+    "2023-03-26T05:04:16.842Z",
+    "11.18 / 15.43 / 21.01",
+    "updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.17.1 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "storyboard\\storyboard_v01.safetensors [e1ce7ed48d]",
+    "ammar",
+    ""
+  ],
+  [
+    1427,
+    "2023-03-25T21:34:34.913Z",
+    "0.17 / 0.2 / error",
+    "updated:2023-03-25 hash:2ba05500 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.0",
+    "torch:1.13.1+cpu autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic medvram",
+    "(Perfeito para porno realista - DEEPFAKE utilts) uberRealisticPornMerge_urpmv13.safetensors [f93e6a50ac]",
+    "Administrator",
+    ""
+  ],
+  [
+    1426,
+    "2023-03-25T16:24:25.815Z",
+    "4.91 / 6.83 / 8.26",
+    "updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19043-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers medvram",
+    "orangechillmix_v70.safetensors [a92311f07a]",
+    "Me",
+    ""
+  ],
+  [
     1425,
     "2023-03-25T17:59:32.868Z",
     "10.68 / 12.17 / 13.31",
