@@ -1,5 +1,18 @@
 [
   [
+    1453,
+    "2023-03-26T10:29:42.040Z",
+    "5.96 / 7.13 / 8.16",
+    "updated:2023-03-26 hash:64da5c4 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "dungeonsNWaifusNew_dungeonsNWaifus22.safetensors [c228c40bfd]",
+    "user",
+    ""
+  ],
+  [
     1452,
     "2023-03-26T15:09:11.015Z",
     "6.93 / 5.4 / 6.21",
