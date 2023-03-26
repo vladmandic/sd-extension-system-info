@@ -1,5 +1,5 @@
 {
-  "max_id": "1576601093406908418",
+  "max_id": "1576618311544913932",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20895,6 +20895,13 @@
       "message": "criso 2023-03-26 13:53:48.759136|2.44 / 3.84 / 5.33|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB|xformers medvram|aresMix_v01.safetensors [6ecece11bf]|criso||a4a78b|7389d0 ",
       "generated_at": "2023-03-26T09:56:54-04:00",
       "source_id": 13775154957
+    },
+    {
+      "id": "1576618311544913932",
+      "program": "SDBENCHMARK",
+      "message": "colab 2023-03-26 12:04:20.717651|5.58 / 4.2 / 4.81|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||f76c25|a0949f ",
+      "generated_at": "2023-03-26T08:05:20-04:00",
+      "source_id": 13775197614
     }
   ]
 }
