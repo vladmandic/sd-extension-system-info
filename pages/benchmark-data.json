@@ -1,5 +1,18 @@
 [
   [
+    1513,
+    "2023-03-27T06:02:22.248Z",
+    "0.6 / 0.62 / 0.76",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 960 (1) (compute_37) (5, 2) cuda:11.7 cudnn:8500 4GB",
+    "Doggettx medvram",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "Lee",
+    ""
+  ],
+  [
     1512,
     "2023-03-27T04:57:43.633Z",
     "5.97 / 6.5 / 7.34",

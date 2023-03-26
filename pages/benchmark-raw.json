@@ -1,5 +1,5 @@
 {
-  "max_id": "1576752561283846147",
+  "max_id": "1576769618658381834",
   "events": [
     {
       "id": "1564370541899603981",
@@ -21497,6 +21497,13 @@
       "message": "ISAMU 2023-03-27 04:57:43.633224|5.97 / 6.5 / 7.34|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|anytrollV4_v45.safetensors [1d1e459f9f]|ISAMU||fb31b2|42ee73 ",
       "generated_at": "2023-03-27T00:58:47-04:00",
       "source_id": 13775501877
+    },
+    {
+      "id": "1576769618658381834",
+      "program": "SDBENCHMARK",
+      "message": "Lee 2023-03-27 06:02:22.248623|0.6 / 0.62 / 0.76|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 960 (1) (compute_37) (5, 2) cuda:11.7 cudnn:8500 4GB|Doggettx medvram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Lee||546e6a|fe42cb ",
+      "generated_at": "2023-03-27T02:06:34-04:00",
+      "source_id": 13769933743
     }
   ]
 }
