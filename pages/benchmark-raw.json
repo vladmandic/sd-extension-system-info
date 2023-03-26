@@ -1,5 +1,5 @@
 {
-  "max_id": "1576691933777154058",
+  "max_id": "1576701690353205269",
   "events": [
     {
       "id": "1564370541899603981",
@@ -21189,6 +21189,27 @@
       "message": "Neavo 2023-03-26 23:24:01.656733|4.85 / 3.87 / 4.61|updated:2023-03-14 hash:a9fed7c36 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB|sdp none|facebombmix_v1.safetensors [aad629159b]|Neavo||3acf1d|1fc05d ",
       "generated_at": "2023-03-26T20:57:49-04:00",
       "source_id": 13771473984
+    },
+    {
+      "id": "1576698967469776898",
+      "program": "SDBENCHMARK",
+      "message": "Kir 2023-03-26 22:23:55.271445|5.35 / 7.13 / 8.57|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|Doggettx none|revAnimated_v11.safetensors [d725be5d18]|Kir||85aa21|d98f25 ",
+      "generated_at": "2023-03-26T18:25:50-04:00",
+      "source_id": 13775400252
+    },
+    {
+      "id": "1576699497277480963",
+      "program": "SDBENCHMARK",
+      "message": "Kir 2023-03-26 22:26:20.417104|5.53 / 7.17 / 8.59 / 9.28 / 9.58|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|Kir||85aa21|bef734 ",
+      "generated_at": "2023-03-26T18:27:56-04:00",
+      "source_id": 13775400252
+    },
+    {
+      "id": "1576701690353205269",
+      "program": "SDBENCHMARK",
+      "message": "saint 2023-03-27 00:35:43.291589|11.44 / 18.03 / 20.25 / 21.63 / 22.59|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|mdjrny-v4.ckpt [5d5ad06cc2]|saint|RTX3090|74b7bd|e946d7 ",
+      "generated_at": "2023-03-26T20:36:39-04:00",
+      "source_id": 13775344958
     }
   ]
 }
