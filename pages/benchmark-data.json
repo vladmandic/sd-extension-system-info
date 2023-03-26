@@ -1,5 +1,18 @@
 [
   [
+    1452,
+    "2023-03-26T15:09:11.015Z",
+    "6.93 / 5.4 / 6.21",
+    "updated:2023-03-26 hash:64da5c46 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2070 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "elegance_37.ckpt [ec258922c4]",
+    "xinn3",
+    ""
+  ],
+  [
     1451,
     "2023-03-26T13:35:42.383Z",
     "10.36 / 14.6 / 32.06",
