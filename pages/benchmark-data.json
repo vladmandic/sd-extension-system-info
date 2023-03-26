@@ -1,5 +1,44 @@
 [
   [
+    1474,
+    "2023-03-26T23:03:16.871Z",
+    "11.72 / 18.22 / 20.29",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "f222.ckpt [9e2c6ceff3]",
+    "saint",
+    "RTX3090"
+  ],
+  [
+    1473,
+    "2023-03-26T23:01:46.881Z",
+    "11.31 / 17.68 / 20.14",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "f222.ckpt [9e2c6ceff3]",
+    "saint",
+    "RTX3090"
+  ],
+  [
+    1472,
+    "2023-03-26T15:18:25.622Z",
+    "13.97 / 15.18 / 15.46 / 15.67 / 15.37",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.8.16",
+    "torch:2.1.0a0+git4c0dce5 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Radeon RX 7900 XTX (3) hip:5.5.30201-d32bf634 24GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "tilde",
+    "PCIe 3.0 x8, (Unreleased) ROCm 5.5"
+  ],
+  [
     1471,
     "2023-03-26T22:32:48.289Z",
     "7.36 / 3.75 / 3.93",
