@@ -1,5 +1,5 @@
 {
-  "max_id": "1576472524424925194",
+  "max_id": "1576482829032931364",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20643,6 +20643,20 @@
       "message": "biccon 2023-03-26 11:25:50.077297|19.71 / 30.22 / 40.36|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.9|torch:2.0.0 autocast half xformers:0.0.17+c36468d.d20230320 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|mods13(camellia)/camelliamix25D_v10.safetensors [44eccf4d61]|biccon||55014d|2897e5 ",
       "generated_at": "2023-03-26T07:26:01-04:00",
       "source_id": 13774859191
+    },
+    {
+      "id": "1576482829028741133",
+      "program": "SDBENCHMARK",
+      "message": "sidik2204 2023-03-26 10:33:03.605953|28.57 / 32.95 / 40.71 / 40.94 / 37.86|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.6-060206-generic python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|||907124|4b50d4 ",
+      "generated_at": "2023-03-26T07:06:58-04:00",
+      "source_id": 13774433533
+    },
+    {
+      "id": "1576482829032931364",
+      "program": "SDBENCHMARK",
+      "message": "sidik2204 2023-03-26 10:02:10.317278|28.53 / 30.24 / 41.77|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.6-060206-generic python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|uberRealisticPornMerge_urpmv13.safetensors [f93e6a50ac]|sidik2204||c30fcd|c1a785 ",
+      "generated_at": "2023-03-26T07:06:58-04:00",
+      "source_id": 13774433533
     }
   ]
 }
