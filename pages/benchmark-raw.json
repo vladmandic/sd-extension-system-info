@@ -1,5 +1,5 @@
 {
-  "max_id": "1576642374749302795",
+  "max_id": "1576656666928275460",
   "events": [
     {
       "id": "1564370541899603981",
@@ -20923,6 +20923,13 @@
       "message": "Administrator 2023-03-26 21:39:39.347542|24.27 / 28.19 / 30.65 / 32.47 / 33.26|updated:2023-03-11 hash:52dcf0f0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8600 24GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|Administrator||eba52a|434f55 ",
       "generated_at": "2023-03-26T17:40:56-04:00",
       "source_id": 13775257247
+    },
+    {
+      "id": "1576656666928275460",
+      "program": "SDBENCHMARK",
+      "message": "ailfreedom 2023-03-26 22:32:48.289223|7.36 / 3.75 / 3.93|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|Doggettx none|camelliamix25D_v10.safetensors [78a9cc6d10]|ailfreedom||a30dd6|356a2a ",
+      "generated_at": "2023-03-26T18:37:44-04:00",
+      "source_id": 13775292687
     }
   ]
 }

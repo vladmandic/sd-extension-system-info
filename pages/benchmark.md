@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-26T14:11:41.038Z
+  ## Updated: 2023-03-26T15:13:02.532Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1470|2023-03-26T21:39:39.347Z|24.27 / 28.19 / 30.65 / 32.47 / 33.26|updated:2023-03-11 hash:52dcf0f0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8600 24GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|Administrator||
+  |1471|2023-03-26T22:32:48.289Z|7.36 / 3.75 / 3.93|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|Doggettx none|camelliamix25D_v10.safetensors [78a9cc6d10]|ailfreedom||
+|1470|2023-03-26T21:39:39.347Z|24.27 / 28.19 / 30.65 / 32.47 / 33.26|updated:2023-03-11 hash:52dcf0f0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8600 24GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|Administrator||
 |1469|2023-03-26T16:31:51.736Z|4.34 / 4.77 / 4.94|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-35-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|realisticVisionV13_v13.safetensors [c35782bad8]|drako||
 |1468|2023-03-26T20:54:16.643Z|7.16 / 8.29 / 9.31 / 9.89 / 9.78|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|binarec||
 |1467|2023-03-26T12:04:20.717Z|5.58 / 4.2 / 4.81|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||
