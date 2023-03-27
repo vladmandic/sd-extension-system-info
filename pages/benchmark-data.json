@@ -1,5 +1,18 @@
 [
   [
+    1520,
+    "2023-03-27T00:56:27.817Z",
+    "5.54 / 4.17 / 4.84",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB",
+    "xformers none",
+    "AOM3A1_orangemixs.safetensors [f303d10812]",
+    "root",
+    ""
+  ],
+  [
     1519,
     "2023-03-27T01:16:49.934Z",
     "27.36 / 38.02 / 44.9 / 44.39 / 41.83",
