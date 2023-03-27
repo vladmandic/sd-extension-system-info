@@ -1,5 +1,18 @@
 [
   [
+    1587,
+    "2023-03-27T18:33:46.151Z",
+    "0.68 / 0.79 / error",
+    "updated:2023-03-25 hash:2ba05500 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic medvram",
+    "RealisticVision\\Realistic_Vision_V1.3.safetensors [c35782bad8]",
+    "Szymon",
+    "Windows 11 Home 22H2 (22621.1413);; AMD Driver 23.3.2, no OC, custom fan curve and power limit set to -20 (https://github.com/lshqqytiger/stable-diffusion-webui-directml/);; MSI Radeon RX 580 ARMOR OC 8GB, SD installed on Crucial MX500 1TB Sata SSD;;  '' Realistic Vision v1.3; Euler A; Steps: 25;  512x512 - 58.45s (about 1.32s/it - 1.43s/it); 512x1024 - 1m 21.44s (about 3.04s/it - 3.08s/it); 768x768 - 1m 34.50s (about 3.53s/it - 3.58s/it); 768x431(16:9) - 37.82s (about 1.33s/it - 1.41s/it); 256x256 - 15.69s (about 1.81it/s - 1.97it/s); ''  webui-user;; '' set COMMANDLINE_ARGS=--medvram --precision full --no-half --no-half-vae --opt-split-attention --opt-sub-quad-attention --disable-nan-check --api --autolaunch set SAFETENSORS_FAST_GPU=1 set ACCELERATE=False ''"
+  ],
+  [
     1586,
     "2023-03-28T01:07:10.729Z",
     "23.51 / 31.83 / 37.38",
