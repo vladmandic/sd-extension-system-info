@@ -1,5 +1,5 @@
 {
-  "max_id": "1576812540657319974",
+  "max_id": "1576825611605950466",
   "events": [
     {
       "id": "1564370541899603981",
@@ -21553,6 +21553,20 @@
       "message": "colab 2023-03-27 00:56:27.817872|5.54 / 4.17 / 4.84|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||f76c25|722fe7 ",
       "generated_at": "2023-03-26T20:57:07-04:00",
       "source_id": 13775663033
+    },
+    {
+      "id": "1576819596206465088",
+      "program": "SDBENCHMARK",
+      "message": "DH 2023-03-27 10:25:04.765844|30.65 / 36.22 / 37.65|updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+658ebab.d20230327 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|DH||7f2b07|d5384a ",
+      "generated_at": "2023-03-27T06:25:10-04:00",
+      "source_id": 13775680547
+    },
+    {
+      "id": "1576825611605950466",
+      "program": "SDBENCHMARK",
+      "message": "saint 2023-03-27 08:48:31.689561|6.53 / 12.35 / 19.43|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 42 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17+658ebab.d20230324 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|saint|RTX3090 work|b2b618|9a3e1b ",
+      "generated_at": "2023-03-27T04:49:04-04:00",
+      "source_id": 13775692478
     }
   ]
 }
