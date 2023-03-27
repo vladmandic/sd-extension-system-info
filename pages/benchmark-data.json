@@ -1,5 +1,44 @@
 [
   [
+    1540,
+    "2023-03-27T15:45:10.093Z",
+    "7.4 / 12.6 / 18.51",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 42 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "f222.ckpt [9e2c6ceff3]",
+    "saint",
+    ""
+  ],
+  [
+    1539,
+    "2023-03-27T16:39:39.551Z",
+    "10.24 / 11.94 / 12.62 / 10.53 / 11.34",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 11GB",
+    "xformers none",
+    "04.高光影过渡\\counterfeitV2525d_counterfeitV2525d.safetensors [ebb647fe7b]",
+    "Administrator",
+    ""
+  ],
+  [
+    1538,
+    "2023-03-27T15:40:59.493Z",
+    "7.39 / 12.32 / 18.02",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 42 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "f222.ckpt [9e2c6ceff3]",
+    "saint",
+    ""
+  ],
+  [
     1537,
     "2023-03-27T16:01:57.803Z",
     "26.25 / 37.48 / 43.84",
