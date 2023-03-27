@@ -1833,19 +1833,6 @@
     ""
   ],
   [
-    1435,
-    "2023-03-26T10:02:10.317Z",
-    "28.53 / 30.24 / 41.77",
-    "updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
-    "arch:x86_64 cpu:x86_64 system:Linux release:6.2.6-060206-generic python:3.10.6",
-    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
-    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8800 24GB",
-    "xformers none",
-    "uberRealisticPornMerge_urpmv13.safetensors [f93e6a50ac]",
-    "sidik2204",
-    ""
-  ],
-  [
     1434,
     "2023-03-26T09:57:34.662Z",
     "9.53 / 21.52 / 36.18 / 41.77 / 40.3",
