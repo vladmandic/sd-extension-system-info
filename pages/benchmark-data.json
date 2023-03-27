@@ -1,5 +1,18 @@
 [
   [
+    1574,
+    "2023-03-27T21:59:17.138Z",
+    "0.38 / 0.38 / 0.37",
+    "updated:2023-03-26 hash:a13aeccd url:https://github.com/vladmandic/automatic/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.27.1",
+    "device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB",
+    "sdp none",
+    "StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]",
+    "gaia",
+    "PyTorch 2.0, --xformers"
+  ],
+  [
     1573,
     "2023-03-21T20:48:53.924Z",
     "0.37 / 0.39 / 0.38",
