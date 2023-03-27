@@ -406,7 +406,7 @@ def on_ui_tabs():
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
                 refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
-                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, crossattention, timestamp, js])
+                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, crossattention, timestamp, js], show_progress = False)
                 refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style(full_width = False)
                 refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, crossattention, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
