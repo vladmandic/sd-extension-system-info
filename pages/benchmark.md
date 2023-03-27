@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-27T14:24:27.476Z
+  ## Updated: 2023-03-27T14:55:16.092Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1574|2023-03-27T21:59:17.138Z|0.38 / 0.38 / 0.37|updated:2023-03-26 hash:a13aeccd url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia|PyTorch 2.0, --xformers|
+  |1576|2023-03-27T23:53:26.380Z|18.41 / 21.84 / 24.01|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|sdp none|waifuReaper_v10.safetensors [8c0e2a5cfc]|kalon||
+|1575|2023-03-27T21:44:44.457Z|11.91 / 15.71 / 17.3|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|sd-v1-4-full-ema.ckpt [14749efc0a]|saint||
+|1574|2023-03-27T21:59:17.138Z|0.38 / 0.38 / 0.37|updated:2023-03-26 hash:a13aeccd url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia|PyTorch 2.0, --xformers|
 |1573|2023-03-21T20:48:53.924Z|0.37 / 0.39 / 0.38|updated:2023-03-13 hash:f2e9991d url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia|PyTorch 2.0, --opt-sdp-attention|
 |1572|2023-03-27T21:12:34.234Z|0.37 / 0.38 / 0.38|updated:2023-03-26 hash:a13aeccd url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia|PyTorch 2.0, --opt-sdp-attention|
 |1571|2023-03-22T20:34:57.304Z|1.92 / 2.12 / 2.15|updated:2023-03-13 hash:f2e9991d url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+b3d75b3.d20230321 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce GTX 1070 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|xformers none|StableDiffusion15-pruned-emaonly.ckpt [cc6cb27103]|gaia|PyTorch 2.0, --xformers|
