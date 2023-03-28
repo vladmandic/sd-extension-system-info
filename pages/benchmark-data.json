@@ -1,5 +1,31 @@
 [
   [
+    1640,
+    "2023-03-28T07:11:42.353Z",
+    "16.88 / 19.34 / 22.71",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "avalonTruvision_v2_4.safetensors [71f4dfd701]",
+    "Wd1",
+    ""
+  ],
+  [
+    1639,
+    "2023-03-28T16:32:05.994Z",
+    "6.61 / 8.08 / 8.97",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 42 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "mdjrny-v4.ckpt [5d5ad06cc2]",
+    "saint",
+    ""
+  ],
+  [
     1638,
     "2023-03-28T09:13:38.746Z",
     "error / error / error",
