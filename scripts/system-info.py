@@ -13,8 +13,10 @@ import accelerate
 import gradio as gr
 import psutil
 import transformers
+
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
-from modules.ui_components import FormRow, FormGroup, ToolButton, FormHTML
+from modules.ui_components import FormRow
+
 from scripts.benchmark import run_benchmark, submit_benchmark
 
 ### system info globals
@@ -233,7 +235,8 @@ def get_skipped():
 def get_crossattention():
     try:
         ca = sd_hijack.model_hijack.optimization_method
-        if ca is None: return 'none'
+        if ca is None:
+            return 'none'
         else: return ca
     except:
         return 'unknown'
@@ -363,7 +366,7 @@ def on_ui_tabs():
                                 note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                             with gr.Column(scale=1):
                                 with FormRow():
-                                    global console_logging
+                                    global console_logging # pylint: disable=global-statement
                                     console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
                                     warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
                                     extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
@@ -417,7 +420,7 @@ def on_ui_tabs():
 ### benchmarking module
 
 def bench_log(msg: str):
-    global bench_text
+    global bench_text # pylint: disable=global-statement
     bench_text = msg
     if console_logging is not None and console_logging.value:
         print('benchmark', msg)
@@ -443,10 +446,9 @@ def bench_run(batches: list = [1], extra: bool = False):
 
 
 def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
-    global bench_data
     bench_log('starting')
-    hash = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
-    existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash)]
+    hash256 = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
+    existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash256)]
     if len(existing) > 0:
         bench_log('replacing existing entry')
         d = existing[0]
@@ -499,7 +501,7 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
 
 
 def bench_load():
-    global bench_data
+    global bench_data # pylint: disable=global-statement
     tmp = []
     if os.path.isfile(bench_file) and os.path.getsize(bench_file) > 0:
         try:
@@ -515,9 +517,8 @@ def bench_load():
 
 
 def bench_save():
-    global bench_data
     if bench_data[-1][0] is None:
-        del list[-1]
+        del bench_data[-1]
     try:
         with open(bench_file, 'w') as f:
             json.dump(bench_data, f, indent=2, default=str, skipkeys=True)
@@ -527,7 +528,6 @@ def bench_save():
 
 
 def bench_refresh():
-    global bench_text
     return gr.HTML.update(value = bench_text)
 
 

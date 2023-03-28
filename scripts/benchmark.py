@@ -3,6 +3,7 @@ import logging
 import socket
 from hashlib import sha256
 from logging.handlers import SysLogHandler
+
 from modules import shared
 from modules.processing import StableDiffusionProcessingTxt2Img, Processed, process_images
 
@@ -53,8 +54,7 @@ class LogFilter(logging.Filter):
 def submit_benchmark(data, username, console_logging):
     syslog = SysLogHandler(address=('logs3.papertrailapp.com', 32554))
     syslog.addFilter(LogFilter())
-    format = f'%(asctime)s %(hostname)s SDBENCHMARK: {username} %(message)s'
-    formatter = logging.Formatter(format, datefmt='%b %d %H:%M:%S')
+    formatter = logging.Formatter(f'%(asctime)s %(hostname)s SDBENCHMARK: {username} %(message)s', datefmt='%b %d %H:%M:%S')
     syslog.setFormatter(formatter)
     remote = logging.getLogger('SDBENCHMARK')
     for h in remote.handlers: # remove local handlers
@@ -63,8 +63,8 @@ def submit_benchmark(data, username, console_logging):
     remote.setLevel(logging.INFO)
     for line in data:
         message = '|'.join(line).replace('  ', ' ').replace('"', '').strip()
-        hash = sha256(message.encode('utf-8')).hexdigest()[:6]
-        message = message + '|' + hash
+        hash256 = sha256(message.encode('utf-8')).hexdigest()[:6]
+        message = message + '|' + hash256
         if console_logging:
             print('benchmark submit record:')
         remote.info(message)
