@@ -1,5 +1,5 @@
 {
-  "max_id": "1577345454759399437",
+  "max_id": "1577353790246531277",
   "events": [
     {
       "id": "1564370541899603981",
@@ -23611,6 +23611,13 @@
       "message": "台式机 SDBENCHMARK: 1126 2023-03-28 20:10:06.534411|16.46 / 29.78 / 37.84|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|1126||d14d16|d49890 ",
       "generated_at": "2023-03-28T16:14:44-04:00",
       "source_id": 13777021884
+    },
+    {
+      "id": "1577353790246531277",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-28 20:44:56.428324|8.67 / 12.44 / 15.88|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19043-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|ChilloutMix\\chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|User||3922e8|9fcf47 ",
+      "generated_at": "2023-03-28T16:46:42-04:00",
+      "source_id": 13777046975
     }
   ]
 }
