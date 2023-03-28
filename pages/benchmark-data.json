@@ -1,5 +1,18 @@
 [
   [
+    1667,
+    "2023-03-27T20:56:25.537Z",
+    "6.4 / 7.06 / 8.0 / 8.22 / 7.76",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 45 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8800 12GB",
+    "sdp none",
+    "revAnimated_reva1.ckpt [fd877b3f4c]",
+    "Irbis",
+    ""
+  ],
+  [
     1666,
     "2023-03-29T00:05:12.303Z",
     "17.21 / 22.38 / 27.05",
