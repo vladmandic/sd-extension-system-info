@@ -1,5 +1,44 @@
 [
   [
+    1634,
+    "2023-03-28T11:12:41.870Z",
+    "6.56 / 9.12 / 11.56 / 12.41 / 13.08",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "Kir",
+    ""
+  ],
+  [
+    1633,
+    "2023-03-26T22:34:31.832Z",
+    "error / error / error / error / error",
+    "updated:2023-03-26 hash:4c1ad743 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "Kir",
+    ""
+  ],
+  [
+    1632,
+    "2023-03-28T13:46:14.379Z",
+    "21.65 / 28.51 / 35.91",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp lowram",
+    "perfectWorld_perfectWorldBakedVAE.safetensors [ca883fecc7]",
+    "25006",
+    ""
+  ],
+  [
     1631,
     "2023-03-28T12:51:53.440Z",
     "28.37 / 36.4 / 42.68",
