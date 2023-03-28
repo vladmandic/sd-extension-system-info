@@ -1,5 +1,57 @@
 [
   [
+    1628,
+    "2023-03-28T02:06:27.113Z",
+    "5.28 / 3.97 / 4.46",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB",
+    "xformers none",
+    "AOM3A1_orangemixs.safetensors [f303d10812]",
+    "root",
+    ""
+  ],
+  [
+    1627,
+    "2023-03-28T10:14:32.015Z",
+    "12.08 / 15.17 / 17.14",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB",
+    "xformers none",
+    "科技装置knollingcase.ckpt [cf836e65a7]",
+    "Y9000P",
+    ""
+  ],
+  [
+    1626,
+    "2023-03-28T10:10:04.514Z",
+    "12.45 / 15.14 / 17.28",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB",
+    "xformers none",
+    "科技装置knollingcase.ckpt [cf836e65a7]",
+    "Y9000P",
+    ""
+  ],
+  [
+    1625,
+    "2023-03-28T02:00:52.076Z",
+    "9.94 / 7.03 / 8.64",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-50-generic python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro RTX 5000 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB",
+    "xformers none",
+    "AOM3A1_orangemixs.safetensors [f303d10812]",
+    "root",
+    ""
+  ],
+  [
     1624,
     "2023-03-28T04:52:04.820Z",
     "10.78 / 13.19 / 13.79 / 11.92 / 12.47",

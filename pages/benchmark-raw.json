@@ -1,5 +1,5 @@
 {
-  "max_id": "1577113544078581766",
+  "max_id": "1577195016546336773",
   "events": [
     {
       "id": "1564370541899603981",
@@ -23233,6 +23233,41 @@
       "message": "Werran 2023-03-28 04:52:04.820218|10.78 / 13.19 / 13.79 / 11.92 / 12.47|updated:2023-03-27 hash:955df775 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8800 11GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|Werran||4f3648|309fe2 ",
       "generated_at": "2023-03-28T00:53:11-04:00",
       "source_id": 13768940077
+    },
+    {
+      "id": "1577192129422340101",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-28 02:00:52.076528|9.94 / 7.03 / 8.64|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-50-generic python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||81d282|049d4f ",
+      "generated_at": "2023-03-27T22:05:28-04:00",
+      "source_id": 13776644698
+    },
+    {
+      "id": "1577192337216557056",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-03-28 02:00:52.076528|9.94 / 7.03 / 8.64|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-50-generic python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Quadro RTX 5000 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||81d282|049d4f ",
+      "generated_at": "2023-03-27T22:06:18-04:00",
+      "source_id": 13776644698
+    },
+    {
+      "id": "1577193581951766531",
+      "program": "SDBENCHMARK",
+      "message": "Y9000P 2023-03-28 10:10:04.514702|12.45 / 15.14 / 17.28|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|科技装置knollingcase.ckpt [cf836e65a7]|Y9000P||0f74e4|2f7a8b ",
+      "generated_at": "2023-03-28T06:12:28-04:00",
+      "source_id": 13776648007
+    },
+    {
+      "id": "1577194238574252038",
+      "program": "SDBENCHMARK",
+      "message": "Y9000P 2023-03-28 10:14:32.015937|12.08 / 15.17 / 17.14|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|科技装置knollingcase.ckpt [cf836e65a7]|Y9000P||0f74e4|1bd372 ",
+      "generated_at": "2023-03-28T06:15:04-04:00",
+      "source_id": 13776648007
+    },
+    {
+      "id": "1577195016546336773",
+      "program": "SDBENCHMARK",
+      "message": "colab 2023-03-28 02:06:27.113959|5.28 / 3.97 / 4.46|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|AOM3A1_orangemixs.safetensors [f303d10812]|root||f76c25|dc8d51 ",
+      "generated_at": "2023-03-27T22:16:57-04:00",
+      "source_id": 13776651271
     }
   ]
 }
