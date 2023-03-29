@@ -1,5 +1,31 @@
 [
   [
+    1673,
+    "2023-03-29T13:47:06.053Z",
+    "14.26 / 17.3 / 24.05",
+    "",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-52-generic python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.17.1 transformers:4.27.1",
+    "device:A100-SXM4-40GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 40GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors",
+    "root",
+    ""
+  ],
+  [
+    1672,
+    "2023-03-29T10:29:11.431Z",
+    "19.5 / 12.13 / 22.68",
+    "",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-52-generic python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.17.1 transformers:4.27.1",
+    "device:A100-SXM4-40GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 40GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors",
+    "root",
+    ""
+  ],
+  [
     1671,
     "2023-03-28T02:13:56.093Z",
     "12.31 / 23.89 / 38.13",
