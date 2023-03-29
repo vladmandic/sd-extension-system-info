@@ -491,7 +491,7 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     d[7] = shared.opts.data['sd_model_checkpoint']
     d[8] = username
     d[9] = note
-    d[10] = hash
+    d[10] = hash256
 
     md = '| ' + ' | '.join(d) + ' |'
     bench_log(md)
