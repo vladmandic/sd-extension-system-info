@@ -1,5 +1,5 @@
 {
-  "max_id": "1577610341096022032",
+  "max_id": "1577619331079127082",
   "events": [
     {
       "id": "1564370541899603981",
@@ -23989,6 +23989,20 @@
       "message": "root 2023-03-29 13:47:06.053366|14.26 / 17.3 / 24.05||arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-52-generic python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.17.1 transformers:4.27.1|device:A100-SXM4-40GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 40GB|xformers none|chilloutmix_NiPrunedFp16Fix.safetensors|root||b187c6|4e7450 ",
       "generated_at": "2023-03-29T09:47:18-04:00",
       "source_id": 13777722193
+    },
+    {
+      "id": "1577619253144764426",
+      "program": "SDBENCHMARK",
+      "message": "['guomuoface'] 2023-03-27 16:18:19.863950|5.86 / 6.66 / 7.53|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Lin||8d9b29|04bb64 ",
+      "generated_at": "2023-03-29T10:22:44-04:00",
+      "source_id": 13777750560
+    },
+    {
+      "id": "1577619331079127082",
+      "program": "SDBENCHMARK",
+      "message": "['guomuoface'] 2023-03-27 16:18:19.863950|5.86 / 6.66 / 7.53|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Lin||8d9b29|04bb64 ",
+      "generated_at": "2023-03-29T10:23:02-04:00",
+      "source_id": 13777750560
     }
   ]
 }
