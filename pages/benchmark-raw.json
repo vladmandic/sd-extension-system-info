@@ -1,5 +1,5 @@
 {
-  "max_id": "1577688053391216663",
+  "max_id": "1577699876291133440",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24080,6 +24080,20 @@
       "message": "AIyuli 2023-03-29 18:55:40.573371|8.85 / 14.88 / 21.89|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|SD原版\\SDv1-5-pruned-emaonly.safetensors [6ce0161689]|AIyuli||14da5a|37a977 ",
       "generated_at": "2023-03-29T14:56:06-04:00",
       "source_id": 13777922392
+    },
+    {
+      "id": "1577698971537817610",
+      "program": "SDBENCHMARK",
+      "message": "86135 2023-03-21 17:53:47.861198|9.45 / 12.34 / 15.71|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|protogenV22Anime_22.safetensors [1254103966]|86135||bfc406|ea0765 ",
+      "generated_at": "2023-03-29T15:39:29-04:00",
+      "source_id": 13769701111
+    },
+    {
+      "id": "1577699876291133440",
+      "program": "SDBENCHMARK",
+      "message": "wangyf 2023-03-17 23:28:47.144191|28.19 / 34.49 / 41.61|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8801 24GB|xformers lowram|final-prune.ckpt [89d59c3dde]|wangyf||44db74|f4fbda ",
+      "generated_at": "2023-03-29T15:43:04-04:00",
+      "source_id": 13777954747
     }
   ]
 }
