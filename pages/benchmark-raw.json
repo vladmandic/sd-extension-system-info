@@ -1,5 +1,5 @@
 {
-  "max_id": "1577658428321619977",
+  "max_id": "1577671969472696322",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24059,6 +24059,20 @@
       "message": "willy 2023-03-29 16:58:01.521359|10.96 / 12.04 / 13.75|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|willy||3650e7|e2d1b6 ",
       "generated_at": "2023-03-29T12:58:22-04:00",
       "source_id": 13777793146
+    },
+    {
+      "id": "1577663338236796931",
+      "program": "SDBENCHMARK",
+      "message": "willy 2023-03-29 17:15:40.531448|11.93 / 16.2 / 16.87 / 17.72 / 17.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|willy||3650e7|3896d4 ",
+      "generated_at": "2023-03-29T13:17:52-04:00",
+      "source_id": 13777793146
+    },
+    {
+      "id": "1577671969472696322",
+      "program": "SDBENCHMARK",
+      "message": "20533 2023-03-28 14:16:36.142841|9.19 / 12.52 / 13.84|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|Doggettx none|meinahentai_v21.safetensors [1dcf62d838]|20533||4282d3|56911c ",
+      "generated_at": "2023-03-29T13:52:14-04:00",
+      "source_id": 13777878432
     }
   ]
 }
