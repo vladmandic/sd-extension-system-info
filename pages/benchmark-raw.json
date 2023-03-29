@@ -1,5 +1,5 @@
 {
-  "max_id": "1577491153178251272",
+  "max_id": "1577542243705872387",
   "events": [
     {
       "id": "1564370541899603981",
@@ -23954,6 +23954,20 @@
       "message": "Tech 2023-03-28 15:52:12.740752|32.8 / 34.7 / 39.03 / 39.36 / 39.09|updated:2023-03-27 hash:5cf3822e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|neverDreamNV.safetensors [d8722b4a4d]|Tech||30ebd1|1ece5d ",
       "generated_at": "2023-03-28T11:53:41-04:00",
       "source_id": 13777446531
+    },
+    {
+      "id": "1577541460885168139",
+      "program": "SDBENCHMARK",
+      "message": "munde 2023-03-27 01:45:06.053421|26.56 / 32.05 / 33.7|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230320+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]|munde||e9e295|f783be ",
+      "generated_at": "2023-03-29T06:13:35-04:00",
+      "source_id": 13775374293
+    },
+    {
+      "id": "1577542243705872387",
+      "program": "SDBENCHMARK",
+      "message": "munde 2023-03-27 01:45:06.053421|26.56 / 32.05 / 33.7|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230320+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]|munde||e9e295|f783be ",
+      "generated_at": "2023-03-29T06:16:42-04:00",
+      "source_id": 13775374293
     }
   ]
 }
