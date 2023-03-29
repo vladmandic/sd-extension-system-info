@@ -1,5 +1,5 @@
 {
-  "max_id": "1577619331079127082",
+  "max_id": "1577636583623012363",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24003,6 +24003,13 @@
       "message": "['guomuoface'] 2023-03-27 16:18:19.863950|5.86 / 6.66 / 7.53|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Lin||8d9b29|04bb64 ",
       "generated_at": "2023-03-29T10:23:02-04:00",
       "source_id": 13777750560
+    },
+    {
+      "id": "1577636583623012363",
+      "program": "SDBENCHMARK",
+      "message": "willy 2023-03-29 15:31:16.246233|9.94 / 10.83 / 11.47|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|willy||3cf8cb|3a5178 ",
+      "generated_at": "2023-03-29T11:31:33-04:00",
+      "source_id": 13777793146
     }
   ]
 }
