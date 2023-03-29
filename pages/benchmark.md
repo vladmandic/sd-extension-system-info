@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-29T21:12:45.862Z
+  ## Updated: 2023-03-29T22:14:03.366Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1705|2023-03-30T05:08:36.877Z|22.8 / 32.77 / 40.28|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|admin||
+  |1707|2023-03-29T18:05:16.110Z|1.31 / 1.45 / 1.14|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic medvram|v1-5-pruned.ckpt [e1441589a6]|gilberts||
+|1706|2023-03-29T18:01:27.464Z|1.32|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|v1-5-pruned.ckpt [e1441589a6]|gilberts||
+|1705|2023-03-30T05:08:36.877Z|22.8 / 32.77 / 40.28|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|admin||
 |1704|2023-03-29T22:39:58.335Z|2.24 / 1.33 / 1.31|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-146-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Radeon RX Vega (1) hip:5.4.22803-474e8620 8GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|d||
 |1703|2023-03-29T23:16:41.427Z|6.07 / 6.51 / 7.63 / 8.03 / 7.68|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 45 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8800 12GB|sdp none|revAnimated_reva1.ckpt [fd877b3f4c]|Irbis||
 |1702|2023-03-30T02:34:05.479Z|11.1 / 9.71 / 11.08|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8800 11GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Werran||

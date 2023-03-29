@@ -1,5 +1,5 @@
 {
-  "max_id": "1577842436301053955",
+  "max_id": "1577857173294338062",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24381,6 +24381,41 @@
       "message": "admin 2023-03-30 05:08:36.877389|22.8 / 32.77 / 40.28|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|admin||354481|a5f3b0 ",
       "generated_at": "2023-03-30T01:09:10-04:00",
       "source_id": 13778369265
+    },
+    {
+      "id": "1577855617450823682",
+      "program": "SDBENCHMARK",
+      "message": "gilberts 2023-03-29 18:01:27.464658|1.32|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|v1-5-pruned.ckpt [e1441589a6]|gilberts||c7d824|4149f1 ",
+      "generated_at": "2023-03-29T14:01:56-04:00",
+      "source_id": 13772419506
+    },
+    {
+      "id": "1577857142579449870",
+      "program": "SDBENCHMARK",
+      "message": "gilberts 2023-03-29 18:01:27.464658|1.32|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|v1-5-pruned.ckpt [e1441589a6]|gilberts||c7d824|4149f1 ",
+      "generated_at": "2023-03-29T14:08:00-04:00",
+      "source_id": 13772419506
+    },
+    {
+      "id": "1577857142579449871",
+      "program": "SDBENCHMARK",
+      "message": "gilberts 2023-03-29 18:05:16.110867|1.31 / 1.45 / 1.14|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic medvram|v1-5-pruned.ckpt [e1441589a6]|gilberts||906bc8|f85ada ",
+      "generated_at": "2023-03-29T14:08:00-04:00",
+      "source_id": 13772419506
+    },
+    {
+      "id": "1577857173273366553",
+      "program": "SDBENCHMARK",
+      "message": "gilberts 2023-03-29 18:01:27.464658|1.32|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|v1-5-pruned.ckpt [e1441589a6]|gilberts||c7d824|4149f1 ",
+      "generated_at": "2023-03-29T14:08:07-04:00",
+      "source_id": 13772419506
+    },
+    {
+      "id": "1577857173294338062",
+      "program": "SDBENCHMARK",
+      "message": "gilberts 2023-03-29 18:05:16.110867|1.31 / 1.45 / 1.14|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic medvram|v1-5-pruned.ckpt [e1441589a6]|gilberts||906bc8|f85ada ",
+      "generated_at": "2023-03-29T14:08:07-04:00",
+      "source_id": 13772419506
     }
   ]
 }

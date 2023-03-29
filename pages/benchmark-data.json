@@ -1,5 +1,31 @@
 [
   [
+    1707,
+    "2023-03-29T18:05:16.110Z",
+    "1.31 / 1.45 / 1.14",
+    "updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic medvram",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "gilberts",
+    ""
+  ],
+  [
+    1706,
+    "2023-03-29T18:01:27.464Z",
+    "1.32",
+    "updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "gilberts",
+    ""
+  ],
+  [
     1705,
     "2023-03-30T05:08:36.877Z",
     "22.8 / 32.77 / 40.28",
