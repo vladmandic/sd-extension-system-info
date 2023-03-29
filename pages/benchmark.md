@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-29T17:10:22.078Z
+  ## Updated: 2023-03-29T19:12:03.200Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1701|2023-03-30T01:40:09.095Z|2.49 / 3.3 / 3.67|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|7th_anime_v3_A.safetensors [c330a60ddc]|Bosttanif_LEVEL_G029||
+  |1702|2023-03-30T02:34:05.479Z|11.1 / 9.71 / 11.08|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8800 11GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Werran||
+|1701|2023-03-30T01:40:09.095Z|2.49 / 3.3 / 3.67|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|7th_anime_v3_A.safetensors [c330a60ddc]|Bosttanif_LEVEL_G029||
 |1700|2023-03-29T23:51:35.401Z|7.67 / 8.44 / 9.52 / 9.91 / 9.89|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8800 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|binarec||
 |1699|2023-03-30T00:42:15.303Z|3.71 / 4.44 / 5.07|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers medvram|FuzzyHazel_v1.safetensors [2dc6d45a61]|Administrator||
 |1698|2023-03-29T23:07:22.679Z|15.44 / 29.23 / 44.47 / 42.46 / 42.81|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers lowram|Counterfeit-V2.5.safetensors [bd83b90a2e]|Luna||
