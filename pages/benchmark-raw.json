@@ -1,5 +1,5 @@
 {
-  "max_id": "1577671969472696322",
+  "max_id": "1577688053391216663",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24073,6 +24073,13 @@
       "message": "20533 2023-03-28 14:16:36.142841|9.19 / 12.52 / 13.84|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|Doggettx none|meinahentai_v21.safetensors [1dcf62d838]|20533||4282d3|56911c ",
       "generated_at": "2023-03-29T13:52:14-04:00",
       "source_id": 13777878432
+    },
+    {
+      "id": "1577688053391216663",
+      "program": "SDBENCHMARK",
+      "message": "AIyuli 2023-03-29 18:55:40.573371|8.85 / 14.88 / 21.89|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|SD原版\\SDv1-5-pruned-emaonly.safetensors [6ce0161689]|AIyuli||14da5a|37a977 ",
+      "generated_at": "2023-03-29T14:56:06-04:00",
+      "source_id": 13777922392
     }
   ]
 }
