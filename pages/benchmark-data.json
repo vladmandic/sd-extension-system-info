@@ -1,5 +1,18 @@
 [
   [
+    1671,
+    "2023-03-28T02:13:56.093Z",
+    "12.31 / 23.89 / 38.13",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB",
+    "xformers none",
+    "orientalPunkMix_orientalPunkFlower.ckpt [f7a5b50c34]",
+    "15194",
+    ""
+  ],
+  [
     1670,
     "2023-03-28T15:52:12.740Z",
     "32.8 / 34.7 / 39.03 / 39.36 / 39.09",
