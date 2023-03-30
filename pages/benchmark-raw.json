@@ -1,5 +1,5 @@
 {
-  "max_id": "1577923228448505859",
+  "max_id": "1577933233327357961",
   "events": [
     {
       "id": "1564370541899603981",
@@ -24884,6 +24884,69 @@
       "program": "SDBENCHMARK",
       "message": "Beanya 2023-03-29 22:29:59.794220|18.3 / 30.86 / 35.81 / 34.95 / 33.07|updated:2023-03-28 hash:3856ada5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|sdp none|0.7(Homemade_amag2_18744) + 0.3(eroticVision_v1).safetensors [56762b44fd]|dwatl||b6101d|ea22c6 ",
       "generated_at": "2023-03-29T18:30:36-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1577924293600403466",
+      "program": "SDBENCHMARK",
+      "message": "chifeng 2023-03-30 09:40:14.163831|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.0.7-060007-generic python:3.10.6|torch:2.1.0.dev20230329+cu117 autocast half xformers:0.0.18+4c6252c.d20230330 accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|chifeng||2f3c55|08f8e1 ",
+      "generated_at": "2023-03-30T06:34:50-04:00",
+      "source_id": 13778506751
+    },
+    {
+      "id": "1577924293604589588",
+      "program": "SDBENCHMARK",
+      "message": "chifeng 2023-03-30 09:31:36.564774|25.12 / 27.78 / 31.12|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.0.7-060007-generic python:3.10.6|torch:2.1.0.dev20230329+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8801 24GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|chifeng||d4518d|3babd0 ",
+      "generated_at": "2023-03-30T06:34:50-04:00",
+      "source_id": 13778506751
+    },
+    {
+      "id": "1577924293608779778",
+      "program": "SDBENCHMARK",
+      "message": "chifeng 2023-03-30 09:14:00.370489|12.73 / 17.37 / 23.4|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.0.7-060007-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|chifeng||de0fea|1c71e8 ",
+      "generated_at": "2023-03-30T06:34:50-04:00",
+      "source_id": 13778506751
+    },
+    {
+      "id": "1577924293608779779",
+      "program": "SDBENCHMARK",
+      "message": "chifeng 2023-03-30 09:23:23.849015|11.33 / 15.21 / 18.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.0.7-060007-generic python:3.10.6|torch:2.1.0.dev20230329+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|chifeng||5292cb|897001 ",
+      "generated_at": "2023-03-30T06:34:50-04:00",
+      "source_id": 13778506751
+    },
+    {
+      "id": "1577924293612974080",
+      "program": "SDBENCHMARK",
+      "message": "chifeng 2023-03-30 09:50:16.736040|33.85 / 40.39 / 47.56|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.0.7-060007-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|chifeng||fc78a3|28956b ",
+      "generated_at": "2023-03-30T06:34:50-04:00",
+      "source_id": 13778506751
+    },
+    {
+      "id": "1577933233318969354",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 22:54:01.597774|13.72 / 16.42 / 18.15 / 20.13 / 19.63|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|dwatl||04ddbc|1ccae5 ",
+      "generated_at": "2023-03-29T19:10:21-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1577933233318969355",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-24 23:54:45.995367|13.3 / 16.06 / 17.53|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||a172fb|0518be ",
+      "generated_at": "2023-03-29T19:10:21-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1577933233327357960",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-25 16:25:47.816468|13.99 / 27.95 / 35.54 / 34.39 / 35.24|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB|xformers none|hardblend_.safetensors [1638fa9a88]|dwatl||b9fc23|120256 ",
+      "generated_at": "2023-03-29T19:10:21-04:00",
+      "source_id": 13774006983
+    },
+    {
+      "id": "1577933233327357961",
+      "program": "SDBENCHMARK",
+      "message": "dwatl 2023-03-29 23:09:56.789668|18.87 / 31.77 / 37.38 / 37.25 / 35.5|updated:2023-03-28 hash:3856ada5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|0.7(0.7(Homemade_amag2_18744) + 0.3(eroticVision_v1)) + 0.3(Homemade_0.7(amag2_18744) + 0.3(hardblend_Nsfw)).ckpt [085650fd17]|dwatl||b6101d|528fec ",
+      "generated_at": "2023-03-29T19:10:21-04:00",
       "source_id": 13774006983
     }
   ]
