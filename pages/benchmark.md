@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-03-30T20:14:54.560Z
+  ## Updated: 2023-03-30T22:13:08.935Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,10 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1803|2023-03-31T03:52:48.974Z|1.06 / 1.07 / 1.13||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1| 0GB|sub-quadratic medvram|realscifi_v11.safetensors [42dfd89600]|wp151||
+  |1806|2023-03-30T14:49:46.305Z|12.22 / 18.34 / 21.13|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|conor||
+|1805|2023-03-30T14:43:09.382Z|7.79 / 9.46 / 10.15|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1+cu117 autocast nohalf xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|conor||
+|1804|2023-03-30T14:34:51.322Z|7.84 / 9.35 / 10.19 / 10.61 / 10.67|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.9|torch:1.13.1+cu117 autocast nohalf xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|Realistic_Vision_V2.0.safetensors [e6415c4892]|conor||
+|1803|2023-03-31T03:52:48.974Z|1.06 / 1.07 / 1.13||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1| 0GB|sub-quadratic medvram|realscifi_v11.safetensors [42dfd89600]|wp151||
 |1802|2023-03-31T03:52:51.396Z|11.81 / 15.7 / 21.97|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|animefull-latest.ckpt [a7529df023]|ps||
 |1801|2023-03-31T03:03:50.653Z|22.88 / 26.44 / 30.08|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|PC||
 |1800|2023-03-31T02:47:04.422Z|9.24 / 13.88 / 20.8 / 21.76 / 25.68||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.3 cudnn:8302 24GB|xformers none|淘宝万华镜素材-动漫模型.ckpt [18bcc837a2]|ps||
