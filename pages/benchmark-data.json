@@ -1,5 +1,44 @@
 [
   [
+    1794,
+    "2023-03-31T01:13:30.299Z",
+    "25.59 / 31.55 / 37.0",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]",
+    "munde",
+    ""
+  ],
+  [
+    1793,
+    "2023-03-31T01:10:05.729Z",
+    "25.04 / 31.52 / 37.16",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]",
+    "munde",
+    ""
+  ],
+  [
+    1792,
+    "2023-03-31T01:09:56.883Z",
+    "25.87 / 31.68 / 36.93",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]",
+    "munde",
+    ""
+  ],
+  [
     1791,
     "2023-03-30T22:53:48.019Z",
     "5.63 / 4.46 / 4.85",
