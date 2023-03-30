@@ -1,5 +1,5 @@
 {
-  "max_id": "1577967377566588930",
+  "max_id": "1577980821602742278",
   "events": [
     {
       "id": "1564370541899603981",
@@ -25032,6 +25032,20 @@
       "message": "Caraway 2023-03-30 14:24:50.891688|17.83 / 18.72 / 21.24|updated:2023-03-25 hash:a03536f2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.1.0.dev20230329+cu118 autocast half xformers:0.0.18+4c6252c.d20230330 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 12GB|xformers none|7th_anime_v3_C.ckpt [6fe2f683b9]|Caraway||c670e0|9af3ce ",
       "generated_at": "2023-03-30T10:26:03-04:00",
       "source_id": 13778657866
+    },
+    {
+      "id": "1577980821602742275",
+      "program": "SDBENCHMARK",
+      "message": "munde 2023-03-30 09:40:23.907436|24.94 / 31.54 / 34.84|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230320+cu118 autocast half xformers:0.0.17+c36468d.d20230320 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]|munde||ba4048|3c51e4 ",
+      "generated_at": "2023-03-30T11:19:27-04:00",
+      "source_id": 13775374293
+    },
+    {
+      "id": "1577980821602742278",
+      "program": "SDBENCHMARK",
+      "message": "munde 2023-03-30 15:19:25.441442|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230329+cu118 autocast half xformers:0.0.18+4c6252c.d20230330 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|meinamix_meinaV8.safetensors [30953ab0de]|munde||cbb451|0b9e1d ",
+      "generated_at": "2023-03-30T11:19:27-04:00",
+      "source_id": 13775374293
     }
   ]
 }
