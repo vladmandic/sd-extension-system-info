@@ -1,5 +1,5 @@
 {
-  "max_id": "1578174416293122066",
+  "max_id": "1578186157936791624",
   "events": [
     {
       "id": "1564370541899603981",
@@ -25886,6 +25886,34 @@
       "message": "admin 2023-03-31 03:07:31.496252|9.74 / 11.79 / 14.42|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|admin||354481|bc61ec ",
       "generated_at": "2023-03-30T23:08:19-04:00",
       "source_id": 13778369265
+    },
+    {
+      "id": "1578177144381689859",
+      "program": "SDBENCHMARK",
+      "message": "ps 2023-03-31 02:47:04.422787|9.24 / 13.88 / 20.8 / 21.76 / 25.68||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.3 cudnn:8302 24GB|xformers none|淘宝万华镜素材-动漫模型.ckpt [18bcc837a2]|ps||b71bfb|466bee ",
+      "generated_at": "2023-03-30T23:19:32-04:00",
+      "source_id": 13779106428
+    },
+    {
+      "id": "1578178590225383451",
+      "program": "SDBENCHMARK",
+      "message": "PC 2023-03-31 03:03:50.653444|22.88 / 26.44 / 30.08|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|PC||e52f07|39e216 ",
+      "generated_at": "2023-03-30T23:25:57-04:00",
+      "source_id": 13779240496
+    },
+    {
+      "id": "1578185642842705927",
+      "program": "SDBENCHMARK",
+      "message": "ps 2023-03-31 03:52:51.396893|11.81 / 15.7 / 21.97|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|animefull-latest.ckpt [a7529df023]|ps||14da5a|9d727f ",
+      "generated_at": "2023-03-30T23:53:18-04:00",
+      "source_id": 13779106428
+    },
+    {
+      "id": "1578186157936791624",
+      "program": "SDBENCHMARK",
+      "message": "wp151 2023-03-31 03:52:48.974110|1.06 / 1.07 / 1.13||arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1| 0GB|sub-quadratic medvram|realscifi_v11.safetensors [42dfd89600]|wp151||92cbd3|e8958e ",
+      "generated_at": "2023-03-30T23:55:23-04:00",
+      "source_id": 13779260913
     }
   ]
 }
