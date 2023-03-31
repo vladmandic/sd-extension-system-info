@@ -1,5 +1,18 @@
 [
   [
+    1857,
+    "2023-03-31T14:58:27.105Z",
+    "9.73 / 10.72 / 11.86",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "epicrealism_v1.safetensors [e6e37607ec]",
+    "User",
+    ""
+  ],
+  [
     1856,
     "2023-03-30T07:56:52.386Z",
     "0.08",

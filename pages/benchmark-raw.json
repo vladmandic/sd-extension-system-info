@@ -1,5 +1,5 @@
 {
-  "max_id": "1578426758556991503",
+  "max_id": "1578443712172834830",
   "events": [
     {
       "id": "1564370541899603981",
@@ -26628,6 +26628,13 @@
       "message": "WX 2023-03-30 07:56:52.386699|0.08|updated:2023-03-26 hash:41d5450a url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic lowvram|chikmix_V2.safetensors [0bcee2e498]|WX||7fd512|b694d1 ",
       "generated_at": "2023-03-31T15:51:27-04:00",
       "source_id": 13779873520
+    },
+    {
+      "id": "1578443712172834830",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-03-31 14:58:27.105972|9.73 / 10.72 / 11.86|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|epicrealism_v1.safetensors [e6e37607ec]|User||6c411b|09f41c ",
+      "generated_at": "2023-03-31T10:58:51-04:00",
+      "source_id": 13779926341
     }
   ]
 }
