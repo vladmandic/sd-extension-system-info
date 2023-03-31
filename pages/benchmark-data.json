@@ -1,5 +1,18 @@
 [
   [
+    1873,
+    "2023-04-01T03:36:27.780Z",
+    "14.84 / 16.51 / 17.75",
+    "updated:2023-03-14 hash:6a04a7f2 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "亚洲写真\\chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "wangy",
+    ""
+  ],
+  [
     1872,
     "2023-03-31T18:39:44.609Z",
     "9.4 / 10.67 / 11.58",
