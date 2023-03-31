@@ -1,5 +1,5 @@
 {
-  "max_id": "1578411060959039501",
+  "max_id": "1578426758556991503",
   "events": [
     {
       "id": "1564370541899603981",
@@ -26621,6 +26621,13 @@
       "message": "ubuntu 2023-03-31 10:46:39.895790|7.88 / 9.9 / 10.63|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-146-generic python:3.8.5|torch:1.13.1+cu117 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:A30 (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 24GB|Doggettx none|mdjrny-v4.ckpt [5d5ad06cc2]|ubuntu||d89ad5|00c861 ",
       "generated_at": "2023-03-31T06:49:04-04:00",
       "source_id": 13774433533
+    },
+    {
+      "id": "1578426758556991503",
+      "program": "SDBENCHMARK",
+      "message": "WX 2023-03-30 07:56:52.386699|0.08|updated:2023-03-26 hash:41d5450a url:https://github.com/lshqqytiger/stable-diffusion-webui-directml.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic lowvram|chikmix_V2.safetensors [0bcee2e498]|WX||7fd512|b694d1 ",
+      "generated_at": "2023-03-31T15:51:27-04:00",
+      "source_id": 13779873520
     }
   ]
 }
