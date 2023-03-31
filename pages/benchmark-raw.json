@@ -1,5 +1,5 @@
 {
-  "max_id": "1578455490822848524",
+  "max_id": "1578477217015586819",
   "events": [
     {
       "id": "1564370541899603981",
@@ -26810,6 +26810,13 @@
       "message": "munde 2023-03-31 22:45:10.775906|24.84 / 30.27 / 36.87 / 37.09 / 34.74|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230330+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp-no-mem none|nai.ckpt [89d59c3dde]|munde|spd|bc986a|95a8f1 ",
       "generated_at": "2023-03-31T18:45:37-04:00",
       "source_id": 13775374293
+    },
+    {
+      "id": "1578477217015586819",
+      "program": "SDBENCHMARK",
+      "message": "jun 2023-03-31 11:11:11.185660|6.07 / 6.73 / 6.93|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|snapdd00_v1.safetensors [26e6d6cec1]|jun||41b596|049b0f ",
+      "generated_at": "2023-03-31T07:11:57-04:00",
+      "source_id": 13780036910
     }
   ]
 }
