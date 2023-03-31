@@ -1,5 +1,18 @@
 [
   [
+    1872,
+    "2023-03-31T18:39:44.609Z",
+    "9.4 / 10.67 / 11.58",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-146-generic python:3.8.5",
+    "torch:1.13.1+cu117 autocast nohalf xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1",
+    "device:A30 (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "mdjrny-v4.ckpt [5d5ad06cc2]",
+    "ubuntu",
+    ""
+  ],
+  [
     1871,
     "2023-03-31T23:34:20.391Z",
     "10.09 / 15.04 / 20.27",
