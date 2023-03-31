@@ -1,5 +1,5 @@
 {
-  "max_id": "1578364454788317189",
+  "max_id": "1578381943249223692",
   "events": [
     {
       "id": "1564370541899603981",
@@ -26320,6 +26320,139 @@
       "message": "13tiy 2023-03-31 10:43:42.705942|6.24 / 7.29 / 7.88|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8801 8GB|xformers none|realisticVisionV20_v20.safetensors [e6415c4892]|13tiy||eafc16|eb0bf9 ",
       "generated_at": "2023-03-31T06:44:12-04:00",
       "source_id": 13779703878
+    },
+    {
+      "id": "1578374477132251137",
+      "program": "SDBENCHMARK",
+      "message": "enovyhoo 2023-03-13 16:44:40.981721|20.13 / 33.9 / 43.2|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.1.0.dev20230308+cu118 autocast half xformers:0.0.17+b89a493.d20230311 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|kotosmix_v10.safetensors [49ef66fc4c]|enovyhoo||7271c2|bcd192 ",
+      "generated_at": "2023-03-31T12:23:42-04:00",
+      "source_id": 13779731258
+    },
+    {
+      "id": "1578375468359540746",
+      "program": "SDBENCHMARK",
+      "message": "True 2023-03-22 16:57:14.371016|7.88 / 9.17 / 9.71 / 5.35 / 5.3|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|k7212519||eeed23|6aa18c ",
+      "generated_at": "2023-03-31T04:27:38-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1578375468367917057",
+      "program": "SDBENCHMARK",
+      "message": "True 2023-03-23 18:17:09.744283|8.14 / 9.46 / 10.03|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|111||433907|1a6a2e ",
+      "generated_at": "2023-03-31T04:27:38-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1578375468372119558",
+      "program": "SDBENCHMARK",
+      "message": "True 2023-03-31 08:25:35.929195||updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|3Guofeng3_v32.safetensors [2537d1a815]|True|none|4b037d|3665e3 ",
+      "generated_at": "2023-03-31T04:27:38-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1578378564661854214",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-09 17:44:59.482494|9.03 / 10.54 / 11.15|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_.safetensors [a757fe8b3d]|David||befd4c|1990a5 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564661854219",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-20 16:01:05.945289|9.28 / 10.38 / 11.04 / 9.85 / 10.25|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230319+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8801 8GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|David||dfc760|cfef12 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564666048512",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-20 15:48:39.389729|9.78 / 8.59 / 9.42|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230319+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8801 8GB|sdp none|chilloutmix_.safetensors [a757fe8b3d]|David||bea6a7|8f9ec8 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564666048516",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-31 16:38:37.886209|8.45 / 10.96 / 11.39 / 11.77 / 11.93|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|sdp none|deliberate_v2.safetensors [9aba26abdf]|David||aa9343|6518a9 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564666048517",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-31 16:17:34.151133|9.6 / 10.81 / 11.36|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|xformers none|chilloutmix_.safetensors [a757fe8b3d]|David||ca6076|85f96a ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564666048525",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-20 15:36:04.889042|7.69 / 8.46 / 9.17|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230319+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|Doggettx none|chilloutmix_.safetensors [a757fe8b3d]|David||96508c|66b939 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564666048526",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-31 16:25:24.770497|9.73 / 10.98 / 11.61|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18.dev498 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|xformers none|chilloutmix_.safetensors [a757fe8b3d]|David||c10c50|d2668a ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564670242819",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-20 15:41:43.931005|8.16 / 7.21 / 8.06|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230319+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8801 8GB|Doggettx none|chilloutmix_.safetensors [a757fe8b3d]|David||b7f101|e88f98 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578378564670242823",
+      "program": "SDBENCHMARK",
+      "message": "David 2023-03-31 15:08:20.076246|8.73 / 10.46 / 11.31 / 9.78 / 10.21|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 8GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|David||d50732|beb2d1 ",
+      "generated_at": "2023-03-31T12:39:55-04:00",
+      "source_id": 13775483973
+    },
+    {
+      "id": "1578381923217223683",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-25 19:24:07.062893|3.84 / 4.15 / 4.31|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sub-quadratic none|Counterfeit-V2.5.safetensors [bd83b90a2e]|yhd233|1|1bced9|eb808a ",
+      "generated_at": "2023-03-31T12:53:17-04:00",
+      "source_id": 13774300454
+    },
+    {
+      "id": "1578381923217231879",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-31 16:52:10.564035|7.5 / 8.49 / 3.81|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.1.0.dev20230325+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sdp none|Counterfeit-V2.5_fp16.safetensors [71e703a0fc]|yhd233||a3e221|58243b ",
+      "generated_at": "2023-03-31T12:53:17-04:00",
+      "source_id": 13774300454
+    },
+    {
+      "id": "1578381938266390537",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-25 19:24:07.062893|3.84 / 4.15 / 4.31|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sub-quadratic none|Counterfeit-V2.5.safetensors [bd83b90a2e]|yhd233|1|1bced9|eb808a ",
+      "generated_at": "2023-03-31T12:53:21-04:00",
+      "source_id": 13774300454
+    },
+    {
+      "id": "1578381938270580737",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-31 16:52:10.564035|7.5 / 8.49 / 3.81|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.1.0.dev20230325+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sdp none|Counterfeit-V2.5_fp16.safetensors [71e703a0fc]|yhd233||a3e221|58243b ",
+      "generated_at": "2023-03-31T12:53:21-04:00",
+      "source_id": 13774300454
+    },
+    {
+      "id": "1578381943211483152",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-25 19:24:07.062893|3.84 / 4.15 / 4.31|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.0.0+rocm5.4.2 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sub-quadratic none|Counterfeit-V2.5.safetensors [bd83b90a2e]|yhd233|1|1bced9|eb808a ",
+      "generated_at": "2023-03-31T12:53:22-04:00",
+      "source_id": 13774300454
+    },
+    {
+      "id": "1578381943249223692",
+      "program": "SDBENCHMARK",
+      "message": "yhd233 2023-03-31 16:52:10.564035|7.5 / 8.49 / 3.81|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.19-1-MANJARO python:3.10.9|torch:2.1.0.dev20230325+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|sdp none|Counterfeit-V2.5_fp16.safetensors [71e703a0fc]|yhd233||a3e221|58243b ",
+      "generated_at": "2023-03-31T12:53:22-04:00",
+      "source_id": 13774300454
     }
   ]
 }
