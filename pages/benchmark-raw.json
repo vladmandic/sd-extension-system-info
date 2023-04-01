@@ -1,5 +1,5 @@
 {
-  "max_id": "1578852857761939457",
+  "max_id": "1578866836269875202",
   "events": [
     {
       "id": "1564370541899603981",
@@ -27888,6 +27888,69 @@
       "message": "Administrator 2023-04-02 00:03:50.681880|9.68 / 4.65 / 13.89|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 22GB|xformers none|chikmix_V2.safetensors [0bcee2e498]|Administrator||49d9d3|087c8f ",
       "generated_at": "2023-04-01T20:04:38-04:00",
       "source_id": 13781058732
+    },
+    {
+      "id": "1578866064786370560",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-03-05 02:08:14.887064|15.21 / 17.94 / 18.98|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.1.14-200.fc37.x86_64 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|orion||02c191|b80219 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064803151894",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-04-01 13:33:11.591278|17.92 / 21.39 / 23.15|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.8-200.fc37.x86_64 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|nyanMix_230303Absurd2.safetensors [2793596b2f]|orion||94519a|00da43 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811536387",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-04-01 14:44:49.196315|14.34 / 17.28 / 18.89|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.8-200.fc37.x86_64 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 24GB|Doggettx none|AOM3A1B.safetensors [5493a0ec49]|orion||b9e909|064f27 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811536388",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-04-01 16:21:07.280014|16.53 / 21.37 / 23.38|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.8-200.fc37.x86_64 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|AOM3A1B.safetensors [5493a0ec49]|orion||84b405|56a045 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811544593",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-03-05 02:11:58.220450|18.1 / 22.35 / 23.94|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.1.14-200.fc37.x86_64 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|orion||cb72db|5b063b ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811544594",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-04-01 17:56:56.327549|18.14 / 22.17 / 23.77|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.8-200.fc37.x86_64 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|AOM3A1B.safetensors [5493a0ec49]|orion||4e3798|82d1c9 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811548673",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-03-11 23:15:27.838214|17.84 / 21.47 / 23.13|updated:2023-03-11 hash:27e319dc url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.1.14-200.fc37.x86_64 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|AOM3A1B.safetensors [5493a0ec49]|orion||12f5dd|476678 ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866064811548674",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-03-16 00:44:38.802023|17.91 / 21.5 / 23.4|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.1.18-200.fc37.x86_64 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev466 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|AOM3A1B.safetensors [5493a0ec49]|orion||2be2b5|4eafde ",
+      "generated_at": "2023-04-01T13:57:06-04:00",
+      "source_id": 13781098927
+    },
+    {
+      "id": "1578866836269875202",
+      "program": "SDBENCHMARK",
+      "message": "orion 2023-04-01 17:59:47.355437|18.01 / 21.03 / 23.73|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.8-200.fc37.x86_64 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 Ti (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|AOM3A1B.safetensors [5493a0ec49]|orion||4e3798|c5a2d7 ",
+      "generated_at": "2023-04-01T14:00:10-04:00",
+      "source_id": 13781098927
     }
   ]
 }
