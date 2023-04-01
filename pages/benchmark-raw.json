@@ -1,5 +1,5 @@
 {
-  "max_id": "1578658260314140686",
+  "max_id": "1578673113758089229",
   "events": [
     {
       "id": "1564370541899603981",
@@ -27055,6 +27055,62 @@
       "message": "borel 2023-04-01 11:09:52.780052|6.06 / 2.98 / 3.08|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|chilloutmix_NiPrunedFp32.safetensors [95afa0d9ea]|borel||544af9|0a8d97 ",
       "generated_at": "2023-04-01T07:11:21-04:00",
       "source_id": 13780528166
+    },
+    {
+      "id": "1578659271720218628",
+      "program": "SDBENCHMARK",
+      "message": "borel 2023-04-01 11:09:52.780052|6.06 / 2.98 / 3.08|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|chilloutmix_NiPrunedFp32.safetensors [95afa0d9ea]|borel||544af9|0a8d97 ",
+      "generated_at": "2023-04-01T07:15:22-04:00",
+      "source_id": 13780528166
+    },
+    {
+      "id": "1578659348119474178",
+      "program": "SDBENCHMARK",
+      "message": "MMACDAFI 2023-03-31 22:42:27.429826|6.14 / 7.06 / 7.91|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|MMACDAFI||a6e00e|17ba1b ",
+      "generated_at": "2023-04-01T09:15:41-04:00",
+      "source_id": 13780530615
+    },
+    {
+      "id": "1578659348119474182",
+      "program": "SDBENCHMARK",
+      "message": "MMACDAFI 2023-03-31 22:43:57.495981|6.5 / 7.12 / 8.17|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8801 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|MMACDAFI||bf3952|c77fa8 ",
+      "generated_at": "2023-04-01T09:15:41-04:00",
+      "source_id": 13780530615
+    },
+    {
+      "id": "1578659348123668484",
+      "program": "SDBENCHMARK",
+      "message": "MMACDAFI 2023-03-31 22:53:41.227255|6.31 / 7.23 / 7.38|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|MMACDAFI||232060|6f006d ",
+      "generated_at": "2023-04-01T09:15:41-04:00",
+      "source_id": 13780530615
+    },
+    {
+      "id": "1578659348127862786",
+      "program": "SDBENCHMARK",
+      "message": "MMACDAFI 2023-04-01 13:14:37.566321|6.52 / 7.23 / 8.22|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8801 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|MMACDAFI||c2c65f|ea80a5 ",
+      "generated_at": "2023-04-01T09:15:41-04:00",
+      "source_id": 13780530615
+    },
+    {
+      "id": "1578659813964034049",
+      "program": "SDBENCHMARK",
+      "message": "borel 2023-04-01 11:16:51.774087|6.15 / 6.81 / 6.99|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|chilloutmix_NiPrunedFp32.safetensors [95afa0d9ea]|borel||544af9|160969 ",
+      "generated_at": "2023-04-01T07:17:32-04:00",
+      "source_id": 13780528166
+    },
+    {
+      "id": "1578668614964400132",
+      "program": "SDBENCHMARK",
+      "message": "Powell 2023-03-31 22:51:45.506733|20.88 / 35.33 / 41.64|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|2b-10000-pruned-fp16.ckpt [4e4e084cfe]|Chris Powell||2636b4|dda881 ",
+      "generated_at": "2023-03-31T18:52:14-04:00",
+      "source_id": 13780333886
+    },
+    {
+      "id": "1578673113758089229",
+      "program": "SDBENCHMARK",
+      "message": "Edu 2023-04-01 06:09:10.231049|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers none|protogenX34OfficialR_1.ckpt [61a37adf76]|Edu||48e771|5cec77 ",
+      "generated_at": "2023-04-01T02:10:22-04:00",
+      "source_id": 13780566465
     }
   ]
 }
