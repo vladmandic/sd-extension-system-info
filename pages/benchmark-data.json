@@ -1,5 +1,18 @@
 [
   [
+    1890,
+    "2023-04-01T14:43:51.421Z",
+    "9.17 / 10.87 / 13.66",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.23403-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "novelai-anime-model.ckpt [a7529df023]",
+    "rin",
+    ""
+  ],
+  [
     1889,
     "2023-04-01T05:57:32.258Z",
     "5.84 / 4.11 / 4.77",
