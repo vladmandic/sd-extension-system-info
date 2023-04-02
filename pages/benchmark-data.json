@@ -1,5 +1,44 @@
 [
   [
+    1960,
+    "2023-04-02T20:24:50.534Z",
+    "6.01 / 7.67 / 8.56",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB",
+    "sdp-no-mem medvram",
+    "nagai2.ckpt [79efb2cc11]",
+    "teduka",
+    ""
+  ],
+  [
+    1959,
+    "2023-04-02T19:22:18.638Z",
+    "16.52 / 19.47 / 21.27",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 22GB",
+    "xformers none",
+    "asianfaceCollectionAnd_v20.safetensors [18571d935d]",
+    "huang",
+    ""
+  ],
+  [
+    1958,
+    "2023-04-02T19:17:23.368Z",
+    "15.11 / 18.02 / 19.75",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 full nohalf xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 22GB",
+    "xformers none",
+    "asianfaceCollectionAnd_v20.safetensors [18571d935d]",
+    "huang",
+    ""
+  ],
+  [
     1957,
     "2023-04-01T12:50:12.279Z",
     "error / error / error",
