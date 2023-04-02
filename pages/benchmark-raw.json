@@ -1,5 +1,5 @@
 {
-  "max_id": "1578986892706365448",
+  "max_id": "1579003247530790914",
   "events": [
     {
       "id": "1564370541899603981",
@@ -27993,6 +27993,41 @@
       "message": "tanxr 2023-04-02 08:53:11.431659|1.1 / 1.43 / 1.56|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 6GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|tanxr||2f58c4|4bf221 ",
       "generated_at": "2023-04-02T04:57:12-04:00",
       "source_id": 13781400765
+    },
+    {
+      "id": "1578997914406141954",
+      "program": "SDBENCHMARK",
+      "message": "dfjx 2023-04-02 09:27:28.831455|9.69 / 14.45 / 19.18|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|dalcefoPainting_3rd.safetensors [7107c05c1c]|dfjx||ba5246|51c61b ",
+      "generated_at": "2023-04-02T05:41:00-04:00",
+      "source_id": 13781426598
+    },
+    {
+      "id": "1578997914406141955",
+      "program": "SDBENCHMARK",
+      "message": "dfjx 2023-04-02 09:38:27.376556|21.51 / 31.69 / 37.93|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|dalcefoPainting_3rd.safetensors [7107c05c1c]|dfjx||0fa18b|7ef015 ",
+      "generated_at": "2023-04-02T05:41:00-04:00",
+      "source_id": 13781426598
+    },
+    {
+      "id": "1579003031255699465",
+      "program": "SDBENCHMARK",
+      "message": "task(7fyisdbcg2qkf2e) 2023-04-02 08:55:06.861754|0.74 / error / error|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|merongmix_v11.safetensors [62f28ec51b]|laomuyear||4d4ed4|e2839f ",
+      "generated_at": "2023-04-02T06:01:20-04:00",
+      "source_id": 13781437509
+    },
+    {
+      "id": "1579003109580132360",
+      "program": "SDBENCHMARK",
+      "message": "task(ear0bv49tj2qbgg) 2023-04-02 08:55:06.861754|0.74 / error / error|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|merongmix_v11.safetensors [62f28ec51b]|laomuyear||4d4ed4|e2839f ",
+      "generated_at": "2023-04-02T06:01:38-04:00",
+      "source_id": 13781437509
+    },
+    {
+      "id": "1579003247530790914",
+      "program": "SDBENCHMARK",
+      "message": "task(a3dr915oyebqk8h) 2023-04-02 08:55:06.861754|0.74 / error / error|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|merongmix_v11.safetensors [62f28ec51b]|laomuyear||4d4ed4|e2839f ",
+      "generated_at": "2023-04-02T06:02:11-04:00",
+      "source_id": 13781437509
     }
   ]
 }
