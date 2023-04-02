@@ -1,5 +1,18 @@
 [
   [
+    1988,
+    "2023-04-03T03:14:52.986Z",
+    "11.54 / 13.13 / 14.46",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB",
+    "xformers none",
+    "RealMan\\Chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "jackw",
+    ""
+  ],
+  [
     1987,
     "2023-04-03T00:48:26.091Z",
     "14.25 / 15.27 / 17.71",

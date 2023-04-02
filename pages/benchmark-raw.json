@@ -1,5 +1,5 @@
 {
-  "max_id": "1579241455774515218",
+  "max_id": "1579263322774220802",
   "events": [
     {
       "id": "1564370541899603981",
@@ -28735,6 +28735,20 @@
       "message": "saint 2023-04-03 00:48:26.091795|14.25 / 15.27 / 17.71|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 4, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned.ckpt [e1441589a6]|saint||b631ea|49a554 ",
       "generated_at": "2023-04-02T20:48:46-04:00",
       "source_id": 13775344958
+    },
+    {
+      "id": "1579263310493298692",
+      "program": "SDBENCHMARK",
+      "message": "jackw 2023-04-03 03:14:52.986704|11.54 / 13.13 / 14.46||arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB|xformers none|RealMan\\Chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|jackw||b0a921|6a8d82 ",
+      "generated_at": "2023-04-02T23:15:37-04:00",
+      "source_id": 13782131651
+    },
+    {
+      "id": "1579263322774220802",
+      "program": "SDBENCHMARK",
+      "message": "jackw 2023-04-03 03:14:52.986704|11.54 / 13.13 / 14.46||arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB|xformers none|RealMan\\Chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|jackw||b0a921|6a8d82 ",
+      "generated_at": "2023-04-02T23:15:39-04:00",
+      "source_id": 13782131651
     }
   ]
 }
