@@ -1,5 +1,31 @@
 [
   [
+    1962,
+    "2023-04-02T22:03:15.808Z",
+    "0.17",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1060 3GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 3GB",
+    "xformers lowvram",
+    "luckyStrikeMix_V02Realistic.safetensors [8c893b37ef]",
+    "tk",
+    "low spec!"
+  ],
+  [
+    1961,
+    "2023-04-02T15:43:59.941Z",
+    "9.09 / 10.12 / 10.73",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "D20",
+    ""
+  ],
+  [
     1960,
     "2023-04-02T20:24:50.534Z",
     "6.01 / 7.67 / 8.56",
