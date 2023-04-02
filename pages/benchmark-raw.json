@@ -1,5 +1,5 @@
 {
-  "max_id": "1579003247530790914",
+  "max_id": "1579050876620951562",
   "events": [
     {
       "id": "1564370541899603981",
@@ -28028,6 +28028,13 @@
       "message": "task(a3dr915oyebqk8h) 2023-04-02 08:55:06.861754|0.74 / error / error|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cpu full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|sub-quadratic none|merongmix_v11.safetensors [62f28ec51b]|laomuyear||4d4ed4|e2839f ",
       "generated_at": "2023-04-02T06:02:11-04:00",
       "source_id": 13781437509
+    },
+    {
+      "id": "1579050876620951562",
+      "program": "SDBENCHMARK",
+      "message": "yzhua 2023-04-02 13:10:46.605753|26.9 / 36.36 / 42.95 / 42.85 / 40.34|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|final-prune.ckpt [89d59c3dde]|yzhua||470bc2|774f06 ",
+      "generated_at": "2023-04-02T09:11:26-04:00",
+      "source_id": 13781551168
     }
   ]
 }
