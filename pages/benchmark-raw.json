@@ -1,5 +1,5 @@
 {
-  "max_id": "1578886876620828674",
+  "max_id": "1578986892706365448",
   "events": [
     {
       "id": "1564370541899603981",
@@ -27979,6 +27979,20 @@
       "message": "karasu 2023-04-02 03:19:31.164970|25.54 / 30.25 / 35.76|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.1.0.dev20230401+cu118 autocast half xformers:0.0.18+c7cf593.d20230402 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|karasu|4090|bb7e9f|7bd864 ",
       "generated_at": "2023-04-01T23:19:47-04:00",
       "source_id": 13781152520
+    },
+    {
+      "id": "1578966417108287491",
+      "program": "SDBENCHMARK",
+      "message": "malzb 2023-04-02 01:34:03.462029|5.93 / 8.24 / 8.46|updated:2023-02-19 hash:65995a2e url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|malzb||6dd625|268947 ",
+      "generated_at": "2023-04-01T21:35:52-04:00",
+      "source_id": 13781350467
+    },
+    {
+      "id": "1578986892706365448",
+      "program": "SDBENCHMARK",
+      "message": "tanxr 2023-04-02 08:53:11.431659|1.1 / 1.43 / 1.56|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1060 6GB (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 6GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|tanxr||2f58c4|4bf221 ",
+      "generated_at": "2023-04-02T04:57:12-04:00",
+      "source_id": 13781400765
     }
   ]
 }
