@@ -1,5 +1,44 @@
 [
   [
+    1975,
+    "2023-04-03T00:15:41.337Z",
+    "20.07 / 29.21 / 33.39",
+    "updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "fantasticmixReal_v20.safetensors [dc68ca14e7]",
+    "lsy",
+    ""
+  ],
+  [
+    1974,
+    "2023-04-02T23:30:53.035Z",
+    "6.28 / 7.15 / 7.5",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "tom",
+    ""
+  ],
+  [
+    1973,
+    "2023-04-02T18:31:17.760Z",
+    "6.76 / 9.42 / 9.98 / 10.66 / 11.04",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 8GB",
+    "xformers none",
+    "Based65-Final-Mix.safetensors [ed526812bb]",
+    "nefer",
+    ""
+  ],
+  [
     1972,
     "2023-04-02T23:04:13.288Z",
     "11.49 / 15.68 / 18.76",
