@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-02T08:15:45.477Z
+  ## Updated: 2023-04-02T09:12:09.263Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |1949|2023-04-02T07:52:40.819Z|12.03 / 13.44 / 15.27|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:0.0.17+6967620.d20230324 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|lofi_V2.safetensors [be39b34a53]|root||
+  |1951|2023-04-02T08:38:56.742Z|12.56 / 17.59 / 23.97|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.10|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|SDv1-5.ckpt [4c86efd062]|root||
+|1950|2023-04-02T11:37:22.639Z|2.06 / 2.5 / 2.78|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|solaris||
+|1949|2023-04-02T07:52:40.819Z|12.03 / 13.44 / 15.27|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:0.0.17+6967620.d20230324 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|lofi_V2.safetensors [be39b34a53]|root||
 |1948|2023-04-02T15:43:18.711Z|12.58 / 16.0 / 16.22|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 12GB|xformers none|final-pruned.ckpt [89d59c3dde]|CreepOnSky1||
 |1947|2023-04-02T00:29:45.180Z|1.14 / 1.02 / 1.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22624-SP0 python:3.10.0|torch:2.0.0+cu117 autocast nohalf xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers none|yomga.safetensors [8cfcfdabb4]|yoinked|torch2, overclocking my GPU; hope no illegal memory :)|
 |1946|2023-04-02T15:52:01.700Z|25.16 / 31.82 / 34.32|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|AbyssOrangeMix2_nsfw.safetensors [0873291ac5]|munde||

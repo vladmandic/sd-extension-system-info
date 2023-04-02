@@ -1,5 +1,31 @@
 [
   [
+    1951,
+    "2023-04-02T08:38:56.742Z",
+    "12.56 / 17.59 / 23.97",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.10",
+    "torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "SDv1-5.ckpt [4c86efd062]",
+    "root",
+    ""
+  ],
+  [
+    1950,
+    "2023-04-02T11:37:22.639Z",
+    "2.06 / 2.5 / 2.78",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB",
+    "Doggettx none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "solaris",
+    ""
+  ],
+  [
     1949,
     "2023-04-02T07:52:40.819Z",
     "12.03 / 13.44 / 15.27",

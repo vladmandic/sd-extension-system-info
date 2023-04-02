@@ -1,5 +1,5 @@
 {
-  "max_id": "1579091735483699205",
+  "max_id": "1579103177356267537",
   "events": [
     {
       "id": "1564370541899603981",
@@ -28161,6 +28161,20 @@
       "message": "root 2023-04-02 07:52:40.819857|12.03 / 13.44 / 15.27|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:0.0.17+6967620.d20230324 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|xformers none|lofi_V2.safetensors [be39b34a53]|root||0e611c|75a883 ",
       "generated_at": "2023-04-02T03:53:50-04:00",
       "source_id": 13781657652
+    },
+    {
+      "id": "1579103050252075009",
+      "program": "SDBENCHMARK",
+      "message": "solaris 2023-04-02 11:37:22.639983|2.06 / 2.5 / 2.78|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|solaris||4c8134|7a7ec9 ",
+      "generated_at": "2023-04-02T07:38:47-04:00",
+      "source_id": 13781686998
+    },
+    {
+      "id": "1579103177356267537",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-02 08:38:56.742831|12.56 / 17.59 / 23.97|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-60-generic python:3.10.10|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (sm_86) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|SDv1-5.ckpt [4c86efd062]|root||8c632a|7c9247 ",
+      "generated_at": "2023-04-02T04:39:18-04:00",
+      "source_id": 13781687299
     }
   ]
 }
