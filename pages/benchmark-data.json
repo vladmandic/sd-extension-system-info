@@ -1,5 +1,44 @@
 [
   [
+    1946,
+    "2023-04-02T15:52:01.700Z",
+    "25.16 / 31.82 / 34.32",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "AbyssOrangeMix2_nsfw.safetensors [0873291ac5]",
+    "munde",
+    ""
+  ],
+  [
+    1945,
+    "2023-04-02T15:51:15.781Z",
+    "24.83 / 30.86 / 34.0",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:0.0.18+da27862.d20230330 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "nai.ckpt [89d59c3dde]",
+    "munde",
+    ""
+  ],
+  [
+    1944,
+    "2023-04-02T14:33:44.975Z",
+    "7.25 / 9.74 / 10.61 / 10.88 / 10.7",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.7-2-MANJARO python:3.10.9",
+    "torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "AsianFace/goodAsianGirlFace_goodAsianGirlFaceV12.safetensors [aff1d22be5]",
+    "soso",
+    ""
+  ],
+  [
     1943,
     "2023-04-02T14:09:17.866Z",
     "19.13 / 30.23 / 39.81",
