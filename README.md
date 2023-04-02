@@ -1,14 +1,15 @@
 # System Info tab extensions for SD Automatic WebUI
 
-Creates a top-level **System Info** tab in Automatic WebUI with 
+Creates a top-level **System Info** tab in Automatic WebUI with
 
 *Note*:
+
 - State & memory info are auto-updated every second if tab is visible  
   (no updates are performed when tab is not visible)  
 - All other information is updated once upon WebUI load and  
   can be force refreshed if required  
 
-## Current information:
+## Current information
 
 - Server start time
 - Version
@@ -16,7 +17,7 @@ Creates a top-level **System Info** tab in Automatic WebUI with
 - Current State
 - Current Memory statistics
 
-## System data:
+## System data
 
 - Platform details
 - Torch, CUDA and GPU details
