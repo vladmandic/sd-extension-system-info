@@ -1,5 +1,5 @@
 {
-  "max_id": "1579478593527013393",
+  "max_id": "1579502712826023946",
   "events": [
     {
       "id": "1564370541899603981",
@@ -29050,6 +29050,20 @@
       "message": "artemis 2023-04-03 18:30:07.567313|4.07 / 4.98 / 5.57|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers medvram|camelliamixLine_v10.safetensors [f1971ec31a]|artemis||cb6892|1b3b41 ",
       "generated_at": "2023-04-03T14:31:04-04:00",
       "source_id": 13773170179
+    },
+    {
+      "id": "1579491978704502788",
+      "program": "SDBENCHMARK",
+      "message": "sc 2023-04-03 18:19:31.024892|21.93 / 26.23 / 26.79 / 26.78 / 25.23|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB|xformers none|SCMix.safetensors [2965ceaf88]|sc||f956bf|f3a94a ",
+      "generated_at": "2023-04-03T14:24:15-04:00",
+      "source_id": 13782696965
+    },
+    {
+      "id": "1579502712826023946",
+      "program": "SDBENCHMARK",
+      "message": "agp 2023-04-03 14:06:32.863588|16.99 / 21.0 / 22.97|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.1.0-1008-oem python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3090 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|rmadaMergeSD21768_v60.safetensors [7da43996bb]|agp||2e301e|b6b603 ",
+      "generated_at": "2023-04-03T10:06:54-04:00",
+      "source_id": 13782727421
     }
   ]
 }
