@@ -1,5 +1,5 @@
 {
-  "max_id": "1579574965064347668",
+  "max_id": "1579610210430013451",
   "events": [
     {
       "id": "1564370541899603981",
@@ -29477,6 +29477,13 @@
       "message": "tilde 2023-04-03 15:51:32.402583|13.97 / 15.19 / 15.53 / 15.67 / 15.24|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.8.16|torch:2.1.0a0+git55daa83 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Radeon RX 7900 XTX (3) hip:5.5.30201-d32bf634 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|root||dcd6e3|318d45 ",
       "generated_at": "2023-04-03T11:54:01-04:00",
       "source_id": 13782955069
+    },
+    {
+      "id": "1579610210430013451",
+      "program": "SDBENCHMARK",
+      "message": "angry 2023-04-03 12:12:27.140186|6.64 / 7.47 / 7.69|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.safetensors [1a189f0be6]|angry||73baf2|3b91de ",
+      "generated_at": "2023-04-03T08:14:04-04:00",
+      "source_id": 13783068575
     }
   ]
 }
