@@ -1,5 +1,44 @@
 [
   [
+    1993,
+    "2023-04-01T19:13:30.658Z",
+    "10.1 / 11.42 / 12.29",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "colorful_v23.safetensors [71b5ea121f]",
+    "chris",
+    ""
+  ],
+  [
+    1992,
+    "2023-04-03T09:20:55.362Z",
+    "24.33 / 32.09 / 35.28 / 35.36 / 35.14",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "nai.ckpt [89d59c3dde]",
+    "munde",
+    ""
+  ],
+  [
+    1991,
+    "2023-04-03T02:03:42.458Z",
+    "25.03 / 32.79 / 34.83 / 34.74 / 32.88",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230330+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp-no-mem none",
+    "nai.ckpt [89d59c3dde]",
+    "munde",
+    ""
+  ],
+  [
     1990,
     "2023-04-03T06:06:32.879Z",
     "10.74 / 10.27 / 11.21",
