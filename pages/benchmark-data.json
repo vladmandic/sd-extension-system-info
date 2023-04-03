@@ -1,5 +1,31 @@
 [
   [
+    2005,
+    "2023-04-03T15:39:49.496Z",
+    "13.18 / 21.98 / 26.72",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB",
+    "xformers none",
+    "sd-v1-4.ckpt [fe4efff1e1]",
+    "Wakaka",
+    ""
+  ],
+  [
+    2004,
+    "2023-04-03T15:35:56.760Z",
+    "13.22 / 21.5 / 26.51",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 16GB",
+    "xformers none",
+    "sd-v1-4.ckpt [fe4efff1e1]",
+    "Arcob",
+    ""
+  ],
+  [
     2003,
     "2023-04-03T03:43:04.780Z",
     "20.37 / 32.25 / 41.8",
