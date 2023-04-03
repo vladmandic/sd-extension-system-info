@@ -1,5 +1,5 @@
 {
-  "max_id": "1579466649847914509",
+  "max_id": "1579478593527013393",
   "events": [
     {
       "id": "1564370541899603981",
@@ -29036,6 +29036,20 @@
       "message": "13549 2023-04-03 16:42:34.168421|19.33 / 32.07 / 41.79|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230402+cu118 autocast half xformers:0.0.18+c7cf593.d20230403 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|卡通画风\\v1-5-pruned.ckpt [e1441589a6]|13549||833efa|2c1b28 ",
       "generated_at": "2023-04-03T12:43:39-04:00",
       "source_id": 13782622377
+    },
+    {
+      "id": "1579478593522806784",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-04-03 17:31:45.467542|5.13 / 5.49 / 5.92|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers none|camelliamixLine_v10.safetensors [f1971ec31a]|artemis||4c2dc8|636d3a ",
+      "generated_at": "2023-04-03T14:31:04-04:00",
+      "source_id": 13773170179
+    },
+    {
+      "id": "1579478593527013393",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-04-03 18:30:07.567313|4.07 / 4.98 / 5.57|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers medvram|camelliamixLine_v10.safetensors [f1971ec31a]|artemis||cb6892|1b3b41 ",
+      "generated_at": "2023-04-03T14:31:04-04:00",
+      "source_id": 13773170179
     }
   ]
 }
