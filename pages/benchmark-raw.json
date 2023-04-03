@@ -1,5 +1,5 @@
 {
-  "max_id": "1579641365615263903",
+  "max_id": "1579664580265828360",
   "events": [
     {
       "id": "1564370541899603981",
@@ -29925,6 +29925,20 @@
       "message": "Davidjuk 2023-03-15 04:55:55.503281|21.65 / 21.42 / 42.38|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|Davidjuk||42c52a|e57276 ",
       "generated_at": "2023-04-04T00:18:12-04:00",
       "source_id": 13775483973
+    },
+    {
+      "id": "1579661476220813313",
+      "program": "SDBENCHMARK",
+      "message": "Adm 2023-04-04 00:37:05.833098|4.06 / 4.66 / 4.77|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|Doggettx none|512-base-ema.ckpt [d635794c1f]|Adm||279853|f72642 ",
+      "generated_at": "2023-04-03T20:37:47-04:00",
+      "source_id": 13783214519
+    },
+    {
+      "id": "1579664580265828360",
+      "program": "SDBENCHMARK",
+      "message": "porp 2023-04-03 23:49:50.978653|20.88 / 24.22 / 27.28|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 16GB|sdp-no-mem none|AnimemistoonAbyss+Meinamix-06NEW.safetensors [84d8338f2a]|porp||99112f|8a0a7b ",
+      "generated_at": "2023-04-03T19:50:03-04:00",
+      "source_id": 13783222084
     }
   ]
 }
