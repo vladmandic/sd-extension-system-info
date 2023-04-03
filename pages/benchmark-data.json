@@ -1,5 +1,31 @@
 [
   [
+    1995,
+    "2023-04-03T10:22:09.501Z",
+    "7.2 / 3.67 / 3.81",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "vanishlee",
+    ""
+  ],
+  [
+    1994,
+    "2023-04-03T09:41:25.925Z",
+    "15.6 / 17.91 / 19.91",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "jetai",
+    ""
+  ],
+  [
     1993,
     "2023-04-01T19:13:30.658Z",
     "10.1 / 11.42 / 12.29",
