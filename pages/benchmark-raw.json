@@ -1,5 +1,5 @@
 {
-  "max_id": "1579768685751623681",
+  "max_id": "1579781853508972562",
   "events": [
     {
       "id": "1564370541899603981",
@@ -30100,6 +30100,41 @@
       "message": "root 2023-04-04 04:35:36.661358|6.31 / 7.03 / 7.18 / 3.16 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|camelliamix25D_v10.safetensors [44eccf4d61]|root||90a99e|38d170 ",
       "generated_at": "2023-04-04T00:43:47-04:00",
       "source_id": 13779733858
+    },
+    {
+      "id": "1579781848052183040",
+      "program": "SDBENCHMARK",
+      "message": "Datou 2023-03-31 17:40:43.223794|8.78 / 7.68 / 8.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17+658ebab.d20230326 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (2) (compute_37) (7, 5) cuda:11.8 cudnn:8801 8GB|xformers none|anything-v4.5.ckpt [fbcf965a62]|Datou||4834b0|b78b22 ",
+      "generated_at": "2023-04-04T09:36:05-04:00",
+      "source_id": 13779765215
+    },
+    {
+      "id": "1579781848052183043",
+      "program": "SDBENCHMARK",
+      "message": "Datou 2023-04-04 13:35:24.729962|11.8 / 18.37 / 26.33|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|Doggettx none|anything-v4.5.ckpt [fbcf965a62]|Datou||84eb61|542c54 ",
+      "generated_at": "2023-04-04T09:36:05-04:00",
+      "source_id": 13779765215
+    },
+    {
+      "id": "1579781853508972551",
+      "program": "SDBENCHMARK",
+      "message": "Datou 2023-03-31 17:40:43.223794|8.78 / 7.68 / 8.51|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17+658ebab.d20230326 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (2) (compute_37) (7, 5) cuda:11.8 cudnn:8801 8GB|xformers none|anything-v4.5.ckpt [fbcf965a62]|Datou||4834b0|b78b22 ",
+      "generated_at": "2023-04-04T09:36:07-04:00",
+      "source_id": 13779765215
+    },
+    {
+      "id": "1579781853508972561",
+      "program": "SDBENCHMARK",
+      "message": "Datou 2023-04-04 13:26:38.888595|7.88 / 12.56 / 16.59|updated:2023-02-13 hash:3715ece0 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|Doggettx none|anything-v4.5.ckpt [fbcf965a62]|Datou||6ea4d2|f1696c ",
+      "generated_at": "2023-04-04T09:36:07-04:00",
+      "source_id": 13779765215
+    },
+    {
+      "id": "1579781853508972562",
+      "program": "SDBENCHMARK",
+      "message": "Datou 2023-04-04 13:35:24.729962|11.8 / 18.37 / 26.33|updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 12, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|Doggettx none|anything-v4.5.ckpt [fbcf965a62]|Datou||84eb61|542c54 ",
+      "generated_at": "2023-04-04T09:36:07-04:00",
+      "source_id": 13779765215
     }
   ]
 }
