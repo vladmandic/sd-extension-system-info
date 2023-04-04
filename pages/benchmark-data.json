@@ -1,5 +1,18 @@
 [
   [
+    2120,
+    "2023-04-04T14:20:40.965Z",
+    "5.84 / 4.05 / 4.71",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1027-gcp python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB",
+    "xformers none",
+    "Realistic_Vision_V1.3.ckpt [77e392958a]",
+    "pakistanredteam",
+    ""
+  ],
+  [
     2119,
     "2023-04-04T22:00:52.825Z",
     "6.56 / 7.45 / 7.61 / 7.91 / 8.09",

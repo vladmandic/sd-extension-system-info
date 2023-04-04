@@ -1,5 +1,5 @@
 {
-  "max_id": "1579909296274190348",
+  "max_id": "1579926604992405517",
   "events": [
     {
       "id": "1564370541899603981",
@@ -30737,6 +30737,20 @@
       "message": "Nicholas Lin 2023-04-04 22:00:52.825068|6.56 / 7.45 / 7.61 / 7.91 / 8.09|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Nicholas Lin||baed70|8dc9bb ",
       "generated_at": "2023-04-04T18:02:28-04:00",
       "source_id": 13783870653
+    },
+    {
+      "id": "1579914163646545957",
+      "program": "SDBENCHMARK",
+      "message": "pakistanredteam 2023-04-04 14:20:40.965560|5.84 / 4.05 / 4.71|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1027-gcp python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 15GB|xformers none|Realistic_Vision_V1.3.ckpt [77e392958a]|pakistanredteam||dcd4be|84fc5c ",
+      "generated_at": "2023-04-04T10:21:52-04:00",
+      "source_id": 13783897374
+    },
+    {
+      "id": "1579926604992405517",
+      "program": "SDBENCHMARK",
+      "message": "knut 2023-03-15 08:04:33.512454|1.98 / 1.67 / 1.72|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10|torch:1.13.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]|knut||195cce|072335 ",
+      "generated_at": "2023-04-04T20:11:18-04:00",
+      "source_id": 13774404221
     }
   ]
 }
