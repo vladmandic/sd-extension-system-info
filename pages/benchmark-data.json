@@ -1,5 +1,31 @@
 [
   [
+    2122,
+    "2023-04-05T01:09:51.893Z",
+    "2.78 / 2.94 / 3.09",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10",
+    "torch:2.1.0.dev20230404 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "benchmarks/v2-1_768-ema-pruned.ckpt [ad2a33c361]",
+    "knut",
+    ""
+  ],
+  [
+    2121,
+    "2023-04-05T00:13:24.470Z",
+    "2.15 / 2.23 / 2.33",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10",
+    "torch:2.1.0.dev20230404 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "sub-quadratic none",
+    "benchmarks/v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "knut",
+    ""
+  ],
+  [
     2120,
     "2023-04-04T14:20:40.965Z",
     "5.84 / 4.05 / 4.71",
