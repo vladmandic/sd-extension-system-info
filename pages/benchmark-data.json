@@ -1,5 +1,18 @@
 [
   [
+    2146,
+    "2023-04-05T06:29:31.330Z",
+    "5.07 / 6.49 / 7.57",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB",
+    "xformers medvram",
+    "perfectWorld_v2Baked.safetensors [79e42fb744]",
+    "Coolo",
+    ""
+  ],
+  [
     2145,
     "2023-04-04T18:10:11.345Z",
     "31.42 / 36.9 / 44.32 / 44.14 / 43.96",

@@ -1,5 +1,5 @@
 {
-  "max_id": "1580032278216749058",
+  "max_id": "1580037039842320386",
   "events": [
     {
       "id": "1564370541899603981",
@@ -31171,6 +31171,13 @@
       "message": "me 2023-04-04 18:10:11.345154|31.42 / 36.9 / 44.32 / 44.14 / 43.96||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230404+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|analogMadness.safetensors [efcd8115bb]|me||17aaba|f76f6b ",
       "generated_at": "2023-04-04T14:11:12-04:00",
       "source_id": 13784030367
+    },
+    {
+      "id": "1580037039842320386",
+      "program": "SDBENCHMARK",
+      "message": "Coolo 2023-04-05 06:29:31.330656|5.07 / 6.49 / 7.57|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|xformers medvram|perfectWorld_v2Baked.safetensors [79e42fb744]|Coolo||3cd67a|32073e ",
+      "generated_at": "2023-04-05T02:30:06-04:00",
+      "source_id": 13784269176
     }
   ]
 }
