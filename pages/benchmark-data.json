@@ -1,5 +1,31 @@
 [
   [
+    2085,
+    "2023-04-04T01:06:52.497Z",
+    "9.72",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.3.0-rc4 python:3.10.10",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Graphics (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "",
+    ""
+  ],
+  [
+    2084,
+    "2023-04-04T17:25:11.564Z",
+    "4.66 / 6.9 / 15.08",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "stablediffusion14.ckpt [fe4efff1e1]",
+    "sk",
+    ""
+  ],
+  [
     2083,
     "2023-04-04T09:00:37.686Z",
     "3.79",
