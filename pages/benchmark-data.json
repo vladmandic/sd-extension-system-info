@@ -1,5 +1,18 @@
 [
   [
+    2070,
+    "2023-04-04T10:32:47.412Z",
+    "17.12 / 18.92 / 20.75",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 12GB",
+    "sdp none",
+    "v1-5-pruned.safetensors [1a189f0be6]",
+    "sasah",
+    ""
+  ],
+  [
     2069,
     "2023-04-04T01:59:19.215Z",
     "5.64 / 6.2 / 6.4",
