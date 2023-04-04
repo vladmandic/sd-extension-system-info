@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-04T20:14:30.934Z
+  ## Updated: 2023-04-04T21:11:48.837Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2136|2023-04-04T22:33:36.127Z|26.04 / 38.44 / 42.16|updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9|torch:2.1.0.dev20230326+cu118 autocast half xformers:0.0.18+7ea6325.d20230404 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|LatexGenerator_0.9-f.safetensors [38737d8e91]|idle|Latex.ID accelerate 18 config 1gpu|
+  |2137|2023-04-04T21:16:20.997Z|13.07 / 17.03 / 19.43|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|anything-v4-1788-1925-0122.safetensors [60c2201e4d]|sammael||
+|2136|2023-04-04T22:33:36.127Z|26.04 / 38.44 / 42.16|updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9|torch:2.1.0.dev20230326+cu118 autocast half xformers:0.0.18+7ea6325.d20230404 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|LatexGenerator_0.9-f.safetensors [38737d8e91]|idle|Latex.ID accelerate 18 config 1gpu|
 |2135|2023-04-04T22:00:04.306Z|16.83 / 27.87 / 36.45|updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9|torch:2.1.0.dev20230326+cu118 autocast half xformers:0.0.18+7ea6325.d20230404 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers medvram|LatexGenerator_0.9-f.safetensors [38737d8e91]|idle|latex.id test with x188|
 |2134|2023-04-04T21:53:42.760Z|0.61 / 1.2 / 2.35|updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9|torch:2.1.0.dev20230326+cu118 autocast half xformers:0.0.18+7ea6325.d20230404 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers lowvram|LatexGenerator_0.9-f.safetensors [38737d8e91]|idle||
 |2133|2023-04-04T21:37:28.420Z|25.49 / 37.33 / 45.26|updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9|torch:2.1.0.dev20230326+cu118 autocast half xformers:0.0.18+7ea6325.d20230404 accelerate:0.12.0 transformers:4.27.4|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|LatexGenerator_0.9-f.safetensors [38737d8e91]|idle|lateX.id with X|
