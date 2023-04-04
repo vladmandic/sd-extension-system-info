@@ -1,5 +1,5 @@
 {
-  "max_id": "1579750072747470850",
+  "max_id": "1579768685751623681",
   "events": [
     {
       "id": "1564370541899603981",
@@ -30072,6 +30072,34 @@
       "message": "coofly 2023-04-04 11:27:44.958824|9.45 / 10.69 / 11.99|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|coofly||a33914|70f763 ",
       "generated_at": "2023-04-04T07:29:52-04:00",
       "source_id": 13783431533
+    },
+    {
+      "id": "1579768257626431491",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-04 04:35:36.661358|6.31 / 7.03 / 7.18 / 3.16 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|camelliamix25D_v10.safetensors [44eccf4d61]|root||90a99e|38d170 ",
+      "generated_at": "2023-04-04T00:42:05-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1579768266551906324",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-04 04:35:36.661358|6.31 / 7.03 / 7.18 / 3.16 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|camelliamix25D_v10.safetensors [44eccf4d61]|root||90a99e|38d170 ",
+      "generated_at": "2023-04-04T00:42:07-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1579768270846877699",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-04 04:35:36.661358|6.31 / 7.03 / 7.18 / 3.16 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|camelliamix25D_v10.safetensors [44eccf4d61]|root||90a99e|38d170 ",
+      "generated_at": "2023-04-04T00:42:08-04:00",
+      "source_id": 13779733858
+    },
+    {
+      "id": "1579768685751623681",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-04 04:35:36.661358|6.31 / 7.03 / 7.18 / 3.16 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|camelliamix25D_v10.safetensors [44eccf4d61]|root||90a99e|38d170 ",
+      "generated_at": "2023-04-04T00:43:47-04:00",
+      "source_id": 13779733858
     }
   ]
 }

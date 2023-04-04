@@ -1,5 +1,18 @@
 [
   [
+    2073,
+    "2023-04-04T04:35:36.661Z",
+    "6.31 / 7.03 / 7.18 / 3.16 / 3.18",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.9.5",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    "device:AMD Radeon RX 6750 XT (1) hip:5.4.22803-474e8620 12GB",
+    "Doggettx none",
+    "camelliamix25D_v10.safetensors [44eccf4d61]",
+    "root",
+    ""
+  ],
+  [
     2072,
     "2023-04-04T11:27:44.958Z",
     "9.45 / 10.69 / 11.99",
