@@ -1,5 +1,44 @@
 [
   [
+    2128,
+    "2023-04-04T21:00:52.912Z",
+    "17.98 / 23.69 / 27.19",
+    "updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230326+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.4",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "Doggettx none",
+    "LatexGenerator_0.9-f.safetensors [38737d8e91]",
+    "idle",
+    ""
+  ],
+  [
+    2127,
+    "2023-04-04T21:13:55.663Z",
+    "29.53 / 38.62 / 45.28",
+    "updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230326+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.4",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "LatexGenerator_0.9-f.safetensors [38737d8e91]",
+    "idle",
+    "Latex.ID - no X"
+  ],
+  [
+    2126,
+    "2023-03-27T01:18:35.294Z",
+    "26.25 / 38.17 / 44.82",
+    "updated:2023-03-25 hash:aba5d639 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.17763-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230326+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.27.3",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "Latex.ID.v.3.50VM.safetensors [42dc314ee6]",
+    "idle",
+    "Latex.ID local tests"
+  ],
+  [
     2125,
     "2023-04-04T13:03:11.859Z",
     "28.73 / 39.52 / 45.85 / 46.75 / 46.36",
