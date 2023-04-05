@@ -1,5 +1,5 @@
 {
-  "max_id": "1580378003945476118",
+  "max_id": "1580381995375185920",
   "events": [
     {
       "id": "1564370541899603981",
@@ -31870,6 +31870,20 @@
       "program": "SDBENCHMARK",
       "message": "bua 2023-04-06 04:55:15.727078|1.3 / 1.34 / 1.42|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:2.0.0+cu118 full nohalf xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 6GB|xformers medvram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|www||c2a175|1a4210 ",
       "generated_at": "2023-04-06T01:05:00-04:00",
+      "source_id": 13785250816
+    },
+    {
+      "id": "1580381995370991670",
+      "program": "SDBENCHMARK",
+      "message": "bua 2023-04-06 04:55:15.727078|1.3 / 1.34 / 1.42|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:2.0.0+cu118 full nohalf xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 6GB|xformers medvram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|www||c2a175|1a4210 ",
+      "generated_at": "2023-04-06T01:20:52-04:00",
+      "source_id": 13785250816
+    },
+    {
+      "id": "1580381995375185920",
+      "program": "SDBENCHMARK",
+      "message": "bua 2023-04-06 05:18:21.335590|1.29 / 1.44 / 1.54|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.8|torch:1.13.1+cu117 full nohalf xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Hans||95d2ca|eeac7f ",
+      "generated_at": "2023-04-06T01:20:52-04:00",
       "source_id": 13785250816
     }
   ]
