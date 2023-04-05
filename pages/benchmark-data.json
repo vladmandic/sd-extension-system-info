@@ -1,5 +1,18 @@
 [
   [
+    2147,
+    "2023-04-05T05:22:49.748Z",
+    "21.96 / 31.79 / 40.45",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "illuminatiDiffusionV1_v11.safetensors [cae1bee30e]",
+    "Ace",
+    ""
+  ],
+  [
     2146,
     "2023-04-05T06:29:31.330Z",
     "5.07 / 6.49 / 7.57",

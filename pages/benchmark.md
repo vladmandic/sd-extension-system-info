@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-04T23:12:58.644Z
+  ## Updated: 2023-04-05T00:57:51.276Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2146|2023-04-05T06:29:31.330Z|5.07 / 6.49 / 7.57|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|xformers medvram|perfectWorld_v2Baked.safetensors [79e42fb744]|Coolo||
+  |2147|2023-04-05T05:22:49.748Z|21.96 / 31.79 / 40.45|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2|device:NVIDIA GeForce RTX 4090 (2) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|illuminatiDiffusionV1_v11.safetensors [cae1bee30e]|Ace||
+|2146|2023-04-05T06:29:31.330Z|5.07 / 6.49 / 7.57|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Laptop GPU (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|xformers medvram|perfectWorld_v2Baked.safetensors [79e42fb744]|Coolo||
 |2145|2023-04-04T18:10:11.345Z|31.42 / 36.9 / 44.32 / 44.14 / 43.96||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230404+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|analogMadness.safetensors [efcd8115bb]|me||
 |2144|2023-04-04T17:31:16.011Z|31.09 / 36.94 / 43.95 / 43.78 / 43.64||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|analogMadness.safetensors [efcd8115bb]|me||
 |2143|2023-04-04T18:01:19.727Z|2.33 / 2.59 / 2.63||arch:x86_64 cpu: system:Linux release:6.1.21-1-MANJARO python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.18.0 transformers:4.27.3|device:NVIDIA GeForce GTX 1080 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|rpg_V4.safetensors [e04b020012]|nathan||
