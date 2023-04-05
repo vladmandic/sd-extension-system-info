@@ -1,5 +1,5 @@
 {
-  "max_id": "1580150626422284299",
+  "max_id": "1580159141551452160",
   "events": [
     {
       "id": "1564370541899603981",
@@ -31549,6 +31549,13 @@
       "message": "konl 2023-04-05 12:39:09.182090|1.03 / 0.81 / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 6GB|xformers medvram|Anime\\meinapastel_V4.safetensors [771c8fd970]|ko||aae8fb|56b293 ",
       "generated_at": "2023-04-05T10:01:18-04:00",
       "source_id": 13784543086
+    },
+    {
+      "id": "1580159141551452160",
+      "program": "SDBENCHMARK",
+      "message": "artemis 2023-04-05 15:33:48.943323|3.44 / 4.09 / 4.48|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8800 8GB|xformers medvram|camelliamixLine_v10.safetensors [f1971ec31a]|artemis||cb6892|c68820 ",
+      "generated_at": "2023-04-05T11:35:19-04:00",
+      "source_id": 13773170179
     }
   ]
 }
