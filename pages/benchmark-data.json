@@ -1,5 +1,18 @@
 [
   [
+    2184,
+    "2023-04-05T18:36:41.503Z",
+    "10.6 / 12.17 / 13.37 / 14.23 / 14.6",
+    "updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-126-generic python:3.8.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.4",
+    "device:NVIDIA GeForce RTX 3070 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 8GB",
+    "sdp none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]",
+    "klx1204",
+    "3070 torch2"
+  ],
+  [
     2183,
     "2023-04-05T17:44:39.646Z",
     "28.14 / 32.79 / 39.37",
