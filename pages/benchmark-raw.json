@@ -1,5 +1,5 @@
 {
-  "max_id": "1580334328708259872",
+  "max_id": "1580354431856332807",
   "events": [
     {
       "id": "1564370541899603981",
@@ -31857,6 +31857,13 @@
       "message": "mobai 2023-04-05 14:10:14.402267|13.55 / 15.67 / 18.03|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|xformers none|Basil_mix_fixed.safetensors [0ff127093f]|mobai||ebc041|0223a4 ",
       "generated_at": "2023-04-05T10:11:26-04:00",
       "source_id": 13785119059
+    },
+    {
+      "id": "1580354431856332807",
+      "program": "SDBENCHMARK",
+      "message": "KK I3 2023-04-05 20:27:54.700257|error / error / error|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI lowvram|realisticVisionV20_v20.safetensors [c0d1994c73]|kk||47319b|8fba96 ",
+      "generated_at": "2023-04-05T16:31:19-04:00",
+      "source_id": 13785181016
     }
   ]
 }

@@ -1,5 +1,18 @@
 [
   [
+    2206,
+    "2023-04-05T20:27:54.700Z",
+    "error / error / error",
+    "updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "InvokeAI lowvram",
+    "realisticVisionV20_v20.safetensors [c0d1994c73]",
+    "kk",
+    ""
+  ],
+  [
     2205,
     "2023-04-05T14:10:14.402Z",
     "13.55 / 15.67 / 18.03",
