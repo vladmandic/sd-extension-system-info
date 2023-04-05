@@ -1,5 +1,44 @@
 [
   [
+    2188,
+    "2023-04-05T21:23:26.652Z",
+    "21.72 / 34.01 / 39.03",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 24GB",
+    "xformers none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "Mochy",
+    ""
+  ],
+  [
+    2187,
+    "2023-04-05T17:41:38.776Z",
+    "9.28 / 14.0 / 21.13",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8302 24GB",
+    "xformers none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "Mochy",
+    ""
+  ],
+  [
+    2186,
+    "2023-04-05T22:13:31.323Z",
+    "14.72 / 25.82 / 34.14 / 33.16 / 33.82",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.6",
+    "torch:2.1.0.dev20230403+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "arca.live\\camellia\\CamelliaMix_2.5D\\CamelliaMix_2.5D_V2.safetensors [ed4f26c284]",
+    "younius",
+    ""
+  ],
+  [
     2185,
     "2023-04-05T20:14:10.430Z",
     "6.52 / 7.4 / 8.16",
