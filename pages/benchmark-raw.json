@@ -1,5 +1,5 @@
 {
-  "max_id": "1580261900787298312",
+  "max_id": "1580273720528908288",
   "events": [
     {
       "id": "1564370541899603981",
@@ -31710,6 +31710,20 @@
       "message": "Mochy 2023-04-05 21:23:26.652895|21.72 / 34.01 / 39.03|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8800 24GB|xformers none|CounterfeitV25_25.safetensors [a074b8864e]|Mochy||4f7a6c|646418 ",
       "generated_at": "2023-04-05T17:23:39-04:00",
       "source_id": 13784874365
+    },
+    {
+      "id": "1580271027324370955",
+      "program": "SDBENCHMARK",
+      "message": "fang 2023-04-05 21:55:16.182872|2.31 / 2.46 / 2.45|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|AOM3A1B_orangemixs.safetensors [5493a0ec49]|fang||7ef667|51b201 ",
+      "generated_at": "2023-04-05T17:59:55-04:00",
+      "source_id": 13784904086
+    },
+    {
+      "id": "1580273720528908288",
+      "program": "SDBENCHMARK",
+      "message": "fang 2023-04-05 21:55:16.182872|2.31 / 2.46 / 2.45|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|AOM3A1B_orangemixs.safetensors [5493a0ec49]|fang||7ef667|51b201 ",
+      "generated_at": "2023-04-05T18:10:37-04:00",
+      "source_id": 13784904086
     }
   ]
 }
