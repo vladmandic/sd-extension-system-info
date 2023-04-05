@@ -1,5 +1,57 @@
 [
   [
+    2197,
+    "2023-04-05T23:47:24.250Z",
+    "8.13 / 11.08 / 14.64",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 10GB",
+    "xformers none",
+    "Anything-V3.0.safetensors [10f0bd7ade]",
+    "SaltyFishKing",
+    ""
+  ],
+  [
+    2196,
+    "2023-04-05T23:45:43.722Z",
+    "7.91 / 11.87 / 15.26",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.3 cudnn:8302 10GB",
+    "xformers none",
+    "Anything-V3.0.safetensors [10f0bd7ade]",
+    "SaltyFishKing",
+    ""
+  ],
+  [
+    2195,
+    "2023-04-05T23:36:56.017Z",
+    "17.16 / 31.12 / 40.61",
+    "updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "anything\\anything-v4.5-pruned.safetensors [6e430eb514]",
+    "Administrator",
+    ""
+  ],
+  [
+    2194,
+    "2023-04-04T19:30:56.370Z",
+    "17.49 / 28.22 / 38.8",
+    "updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8600 24GB",
+    "xformers none",
+    "cetusMix_Version35\\cetusMix_Version35.safetensors [a611cf9c19]",
+    "Administrator",
+    ""
+  ],
+  [
     2193,
     "2023-04-05T22:21:55.686Z",
     "17.58 / 18.79 / 21.75 / 22.11 / 21.06",
