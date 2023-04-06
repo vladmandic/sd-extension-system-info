@@ -1,5 +1,5 @@
 {
-  "max_id": "1580709692555055116",
+  "max_id": "1580736437257682944",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32627,6 +32627,20 @@
       "message": "NYNFat 2023-04-06 12:02:12.516005|12.95 / 15.55 / 17.45 / 19.96 / 20.85|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|biggerGirlsModel_biggergirlsV3.ckpt [5147a9f178]|NYNFat||cbb638|77c978 ",
       "generated_at": "2023-04-06T08:03:01-04:00",
       "source_id": 13786212466
+    },
+    {
+      "id": "1580736437253488661",
+      "program": "SDBENCHMARK",
+      "message": "i3-9100 2023-04-05 20:26:24.830652|error / error / error|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI lowvram|realisticVisionV20_v20.safetensors [c0d1994c73]|kk||47319b|cf47b8 ",
+      "generated_at": "2023-04-06T17:49:16-04:00",
+      "source_id": 13785181016
+    },
+    {
+      "id": "1580736437257682944",
+      "program": "SDBENCHMARK",
+      "message": "i3-9100 2023-04-06 21:42:04.018166|0.05|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI lowvram,lowram|photomerge_v12.safetensors [db08c23129]|i3-9100||566369|447fbe ",
+      "generated_at": "2023-04-06T17:49:16-04:00",
+      "source_id": 13785181016
     }
   ]
 }
