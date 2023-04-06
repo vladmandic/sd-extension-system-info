@@ -1,5 +1,18 @@
 [
   [
+    2230,
+    "2023-04-06T20:45:54.357Z",
+    "6.02 / 6.56 / 7.08",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch: cpu: system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "anything-v4.5-pruned-fp16.ckpt [f773383dbc]",
+    "msi",
+    ""
+  ],
+  [
     2229,
     "2023-04-06T21:24:37.809Z",
     "26.08 / 36.15 / 41.74 / 40.95 / 38.45",

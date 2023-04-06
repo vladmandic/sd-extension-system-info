@@ -1,5 +1,5 @@
 {
-  "max_id": "1580609622052618255",
+  "max_id": "1580614936378400771",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32459,6 +32459,13 @@
       "message": "jjw76 2023-04-06 21:24:37.809446|26.08 / 36.15 / 41.74 / 40.95 / 38.45|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9|torch:2.1.0.dev20230403+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|1mnn\\cetusMix_whalefall.safetensors [ec9c3259dc]|jjw76||7c2ab1|4a5119 ",
       "generated_at": "2023-04-06T17:25:22-04:00",
       "source_id": 13776198292
+    },
+    {
+      "id": "1580614936378400771",
+      "program": "SDBENCHMARK",
+      "message": "msi 2023-04-06 20:45:54.357495|6.02 / 6.56 / 7.08|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch: cpu: system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|anything-v4.5-pruned-fp16.ckpt [f773383dbc]|msi||3b7306|605433 ",
+      "generated_at": "2023-04-06T16:46:30-04:00",
+      "source_id": 13785899060
     }
   ]
 }
