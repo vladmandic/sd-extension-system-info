@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-06T06:17:29.171Z
+  ## Updated: 2023-04-06T07:11:54.771Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2217|2023-04-06T01:45:04.537Z|7.45 / 8.49 / 8.83|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|jun||
+  |2219|2023-04-06T14:16:42.884Z|11.55 / 17.41 / 20.58|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/xiaolxl_pub/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-100-generic python:3.10.6|torch:1.12.1+cu116 autocast half xformers:0.0.15.dev+47ab8b8.d20221223 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.6 cudnn:8302 24GB|xformers none|Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]|root||
+|2218|2023-04-06T15:18:35.847Z|4.93 / 5.56 / 5.87|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.0-0.deb11.5-amd64 python:3.9.2|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A2000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 5GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|root||
+|2217|2023-04-06T01:45:04.537Z|7.45 / 8.49 / 8.83|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|jun||
 |2216|2023-04-06T12:24:48.583Z|6.41 / 7.02 / 7.77|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|Administrator|1|
 |2215|2023-04-06T10:59:30.738Z|14.61 / 15.95 / 17.79|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|protogenX53Photorealism_10.safetensors [e3cda540bf]|PUREARTS||
 |2214|2023-04-06T10:15:26.607Z|27.87 / 35.51 / 37.42|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp-no-mem none|nai.ckpt [89d59c3dde]|munde||

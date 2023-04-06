@@ -1,5 +1,31 @@
 [
   [
+    2219,
+    "2023-04-06T14:16:42.884Z",
+    "11.55 / 17.41 / 20.58",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/xiaolxl_pub/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-100-generic python:3.10.6",
+    "torch:1.12.1+cu116 autocast half xformers:0.0.15.dev+47ab8b8.d20221223 accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.6 cudnn:8302 24GB",
+    "xformers none",
+    "Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]",
+    "root",
+    ""
+  ],
+  [
+    2218,
+    "2023-04-06T15:18:35.847Z",
+    "4.93 / 5.56 / 5.87",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.1.0-0.deb11.5-amd64 python:3.9.2",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A2000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 5GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "root",
+    ""
+  ],
+  [
     2217,
     "2023-04-06T01:45:04.537Z",
     "7.45 / 8.49 / 8.83",
