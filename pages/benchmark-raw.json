@@ -1,5 +1,5 @@
 {
-  "max_id": "1580736437257682944",
+  "max_id": "1580754486203432971",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32641,6 +32641,20 @@
       "message": "i3-9100 2023-04-06 21:42:04.018166|0.05|updated:2023-03-27 hash:955df775 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 11, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI lowvram,lowram|photomerge_v12.safetensors [db08c23129]|i3-9100||566369|447fbe ",
       "generated_at": "2023-04-06T17:49:16-04:00",
       "source_id": 13785181016
+    },
+    {
+      "id": "1580751987287441412",
+      "program": "SDBENCHMARK",
+      "message": "LBT 2023-04-07 05:50:36.913482|27.96 / 33.01 / 40.65|updated:2023-03-29 hash:22bcc7be url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|dalcefoPainting_3rd.ckpt [5efb10a9e1]|LBT||8c5f94|a390ca ",
+      "generated_at": "2023-04-07T01:51:05-04:00",
+      "source_id": 13786342349
+    },
+    {
+      "id": "1580754486203432971",
+      "program": "SDBENCHMARK",
+      "message": "25747 2023-04-07 06:00:37.338615|15.9 / 24.59 / 35.79|updated:2023-03-29 hash:22bcc7be url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|dalcefoPainting_3rd.ckpt [5efb10a9e1]|25747||8c5f94|7b42ab ",
+      "generated_at": "2023-04-07T02:01:01-04:00",
+      "source_id": 13786342349
     }
   ]
 }
