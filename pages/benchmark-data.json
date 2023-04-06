@@ -1,5 +1,31 @@
 [
   [
+    2245,
+    "2023-04-07T02:02:07.466Z",
+    "2.02 / 2.73 / 2.97",
+    "updated:2023-03-29 hash:22bcc7be url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB",
+    "xformers none",
+    "realistic-archi-sd15_v3.safetensors [974f353810]",
+    "XIE",
+    ""
+  ],
+  [
+    2244,
+    "2023-04-07T01:40:50.445Z",
+    "26.45 / 36.11 / 44.36",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.13.0-41-generic python:3.10.8",
+    "torch:1.13.1 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers lowram",
+    "漫画/mixProV4_v4.safetensors [61e23e57ea]",
+    "supermc",
+    ""
+  ],
+  [
     2243,
     "2023-04-01T14:37:33.174Z",
     "17.2 / 30.74 / 40.98 / 40.37 / 39.74",

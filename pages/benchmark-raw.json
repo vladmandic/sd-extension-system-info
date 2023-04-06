@@ -1,5 +1,5 @@
 {
-  "max_id": "1580670904114008064",
+  "max_id": "1580694802322866182",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32606,6 +32606,20 @@
       "message": "wenbo 2023-04-01 14:37:33.174229|17.2 / 30.74 / 40.98 / 40.37 / 39.74|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 22GB|xformers none|lofi_V2pre.safetensors [04f05677a3]|wenbo||5a7827|59baa3 ",
       "generated_at": "2023-04-06T19:26:56-04:00",
       "source_id": 13780603467
+    },
+    {
+      "id": "1580689875093598226",
+      "program": "SDBENCHMARK",
+      "message": "supermc 2023-04-07 01:40:50.445682|26.45 / 36.11 / 44.36|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.13.0-41-generic python:3.10.8|torch:1.13.1 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers lowram|漫画/mixProV4_v4.safetensors [61e23e57ea]|supermc||a1e027|c98c33 ",
+      "generated_at": "2023-04-06T21:44:16-04:00",
+      "source_id": 13786151699
+    },
+    {
+      "id": "1580694802322866182",
+      "program": "SDBENCHMARK",
+      "message": "XIE 2023-04-07 02:02:07.466655|2.02 / 2.73 / 2.97|updated:2023-03-29 hash:22bcc7be url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers none|realistic-archi-sd15_v3.safetensors [974f353810]|XIE||c3fbc2|f834ae ",
+      "generated_at": "2023-04-06T22:03:50-04:00",
+      "source_id": 13786166501
     }
   ]
 }
