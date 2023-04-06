@@ -1,5 +1,18 @@
 [
   [
+    2246,
+    "2023-04-06T12:02:12.516Z",
+    "12.95 / 15.55 / 17.45 / 19.96 / 20.85",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "biggerGirlsModel_biggergirlsV3.ckpt [5147a9f178]",
+    "NYNFat",
+    ""
+  ],
+  [
     2245,
     "2023-04-07T02:02:07.466Z",
     "2.02 / 2.73 / 2.97",

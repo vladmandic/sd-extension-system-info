@@ -1,5 +1,5 @@
 {
-  "max_id": "1580694802322866182",
+  "max_id": "1580709692555055116",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32620,6 +32620,13 @@
       "message": "XIE 2023-04-07 02:02:07.466655|2.02 / 2.73 / 2.97|updated:2023-03-29 hash:22bcc7be url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 11GB|xformers none|realistic-archi-sd15_v3.safetensors [974f353810]|XIE||c3fbc2|f834ae ",
       "generated_at": "2023-04-06T22:03:50-04:00",
       "source_id": 13786166501
+    },
+    {
+      "id": "1580709692555055116",
+      "program": "SDBENCHMARK",
+      "message": "NYNFat 2023-04-06 12:02:12.516005|12.95 / 15.55 / 17.45 / 19.96 / 20.85|updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|biggerGirlsModel_biggergirlsV3.ckpt [5147a9f178]|NYNFat||cbb638|77c978 ",
+      "generated_at": "2023-04-06T08:03:01-04:00",
+      "source_id": 13786212466
     }
   ]
 }
