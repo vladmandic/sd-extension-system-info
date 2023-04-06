@@ -1,5 +1,31 @@
 [
   [
+    2252,
+    "2023-04-07T01:13:07.268Z",
+    "1.53 / 2.31 / 3.22",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "xformers medvram",
+    "CounterFeit v25.safetensors [48a8ab5f09]",
+    "User",
+    ""
+  ],
+  [
+    2251,
+    "2023-04-05T17:54:35.936Z",
+    "4.42 / 4.77 / 4.95",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "CounterFeit v25.safetensors [48a8ab5f09]",
+    "User",
+    ""
+  ],
+  [
     2250,
     "2023-04-07T06:00:37.338Z",
     "15.9 / 24.59 / 35.79",
