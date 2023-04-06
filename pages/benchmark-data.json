@@ -1,5 +1,31 @@
 [
   [
+    2221,
+    "2023-04-06T16:41:12.709Z",
+    "error / error / error",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 full half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1650 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 4GB",
+    "Doggettx lowvram",
+    "v1-5-pruned-ema.ckpt [cc6cb27103]",
+    "石沐",
+    ""
+  ],
+  [
+    2220,
+    "2023-04-04T11:45:44.184Z",
+    "3.66 / 3.92 / 3.87",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3050 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 4GB",
+    "xformers none",
+    "画风\\2DN插图.ckpt [19b509d939]",
+    "于松辰",
+    ""
+  ],
+  [
     2219,
     "2023-04-06T14:16:42.884Z",
     "11.55 / 17.41 / 20.58",
