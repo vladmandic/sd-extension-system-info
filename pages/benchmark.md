@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-06T09:13:22.343Z
+  ## Updated: 2023-04-06T11:11:13.565Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2221|2023-04-06T16:41:12.709Z|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 full half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx lowvram|v1-5-pruned-ema.ckpt [cc6cb27103]|石沐||
+  |2222|2023-04-06T18:06:36.730Z|12.21 / 9.71 / 10.89|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 22GB|xformers none|全年龄\动漫\平面设计动漫风 LineCake_LineCake.safetensors [2ad6bf29f0]|ziete||
+|2221|2023-04-06T16:41:12.709Z|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 full half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx lowvram|v1-5-pruned-ema.ckpt [cc6cb27103]|石沐||
 |2220|2023-04-04T11:45:44.184Z|3.66 / 3.92 / 3.87|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3050 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 4GB|xformers none|画风\2DN插图.ckpt [19b509d939]|于松辰||
 |2219|2023-04-06T14:16:42.884Z|11.55 / 17.41 / 20.58|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/xiaolxl_pub/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-100-generic python:3.10.6|torch:1.12.1+cu116 autocast half xformers:0.0.15.dev+47ab8b8.d20221223 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.6 cudnn:8302 24GB|xformers none|Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]|root||
 |2218|2023-04-06T15:18:35.847Z|4.93 / 5.56 / 5.87|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:6.1.0-0.deb11.5-amd64 python:3.9.2|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A2000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 5GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|root||

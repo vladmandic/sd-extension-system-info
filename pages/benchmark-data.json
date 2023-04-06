@@ -1,5 +1,18 @@
 [
   [
+    2222,
+    "2023-04-06T18:06:36.730Z",
+    "12.21 / 9.71 / 10.89",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 22GB",
+    "xformers none",
+    "全年龄\\动漫\\平面设计动漫风 LineCake_LineCake.safetensors [2ad6bf29f0]",
+    "ziete",
+    ""
+  ],
+  [
     2221,
     "2023-04-06T16:41:12.709Z",
     "error / error / error",

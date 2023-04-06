@@ -1,5 +1,5 @@
 {
-  "max_id": "1580553225369726983",
+  "max_id": "1580576640235393025",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32242,6 +32242,13 @@
       "message": "石沐 2023-04-06 16:41:12.709292|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 full half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1650 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 4GB|Doggettx lowvram|v1-5-pruned-ema.ckpt [cc6cb27103]|石沐||ec296d|02260d ",
       "generated_at": "2023-04-06T12:41:16-04:00",
       "source_id": 13785709305
+    },
+    {
+      "id": "1580576640235393025",
+      "program": "SDBENCHMARK",
+      "message": "ziete 2023-04-06 18:06:36.730464|12.21 / 9.71 / 10.89|updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 22GB|xformers none|全年龄\\动漫\\平面设计动漫风 LineCake_LineCake.safetensors [2ad6bf29f0]|ziete||8d7346|1984c8 ",
+      "generated_at": "2023-04-06T14:14:18-04:00",
+      "source_id": 13785775998
     }
   ]
 }
