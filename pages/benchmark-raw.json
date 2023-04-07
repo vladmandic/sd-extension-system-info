@@ -1,5 +1,5 @@
 {
-  "max_id": "1581058604872687632",
+  "max_id": "1581072512597540864",
   "events": [
     {
       "id": "1564370541899603981",
@@ -33446,6 +33446,13 @@
       "message": "robonxt 2023-04-07 11:07:40.711998|0.66|updated:2023-03-29 hash:ae337fa3 url:https://github.com/lshqqytiger/stable-diffusion-webui-directml/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cpu autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI medvram|anything-v4.5-pruned.safetensors [6e430eb514]|robonxt||f8c9d2|4cbbf8 ",
       "generated_at": "2023-04-07T07:09:29-04:00",
       "source_id": 13787181288
+    },
+    {
+      "id": "1581072512597540864",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-07 19:00:05.531719|5.8 / 5.83 / 5.98 / 5.9 / 5.9|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.10.147+ python:3.9.16|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:Tesla T4 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 15GB|xformers none|Deliberate v2.safetensors [9aba26abdf]|root||3e3da4|975e33 ",
+      "generated_at": "2023-04-07T15:04:44-04:00",
+      "source_id": 13787222138
     }
   ]
 }
