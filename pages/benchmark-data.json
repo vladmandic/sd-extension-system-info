@@ -1,5 +1,18 @@
 [
   [
+    2270,
+    "2023-04-07T14:10:46.872Z",
+    "8.78 / 9.94 / 10.91",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/v2.1",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "Locs_China_Landscapes_v2\\locsChinaLandscapes_locsChinaLandscapes.safetensors [655a51f6d8]",
+    "Sagara",
+    ""
+  ],
+  [
     2269,
     "2023-04-07T04:59:31.017Z",
     "16.56 / 20.52 / 22.19",

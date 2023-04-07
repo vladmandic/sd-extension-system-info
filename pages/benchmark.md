@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-07T05:12:58.447Z
+  ## Updated: 2023-04-07T06:17:52.015Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2269|2023-04-07T04:59:31.017Z|16.56 / 20.52 / 22.19|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|vintedoisDiffusionV0_v01.ckpt [fe2cf8a20b]|kerry||
+  |2270|2023-04-07T14:10:46.872Z|8.78 / 9.94 / 10.91|updated:2023-03-14 hash:a9fed7c3 url:https://ghproxy.com/https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/v2.1|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|Locs_China_Landscapes_v2\locsChinaLandscapes_locsChinaLandscapes.safetensors [655a51f6d8]|Sagara||
+|2269|2023-04-07T04:59:31.017Z|16.56 / 20.52 / 22.19|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|vintedoisDiffusionV0_v01.ckpt [fe2cf8a20b]|kerry||
 |2268|2023-04-07T04:56:29.299Z|16.5 / 20.25 / 22.27|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|kerry||
 |2267|2023-04-07T04:25:34.174Z|5.68 / 6.27 / 6.46|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.13|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6600 XT (1) hip:5.4.22803-474e8620 8GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|root||
 |2266|2023-04-07T04:19:29.593Z|5.72 / 6.26 / 6.52|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.13|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6600 XT (1) hip:5.4.22803-474e8620 8GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|root||
