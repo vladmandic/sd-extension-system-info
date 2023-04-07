@@ -1,5 +1,5 @@
 {
-  "max_id": "1580996516397625354",
+  "max_id": "1581027160615993402",
   "events": [
     {
       "id": "1564370541899603981",
@@ -33201,6 +33201,27 @@
       "message": "jjw76 2023-04-07 23:01:49.193663|26.42 / 34.55 / 41.26 / 41.04 / 38.63|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.9|torch:2.1.0.dev20230403+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp none|1mnn\\cetusMix_whalefall.safetensors [ec9c3259dc]|jjw76||7c2ab1|bf517b ",
       "generated_at": "2023-04-07T19:02:44-04:00",
       "source_id": 13776198292
+    },
+    {
+      "id": "1581026026530725901",
+      "program": "SDBENCHMARK",
+      "message": "Andrey 2023-04-07 18:57:49.574168|1.51 / 1.7 / 1.89|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|Deliberate.safetensors [9aba26abdf]|Andrey||86936b|ceab1e ",
+      "generated_at": "2023-04-07T14:59:59-04:00",
+      "source_id": 13787080007
+    },
+    {
+      "id": "1581026785167073288",
+      "program": "SDBENCHMARK",
+      "message": "Andrey 2023-04-07 18:57:49.574168|1.51 / 1.7 / 1.89|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 full nohalf xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1660 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers medvram|Deliberate.safetensors [9aba26abdf]|Andrey||86936b|ceab1e ",
+      "generated_at": "2023-04-07T15:03:00-04:00",
+      "source_id": 13787080007
+    },
+    {
+      "id": "1581027160615993402",
+      "program": "SDBENCHMARK",
+      "message": "Nick 2023-04-07 19:04:11.765400|13.41 / 14.93 / 16.68|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.11.2|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.4|device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|Nick||a6aab5|d42f51 ",
+      "generated_at": "2023-04-07T15:04:31-04:00",
+      "source_id": 13787083876
     }
   ]
 }
