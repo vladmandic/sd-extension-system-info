@@ -1,5 +1,5 @@
 {
-  "max_id": "1580813521011269635",
+  "max_id": "1580846337786826797",
   "events": [
     {
       "id": "1564370541899603981",
@@ -32725,6 +32725,48 @@
       "message": "kerry 2023-04-07 01:54:51.956451|16.76 / 20.48 / 22.3 / 23.62 / 24.56|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|kerry||aa5945|b0d512 ",
       "generated_at": "2023-04-06T21:55:36-04:00",
       "source_id": 13786498708
+    },
+    {
+      "id": "1580838178171052035",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 11:32:41.277291|6.83 / 7.43 / 7.44|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast nohalf xformers:0.0.18 accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||331781|c987cd ",
+      "generated_at": "2023-04-07T07:33:34-04:00",
+      "source_id": 13786562279
+    },
+    {
+      "id": "1580839859067740164",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 11:35:21.696922|7.11 / 7.71 / 7.68 / 8.96 / 9.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast nohalf xformers:0.0.18 accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||331781|6818b2 ",
+      "generated_at": "2023-04-07T07:40:15-04:00",
+      "source_id": 13786562279
+    },
+    {
+      "id": "1580846337786826755",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 11:35:21.696922|7.11 / 7.71 / 7.68 / 8.96 / 9.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast nohalf xformers:0.0.18 accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||331781|6818b2 ",
+      "generated_at": "2023-04-07T08:06:00-04:00",
+      "source_id": 13786562279
+    },
+    {
+      "id": "1580846337786826769",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 11:53:03.005233|15.37 / 19.72 / 22.1 / 23.1 / 24.0|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||63e983|6bf0d1 ",
+      "generated_at": "2023-04-07T08:06:00-04:00",
+      "source_id": 13786562279
+    },
+    {
+      "id": "1580846337786826786",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 11:58:46.705290|12.01 / 16.03 / 18.12 / 18.92 / 19.39|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|Doggettx none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||d3b0db|121893 ",
+      "generated_at": "2023-04-07T08:06:00-04:00",
+      "source_id": 13786562279
+    },
+    {
+      "id": "1580846337786826797",
+      "program": "SDBENCHMARK",
+      "message": "sdw 2023-04-07 12:03:09.061278|16.4 / 19.25 / 21.88 / 23.03 / 23.86|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.26.1|device:Tesla V100S-PCIE-32GB (1) (sm_90) (7, 0) cuda:11.8 cudnn:8801 32GB|sdp none|anything-v4.5-pruned.safetensors [6e430eb514]|sdw||019ada|7f3505 ",
+      "generated_at": "2023-04-07T08:06:00-04:00",
+      "source_id": 13786562279
     }
   ]
 }
