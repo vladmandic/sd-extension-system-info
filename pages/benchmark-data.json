@@ -1,5 +1,44 @@
 [
   [
+    2380,
+    "2023-04-08T21:09:01.126Z",
+    "1.69 / 2.13 / 2.35",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 45 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "admin",
+    ""
+  ],
+  [
+    2379,
+    "2023-03-18T15:06:21.555Z",
+    "16.35 / 20.5 / 22.58",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 12GB",
+    "xformers none",
+    "stylizedRPGGameIcons_v4SD21.ckpt [ed3b818f9e]",
+    "micry",
+    ""
+  ],
+  [
+    2378,
+    "2023-03-18T14:38:01.363Z",
+    "8.6 / 10.75 / 12.95",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "stylizedRPGGameIcons_v4SD21.ckpt [ed3b818f9e]",
+    "micry",
+    ""
+  ],
+  [
     2377,
     "2023-04-08T20:37:52.342Z",
     "24.03 / 39.73 / 45.06 / 44.38 / 43.68",
