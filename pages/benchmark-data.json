@@ -1,5 +1,31 @@
 [
   [
+    2394,
+    "2023-04-08T12:06:04.577Z",
+    "10.4 / 13.03 / 14.26",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22000-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "chilloutmix_Ni.safetensors [7234b76e42]",
+    "intel00000_test",
+    ""
+  ],
+  [
+    2393,
+    "2023-04-08T16:28:24.388Z",
+    "6.93 / 8.06 / 8.73 / 9.15 / 9.38",
+    "updated:2023-02-13 hash:3715ece url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.ckpt [cc6cb27103]",
+    "root",
+    ""
+  ],
+  [
     2392,
     "2023-04-08T23:58:11.288Z",
     "18.44 / 28.5 / 39.28",
