@@ -1,5 +1,31 @@
 [
   [
+    2406,
+    "2023-04-08T19:38:22.561Z",
+    "6.88 / 7.81 / 8.36 / 8.57 / 8.83",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-53-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "ubuntu",
+    ""
+  ],
+  [
+    2405,
+    "2023-04-08T19:32:15.786Z",
+    "6.87 / 7.75 / 8.04",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-53-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "deliberate_v2.safetensors [9aba26abdf]",
+    "ubuntu",
+    ""
+  ],
+  [
     2404,
     "2023-04-09T02:46:04.594Z",
     "21.02 / 25.02 / 26.1",
