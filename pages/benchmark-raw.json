@@ -1,5 +1,5 @@
 {
-  "max_id": "1581411011544666113",
+  "max_id": "1581430266759659521",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34209,6 +34209,20 @@
       "message": "FD 2023-04-09 01:29:33.481244|29.31 / 37.23 / 42.95|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|v2-1_768-ema-pruned.ckpt [ad2a33c361]|FD||fc74ad|18bbf1 ",
       "generated_at": "2023-04-08T21:29:46-04:00",
       "source_id": 13788084361
+    },
+    {
+      "id": "1581429169856897031",
+      "program": "SDBENCHMARK",
+      "message": "nyanpasu 2023-04-09 02:42:57.937237|8.74 / 10.58 / 12.72|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers none|AOM3_orangemixs.safetensors [d124fc18f0]|nyanpasu||e8983b|7b34ed ",
+      "generated_at": "2023-04-08T22:44:45-04:00",
+      "source_id": 13788131760
+    },
+    {
+      "id": "1581430266759659521",
+      "program": "SDBENCHMARK",
+      "message": "Terry 2023-04-09 02:46:04.594726|21.02 / 25.02 / 26.1|updated:2023-03-29 hash:66d073f0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Terry||a80ba9|fbb6f8 ",
+      "generated_at": "2023-04-08T22:46:20-04:00",
+      "source_id": 13788134450
     }
   ]
 }
