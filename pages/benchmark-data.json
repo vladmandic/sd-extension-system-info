@@ -1,5 +1,57 @@
 [
   [
+    2447,
+    "2023-04-09T13:40:32.948Z",
+    "13.57 / 15.9 / 17.35 / 18.39 / 19.26",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "SD\\v1-5-pruned.ckpt [e1441589a6]",
+    "JKJ",
+    ""
+  ],
+  [
+    2446,
+    "2023-04-09T13:32:11.507Z",
+    "12.18 / 16.0 / 17.22",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "SD\\sd-v1-4.ckpt [fe4efff1e1]",
+    "JKJ",
+    ""
+  ],
+  [
+    2445,
+    "2023-04-10T01:39:21.620Z",
+    "15.45 / 16.96 / 18.47",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 Laptop GPU (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 12GB",
+    "xformers none",
+    "ht\\chilloutmixNiPruned.Tw1O.safetensors [fc2511737a]",
+    "Nonomoo",
+    ""
+  ],
+  [
+    2444,
+    "2023-04-10T00:58:35.953Z",
+    "15.37 / 16.88 / 18.32",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "Anything-v5.0-PRT-RE.safetensors [7f96a1a9ca]",
+    "Admin",
+    ""
+  ],
+  [
     2443,
     "2023-04-10T01:04:51.954Z",
     "17.1 / 18.65 / 20.65",
