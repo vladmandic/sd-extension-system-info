@@ -1,5 +1,5 @@
 {
-  "max_id": "1581749440589508612",
+  "max_id": "1581767638504353795",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34636,6 +34636,20 @@
       "message": "task(9dhluytqosagpv9) 2023-03-05 20:44:32.911476|2.31 / 2.99 / 3.47||arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.19.2|device:Tesla P40 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 24GB|Doggettx none|Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]|xixu||8cb304|f2847b ",
       "generated_at": "2023-04-09T19:54:39-04:00",
       "source_id": 13788934475
+    },
+    {
+      "id": "1581764726814322692",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-03-25 11:05:30.939699|13.03 / 15.45 / 17.54|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB|xformers none|ht\\AOM3A1B_orangemixs.safetensors [5493a0ec49]|Admin||9a96f1|8cf78d ",
+      "generated_at": "2023-04-09T20:55:18-04:00",
+      "source_id": 13788981586
+    },
+    {
+      "id": "1581767638504353795",
+      "program": "SDBENCHMARK",
+      "message": "Enlic 2023-04-10 01:04:51.954585|17.1 / 18.65 / 20.65|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|Anything-V3.0.ckpt [8712e20a5d]|Enlic||2c275d|c67360 ",
+      "generated_at": "2023-04-09T21:06:54-04:00",
+      "source_id": 13788989629
     }
   ]
 }
