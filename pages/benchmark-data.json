@@ -1,5 +1,31 @@
 [
   [
+    2426,
+    "2023-04-09T15:11:44.711Z",
+    "12.27 / 16.61 / 17.97 / 19.14 / 19.69",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8",
+    "torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "unicornmixesMix3_unicornmixesMix31.safetensors [08de6f5a27]",
+    "woori-house",
+    ""
+  ],
+  [
+    2425,
+    "2023-04-09T08:15:02.356Z",
+    "5.52 / 8.6 / 10.36 / 13.21 / 13.67",
+    "updated:2023-03-23 hash:a9eef1fb url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 60 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers medvram",
+    "AOM3.safetensors [d124fc18f0]",
+    "nanodesu",
+    ""
+  ],
+  [
     2424,
     "2023-04-09T07:58:32.622Z",
     "5.55 / 8.72 / 11.63 / 13.26 / 11.76",
