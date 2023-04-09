@@ -1,5 +1,44 @@
 [
   [
+    2441,
+    "2023-03-05T20:44:32.911Z",
+    "2.31 / 2.99 / 3.47",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.19.2",
+    "device:Tesla P40 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 24GB",
+    "Doggettx none",
+    "Anything-V3.0-pruned-fp16.ckpt [812cd9f9d9]",
+    "xixu",
+    ""
+  ],
+  [
+    2440,
+    "2023-04-10T00:31:37.722Z",
+    "2.07 / 1.66 / 1.67",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.1.0 python:3.10.10",
+    "torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    " 0GB",
+    "InvokeAI none",
+    "Sweet-mix v1.3.safetensors [4c4d7ab0a8]",
+    "mahoumatic",
+    ""
+  ],
+  [
+    2439,
+    "2023-04-09T23:09:36.271Z",
+    "1.06 / 1.72 / 2.56",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 6GB",
+    "xformers medvram",
+    "anything-v4.5-pruned.safetensors [6e430eb514]",
+    "DELL",
+    ""
+  ],
+  [
     2438,
     "2023-04-09T23:06:47.583Z",
     "22.27 / 34.15 / 39.16",
