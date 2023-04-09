@@ -1,5 +1,5 @@
 {
-  "max_id": "1581444767382941698",
+  "max_id": "1581538129914023937",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34244,6 +34244,34 @@
       "message": "ubuntu 2023-04-08 19:38:22.561315|6.88 / 7.81 / 8.36 / 8.57 / 8.83|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-53-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|ubuntu||2ce51f|98899c ",
       "generated_at": "2023-04-08T15:43:56-04:00",
       "source_id": 13788165584
+    },
+    {
+      "id": "1581531902446329867",
+      "program": "SDBENCHMARK",
+      "message": "ShawS 2023-04-09 09:27:44.393819|7.68 / 5.82 / 6.7|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 SUPER (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|ShawS||742c2b|c88dd3 ",
+      "generated_at": "2023-04-09T05:30:11-04:00",
+      "source_id": 13788372191
+    },
+    {
+      "id": "1581535765127675906",
+      "program": "SDBENCHMARK",
+      "message": "Hydragee 2023-04-09 04:45:11.431374|9.74 / 11.42 / 12.39|updated:2023-03-28 hash:3856ada5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|GOOD-COCOA-REV-ANYVAE.safetensors [5838d15d6c]|Hydragee||158142|f11a8b ",
+      "generated_at": "2023-04-09T00:45:32-04:00",
+      "source_id": 13788380401
+    },
+    {
+      "id": "1581536325826433026",
+      "program": "SDBENCHMARK",
+      "message": "kerry 2023-04-09 01:47:25.491217|16.59 / 21.08 / 21.89|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-060209-generic python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|512-base-ema.safetensors [ab800444cd]|kerry||aa5945|e31cd8 ",
+      "generated_at": "2023-04-08T21:47:46-04:00",
+      "source_id": 13786498708
+    },
+    {
+      "id": "1581538129914023937",
+      "program": "SDBENCHMARK",
+      "message": "kestanebalı 2023-04-09 04:50:40.190311|5.44 / 4.54 / 4.93 / 5.49 / 2.45|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 2060 (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 6GB|xformers none|dreamshaper_4BakedVae.safetensors [7f16bbcd80]|kestanebalı||630a8f|ef74e7 ",
+      "generated_at": "2023-04-09T00:54:15-04:00",
+      "source_id": 13788385333
     }
   ]
 }
