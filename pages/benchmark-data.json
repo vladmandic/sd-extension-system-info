@@ -1,5 +1,18 @@
 [
   [
+    2435,
+    "2023-04-09T20:34:43.660Z",
+    "6.22 / 11.88 / 21.59",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB",
+    "xformers none",
+    "perfectWorld_perfectWorldBakedVAE.safetensors [ca883fecc7]",
+    "Administrator",
+    ""
+  ],
+  [
     2434,
     "2023-04-09T09:41:11.837Z",
     "14.18 / 15.62 / 16.08 / 16.23 / 16.05",

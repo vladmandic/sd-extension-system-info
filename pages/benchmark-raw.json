@@ -1,5 +1,5 @@
 {
-  "max_id": "1581655756082700289",
+  "max_id": "1581700216942419976",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34461,6 +34461,13 @@
       "message": "tilde 2023-04-09 09:41:11.837559|14.18 / 15.62 / 16.08 / 16.23 / 16.05|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:6.3.0-060300rc5-generic python:3.8.16|torch:2.1.0a0+git55daa83 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Radeon RX 7900 XTX (3) hip:5.5.30201-d32bf634 24GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|tilde||f55855|43d814 ",
       "generated_at": "2023-04-09T05:42:20-04:00",
       "source_id": 13788676905
+    },
+    {
+      "id": "1581700216942419976",
+      "program": "SDBENCHMARK",
+      "message": "Administrator 2023-04-09 20:34:43.660322|6.22 / 11.88 / 21.59|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 58 Stepping 9, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 24GB|xformers none|perfectWorld_perfectWorldBakedVAE.safetensors [ca883fecc7]|Administrator||45ee0a|77edef ",
+      "generated_at": "2023-04-09T16:38:59-04:00",
+      "source_id": 13788798076
     }
   ]
 }
