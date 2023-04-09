@@ -1,5 +1,18 @@
 [
   [
+    2434,
+    "2023-04-09T09:41:11.837Z",
+    "14.18 / 15.62 / 16.08 / 16.23 / 16.05",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.3.0-060300rc5-generic python:3.8.16",
+    "torch:2.1.0a0+git55daa83 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Radeon RX 7900 XTX (3) hip:5.5.30201-d32bf634 24GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "tilde",
+    ""
+  ],
+  [
     2433,
     "2023-04-09T15:52:55.046Z",
     "9.79 / 10.32 / 10.99",
