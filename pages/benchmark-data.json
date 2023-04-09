@@ -1,5 +1,31 @@
 [
   [
+    2438,
+    "2023-04-09T23:06:47.583Z",
+    "22.27 / 34.15 / 39.16",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.27.2",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 22GB",
+    "sdp-no-mem none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "Administrator",
+    ""
+  ],
+  [
+    2437,
+    "2023-04-09T16:57:07.725Z",
+    "30.59 / 36.82 / 38.72",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.1.0.dev20230409+cu118 autocast half xformers:0.0.18+bde8248.d20230409 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "V08_V08.safetensors [32c4949218]",
+    "Seafan",
+    ""
+  ],
+  [
     2436,
     "2023-04-09T15:44:37.100Z",
     "1.86 / 2.66 / 2.96 / 3.36 / 3.38",
