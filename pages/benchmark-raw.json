@@ -1,5 +1,5 @@
 {
-  "max_id": "1582113935430172698",
+  "max_id": "1582174610517053480",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35406,6 +35406,20 @@
       "message": "nakor 2023-04-11 01:01:12.651906|27.71 / 32.77 / 34.08|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp-no-mem none|mixProV3_v3.safetensors [b6928134bb]|nakor||a014c9|cd3716 ",
       "generated_at": "2023-04-10T21:02:58-04:00",
       "source_id": 13789878614
+    },
+    {
+      "id": "1582168110574784515",
+      "program": "SDBENCHMARK",
+      "message": "marve 2023-04-10 15:27:04.407862|7.85 / 9.28 / 10.34|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.1|error:cuDNN version incompatibility: PyTorch was compiled against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN. 8GB|xformers none|Hdalcefobm9v2.safetensors [e82c4c34bf]|marve||e67088|abdf74 ",
+      "generated_at": "2023-04-10T11:38:13-04:00",
+      "source_id": 13790054947
+    },
+    {
+      "id": "1582174610517053480",
+      "program": "SDBENCHMARK",
+      "message": "Scott 2023-04-10 16:03:12.350305|3.89 / 6.71 / 9.0|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers medvram|m4rv3lsDUNGEONSV10_mD10.safetensors [700c7ac788]|Scott||781291|d009a0 ",
+      "generated_at": "2023-04-10T12:04:04-04:00",
+      "source_id": 13790073500
     }
   ]
 }

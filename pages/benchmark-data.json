@@ -1,5 +1,31 @@
 [
   [
+    2500,
+    "2023-04-10T16:03:12.350Z",
+    "3.89 / 6.71 / 9.0",
+    "updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "xformers medvram",
+    "m4rv3lsDUNGEONSV10_mD10.safetensors [700c7ac788]",
+    "Scott",
+    ""
+  ],
+  [
+    2499,
+    "2023-04-10T15:27:04.407Z",
+    "7.85 / 9.28 / 10.34",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.1",
+    "error:cuDNN version incompatibility: PyTorch was compiled against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN. 8GB",
+    "xformers none",
+    "Hdalcefobm9v2.safetensors [e82c4c34bf]",
+    "marve",
+    ""
+  ],
+  [
     2498,
     "2023-04-11T01:01:12.651Z",
     "27.71 / 32.77 / 34.08",
