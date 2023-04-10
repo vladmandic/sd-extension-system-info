@@ -1,5 +1,5 @@
 {
-  "max_id": "1581903275257675781",
+  "max_id": "1581959350874984450",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34951,6 +34951,34 @@
       "message": "JKJ 2023-04-09 19:29:20.358438|13.04 / 14.9 / 15.86|updated:2023-03-14 hash:6a04a7f2 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|Doggettx none|Merges\\0.7(0.5(ExpMix_Line_V2) + 0.5(icomix_V03Pruned)) + 0.3(dalcefov4).ckpt [8c9c2c704e]|JKJ||e70ac1|5c9fc1 ",
       "generated_at": "2023-04-09T18:05:54-04:00",
       "source_id": 13789012048
+    },
+    {
+      "id": "1581952184466198532",
+      "program": "SDBENCHMARK",
+      "message": "angry 2023-04-03 14:26:05.225922|6.53 / 7.36 / 7.98|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned.safetensors [1a189f0be6]|angry||73baf2|b328aa ",
+      "generated_at": "2023-04-09T19:20:15-04:00",
+      "source_id": 13783068575
+    },
+    {
+      "id": "1581952184491364356",
+      "program": "SDBENCHMARK",
+      "message": "angry 2023-04-09 23:19:20.354776|4.39 / 5.79 / 6.99|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers medvram|neurocontrastdream_v15.safetensors [79e02bb2cc]|angry||d7c59c|44a9ec ",
+      "generated_at": "2023-04-09T19:20:15-04:00",
+      "source_id": 13783068575
+    },
+    {
+      "id": "1581959340359864330",
+      "program": "SDBENCHMARK",
+      "message": "supachaipromwongnan 2023-04-10 12:30:17.335499|0.16 / 0.13 / 0.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|supachaipromwongnan||037053|72c352 ",
+      "generated_at": "2023-04-10T08:48:40-04:00",
+      "source_id": 13789441066
+    },
+    {
+      "id": "1581959350874984450",
+      "program": "SDBENCHMARK",
+      "message": "supachaipromwongnan 2023-04-10 12:30:17.335499|0.16 / 0.13 / 0.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|supachaipromwongnan||037053|72c352 ",
+      "generated_at": "2023-04-10T08:48:42-04:00",
+      "source_id": 13789441066
     }
   ]
 }
