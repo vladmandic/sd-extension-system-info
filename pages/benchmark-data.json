@@ -1,5 +1,18 @@
 [
   [
+    2486,
+    "2023-04-10T20:51:21.562Z",
+    "25.45 / 31.25 / 38.76",
+    "updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "3moonAnimeOrigin_animeV2OriginM1.ckpt [98ca2555e6]",
+    "QSLA-Owen",
+    ""
+  ],
+  [
     2485,
     "2023-04-10T19:46:31.724Z",
     "17.15 / 19.14 / 22.07 / 23.12 / 23.76",
