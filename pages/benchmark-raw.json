@@ -1,5 +1,5 @@
 {
-  "max_id": "1581959350874984450",
+  "max_id": "1581992210273062917",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34979,6 +34979,20 @@
       "message": "supachaipromwongnan 2023-04-10 12:30:17.335499|0.16 / 0.13 / 0.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|supachaipromwongnan||037053|72c352 ",
       "generated_at": "2023-04-10T08:48:42-04:00",
       "source_id": 13789441066
+    },
+    {
+      "id": "1581992210264666117",
+      "program": "SDBENCHMARK",
+      "message": "sunny 2023-04-07 09:55:17.828389|13.55 / 15.64 / 17.4|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 22GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|ubuntu||2c64c2|1d9505 ",
+      "generated_at": "2023-04-10T03:59:17-04:00",
+      "source_id": 13789523290
+    },
+    {
+      "id": "1581992210273062917",
+      "program": "SDBENCHMARK",
+      "message": "sunny 2023-04-09 04:36:34.764755|13.52 / 15.15 / 16.76|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 22GB|xformers none|shin/shin_1500.safetensors [9b461a06b2]|ubuntu||f87778|091bd5 ",
+      "generated_at": "2023-04-10T03:59:17-04:00",
+      "source_id": 13789523290
     }
   ]
 }
