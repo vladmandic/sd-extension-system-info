@@ -1,5 +1,5 @@
 {
-  "max_id": "1582174610517053480",
+  "max_id": "1582190705546280973",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35420,6 +35420,34 @@
       "message": "Scott 2023-04-10 16:03:12.350305|3.89 / 6.71 / 9.0|updated:2023-03-24 hash:a9eab236 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:Intel64 Family 6 Model 167 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers medvram|m4rv3lsDUNGEONSV10_mD10.safetensors [700c7ac788]|Scott||781291|d009a0 ",
       "generated_at": "2023-04-10T12:04:04-04:00",
       "source_id": 13790073500
+    },
+    {
+      "id": "1582186747993964553",
+      "program": "SDBENCHMARK",
+      "message": "marve 2023-04-10 15:27:04.407862|7.85 / 9.28 / 10.34|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.1|error:cuDNN version incompatibility: PyTorch was compiled against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN. 8GB|xformers none|Hdalcefobm9v2.safetensors [e82c4c34bf]|marve||e67088|abdf74 ",
+      "generated_at": "2023-04-10T12:52:17-04:00",
+      "source_id": 13790054947
+    },
+    {
+      "id": "1582186747993964554",
+      "program": "SDBENCHMARK",
+      "message": "marve 2023-04-10 15:50:09.161472|7.91 / 9.05 / 10.0|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8600 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|marve||9dba19|c66116 ",
+      "generated_at": "2023-04-10T12:52:17-04:00",
+      "source_id": 13790054947
+    },
+    {
+      "id": "1582186747998158856",
+      "program": "SDBENCHMARK",
+      "message": "marve 2023-04-10 16:51:58.669590|8.39 / 9.48 / 10.32|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|marve||fce612|c44ed9 ",
+      "generated_at": "2023-04-10T12:52:17-04:00",
+      "source_id": 13790054947
+    },
+    {
+      "id": "1582190705546280973",
+      "program": "SDBENCHMARK",
+      "message": "sbroo 2023-04-10 22:06:52.081780|1.79 / 2.32 / 2.52|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1070 Ti (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|sbroo||9671a5|7cd343 ",
+      "generated_at": "2023-04-10T18:08:02-04:00",
+      "source_id": 13790121718
     }
   ]
 }
