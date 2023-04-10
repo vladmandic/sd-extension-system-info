@@ -1,5 +1,5 @@
 {
-  "max_id": "1582065750200475660",
+  "max_id": "1582076887797256192",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35168,6 +35168,20 @@
       "message": "QSLA-Owen 2023-04-10 20:51:21.562238|25.45 / 31.25 / 38.76|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|3moonAnimeOrigin_animeV2OriginM1.ckpt [98ca2555e6]|QSLA-Owen||818aef|e4bcd5 ",
       "generated_at": "2023-04-10T16:51:30-04:00",
       "source_id": 13789721689
+    },
+    {
+      "id": "1582074744482742277",
+      "program": "SDBENCHMARK",
+      "message": "physis 2023-04-10 14:25:58.250294|13.0 / 15.01 / 16.82|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|0.5(0.5(bismuth_mix) + 0.5(dark_erotic)) + 0.5(0.5(consistentFactor) + 0.5(revAnimated)).ckpt [c60e6016dc]|physis||7df776|0f7ae3 ",
+      "generated_at": "2023-04-10T10:27:15-04:00",
+      "source_id": 13789749967
+    },
+    {
+      "id": "1582076887797256192",
+      "program": "SDBENCHMARK",
+      "message": "neggles 2023-04-10 13:34:55.014084|2.85 / 2.97 / 3.18|updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu: system:Linux release:5.15.0-60-generic python:3.10.9|torch:2.0.0+cu118 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla P40 (1) (sm_90) (6, 1) cuda:11.8 cudnn:8700 24GB|sdp none|AnythingV4.5-fp32.ckpt [1d10a19f06]|neggles||3f14a7|f47ebb ",
+      "generated_at": "2023-04-10T09:35:46-04:00",
+      "source_id": 13789757697
     }
   ]
 }
