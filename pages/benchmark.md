@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-10T08:17:17.221Z
+  ## Updated: 2023-04-10T09:13:24.173Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2473|2023-04-09T04:36:34.764Z|13.52 / 15.15 / 16.76|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 22GB|xformers none|shin/shin_1500.safetensors [9b461a06b2]|ubuntu||
+  |2474|2023-04-10T16:56:15.830Z|16.27 / 17.53 / 20.27 / 21.41 / 21.82|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|mixProV4_v3.safetensors [b6928134bb]|WiiGe||
+|2473|2023-04-09T04:36:34.764Z|13.52 / 15.15 / 16.76|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 22GB|xformers none|shin/shin_1500.safetensors [9b461a06b2]|ubuntu||
 |2472|2023-04-07T09:55:17.828Z|13.55 / 15.64 / 17.4|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 22GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|ubuntu||
 |2471|2023-04-10T12:30:17.335Z|0.16 / 0.13 / 0.16|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:arm64 cpu:arm system:Darwin release:22.4.0 python:3.10.10|torch:1.12.1 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|supachaipromwongnan||
 |2470|2023-04-09T23:19:20.354Z|4.39 / 5.79 / 6.99|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers medvram|neurocontrastdream_v15.safetensors [79e02bb2cc]|angry||

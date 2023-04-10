@@ -1,5 +1,5 @@
 {
-  "max_id": "1581992210273062917",
+  "max_id": "1582006783474577413",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34993,6 +34993,13 @@
       "message": "sunny 2023-04-09 04:36:34.764755|13.52 / 15.15 / 16.76|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-1032-oracle python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA A10 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 22GB|xformers none|shin/shin_1500.safetensors [9b461a06b2]|ubuntu||f87778|091bd5 ",
       "generated_at": "2023-04-10T03:59:17-04:00",
       "source_id": 13789523290
+    },
+    {
+      "id": "1582006783474577413",
+      "program": "SDBENCHMARK",
+      "message": "WiiGe 2023-04-10 16:56:15.830991|16.27 / 17.53 / 20.27 / 21.41 / 21.82|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|mixProV4_v3.safetensors [b6928134bb]|WiiGe||2c0f26|6eb508 ",
+      "generated_at": "2023-04-10T12:57:11-04:00",
+      "source_id": 13789559920
     }
   ]
 }
