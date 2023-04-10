@@ -1,5 +1,5 @@
 {
-  "max_id": "1581830849547128836",
+  "max_id": "1581886872152629252",
   "events": [
     {
       "id": "1564370541899603981",
@@ -34741,6 +34741,55 @@
       "message": "Mirkir 2023-04-10 06:16:33.725246|15.68 / 17.72 / 20.96|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.1.0.dev20230409+cu118 autocast half xformers:0.0.18+bde8248.d20230409 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 12GB|xformers none|pastelMixStylizedAnime_pastelMixPrunedFP16.safetensors [d01a68ae76]|Mirkir||58ff18|1d7f6b ",
       "generated_at": "2023-04-10T02:18:07-04:00",
       "source_id": 13789146114
+    },
+    {
+      "id": "1581879854146699265",
+      "program": "SDBENCHMARK",
+      "message": "JKJ 2023-04-09 18:22:27.141726|13.7 / 15.38 / 17.22|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp-no-mem none|Anything\\Anythingv5V3_v5PrtRE.safetensors [7f96a1a9ca]|JKJ||652486|a20a10 ",
+      "generated_at": "2023-04-09T16:32:50-04:00",
+      "source_id": 13789012048
+    },
+    {
+      "id": "1581879854146699266",
+      "program": "SDBENCHMARK",
+      "message": "JKJ 2023-04-09 19:21:04.553673|15.72 / 17.53 / 18.41|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|Merges\\0.5(ExpMix_Line_V2) + 0.5(icomix_V03Pruned).safetensors [3728cc2a61]|JKJ||ea8617|e087b9 ",
+      "generated_at": "2023-04-09T16:32:50-04:00",
+      "source_id": 13789012048
+    },
+    {
+      "id": "1581884492916895744",
+      "program": "SDBENCHMARK",
+      "message": "KevinYe 2023-04-10 08:50:40.652209|20.53 / 27.95 / 35.44|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.7|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|KevinYe||22c2b5|3d688a ",
+      "generated_at": "2023-04-10T04:51:16-04:00",
+      "source_id": 13789267750
+    },
+    {
+      "id": "1581886308710793217",
+      "program": "SDBENCHMARK",
+      "message": "JKJ 2023-04-09 20:40:40.752640|16.62 / 17.9 / 19.18|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp-no-mem none|Merges\\0.5(ExpMix_Line_V2) + 0.5(icomix_V03Pruned).safetensors [3728cc2a61]|JKJ||652486|10d99b ",
+      "generated_at": "2023-04-09T16:58:29-04:00",
+      "source_id": 13789012048
+    },
+    {
+      "id": "1581886308710793218",
+      "program": "SDBENCHMARK",
+      "message": "JKJ 2023-04-09 19:21:04.553673|15.72 / 17.53 / 18.41|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|sdp none|Merges\\0.5(ExpMix_Line_V2) + 0.5(icomix_V03Pruned).safetensors [3728cc2a61]|JKJ||ea8617|e087b9 ",
+      "generated_at": "2023-04-09T16:58:29-04:00",
+      "source_id": 13789012048
+    },
+    {
+      "id": "1581886308710793219",
+      "program": "SDBENCHMARK",
+      "message": "JKJ 2023-04-09 20:47:45.268630|15.08 / 16.73 / 18.05|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19042-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB|xformers none|Merges\\0.5(ExpMix_Line_V2) + 0.5(icomix_V03Pruned).safetensors [3728cc2a61]|JKJ||ae1c92|7dbb28 ",
+      "generated_at": "2023-04-09T16:58:29-04:00",
+      "source_id": 13789012048
+    },
+    {
+      "id": "1581886872152629252",
+      "program": "SDBENCHMARK",
+      "message": "Etern 2023-04-10 09:00:11.477470|15.21 / 16.45 / 20.53|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8800 24GB|xformers none|animelike25D_animelike25DV11Pruned.safetensors [4f24a26d75]|Etern||a08f2a|978dc4 ",
+      "generated_at": "2023-04-10T05:00:41-04:00",
+      "source_id": 13789273239
     }
   ]
 }
