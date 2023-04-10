@@ -1,5 +1,5 @@
 {
-  "max_id": "1582198915384664087",
+  "max_id": "1582212616393240576",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35462,6 +35462,41 @@
       "message": "optex 2023-04-11 04:45:10.354124|16.04 / 28.08 / 39.1|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|realisticVisionV20_v20.safetensors [e6415c4892]|optex||46684d|8a50ff ",
       "generated_at": "2023-04-11T01:40:39-04:00",
       "source_id": 13790142377
+    },
+    {
+      "id": "1582212616384851999",
+      "program": "SDBENCHMARK",
+      "message": "Neko 2023-04-10 23:40:41.669219|5.23 / 6.77 / 9.2|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers medvram|expmixLine_v20_pruned.safetensors [4d651c7638]|Neko||1f088e|7c7909 ",
+      "generated_at": "2023-04-10T20:35:06-04:00",
+      "source_id": 13790180374
+    },
+    {
+      "id": "1582212616389046277",
+      "program": "SDBENCHMARK",
+      "message": "Neko 2023-04-11 00:07:46.262559|9.8 / 10.98 / 12.01|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|expmixLine_v20_pruned.safetensors [4d651c7638]|Neko||d3faf3|02e38b ",
+      "generated_at": "2023-04-10T20:35:06-04:00",
+      "source_id": 13790180374
+    },
+    {
+      "id": "1582212616389046281",
+      "program": "SDBENCHMARK",
+      "message": "Neko 2023-04-11 00:09:37.785413|9.73 / 11.02 / 12.06|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|expmixLine_v20_pruned.safetensors [4d651c7638]|Neko||9a4d6b|fd92cb ",
+      "generated_at": "2023-04-10T20:35:06-04:00",
+      "source_id": 13790180374
+    },
+    {
+      "id": "1582212616389046284",
+      "program": "SDBENCHMARK",
+      "message": "Neko 2023-04-11 00:18:55.413194|9.53 / 10.46 / 11.81|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.17+b6be33a.d20230315 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|expmixLine_v20_pruned.safetensors [4d651c7638]|Neko||c7e28f|b29e10 ",
+      "generated_at": "2023-04-10T20:35:06-04:00",
+      "source_id": 13790180374
+    },
+    {
+      "id": "1582212616393240576",
+      "program": "SDBENCHMARK",
+      "message": "Neko 2023-04-11 00:33:08.483409|11.44 / 12.63 / 14.26 / 14.9 / 15.57|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3070 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|expmixLine_v20_pruned.safetensors [4d651c7638]|Neko||be774f|63bbce ",
+      "generated_at": "2023-04-10T20:35:06-04:00",
+      "source_id": 13790180374
     }
   ]
 }
