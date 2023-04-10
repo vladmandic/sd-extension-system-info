@@ -1,5 +1,57 @@
 [
   [
+    2492,
+    "2023-04-10T23:10:04.887Z",
+    "8.42 / 9.69 / 10.29",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "v1-5-pruned.safetensors [1a189f0be6]",
+    "kevinqq",
+    ""
+  ],
+  [
+    2491,
+    "2023-04-10T23:05:55.028Z",
+    "8.42 / 9.67 / 10.25",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "v1-5-pruned.safetensors [1a189f0be6]",
+    "kevinqq",
+    ""
+  ],
+  [
+    2490,
+    "2023-04-10T10:13:25.771Z",
+    "0.2 / 0.17 / 0.18",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:Quadro T1000 (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 4GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "Kabilan",
+    ""
+  ],
+  [
+    2489,
+    "2023-04-09T16:03:04.354Z",
+    "10.01 / 11.87 / 12.64",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]",
+    "D20",
+    ""
+  ],
+  [
     2488,
     "2023-04-10T13:34:55.014Z",
     "2.85 / 2.97 / 3.18",
