@@ -1,5 +1,57 @@
 [
   [
+    2528,
+    "2023-04-11T11:23:22.900Z",
+    "27.43 / 32.56 / 36.63",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "chilloutmix_NiPrunedFp16Fix.safetensors [59ffe2243a]",
+    "munde",
+    ""
+  ],
+  [
+    2527,
+    "2023-04-11T10:15:48.350Z",
+    "27.45 / 33.27 / 39.9",
+    "updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "revAnimated_v11.safetensors [d725be5d18]",
+    "25747",
+    ""
+  ],
+  [
+    2526,
+    "2023-04-08T11:06:57.690Z",
+    "13.59 / 23.3 / 34.52",
+    "updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "wontonColorbox_v10Fp16.safetensors [e3bdd6c35e]",
+    "LBT",
+    ""
+  ],
+  [
+    2525,
+    "2023-04-11T03:19:22.266Z",
+    "1.45",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1070 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "revAnimated_v12.safetensors [02aecf0c7d]",
+    "Oxx0r",
+    ""
+  ],
+  [
     2524,
     "2023-04-10T20:58:35.256Z",
     "13.48 / 16.95 / 18.39",
