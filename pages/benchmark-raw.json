@@ -1,5 +1,5 @@
 {
-  "max_id": "1582302104209506309",
+  "max_id": "1582323997893373956",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35784,6 +35784,13 @@
       "message": "Du 2023-04-11 12:28:13.884400|1.69 / 2.13 / 2.36|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|xformers none|mixProV4_v4.safetensors [61e23e57ea]|Du||d5f67a|0d116f ",
       "generated_at": "2023-04-11T08:30:40-04:00",
       "source_id": 13788573675
+    },
+    {
+      "id": "1582323997893373956",
+      "program": "SDBENCHMARK",
+      "message": "random_nvidia_a4000 2023-04-10 23:55:16.826164|10.64 / 12.35 / 14.49|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:2.1.0.dev20230408+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 16GB|sdp none|v15fp16.safetensors [8f417cb5a4]|randoma4000||2ccb06|2c0dca ",
+      "generated_at": "2023-04-10T19:57:41-04:00",
+      "source_id": 13790464060
     }
   ]
 }
