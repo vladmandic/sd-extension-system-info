@@ -1,5 +1,5 @@
 {
-  "max_id": "1582298258968068099",
+  "max_id": "1582302104209506309",
   "events": [
     {
       "id": "1564370541899603981",
@@ -35769,6 +35769,20 @@
       "program": "SDBENCHMARK",
       "message": "Du 2023-04-11 12:09:58.812598|1.68 / 2.1 / 2.36|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|xformers none|mixProV4_v4.safetensors [61e23e57ea]|Du||d5f67a|d478a0 ",
       "generated_at": "2023-04-11T08:15:24-04:00",
+      "source_id": 13788573675
+    },
+    {
+      "id": "1582302104205312009",
+      "program": "SDBENCHMARK",
+      "message": "Du 2023-04-10 17:43:04.103735|1.66 / 2.1 / 2.36|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|dalcefov4.safetensors [c7d6b49c1e]|Du||b1c4d9|b7dad8 ",
+      "generated_at": "2023-04-11T08:30:40-04:00",
+      "source_id": 13788573675
+    },
+    {
+      "id": "1582302104209506309",
+      "program": "SDBENCHMARK",
+      "message": "Du 2023-04-11 12:28:13.884400|1.69 / 2.13 / 2.36|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|xformers none|mixProV4_v4.safetensors [61e23e57ea]|Du||d5f67a|0d116f ",
+      "generated_at": "2023-04-11T08:30:40-04:00",
       "source_id": 13788573675
     }
   ]
