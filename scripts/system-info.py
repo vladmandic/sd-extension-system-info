@@ -288,8 +288,6 @@ def get_full_data():
         'extensions': get_extensions(),
         'platform': get_platform(),
         'crossattention': get_crossattention(),
-        'api': shared.cmd_opts.api,
-        'webui': not shared.cmd_opts.nowebui,
     }
     return data
 
@@ -351,7 +349,6 @@ def on_ui_tabs():
                                 with gr.Row():
                                     gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
                                     crossattention = gr.Textbox(data['crossattention'], label = 'Cross-attention')
-                                    gr.Textbox((data['api']), label = 'API')
                             with gr.Column():
                                 gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
                                 gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']))
