@@ -1,5 +1,5 @@
 {
-  "max_id": "1582356834528968762",
+  "max_id": "1582386458545803267",
   "events": [
     {
       "id": "1564370541899603981",
@@ -36001,6 +36001,90 @@
       "message": "Du 2023-04-11 16:04:45.802695|1.7 / 2.14 / 2.38|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|Anythingv5V3_v3RE.ckpt [ddd3b969b7]|Du||0ccc1b|e5e93d ",
       "generated_at": "2023-04-11T12:08:09-04:00",
       "source_id": 13788573675
+    },
+    {
+      "id": "1582374016390455297",
+      "program": "logger",
+      "message": "二号机 SDBENCHMARK: BottleYo 2023-04-11 17:16:05.176018|13.77 / 15.72 / 16.4|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers none|meinamix_meinaV8高精度日漫.safetensors [30953ab0de]|BottleYo||6c21b6|b5a40a ",
+      "generated_at": "2023-04-11T13:16:26-04:00",
+      "source_id": 13790602985
+    },
+    {
+      "id": "1582374016390455298",
+      "program": "logger",
+      "message": "二号机 SDBENCHMARK: BottleYo 2023-04-05 19:51:00.307319|12.69 / 14.1 / 15.42|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 24GB|xformers lowram|final-prune.ckpt [89d59c3dde]|BottleYo||e47ffe|5b23e0 ",
+      "generated_at": "2023-04-11T13:16:26-04:00",
+      "source_id": 13790602985
+    },
+    {
+      "id": "1582379696144957448",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 15:04:29.753177|2.71 / 2.83 / 3.09|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|deliberate_v2.safetensors [9aba26abdf]|Admin||940ae4|2f5fc8 ",
+      "generated_at": "2023-04-11T13:39:00-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582379696144957451",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 16:26:19.986554|2.65 / 2.89 / 3.1|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Admin||bc44ca|a4d8f4 ",
+      "generated_at": "2023-04-11T13:39:01-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582379696144957452",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 16:02:27.233814|2.04 / 2.4 / 3.23|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast nohalf xformers:0.0.16 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Admin||89a8d2|c79b6b ",
+      "generated_at": "2023-04-11T13:39:01-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582379696144957453",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 16:16:57.177421|error / error / error|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Admin||127687|af2e3c ",
+      "generated_at": "2023-04-11T13:39:01-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582379696153346057",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 17:25:53.927748|2.9 / 3.12 / 3.29|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8600 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Admin||dcd3af|943393 ",
+      "generated_at": "2023-04-11T13:39:01-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582379696153346058",
+      "program": "SDBENCHMARK",
+      "message": "Admin 2023-04-11 17:37:46.995852|2.94 / 3.13 / 3.35|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:2.0.0+cu118 autocast nohalf xformers:0.0.17rc482 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 12GB|xformers none|chilloutmix_NiPrunedFp32Fix.safetensors [fc2511737a]|Admin||c39773|b96b48 ",
+      "generated_at": "2023-04-11T13:39:01-04:00",
+      "source_id": 13790618359
+    },
+    {
+      "id": "1582384881449742343",
+      "program": "SDBENCHMARK",
+      "message": "Du 2023-04-11 15:10:09.218564|1.67 / 2.09 / 2.34|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|sdp none|mixProV4_v4.safetensors [61e23e57ea]|Du||b1c4d9|8c2ae6 ",
+      "generated_at": "2023-04-11T13:59:36-04:00",
+      "source_id": 13788573675
+    },
+    {
+      "id": "1582384881453936641",
+      "program": "SDBENCHMARK",
+      "message": "Du 2023-04-11 12:28:13.884400|1.69 / 2.13 / 2.36|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.8 cudnn:8700 8GB|xformers none|mixProV4_v4.safetensors [61e23e57ea]|Du||d5f67a|0d116f ",
+      "generated_at": "2023-04-11T13:59:36-04:00",
+      "source_id": 13788573675
+    },
+    {
+      "id": "1582384881453936642",
+      "program": "SDBENCHMARK",
+      "message": "Du 2023-04-11 16:04:45.802695|1.7 / 2.14 / 2.38|updated:2023-03-29 hash:22bcc7be url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 63 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (compute_37) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|Anythingv5V3_v3RE.ckpt [ddd3b969b7]|Du||0ccc1b|e5e93d ",
+      "generated_at": "2023-04-11T13:59:36-04:00",
+      "source_id": 13788573675
+    },
+    {
+      "id": "1582386458545803267",
+      "program": "SDBENCHMARK",
+      "message": "Asa 2023-04-11 18:05:10.876948|11.3 / 12.65 / 13.59|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|WIN10||e33e3a|0eb788 ",
+      "generated_at": "2023-04-11T14:05:52-04:00",
+      "source_id": 13790637311
     }
   ]
 }
