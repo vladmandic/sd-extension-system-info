@@ -1,5 +1,44 @@
 [
   [
+    2582,
+    "2023-04-11T22:58:24.449Z",
+    "18.48 / 23.38 / 26.6",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 16GB",
+    "xformers none",
+    "realisticVisionV20_v20.safetensors [c0d1994c73]",
+    "BABEL",
+    ""
+  ],
+  [
+    2581,
+    "2023-04-11T22:45:45.904Z",
+    "8.51 / 12.37 / 15.76",
+    "updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 16GB",
+    "xformers none",
+    "realisticVisionV20_v20.safetensors [c0d1994c73]",
+    "BABEL",
+    ""
+  ],
+  [
+    2580,
+    "2023-04-11T22:14:11.538Z",
+    "11.23 / 13.06 / 15.64",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB",
+    "sdp none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "Administrator",
+    ""
+  ],
+  [
     2579,
     "2023-04-11T22:41:48.784Z",
     "22.61 / 32.83 / 34.55 / 34.37 / 34.0",
