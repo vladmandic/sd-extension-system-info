@@ -1,5 +1,44 @@
 [
   [
+    2591,
+    "2023-04-11T20:54:20.833Z",
+    "6.7 / 7.75 / 8.62",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "StableDiffusion\\v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "User",
+    ""
+  ],
+  [
+    2590,
+    "2023-04-11T20:39:31.940Z",
+    "6.7 / 7.68 / 8.61",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "StableDiffusion\\v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "User",
+    ""
+  ],
+  [
+    2589,
+    "2023-04-11T20:13:11.365Z",
+    "6.79 / 7.74 / 8.68",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "xformers none",
+    "Anime\\Abyss Orange Mix 2 [NSFW].safetensors [eaf3e46c61]",
+    "User",
+    ""
+  ],
+  [
     2588,
     "2023-04-11T11:37:49.138Z",
     "14.53 / 20.95 / 39.01",

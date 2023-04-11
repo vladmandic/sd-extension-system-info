@@ -1,5 +1,5 @@
 {
-  "max_id": "1582485801294544948",
+  "max_id": "1582505234582921225",
   "events": [
     {
       "id": "1564370541899603981",
@@ -36386,6 +36386,27 @@
       "message": "edwin 2023-04-11 11:37:49.138600|14.53 / 20.95 / 39.01||arch:AMD64 cpu:AMD64 Family 25 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (3) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|v2-1_768-ema-pruned.safetensors [dcd690123c]|edwin||3143e6|49faee ",
       "generated_at": "2023-04-11T07:40:38-04:00",
       "source_id": 13790965212
+    },
+    {
+      "id": "1582505234582921216",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-04-11 20:13:11.365723|6.79 / 7.74 / 8.68|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|Anime\\Abyss Orange Mix 2 [NSFW].safetensors [eaf3e46c61]|User||79613b|11800c ",
+      "generated_at": "2023-04-11T16:57:51-04:00",
+      "source_id": 13786362269
+    },
+    {
+      "id": "1582505234582921220",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-04-11 20:39:31.940992|6.7 / 7.68 / 8.61|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|sdp none|StableDiffusion\\v1-5-pruned-emaonly.safetensors [6ce0161689]|User||8442ef|1837da ",
+      "generated_at": "2023-04-11T16:57:51-04:00",
+      "source_id": 13786362269
+    },
+    {
+      "id": "1582505234582921225",
+      "program": "SDBENCHMARK",
+      "message": "User 2023-04-11 20:54:20.833541|6.7 / 7.75 / 8.62|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 13, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|sdp none|StableDiffusion\\v1-5-pruned-emaonly.safetensors [6ce0161689]|User||d50fd2|878a9c ",
+      "generated_at": "2023-04-11T16:57:51-04:00",
+      "source_id": 13786362269
     }
   ]
 }
