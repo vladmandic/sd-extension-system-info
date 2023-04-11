@@ -1,5 +1,31 @@
 [
   [
+    2579,
+    "2023-04-11T22:41:48.784Z",
+    "22.61 / 32.83 / 34.55 / 34.37 / 34.0",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]",
+    "munde",
+    ""
+  ],
+  [
+    2578,
+    "2023-04-11T22:41:30.307Z",
+    "22.22 / 30.58 / 33.97",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp-no-mem none",
+    "abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]",
+    "munde",
+    ""
+  ],
+  [
     2577,
     "2023-04-11T15:52:31.314Z",
     "6.44 / 7.2 / 7.99",
