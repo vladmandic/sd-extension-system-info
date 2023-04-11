@@ -1,5 +1,31 @@
 [
   [
+    2575,
+    "2023-04-11T18:56:34.746Z",
+    "0.09 / 0.09 / 0.1",
+    "updated:2023-03-29 hash:22bcc7be url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-146-generic python:3.10.4",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 950M (1) (sm_90) (5, 0) cuda:11.8 cudnn:8700 4GB",
+    "sdp medvram",
+    "anything-v4.5-pruned-fp16.ckpt [f773383dbc]",
+    "yu",
+    ""
+  ],
+  [
+    2574,
+    "2023-04-11T20:19:44.134Z",
+    "10.47 / 11.56 / 13.07",
+    "",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB",
+    "Doggettx none",
+    "3Guofeng3_v32Light.safetensors [fedb2f1fbe]",
+    "Charlotte",
+    ""
+  ],
+  [
     2573,
     "2023-04-11T18:53:52.402Z",
     "29.15 / 35.19 / 41.98",

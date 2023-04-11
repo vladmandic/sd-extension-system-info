@@ -1,5 +1,5 @@
 {
-  "max_id": "1582398568323534855",
+  "max_id": "1582414099403431938",
   "events": [
     {
       "id": "1564370541899603981",
@@ -36162,6 +36162,27 @@
       "message": "Artist 2023-04-11 18:53:52.402135|29.15 / 35.19 / 41.98|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp-no-mem none|mixProV4_v4.safetensors [61e23e57ea]|Artist||b8195f|f7b9f3 ",
       "generated_at": "2023-04-11T14:54:00-04:00",
       "source_id": 13790661486
+    },
+    {
+      "id": "1582405114952593409",
+      "program": "SDBENCHMARK",
+      "message": "Charlotte 2023-04-11 20:19:44.134244|10.47 / 11.56 / 13.07||arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|Doggettx none|3Guofeng3_v32Light.safetensors [fedb2f1fbe]|Charlotte||ee5727|2c2fc6 ",
+      "generated_at": "2023-04-11T16:21:03-04:00",
+      "source_id": 13790695828
+    },
+    {
+      "id": "1582405137538920461",
+      "program": "SDBENCHMARK",
+      "message": "Charlotte 2023-04-11 20:19:44.134244|10.47 / 11.56 / 13.07||arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|Doggettx none|3Guofeng3_v32Light.safetensors [fedb2f1fbe]|Charlotte||ee5727|2c2fc6 ",
+      "generated_at": "2023-04-11T16:21:08-04:00",
+      "source_id": 13790695828
+    },
+    {
+      "id": "1582414099403431938",
+      "program": "SDBENCHMARK",
+      "message": "dogcraft 2023-04-11 18:56:34.746837|0.09 / 0.09 / 0.1|updated:2023-03-29 hash:22bcc7be url:git@github.com:AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-146-generic python:3.10.4|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce GTX 950M (1) (sm_90) (5, 0) cuda:11.8 cudnn:8700 4GB|sdp medvram|anything-v4.5-pruned-fp16.ckpt [f773383dbc]|yu||8abb84|c95fa6 ",
+      "generated_at": "2023-04-11T15:55:43-04:00",
+      "source_id": 13790721993
     }
   ]
 }
