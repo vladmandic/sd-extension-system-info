@@ -1,5 +1,44 @@
 [
   [
+    2665,
+    "2023-04-12T03:10:54.625Z",
+    "23.01 / 39.76 / 47.82 / 47.38 / 43.64",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230411+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "Anything-V3.0.ckpt [8712e20a5d]",
+    "deoxi",
+    ""
+  ],
+  [
+    2664,
+    "2023-04-12T02:22:45.418Z",
+    "24.89 / 37.93 / 45.01",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230411+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "ShiratakiMix-add-VAE.safetensors [cd8732bdc3]",
+    "deoxi",
+    ""
+  ],
+  [
+    2663,
+    "2023-04-12T02:21:45.671Z",
+    "23.01 / 35.25 / 41.6",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230411+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "ShiratakiMix-add-VAE.safetensors [cd8732bdc3]",
+    "deoxi",
+    ""
+  ],
+  [
     2662,
     "2023-04-12T16:36:55.821Z",
     "12.81 / 10.26 / 11.83",
