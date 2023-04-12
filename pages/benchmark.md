@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-12T06:18:00.028Z
+  ## Updated: 2023-04-12T07:12:32.640Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2644|2023-04-12T06:12:47.627Z|23.9 / 37.29 / 45.35 / 50.26 / 52.73|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp none|TrueBlend-half.safetensors|hitz||
+  |2646|2023-04-12T15:09:41.054Z|1.81|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu: system:Linux release:6.1.23-1-MANJARO python:3.10.10|torch:2.0.0 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX Vega (1) hip:5.4.22804- 8GB|Doggettx none|deliberate_v2.safetensors [9aba26abdf]|lobocat||
+|2645|2023-04-12T15:03:07.379Z|29.83 / 35.49 / 42.17|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|二次元\Anything-V3.0.ckpt [8712e20a5d]|Administrator||
+|2644|2023-04-12T06:12:47.627Z|23.9 / 37.29 / 45.35 / 50.26 / 52.73|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp none|TrueBlend-half.safetensors|hitz||
 |2643|2023-04-12T06:10:30.288Z|23.18 / 37.54 / 45.52 / 50.39 / 52.82|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp none|TrueBlend-half.safetensors|hitz||
 |2642|2023-04-12T06:09:57.957Z|22.51 / 33.97 / 41.46 / 46.61 / 48.98|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp none|TrueBlend-half.safetensors|hitz||
 |2641|2023-04-12T06:09:22.856Z|22.09 / 33.87 / 41.5 / 46.65 / 48.8|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp none|TrueBlend-half.safetensors|hitz||
