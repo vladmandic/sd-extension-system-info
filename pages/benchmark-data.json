@@ -1,5 +1,44 @@
 [
   [
+    2702,
+    "2023-04-12T14:45:12.688Z",
+    "22.24 / 40.39 / 51.08",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230412+cu118 autocast half xformers:unavailable accelerate:0.18.0.dev0 transformers:4.28.0.dev0",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 24GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "deoxi",
+    ""
+  ],
+  [
+    2701,
+    "2023-04-12T14:40:04.657Z",
+    "22.7 / 40.52 / 49.46 / 51.17 / 47.69",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230412+cu118 autocast half xformers:unavailable accelerate:0.18.0.dev0 transformers:4.28.0.dev0",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 24GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "deoxi",
+    ""
+  ],
+  [
+    2700,
+    "2023-04-12T14:22:33.683Z",
+    "22.6 / 39.93 / 48.13 / 48.66 / 45.17",
+    "",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.1.0.dev20230412+cu118 autocast half xformers:unavailable accelerate:0.18.0.dev0 transformers:4.28.0.dev0",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 24GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "deoxi",
+    ""
+  ],
+  [
     2699,
     "2023-04-12T21:03:57.495Z",
     "11.86 / 13.54 / 15.04 / 15.28 / 15.35",
