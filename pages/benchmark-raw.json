@@ -1,5 +1,5 @@
 {
-  "max_id": "1582925030151606276",
+  "max_id": "1582935565601529866",
   "events": [
     {
       "id": "1564370541899603981",
@@ -37954,6 +37954,20 @@
       "message": "deoxi 2023-04-12 14:45:12.688347|22.24 / 40.39 / 51.08||arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11|torch:2.1.0.dev20230412+cu118 autocast half xformers:unavailable accelerate:0.18.0.dev0 transformers:4.28.0.dev0|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|deoxi||9ad78f|da2444 ",
       "generated_at": "2023-04-12T10:45:30-04:00",
       "source_id": 13791585460
+    },
+    {
+      "id": "1582935425155252232",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-12 22:26:27.880325|20.76 / 31.49 / 39.11|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers none|anidosmix_A.safetensors [eb49192009]|root||5daa13|118459 ",
+      "generated_at": "2023-04-12T18:27:17-04:00",
+      "source_id": 13792278278
+    },
+    {
+      "id": "1582935565601529866",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-12 22:26:27.880325|20.76 / 31.49 / 39.11|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB|xformers none|anidosmix_A.safetensors [eb49192009]|root||5daa13|118459 ",
+      "generated_at": "2023-04-12T18:27:50-04:00",
+      "source_id": 13792278278
     }
   ]
 }

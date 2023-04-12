@@ -1,5 +1,18 @@
 [
   [
+    2703,
+    "2023-04-12T22:26:27.880Z",
+    "20.76 / 31.49 / 39.11",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA A100-SXM4-80GB (1) (sm_86) (8, 0) cuda:11.7 cudnn:8500 79GB",
+    "xformers none",
+    "anidosmix_A.safetensors [eb49192009]",
+    "root",
+    ""
+  ],
+  [
     2702,
     "2023-04-12T14:45:12.688Z",
     "22.24 / 40.39 / 51.08",
