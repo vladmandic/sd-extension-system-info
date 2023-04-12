@@ -1,5 +1,44 @@
 [
   [
+    2662,
+    "2023-04-12T16:36:55.821Z",
+    "12.81 / 10.26 / 11.83",
+    "updated:2023-04-10 hash:dff60e2e7 url:https://github.com/papuSpartan/stable-diffusion-webui.git/tree/tomesd",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB",
+    "sdp none",
+    "facebombmix_v1Bakedvae.safetensors [7364c31aac]",
+    "Neavo",
+    ""
+  ],
+  [
+    2661,
+    "2023-04-12T16:30:18.120Z",
+    "12.84 / 10.49 / 12.12",
+    "updated:2023-04-10 hash:dff60e2e7 url:https://github.com/papuSpartan/stable-diffusion-webui.git/tree/tomesd",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB",
+    "xformers none",
+    "facebombmix_v1Bakedvae.safetensors [7364c31aac]",
+    "Neavo",
+    ""
+  ],
+  [
+    2660,
+    "2023-04-03T00:12:02.464Z",
+    "7.14 / 11.94 / 12.06",
+    "updated:2023-03-29 hash:22bcc7be4 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 191 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.8 cudnn:8700 11GB",
+    "xformers none",
+    "anythingV5Anything_anythingV5PrtRE.safetensors [7f96a1a9ca]",
+    "Neavo",
+    ""
+  ],
+  [
     2659,
     "2023-04-12T00:55:12.987Z",
     "21.48 / 35.71 / 41.21",
