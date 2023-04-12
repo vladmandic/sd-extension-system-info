@@ -1,5 +1,5 @@
 {
-  "max_id": "1582842468259516422",
+  "max_id": "1582875800330481670",
   "events": [
     {
       "id": "1564370541899603981",
@@ -37884,6 +37884,20 @@
       "message": "klx1204 2023-04-13 00:13:45.869806|11.02 / 12.61 / 13.58 / 14.29 / 14.62|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-109-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 8GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3070 torch2 sip|199882|6ea5cc ",
       "generated_at": "2023-04-12T20:16:09-04:00",
       "source_id": 13780825064
+    },
+    {
+      "id": "1582875800330481668",
+      "program": "SDBENCHMARK",
+      "message": "umshu 2023-04-12 14:08:05.960339|8.42 / 11.97 / 15.12 / 20.37 / 22.21|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|braBeautifulRealistic_brav1.safetensors [ffd9299be3]|umshu||dde596|57ac8f ",
+      "generated_at": "2023-04-12T10:30:22-04:00",
+      "source_id": 13792107816
+    },
+    {
+      "id": "1582875800330481670",
+      "program": "SDBENCHMARK",
+      "message": "umshu 2023-04-12 14:29:30.934811|18.41 / 22.29 / 24.79 / 25.21 / 24.31|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev476 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers none|braBeautifulRealistic_brav1.safetensors [ffd9299be3]|umshu||871e3a|89c4d7 ",
+      "generated_at": "2023-04-12T10:30:22-04:00",
+      "source_id": 13792107816
     }
   ]
 }
