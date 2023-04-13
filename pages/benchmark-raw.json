@@ -1,5 +1,5 @@
 {
-  "max_id": "1583293909755416576",
+  "max_id": "1583302281997242403",
   "events": [
     {
       "id": "1564370541899603981",
@@ -39585,6 +39585,90 @@
       "message": "user01 2023-04-13 22:08:43.355963|13.98 / 14.83 / 15.15 / 14.79 / 13.7|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 16GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|user01||3ba1ca|dfc748 ",
       "generated_at": "2023-04-13T18:11:46-04:00",
       "source_id": 13793340825
+    },
+    {
+      "id": "1583301673667969024",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 00:47:23.314799|14.6 / 17.37 / 18.16 / 20.08 / 21.27|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 sdp|d0cea4|057400 ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583301673844137989",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 00:59:54.788261|13.67 / 16.48 / 18.16 / 20.08 / 21.41|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|37858c|66712d ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583301674049646592",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 01:06:26.421843|13.59 / 17.57 / 18.35 / 20.29 / 21.45|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|118e3b|bcc57d ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583301674213228546",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 01:15:02.203067|13.65 / 17.11 / 18.17 / 20.28 / 21.18|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|528282|a5efec ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583301674368413698",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 01:28:33.057402|14.19 / 17.26 / 18.13 / 19.83 / 21.2|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 sdp|4dff9d|34c31c ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583301674561359873",
+      "program": "SDBENCHMARK",
+      "message": "klx1204 2023-04-14 06:38:47.565221|7.02 / 7.01 / 7.37 / 7.47 / 7.45|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0|device:Tesla T4 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 16GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|T4|753e29|cb87c1 ",
+      "generated_at": "2023-04-14T02:42:37-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281141608448",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 00:47:23.314799|14.6 / 17.37 / 18.16 / 20.08 / 21.27|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 sdp|d0cea4|057400 ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281334534147",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 00:59:54.788261|13.67 / 16.48 / 18.16 / 20.08 / 21.41|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|37858c|66712d ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281481338901",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 01:06:26.421843|13.59 / 17.57 / 18.35 / 20.29 / 21.45|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.27.4|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|118e3b|bcc57d ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281619759112",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 01:15:02.203067|13.65 / 17.11 / 18.17 / 20.28 / 21.18|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|xformers none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 xformers|528282|a5efec ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281804300320",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 01:28:33.057402|14.19 / 17.26 / 18.13 / 19.83 / 21.2|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-132-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 3080 (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 10GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|3080 torch2 sdp|4dff9d|34c31c ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
+    },
+    {
+      "id": "1583302281997242403",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-14 06:38:47.565221|7.02 / 7.01 / 7.37 / 7.47 / 7.45|updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0|device:Tesla T4 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 16GB|sdp none|blueberrymix_10.safetensors [f31db98b5d]|klx1204|T4|753e29|cb87c1 ",
+      "generated_at": "2023-04-14T02:45:02-04:00",
+      "source_id": 13793365832
     }
   ]
 }

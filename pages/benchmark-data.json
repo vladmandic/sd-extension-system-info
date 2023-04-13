@@ -1,5 +1,18 @@
 [
   [
+    2801,
+    "2023-04-14T06:38:47.565Z",
+    "7.02 / 7.01 / 7.37 / 7.47 / 7.45",
+    "updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-99-generic python:3.8.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0",
+    "device:Tesla T4 (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 16GB",
+    "sdp none",
+    "blueberrymix_10.safetensors [f31db98b5d]",
+    "klx1204",
+    "T4"
+  ],
+  [
     2800,
     "2023-04-13T22:08:43.355Z",
     "13.98 / 14.83 / 15.15 / 14.79 / 13.7",
