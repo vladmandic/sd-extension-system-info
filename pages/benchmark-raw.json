@@ -1,5 +1,5 @@
 {
-  "max_id": "1583012467804647427",
+  "max_id": "1583049007222145030",
   "events": [
     {
       "id": "1564370541899603981",
@@ -38346,6 +38346,13 @@
       "message": "ailfreedom 2023-03-26 22:32:48.289223|7.36 / 3.75 / 3.93|updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.8.10|torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1|device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB|Doggettx none|camelliamix25D_v10.safetensors [78a9cc6d10]|ailfreedom||a30dd6|356a2a ",
       "generated_at": "2023-04-13T07:33:25-04:00",
       "source_id": 13792457119
+    },
+    {
+      "id": "1583049007222145030",
+      "program": "SDBENCHMARK",
+      "message": "zbj 2023-04-13 13:58:24.570662|14.0 / 18.1 / 20.47|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7|torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|xformers none|mixrealV2Sd21_mixrealV2.safetensors [787406bc13]|zbj||74e1a2|08d710 ",
+      "generated_at": "2023-04-13T09:59:08-04:00",
+      "source_id": 13792566792
     }
   ]
 }

@@ -1,5 +1,18 @@
 [
   [
+    2728,
+    "2023-04-13T13:58:24.570Z",
+    "14.0 / 18.1 / 20.47",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "mixrealV2Sd21_mixrealV2.safetensors [787406bc13]",
+    "zbj",
+    ""
+  ],
+  [
     2727,
     "2023-04-13T11:32:57.669Z",
     "7.38 / 8.35 / 8.81",
