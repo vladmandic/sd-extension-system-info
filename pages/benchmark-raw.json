@@ -1,5 +1,5 @@
 {
-  "max_id": "1583107404021813251",
+  "max_id": "1583119998132604945",
   "events": [
     {
       "id": "1564370541899603981",
@@ -38675,6 +38675,20 @@
       "message": "Admin 2023-04-11 18:53:38.287185|6.37 / 7.43 / 8.23|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.23430-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|sdp none|aihuitu.safetensors [fc2511737a]|Admin||d20774|efc9ce ",
       "generated_at": "2023-04-13T13:50:40-04:00",
       "source_id": 13792730615
+    },
+    {
+      "id": "1583119467746086916",
+      "program": "SDBENCHMARK",
+      "message": "arta 2023-04-13 14:08:15.612431|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|v1-5-pruned-emaonly.safetensors [6ce0161689]|arta||612aef|7862d0 ",
+      "generated_at": "2023-04-13T10:08:36-04:00",
+      "source_id": 13792769817
+    },
+    {
+      "id": "1583119998132604945",
+      "program": "SDBENCHMARK",
+      "message": "arta 2023-04-13 14:10:38.591018|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2070 (1) (sm_86) (7, 5) cuda:11.7 cudnn:8500 8GB|xformers medvram|v1-5-pruned-emaonly.safetensors [6ce0161689]|arta||612aef|9d027c ",
+      "generated_at": "2023-04-13T10:10:42-04:00",
+      "source_id": 13792769817
     }
   ]
 }
