@@ -1,5 +1,5 @@
 {
-  "max_id": "1582974889269309443",
+  "max_id": "1582986170063835138",
   "events": [
     {
       "id": "1564370541899603981",
@@ -38234,6 +38234,20 @@
       "message": "pppig 2023-04-12 21:02:44.536173|8.49 / 9.8 / 10.3|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:AMD Ryzen 9 5900X 12-Core Processor system:Linux release:6.2.9-x64v4-xanmod1 python:3.11.3|torch:2.1.0.dev20230411+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|pppig||b7b317|93496e ",
       "generated_at": "2023-04-12T17:04:05-04:00",
       "source_id": 13792374954
+    },
+    {
+      "id": "1582984507374616593",
+      "program": "SDBENCHMARK",
+      "message": "zero01101 2023-04-13 01:37:10.744410|1.79 / 1.93 / 1.97|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla M40 24GB (1) (sm_86) (5, 2) cuda:11.7 cudnn:8500 22GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|zero01101|lmao|9117ae|329d1a ",
+      "generated_at": "2023-04-12T21:42:19-04:00",
+      "source_id": 13792400800
+    },
+    {
+      "id": "1582986170063835138",
+      "program": "SDBENCHMARK",
+      "message": "root 2023-04-13 01:47:55.274349|13.0 / 14.1 / 15.25|updated:2023-03-29 hash:22bcc7b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.10|torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A6000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 48GB|xformers none|model.safetensors [3728cc2a61]|root||c4538d|434f40 ",
+      "generated_at": "2023-04-12T21:48:55-04:00",
+      "source_id": 13792404037
     }
   ]
 }

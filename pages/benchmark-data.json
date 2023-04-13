@@ -1,5 +1,31 @@
 [
   [
+    2721,
+    "2023-04-13T01:47:55.274Z",
+    "13.0 / 14.1 / 15.25",
+    "updated:2023-03-29 hash:22bcc7b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.10",
+    "torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A6000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 48GB",
+    "xformers none",
+    "model.safetensors [3728cc2a61]",
+    "root",
+    ""
+  ],
+  [
+    2720,
+    "2023-04-13T01:37:10.744Z",
+    "1.79 / 1.93 / 1.97",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla M40 24GB (1) (sm_86) (5, 2) cuda:11.7 cudnn:8500 22GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "zero01101",
+    "lmao"
+  ],
+  [
     2719,
     "2023-04-12T21:02:44.536Z",
     "8.49 / 9.8 / 10.3",

@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-13T01:06:24.572Z
+  ## Updated: 2023-04-13T02:28:55.711Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |2719|2023-04-12T21:02:44.536Z|8.49 / 9.8 / 10.3|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:AMD Ryzen 9 5900X 12-Core Processor system:Linux release:6.2.9-x64v4-xanmod1 python:3.11.3|torch:2.1.0.dev20230411+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|pppig||
+  |2721|2023-04-13T01:47:55.274Z|13.0 / 14.1 / 15.25|updated:2023-03-29 hash:22bcc7b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.10|torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A6000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 48GB|xformers none|model.safetensors [3728cc2a61]|root||
+|2720|2023-04-13T01:37:10.744Z|1.79 / 1.93 / 1.97|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-67-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Tesla M40 24GB (1) (sm_86) (5, 2) cuda:11.7 cudnn:8500 22GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|zero01101|lmao|
+|2719|2023-04-12T21:02:44.536Z|8.49 / 9.8 / 10.3|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:AMD Ryzen 9 5900X 12-Core Processor system:Linux release:6.2.9-x64v4-xanmod1 python:3.11.3|torch:2.1.0.dev20230411+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|v1-5-pruned-emaonly.safetensors [6ce0161689]|pppig||
 |2718|2023-04-12T21:00:51.688Z|8.49 / 9.78 / 10.27|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:AMD Ryzen 9 5900X 12-Core Processor system:Linux release:6.2.9-x64v4-xanmod1 python:3.11.3|torch:2.1.0.dev20230411+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|realisticVisionV20_v20.ckpt [81086e2b3f]|pppig||
 |2717|2023-04-13T08:43:59.327Z|25.59 / 31.43 / 38.67|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB|xformers none|orientalMixV2_orientalMixV2.ckpt [8c569c4953]|panyu||
 |2716|2023-04-13T00:33:48.653Z|26.42 / 31.96 / 41.17 / 48.84 / 52.78|updated:2023-03-22 hash:64b7e838 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-122-generic python:3.9.16|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1|device:NVIDIA A100-SXM4-80GB (1) (sm_90) (8, 0) cuda:11.8 cudnn:8700 79GB|sdp lowram|fusiondanceanime_10.safetensors|Hitz A100 80GB|lowram no-hashing disable-nan-check|
