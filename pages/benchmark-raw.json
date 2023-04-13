@@ -1,5 +1,5 @@
 {
-  "max_id": "1582986170063835138",
+  "max_id": "1583006702301794311",
   "events": [
     {
       "id": "1564370541899603981",
@@ -38248,6 +38248,41 @@
       "message": "root 2023-04-13 01:47:55.274349|13.0 / 14.1 / 15.25|updated:2023-03-29 hash:22bcc7b url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-139-generic python:3.10.10|torch:2.0.0+cu117 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A6000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 48GB|xformers none|model.safetensors [3728cc2a61]|root||c4538d|434f40 ",
       "generated_at": "2023-04-12T21:48:55-04:00",
       "source_id": 13792404037
+    },
+    {
+      "id": "1582999189217005581",
+      "program": "SDBENCHMARK",
+      "message": "shiyu451 2023-04-13 10:38:06.359281|6.68 / 7.68 / 10.79|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 16GB|xformers none|meinamix_meinaV8.safetensors [30953ab0de]|shiyu451||2b426c|be8bde ",
+      "generated_at": "2023-04-13T06:40:38-04:00",
+      "source_id": 13792436065
+    },
+    {
+      "id": "1583005110085275648",
+      "program": "SDBENCHMARK",
+      "message": "linxi 2023-04-13 11:02:40.660531|9.49 / 14.71 / 20.89|updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|final-prune.ckpt [89d59c3dde]|linxi|4090|892bb5|668d61 ",
+      "generated_at": "2023-04-13T07:04:12-04:00",
+      "source_id": 13792451142
+    },
+    {
+      "id": "1583006341822337026",
+      "program": "SDBENCHMARK",
+      "message": "linxi 2023-04-13 11:06:20.987769|11.45 / 16.38 / 22.79 / 34.08 / 38.44|updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|final-prune.ckpt [89d59c3dde]|linxi|4090|892bb5|1827cc ",
+      "generated_at": "2023-04-13T07:09:06-04:00",
+      "source_id": 13792451142
+    },
+    {
+      "id": "1583006348143153153",
+      "program": "SDBENCHMARK",
+      "message": "linxi 2023-04-13 11:06:20.987769|11.45 / 16.38 / 22.79 / 34.08 / 38.44|updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|final-prune.ckpt [89d59c3dde]|linxi|4090|892bb5|1827cc ",
+      "generated_at": "2023-04-13T07:09:07-04:00",
+      "source_id": 13792451142
+    },
+    {
+      "id": "1583006702301794311",
+      "program": "SDBENCHMARK",
+      "message": "linxi 2023-04-13 11:06:20.987769|11.45 / 16.38 / 22.79 / 34.08 / 38.44|updated:2023-02-20 hash:0cc0ee1b url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.17.1 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB|xformers none|final-prune.ckpt [89d59c3dde]|linxi|4090|892bb5|1827cc ",
+      "generated_at": "2023-04-13T07:10:32-04:00",
+      "source_id": 13792451142
     }
   ]
 }
