@@ -1,5 +1,5 @@
 {
-  "max_id": "1583064831370641424",
+  "max_id": "1583073883668533248",
   "events": [
     {
       "id": "1564370541899603981",
@@ -38619,6 +38619,13 @@
       "message": "Crahl 2023-04-13 03:01:15.861089|19.36 / 22.67 / 25.04|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8600 16GB|xformers none|revAnimated_v121.safetensors [f57b21e57b]|Crahl||e42bba|42ddb2 ",
       "generated_at": "2023-04-12T23:01:30-04:00",
       "source_id": 13792595740
+    },
+    {
+      "id": "1583073883668533248",
+      "program": "SDBENCHMARK",
+      "message": "Y9000P 2023-03-28 10:14:32.015937|12.08 / 15.17 / 17.14|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 141 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB|xformers none|科技装置knollingcase.ckpt [cf836e65a7]|Y9000P||0f74e4|1bd372 ",
+      "generated_at": "2023-04-13T11:37:33-04:00",
+      "source_id": 13792637886
     }
   ]
 }
