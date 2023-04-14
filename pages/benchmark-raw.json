@@ -1,5 +1,5 @@
 {
-  "max_id": "1583561749519585283",
+  "max_id": "1583568000223719428",
   "events": [
     {
       "id": "1564370541899603981",
@@ -40642,6 +40642,13 @@
       "message": "user01 2023-04-14 15:55:35.552285|12.05 / 13.99 / 14.89|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA RTX A4000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 16GB|xformers none|anything-v4.5-pruned.safetensors [6e430eb514]|user01||3ba1ca|9f4eaf ",
       "generated_at": "2023-04-14T11:56:04-04:00",
       "source_id": 13793340825
+    },
+    {
+      "id": "1583568000223719428",
+      "program": "SDBENCHMARK",
+      "message": "steve 2023-04-14 10:19:17.894628|1.87 / 1.75 / 2.09|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-41-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1|device:Tesla M40 24GB (1) (sm_86) (5, 2) cuda:11.7 cudnn:8500 22GB|Doggettx none|s4w3d0ff.safetensors [a10d4743a6]|steve||2bec3b|a59923 ",
+      "generated_at": "2023-04-14T06:20:55-04:00",
+      "source_id": 13794168537
     }
   ]
 }

@@ -1,5 +1,18 @@
 [
   [
+    2867,
+    "2023-04-14T10:19:17.894Z",
+    "1.87 / 1.75 / 2.09",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-41-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla M40 24GB (1) (sm_86) (5, 2) cuda:11.7 cudnn:8500 22GB",
+    "Doggettx none",
+    "s4w3d0ff.safetensors [a10d4743a6]",
+    "steve",
+    ""
+  ],
+  [
     2866,
     "2023-04-14T15:55:35.552Z",
     "12.05 / 13.99 / 14.89",
