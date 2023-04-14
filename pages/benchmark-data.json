@@ -1,5 +1,57 @@
 [
   [
+    2878,
+    "2023-04-14T20:43:42.461Z",
+    "16.15 / 18.01 / 18.81",
+    "updated:2023-04-14 hash:463a7811 url:https://github.com/vladmandic/automatic/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "1.5 dreamshaper_5PrunedNovae.safetensors [5415fd85c7]",
+    "Xash",
+    ""
+  ],
+  [
+    2877,
+    "2023-04-14T20:42:47.503Z",
+    "16.21 / 18.03 / 18.81",
+    "updated:2023-04-14 hash:463a7811 url:https://github.com/vladmandic/automatic/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "1.5 Dreamshaper NED_bakedVae.safetensors [d8722b4a4d]",
+    "Xash",
+    ""
+  ],
+  [
+    2876,
+    "2023-04-14T20:42:07.607Z",
+    "16.05 / 17.49 / 18.61",
+    "updated:2023-04-14 hash:463a7811 url:https://github.com/vladmandic/automatic/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.0",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "1.5 rpg_V4.safetensors [e04b020012]",
+    "Xash",
+    ""
+  ],
+  [
+    2875,
+    "2023-04-14T14:26:52.206Z",
+    "8.22 / 9.0 / 10.59 / 11.08 / 10.93",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8801 8GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "marve",
+    ""
+  ],
+  [
     2874,
     "2023-04-15T02:11:55.426Z",
     "4.45 / 5.85 / 7.19",
