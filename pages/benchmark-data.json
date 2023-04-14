@@ -1,5 +1,31 @@
 [
   [
+    2901,
+    "2023-04-14T17:33:07.642Z",
+    "6.01 / 6.59 / 6.38 / 6.09 / 6.96",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "Doggettx none",
+    "AnythingV5V3_v5PrtRE.safetensors [7f96a1a9ca]",
+    "chris",
+    ""
+  ],
+  [
+    2900,
+    "2023-04-14T17:13:09.253Z",
+    "2.14 / 0.49 / 0.78",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB",
+    "Doggettx none",
+    "AnythingV5V3_v5PrtRE.safetensors [7f96a1a9ca]",
+    "chris",
+    ""
+  ],
+  [
     2899,
     "2023-04-14T17:42:16.163Z",
     "35.28 / 47.71 / 51.98",

@@ -1,5 +1,5 @@
 {
-  "max_id": "1583648956775321603",
+  "max_id": "1583664330770133000",
   "events": [
     {
       "id": "1564370541899603981",
@@ -41055,6 +41055,20 @@
       "message": "me 2023-04-14 17:42:16.163150|35.28 / 47.71 / 51.98|updated:2023-04-14 hash:149329cb url:https://github.com/vladmandic/automatic/tree/master|arch:x86_64 cpu: system:Linux release:5.15.90.1-microsoft-standard-WSL2 python:3.10.10|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp-no-mem none|artiusV21_v21.safetensors [4ee4331304]|me||42d7bd|58eb2b ",
       "generated_at": "2023-04-14T13:42:36-04:00",
       "source_id": 13784030367
+    },
+    {
+      "id": "1583658063242637316",
+      "program": "SDBENCHMARK",
+      "message": "chris 2023-04-14 17:13:09.253538|2.14 / 0.49 / 0.78|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|Doggettx none|AnythingV5V3_v5PrtRE.safetensors [7f96a1a9ca]|chris||6ec05e|09a959 ",
+      "generated_at": "2023-04-14T13:18:47-04:00",
+      "source_id": 13794455135
+    },
+    {
+      "id": "1583664330770133000",
+      "program": "SDBENCHMARK",
+      "message": "chris 2023-04-14 17:33:07.642015|6.01 / 6.59 / 6.38 / 6.09 / 6.96|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (2) (compute_37) (8, 6) cuda:11.7 cudnn:8500 12GB|Doggettx none|AnythingV5V3_v5PrtRE.safetensors [7f96a1a9ca]|chris||6ec05e|c2bc4e ",
+      "generated_at": "2023-04-14T13:43:42-04:00",
+      "source_id": 13794455135
     }
   ]
 }
