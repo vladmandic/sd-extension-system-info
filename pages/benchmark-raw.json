@@ -1,5 +1,5 @@
 {
-  "max_id": "1583333591071514638",
+  "max_id": "1583355437934370817",
   "events": [
     {
       "id": "1564370541899603981",
@@ -39802,6 +39802,27 @@
       "message": "13549 2023-04-14 08:48:40.755220|20.0 / 35.5 / 45.52 / 46.06 / 43.6|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.1.0.dev20230402+cu118 autocast half xformers:0.0.18+c7cf593.d20230403 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|建筑测试\\建筑测试_16682.safetensors [4ebd3794ff]|13549||355cf6|70243f ",
       "generated_at": "2023-04-14T04:49:28-04:00",
       "source_id": 13793452135
+    },
+    {
+      "id": "1583350910271270923",
+      "program": "SDBENCHMARK",
+      "message": "BAEK GYU BYEONG 2023-04-14 09:49:53.439559|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|sdp none|KAWAI_2D_V1.1.safetensors [ef0cb5e9b6]|BAEK GYU BYEONG||03a0b5|ab3925 ",
+      "generated_at": "2023-04-14T06:58:25-04:00",
+      "source_id": 13793497489
+    },
+    {
+      "id": "1583350910271270925",
+      "program": "SDBENCHMARK",
+      "message": "BAEK GYU BYEONG 2023-04-14 10:00:36.941973|3.82 / 4.14 / 4.37 / 4.54 / 4.57|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 158 Stepping 10, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB|xformers none|KAWAI_2D_V1.1.safetensors [ef0cb5e9b6]|BAEK GYU BYEONG||13f85a|f1475a ",
+      "generated_at": "2023-04-14T06:58:25-04:00",
+      "source_id": 13793497489
+    },
+    {
+      "id": "1583355437934370817",
+      "program": "SDBENCHMARK",
+      "message": "eillo 2023-04-13 22:16:06.482636|15.48 / 17.68 / 20.56|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.7 cudnn:8600 12GB|xformers none|revAnimated_v121.safetensors [f57b21e57b]|eillo||0b20eb|b985b0 ",
+      "generated_at": "2023-04-13T18:16:17-04:00",
+      "source_id": 13793510782
     }
   ]
 }
