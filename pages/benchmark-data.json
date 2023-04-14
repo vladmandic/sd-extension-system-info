@@ -1,5 +1,57 @@
 [
   [
+    2850,
+    "2023-04-14T19:51:55.228Z",
+    "2.43 / 2.45 / 2.55",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:arm64 cpu:arm system:Darwin release:22.3.0 python:3.10.10",
+    "torch:2.1.0.dev20230409 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    " 0GB",
+    "sub-quadratic none",
+    "realisticVisionV20_v20.safetensors [e6415c4892]",
+    "weilunsbmac",
+    ""
+  ],
+  [
+    2849,
+    "2023-04-14T19:15:39.058Z",
+    "18.02 / 20.46 / 22.43",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "uberRealisticPornMerge_urpmv13.safetensors [40f9701da0]",
+    "arsts",
+    ""
+  ],
+  [
+    2848,
+    "2023-04-14T19:14:33.762Z",
+    "13.9 / 17.61 / 19.78 / 21.14 / 21.12",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (2) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB",
+    "sdp-no-mem none",
+    "PTRH.ckpt [b5f4046bc1]",
+    "apoll",
+    ""
+  ],
+  [
+    2847,
+    "2023-03-24T22:33:09.135Z",
+    "11.01 / 16.51 / 20.79",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (2) (compute_37) (8, 6) cuda:11.8 cudnn:8801 24GB",
+    "sdp none",
+    "PTRH.ckpt [b5f4046bc1]",
+    "apoll",
+    ""
+  ],
+  [
     2846,
     "2023-04-14T18:40:06.512Z",
     "16.86 / 19.18 / 21.24",
