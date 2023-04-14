@@ -1,5 +1,31 @@
 [
   [
+    2846,
+    "2023-04-14T18:40:06.512Z",
+    "16.86 / 19.18 / 21.24",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "xformers none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "arsts",
+    ""
+  ],
+  [
+    2845,
+    "2023-04-14T18:24:46.731Z",
+    "12.38 / 13.13 / 13.73",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 12GB",
+    "Doggettx none",
+    "v1-5-pruned.ckpt [e1441589a6]",
+    "arsts",
+    ""
+  ],
+  [
     2844,
     "2023-04-14T18:44:47.175Z",
     "11.57 / 13.42 / 15.93",
