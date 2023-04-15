@@ -1,5 +1,44 @@
 [
   [
+    2910,
+    "2023-04-14T20:25:32.361Z",
+    "6.52 / 7.19 / 7.35",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp-no-mem none",
+    "neurocontrastdream_v15.safetensors [79e02bb2cc]",
+    "angry",
+    ""
+  ],
+  [
+    2909,
+    "2023-04-12T17:25:01.492Z",
+    "6.42 / 7.31 / 7.36",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "stable-diffusion-v1-5.ckpt [cc6cb27103]",
+    "angry",
+    ""
+  ],
+  [
+    2908,
+    "2023-04-15T09:21:15.573Z",
+    "7.83 / 8.82 / 9.29",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.8",
+    "torch:2.0.0+cu118 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA RTX A5000 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "Doggettx none",
+    "dreamshaper_5BakedVae.safetensors [a60cfaa90d]",
+    "Administrator",
+    ""
+  ],
+  [
     2907,
     "2023-04-15T08:58:53.290Z",
     "3.23 / 4.35 / 5.33",
