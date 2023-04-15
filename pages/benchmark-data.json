@@ -1,5 +1,57 @@
 [
   [
+    2921,
+    "2023-04-15T13:43:57.610Z",
+    "5.87 / 11.29 / 18.93",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 85 Stepping 7, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "final-prune.ckpt [89d59c3dde]",
+    "Johnd",
+    ""
+  ],
+  [
+    2920,
+    "2023-04-15T13:33:42.354Z",
+    "12.76 / 11.88 / 13.91",
+    "updated:2023-02-13 hash:3715ece0 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.7",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.17.dev464 accelerate:0.16.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 3080 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 10GB",
+    "xformers none",
+    "final-pruned.ckpt [89d59c3dde]",
+    "liuzhe",
+    ""
+  ],
+  [
+    2919,
+    "2023-04-15T13:23:28.113Z",
+    "15.76 / 20.12 / 22.12 / 23.78 / 24.53",
+    "updated:2023-03-29 hash:22bcc7be url:https://hub.fgit.gq/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.4.0-109-generic python:3.8.10",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.28.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (sm_90) (8, 6) cuda:11.8 cudnn:8700 12GB",
+    "sdp none",
+    "blueberrymix_10.safetensors [f31db98b5d]",
+    "klx1204",
+    "3080Ti torch2 sdp"
+  ],
+  [
+    2918,
+    "2023-04-15T05:16:42.450Z",
+    "0.41 / 0.36 / error",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.2.9-1-default python:3.8.16",
+    "torch:2.0.0a0+git254afb8 autocast nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device: (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "root",
+    ""
+  ],
+  [
     2917,
     "2023-04-15T11:59:27.394Z",
     "24.34 / 41.34 / 48.47",
