@@ -1,5 +1,31 @@
 [
   [
+    2938,
+    "2023-04-15T12:02:53.995Z",
+    "7.33",
+    "updated:2023-04-15 hash:9624fec6 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 154 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Laptop GPU (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "Doggettx none",
+    "0.7(v1-5-pruned-emaonly) + 0.3(v1-5-pruned-emaonly).safetensors [b31c44b268]",
+    "Admin",
+    ""
+  ],
+  [
+    2937,
+    "2023-04-15T18:10:38.739Z",
+    "12.42 / 21.28 / 34.99",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.25336-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 22GB",
+    "xformers none",
+    "cityedgemix_v125.safetensors [de2987a813]",
+    "lazzman",
+    ""
+  ],
+  [
     2936,
     "2023-04-15T08:01:24.753Z",
     "4.49 / 4.81 / 5.33",
