@@ -1,5 +1,44 @@
 [
   [
+    2998,
+    "2023-04-16T02:01:58.317Z",
+    "20.83 / 26.19 / 30.53",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.11",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8801 24GB",
+    "xformers none",
+    "00_PreMade\\Counterfeit-V2.5\\Counterfeit-V2.5_pruned.safetensors [a074b8864e]",
+    "osuwa",
+    "Power 70%"
+  ],
+  [
+    2997,
+    "2023-04-16T00:49:05.040Z",
+    "15.61 / 28.96 / 39.42 / 38.25 / 38.43",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 79 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "chilloutmix_NiCkpt.ckpt [3a17d0deff]",
+    "十一",
+    ""
+  ],
+  [
+    2996,
+    "2023-04-16T00:29:01.363Z",
+    "13.37 / 26.2 / 39.48 / 37.65 / 38.27",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 79 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "chilloutmix_NiCkpt.ckpt [3a17d0deff]",
+    "十一",
+    ""
+  ],
+  [
     2995,
     "2023-04-15T19:37:12.647Z",
     "1.07 / 1.81 / 2.95",
