@@ -1,5 +1,18 @@
 [
   [
+    3008,
+    "2023-04-15T17:09:11.577Z",
+    "5.78 / 2.92 / 2.99",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.7",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon RX 6700 XT (1) hip:5.4.22803-474e8620 12GB",
+    "sdp none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "gool",
+    ""
+  ],
+  [
     3007,
     "2023-04-15T20:21:26.443Z",
     "2.75 / 2.22 / 2.35",
