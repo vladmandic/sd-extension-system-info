@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-16T12:24:34.317Z
+  ## Updated: 2023-04-16T13:14:56.261Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |3060|2023-04-16T19:03:46.587Z|9.83 / 4.43 / 5.99||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 22GB|xformers none|sd-v1-5-inpainting.ckpt [c6bbc15e32]|crx||
+  |3062|2023-04-16T20:52:18.129Z|12.62 / 14.33 / 15.05|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 22GB|xformers none|final-prune.ckpt [89d59c3dde]|jay||
+|3061|2023-04-16T20:21:35.177Z|6.3 / 8.08 / 9.41|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.10|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4080 Laptop GPU (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB|xformers none|AOM3_orangemixs.safetensors [d124fc18f0]|50524||
+|3060|2023-04-16T19:03:46.587Z|9.83 / 4.43 / 5.99||arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 2080 Ti (1) (compute_37) (7, 5) cuda:11.7 cudnn:8500 22GB|xformers none|sd-v1-5-inpainting.ckpt [c6bbc15e32]|crx||
 |3059|2023-04-16T12:09:23.135Z|24.01 / 36.95 / 40.54|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|GTM_Photo_EXPERIMENTAL.safetensors [de8f84169d]|GTM||
 |3058|2023-04-16T12:07:04.010Z|21.05 / 29.76 / 35.19 / 35.98 / 36.55|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|GTM_Photo_EXPERIMENTAL.safetensors [de8f84169d]|farre||
 |3057|2023-04-16T17:58:55.226Z|12.08 / 14.18 / 15.04|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8700 22GB|xformers none|chilloutmix_Ni.safetensors [7234b76e42]|jay||
