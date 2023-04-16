@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-15T23:12:49.833Z
+  ## Updated: 2023-04-16T01:13:42.241Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |3023|2023-04-15T19:09:11.577Z|19.68 / 33.99 / 44.35||arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp lowram|StableDiffusion-2-1\v2-1_768-nonema-pruned.safetensors [ff144a4984]|Loui2|--opt-sdp-attention --lowram --no-hashing --disable-nan-check|
+  |3025|2023-04-16T01:31:17.949Z|9.51 / 17.05 / 28.7 / 31.41 / 33.02|updated:2023-04-15 hash:4955a90c url:https://github.com/vladmandic/automatic/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|jf20009||
+|3024|2023-04-16T01:30:51.207Z|9.25 / 15.96 / 26.19|updated:2023-04-15 hash:4955a90c url:https://github.com/vladmandic/automatic/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD system:Windows release:Windows-10-10.0.19045-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|jf20009||
+|3023|2023-04-15T19:09:11.577Z|19.68 / 33.99 / 44.35||arch:AMD64 cpu:AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.17.1 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB|sdp lowram|StableDiffusion-2-1\v2-1_768-nonema-pruned.safetensors [ff144a4984]|Loui2|--opt-sdp-attention --lowram --no-hashing --disable-nan-check|
 |3022|2023-04-15T15:20:29.915Z|6.82 / 7.28 / 7.79|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.15.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8900 12GB|sdp none|neurocontrastdream_v15.safetensors [79e02bb2cc]|angry||
 |3021|2023-04-15T20:59:02.198Z|15.27 / 16.62 / 17.06|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.11|torch:2.1.0a0+gitbd07f8d autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Radeon RX 7900 XTX (1) hip:5.5.30201-d32bf634 24GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|fuck-you-amd|why don't you release rocm 5.5 for RDNA3? What is this madness?|
 |3020|2023-04-15T20:57:38.217Z|15.24 / 16.61 / 17.08|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.11|torch:2.1.0a0+gitbd07f8d autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:Radeon RX 7900 XTX (1) hip:5.5.30201-d32bf634 24GB|sdp none|faetastic_.safetensors [f429845a59]|fuck-you-amd|why don't you release rocm 5.5 for RDNA3? What is this madness?|
