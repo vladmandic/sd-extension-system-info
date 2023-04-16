@@ -34,7 +34,7 @@ def run_benchmark(batch: int, extra: bool):
     p = StableDiffusionProcessingTxt2Img(**args)
     t0 = time.time()
     try:
-        processed: Processed = process_images(p)
+        _processed: Processed = process_images(p)
     except Exception as e:
         print(f'benchmark error: {batch} {e}')
         return 'error'
