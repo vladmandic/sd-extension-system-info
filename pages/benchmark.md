@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-16T15:12:44.930Z
+  ## Updated: 2023-04-16T16:16:48.991Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |3070|2023-04-16T23:09:23.866Z|10.87 / 12.53 / 14.86|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers lowram|anything-v4.5-pruned.safetensors [6e430eb514]|Administrator||
+  |3071|2023-04-16T11:18:21.503Z|8.51 / 9.8 / 10.32|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:AMD Ryzen 9 5900X 12-Core Processor system:Linux release:6.2.9-x64v4-xanmod1 python:3.11.3|torch:2.1.0.dev20230411+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:AMD Radeon RX 6800 XT (1) hip:5.4.22803-474e8620 16GB|Doggettx none|uberRealisticPornMerge_urpmv13.safetensors [f93e6a50ac]|pppig||
+|3070|2023-04-16T23:09:23.866Z|10.87 / 12.53 / 14.86|updated:2023-03-14 hash:a9fed7c3 url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:2.0.0+cu118 autocast half xformers:0.0.17rc482 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB|xformers lowram|anything-v4.5-pruned.safetensors [6e430eb514]|Administrator||
 |3069|2023-03-18T17:03:58.842Z|10.88 / 12.73 / 15.29|updated:2023-02-20 hash:0cc0ee1b url:https://jihulab.com/hunter0725/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8800 24GB|xformers lowram|abyssorangemix3AOM3_aom3a1b.safetensors [5493a0ec49]|Administrator||
 |3068|2023-04-16T15:39:10.821Z|0.02|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:x86_64 cpu:i386 system:Darwin release:22.4.0 python:3.10.10|torch:1.12.1 full nohalf xformers:unavailable accelerate:0.12.0 transformers:4.25.1| 0GB|InvokeAI none|v1-5-pruned-emaonly.ckpt [cc6cb27103]|kem|Macbook Air (intel) Retina, 13-inch, 2020|
 |3067|2023-04-16T22:41:36.648Z|8.66 / 10.08 / 11.32 / 12.1 / 12.26|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3060 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 8GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|toutouge||
