@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-17T16:18:22.844Z
+  ## Updated: 2023-04-17T19:09:50.740Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,8 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |3161|2023-04-18T00:10:49.973Z|12.47 / 14.23 / 14.98|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8900 22GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|jay||
+  |3162|2023-04-17T19:28:56.581Z|1.51 / 1.77 / 1.96|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 94 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 980 Ti (1) (compute_37) (5, 2) cuda:11.7 cudnn:8500 6GB|Doggettx none|Anything3.0.ckpt [8712e20a5d]|Brianna||
+|3161|2023-04-18T00:10:49.973Z|12.47 / 14.23 / 14.98|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10|torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0|device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8900 22GB|xformers none|v1-5-pruned.ckpt [e1441589a6]|jay||
 |3160|2023-04-18T00:08:21.062Z|error / error / error|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.8|torch:1.12.1+cu113 autocast half xformers:0.0.14.dev accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.3 cudnn:8302 0GB|xformers none|cardosAnimated_v20.safetensors [5c17d7fc18]|25815||
 |3159|2023-04-18T00:00:57.457Z|2.17 / 2.38 / 2.45|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6|torch:2.0.0+cu117 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA P104-100 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|model.ckpt [32dc308ba9]|wang||
 |3158|2023-04-17T23:50:57.384Z|13.47 / 21.85 / 32.2|updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui/tree/master|arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19041-SP0 python:3.10.11|torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 24GB|xformers none|anything-v4.5.safetensors [1d1e459f9f]|LYC||
