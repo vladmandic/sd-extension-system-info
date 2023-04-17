@@ -1,5 +1,18 @@
 [
   [
+    3104,
+    "2023-04-17T11:50:48.190Z",
+    "10.43 / 12.41 / 14.82",
+    "updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8800 22GB",
+    "xformers none",
+    "anything-v5-PrtRE.safetensors [7f96a1a9ca]",
+    "ggao",
+    ""
+  ],
+  [
     3103,
     "2023-04-17T01:55:53.937Z",
     "12.01 / 13.71 / 15.22 / 15.54 / 15.88",
