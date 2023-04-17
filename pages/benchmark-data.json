@@ -1,5 +1,44 @@
 [
   [
+    3137,
+    "2023-04-17T20:51:31.930Z",
+    "14.34 / 18.15 / 19.8 / 20.26 / 20.28",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.19.dev516 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB",
+    "xformers none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "Che Wei",
+    ""
+  ],
+  [
+    3136,
+    "2023-04-17T03:07:24.328Z",
+    "6.13 / 8.3 / 9.53 / 11.67 / 12.47",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "Doggettx none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "Che Wei",
+    ""
+  ],
+  [
+    3135,
+    "2023-04-17T03:00:07.468Z",
+    "7.02 / 10.11 / 12.38 / 16.75 / 18.36",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8500 12GB",
+    "xformers none",
+    "CounterfeitV25_25.safetensors [a074b8864e]",
+    "Che Wei",
+    ""
+  ],
+  [
     3134,
     "2023-04-17T17:59:31.973Z",
     "13.89 / 21.06 / 25.56",
