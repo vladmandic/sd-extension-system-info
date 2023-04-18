@@ -1,5 +1,57 @@
 [
   [
+    3197,
+    "2023-04-18T07:07:35.096Z",
+    "36.92 / 45.19 / 52.07 / 53.32 / 53.51",
+    "updated:2023-04-10 hash:2ac62ce2 url:https://github.com/anapnoe/stable-diffusion-webui-ux/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230411+cu118 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.27.0",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "v2-1_768-ema-pruned.safetensors",
+    "me",
+    ""
+  ],
+  [
+    3196,
+    "2023-04-18T19:50:22.414Z",
+    "22.76 / 27.07 / 29.08",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4080 (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 16GB",
+    "xformers none",
+    "anythingV5Anything_anythingV5PrtRE.safetensors [7f96a1a9ca]",
+    "main",
+    ""
+  ],
+  [
+    3195,
+    "2023-04-18T10:48:00.392Z",
+    "11.2 / 12.05 / 11.94",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.0-1031-gcp python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA L4 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 22GB",
+    "sdp none",
+    "SatharielV1.1.safetensors [7059aaf6a2]",
+    "neggles",
+    "GCP G2 VM"
+  ],
+  [
+    3194,
+    "2023-04-18T10:23:10.840Z",
+    "10.84 / 12.24 / 12.23",
+    "updated:2023-03-14 hash:a9fed7c3 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu: system:Linux release:5.15.0-1031-gcp python:3.10.9",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17rc481 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA L4 (1) (sm_90) (8, 9) cuda:11.8 cudnn:8700 22GB",
+    "xformers none",
+    "SatharielV1.1.safetensors [7059aaf6a2]",
+    "neggles",
+    "GCP VM"
+  ],
+  [
     3193,
     "2023-04-18T17:06:13.558Z",
     "27.51 / 33.88 / 39.93",
