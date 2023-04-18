@@ -1,5 +1,31 @@
 [
   [
+    3208,
+    "2023-04-19T01:07:05.203Z",
+    "8.87 / 10.9 / 11.7",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "ChilloutMix-ni-fp16.safetensors [59ffe2243a]",
+    "Administrator",
+    ""
+  ],
+  [
+    3207,
+    "2023-04-18T16:02:14.332Z",
+    "2.21 / 2.43 / 2.51 / 2.97 / 3.19",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.17-Unraid python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce GTX 1080 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 8GB",
+    "xformers none",
+    "Stylish/revAnimated_v11.safetensors [d725be5d18]",
+    "diffusion",
+    ""
+  ],
+  [
     3206,
     "2023-04-18T22:45:56.279Z",
     "7.95 / 9.39 / 12.89",

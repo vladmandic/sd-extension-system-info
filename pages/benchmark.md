@@ -1,7 +1,7 @@
 
   # Benchmark Data
 
-  ## Updated: 2023-04-18T15:15:56.956Z
+  ## Updated: 2023-04-18T16:15:30.121Z
   
   ### Submit data using WebUI extension: <https://github.com/vladmandic/sd-extension-system-info>
 
@@ -9,7 +9,9 @@
 
   |ID|Date|Performance|Version|System|Libraries|GPU Info|Optimizations|Model|Username|Note|
   |---|---|---|---|---|---|---|---|---|---|---|
-  |3206|2023-04-18T22:45:56.279Z|7.95 / 9.39 / 12.89|updated:2023-03-29 hash:22bcc7be url:https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 12GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|cjh||
+  |3208|2023-04-19T01:07:05.203Z|8.87 / 10.9 / 11.7|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 151 Stepping 2, GenuineIntel system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.8|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 3070 (1) (compute_37) (8, 6) cuda:11.7 cudnn:8500 8GB|xformers none|ChilloutMix-ni-fp16.safetensors [59ffe2243a]|Administrator||
+|3207|2023-04-18T16:02:14.332Z|2.21 / 2.43 / 2.51 / 2.97 / 3.19|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.19.17-Unraid python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce GTX 1080 (1) (sm_86) (6, 1) cuda:11.7 cudnn:8500 8GB|xformers none|Stylish/revAnimated_v11.safetensors [d725be5d18]|diffusion||
+|3206|2023-04-18T22:45:56.279Z|7.95 / 9.39 / 12.89|updated:2023-03-29 hash:22bcc7be url:https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 12GB|sdp none|v1-5-pruned-emaonly.safetensors [6ce0161689]|cjh||
 |3205|2023-04-18T22:37:57.292Z|7.02 / 9.15 / 12.11|updated:2023-03-29 hash:22bcc7be url:https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 12GB|xformers none|anythingV3_fp16.ckpt [812cd9f9d9]|cjh||
 |3204|2023-04-18T23:03:35.428Z|12.48 / 15.2 / 17.12|updated:2023-03-29 hash:22bcc7be url:https://kgithub.com/AUTOMATIC1111/stable-diffusion-webui/tree/master|arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 3, GenuineIntel system:Windows release:Windows-10-10.0.18363-SP0 python:3.10.9|torch:2.0.0+cu118 autocast half xformers:0.0.18 accelerate:0.12.0 transformers:4.25.1|device:NVIDIA GeForce RTX 4070 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8900 12GB|xformers none|v1-5-pruned-emaonly.safetensors [6ce0161689]|cjh||
 |3203|2023-04-18T00:08:17.412Z|12.87 / 14.76 / 16.34 / 16.49 / 16.7|updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master|arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.10.6|torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.18.0 transformers:4.26.1|device:NVIDIA RTX A4000 (1) (sm_86) (8, 6) cuda:11.7 cudnn:8500 16GB|xformers none|neonIsometric_1.ckpt [162cf44b8e]|user01||
