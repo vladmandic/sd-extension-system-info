@@ -1,5 +1,31 @@
 [
   [
+    3214,
+    "2023-04-18T18:35:13.263Z",
+    "5.61 / 6.01 / 6.14 / 5.79 / 4.65",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.3.0-060300rc7-generic python:3.10.6",
+    "torch:2.1.0.dev20230418+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Graphics (2) hip:5.4.22803-474e8620 32GB",
+    "sdp none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "gigabyte",
+    ""
+  ],
+  [
+    3213,
+    "2023-04-18T18:15:29.990Z",
+    "5.25 / 5.61 / 5.45 / 5.03 / 4.22",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:6.3.0-060300rc7-generic python:3.10.6",
+    "torch:2.1.0.dev20230418+rocm5.4.2 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Graphics (2) hip:5.4.22803-474e8620 32GB",
+    "Doggettx none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "tilde",
+    ""
+  ],
+  [
     3212,
     "2023-04-19T03:17:21.455Z",
     "22.45 / 29.75 / 34.23",
