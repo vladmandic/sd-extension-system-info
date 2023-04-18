@@ -1,5 +1,31 @@
 [
   [
+    3200,
+    "2023-04-18T21:48:49.481Z",
+    "17.13 / 28.16 / 38.4",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 183 Stepping 1, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230320+cu118 autocast half xformers:0.0.17+b3d75b3.d20230321 accelerate:0.12.0 transformers:4.28.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8801 24GB",
+    "xformers none",
+    "Alpha-Cygni-2.5D-v1.1.safetensors [3b249d4e1a]",
+    "opsvm",
+    ""
+  ],
+  [
+    3199,
+    "2023-04-18T19:42:13.529Z",
+    "14.57 / 16.74 / 18.29",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22623-SP0 python:3.10.6",
+    "torch:2.0.0+cu118 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3090 (1) (compute_37) (8, 6) cuda:11.8 cudnn:8700 24GB",
+    "sdp none",
+    "dev\\IceJi ProMix v1b.safetensors [292953ab11]",
+    "jiray",
+    ""
+  ],
+  [
     3198,
     "2023-04-18T13:44:17.736Z",
     "6.59 / 11.08 / 15.26",
