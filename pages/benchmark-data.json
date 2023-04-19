@@ -1,5 +1,31 @@
 [
   [
+    3245,
+    "2023-04-18T22:43:21.782Z",
+    "1.71 / 1.81 / 1.84 / 1.73 / error",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.11-arch1-1 python:3.10.10",
+    "torch:2.0.0 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Pro WX 9100 (1) hip:5.4.22804- 16GB",
+    "sdp-no-mem none",
+    "abyssorangemix2SFW_abyssorangemix2Sfw.safetensors [2c6c9b3e47]",
+    "root",
+    "This is actually a Radeon MI25 16GB flashed with a Radeon Pro WX 9100 16GB VBIOS, cooling isn't adequate"
+  ],
+  [
+    3244,
+    "2023-04-18T22:25:26.660Z",
+    "1.78 / 1.86 / 1.85 / 1.66 / 1.59",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.11-arch1-1 python:3.10.10",
+    "torch:2.0.0 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Pro WX 9100 (1) hip:5.4.22804- 16GB",
+    "Doggettx none",
+    "abyssorangemix2SFW_abyssorangemix2Sfw.safetensors [2c6c9b3e47]",
+    "root",
+    "This is actually a Radeon MI25 16GB flashed with a Radeon Pro WX 9100 16GB VBIOS, cooling isn't adequate"
+  ],
+  [
     3243,
     "2023-04-19T13:56:27.818Z",
     "11.14 / 18.04 / 21.55 / 22.78 / 17.61",
