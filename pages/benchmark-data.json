@@ -1,5 +1,31 @@
 [
   [
+    3255,
+    "2023-04-19T21:02:05.875Z",
+    "14.16 / 24.22 / 34.48",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230418+cu118 autocast half xformers:0.0.19+70161e5.d20230419 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "Anime\\anythingV3_fp16.ckpt [812cd9f9d9]",
+    "jindalrai",
+    ""
+  ],
+  [
+    3254,
+    "2023-04-19T20:54:42.877Z",
+    "14.3 / 23.09 / 30.17",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:Intel64 Family 6 Model 165 Stepping 5, GenuineIntel system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.9",
+    "torch:2.1.0.dev20230418+cu118 autocast half xformers:0.0.19+70161e5.d20230419 accelerate:0.18.0 transformers:4.26.1",
+    "device:NVIDIA GeForce RTX 4090 (1) (compute_37) (8, 9) cuda:11.8 cudnn:8700 24GB",
+    "xformers none",
+    "Anime\\anythingV3_fp16.ckpt [812cd9f9d9]",
+    "jindalrai",
+    ""
+  ],
+  [
     3253,
     "2023-04-19T18:27:39.301Z",
     "5.48 / 4.32 / 4.95",
