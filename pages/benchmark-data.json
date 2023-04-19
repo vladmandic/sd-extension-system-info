@@ -1,5 +1,57 @@
 [
   [
+    3235,
+    "2023-04-12T23:27:16.453Z",
+    "3.17 / 3.51 / 3.74",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.6",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:Tesla P40 (2) (sm_86) (6, 1) cuda:11.7 cudnn:8500 24GB",
+    "xformers none",
+    "v1-5-pruned-emaonly.safetensors [6ce0161689]",
+    "netuser",
+    ""
+  ],
+  [
+    3234,
+    "2023-04-19T12:03:11.353Z",
+    "12.59 / 14.24 / 15.15",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8900 22GB",
+    "xformers none",
+    "final-prune.ckpt [89d59c3dde]",
+    "jay",
+    ""
+  ],
+  [
+    3233,
+    "2023-04-19T12:02:29.076Z",
+    "12.38 / 14.08 / 15.11",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/feature-custom",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.19.0-38-generic python:3.10.10",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.18+bde8248.d20230413 accelerate:0.18.0 transformers:4.28.0",
+    "device:NVIDIA GeForce RTX 2080 Ti (1) (sm_90) (7, 5) cuda:11.8 cudnn:8900 22GB",
+    "xformers none",
+    "final-prune.ckpt [89d59c3dde]",
+    "jay",
+    ""
+  ],
+  [
+    3232,
+    "2023-04-19T12:32:56.146Z",
+    "5.19 / 8.35 / 10.97",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui.git/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.19044-SP0 python:3.10.10",
+    "torch:1.13.1+cu117 autocast half xformers:0.0.16rc425 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 4070 Ti (1) (compute_37) (8, 9) cuda:11.7 cudnn:8700 12GB",
+    "xformers medvram",
+    "Chilloutmix.safetensors [a757fe8b3d]",
+    "es001",
+    ""
+  ],
+  [
     3231,
     "2023-04-19T11:50:54.391Z",
     "31.27 / 38.34 / 44.1",
