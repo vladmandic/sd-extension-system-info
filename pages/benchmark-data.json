@@ -1,5 +1,44 @@
 [
   [
+    3243,
+    "2023-04-19T13:56:27.818Z",
+    "11.14 / 18.04 / 21.55 / 22.78 / 17.61",
+    "updated:2023-03-29 hash:22bcc7be url:https://gitcode.net/overbill1683/stable-diffusion-webui/tree/master",
+    "arch:AMD64 cpu:AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD system:Windows release:Windows-10-10.0.22621-SP0 python:3.10.11",
+    "torch:2.0.0+cu118 autocast half xformers:0.0.17 accelerate:0.12.0 transformers:4.25.1",
+    "device:NVIDIA GeForce RTX 3080 Ti (1) (compute_37) (8, 6) cuda:11.8 cudnn:8800 12GB",
+    "xformers none",
+    "realisticVisionV20_v20-inpainting.safetensors [6482f11700]",
+    "chenz",
+    ""
+  ],
+  [
+    3242,
+    "2023-04-18T21:37:17.542Z",
+    "1.73 / 1.82 / 1.84 / 1.81 / 1.45",
+    "updated:2023-03-29 hash:22bcc7be url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu: system:Linux release:6.2.11-arch1-1 python:3.10.10",
+    "torch:2.0.0 autocast half xformers:unavailable accelerate:0.12.0 transformers:4.25.1",
+    "device:AMD Radeon Pro WX 9100 (1) hip:5.4.22804- 16GB",
+    "Doggettx none",
+    "abyssorangemix2SFW_abyssorangemix2Sfw.safetensors [2c6c9b3e47]",
+    "root",
+    "This is actually a Radeon MI25 16GB flashed with a Radeon Pro WX 9100 16GB VBIOS, cooling isn't adequate"
+  ],
+  [
+    3241,
+    "2023-04-19T13:21:05.036Z",
+    "7.41 / 8.36 / 8.83",
+    "updated:2023-03-25 hash:a0d07fb5 url:https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/master",
+    "arch:x86_64 cpu:x86_64 system:Linux release:5.15.0-69-generic python:3.8.10",
+    "torch:2.0.0+rocm5.4.2 autocast half xformers:unavailable accelerate:0.18.0 transformers:4.26.1",
+    "device:AMD Radeon RX 6800 (1) hip:5.4.22803-474e8620 16GB",
+    "Doggettx none",
+    "CounterfeitV25_25.safetensors [457422fe5c]",
+    "ailfreedom",
+    ""
+  ],
+  [
     3240,
     "2023-04-19T12:46:11.901Z",
     "3.31 / 2.75 / 3.07",
