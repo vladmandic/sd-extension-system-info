@@ -17,7 +17,7 @@ import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
 from modules.ui_components import FormRow
 
-from scripts.benchmark import run_benchmark, submit_benchmark
+from scripts.benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611
 
 ### system info globals
 
@@ -79,7 +79,7 @@ def get_uptime():
 
 class HTMLFilter(HTMLParser):
     text = ""
-    def handle_data(self, data):
+    def handle_data(self, data): # pylint: disable=redefined-outer-name
         self.text += data
 
 
@@ -258,7 +258,7 @@ def get_loras():
     loras = []
     try:
         sys.path.append(extensions.extensions_builtin_dir)
-        from Lora import lora
+        from Lora import lora # pylint: disable=E0401
         loras = sorted([l for l in lora.available_loras.keys()])
     except:
         pass
@@ -374,9 +374,9 @@ def on_ui_tabs():
                                 bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
                                 bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
                                 bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
-                                bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
+                                _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
                         with gr.Row():
-                            bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
+                            _bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
                                 <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
                                 <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
                         with gr.Row():
@@ -502,7 +502,7 @@ def bench_load():
     tmp = []
     if os.path.isfile(bench_file) and os.path.getsize(bench_file) > 0:
         try:
-            with open(bench_file, 'r') as f:
+            with open(bench_file, 'r', encoding='utf-8') as f:
                 tmp = json.load(f)
                 bench_data = tmp
                 bench_log('data loaded: ' + bench_file)
@@ -517,7 +517,7 @@ def bench_save():
     if bench_data[-1][0] is None:
         del bench_data[-1]
     try:
-        with open(bench_file, 'w') as f:
+        with open(bench_file, 'w', encoding='utf-8') as f:
             json.dump(bench_data, f, indent=2, default=str, skipkeys=True)
             bench_log('data saved: ' + bench_file)
     except Exception as err:

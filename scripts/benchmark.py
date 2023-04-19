@@ -57,14 +57,15 @@ def submit_benchmark(data, username, console_logging):
     formatter = logging.Formatter(f'%(asctime)s %(hostname)s SDBENCHMARK: {username} %(message)s', datefmt='%b %d %H:%M:%S')
     syslog.setFormatter(formatter)
     remote = logging.getLogger('SDBENCHMARK')
+    remote.error('BLAAA1')
     for h in remote.handlers: # remove local handlers
         remote.removeHandler(h)
     remote.addHandler(syslog)
-    remote.setLevel(logging.INFO)
     for line in data:
         message = '|'.join(line).replace('  ', ' ').replace('"', '').strip()
         hash256 = sha256(message.encode('utf-8')).hexdigest()[:6]
         message = message + '|' + hash256
         if console_logging:
-            print('benchmark submit record:')
+            print('benchmark submit record:', line)
         remote.info(message)
+    print('Benchmark submitted records:', len(data))
