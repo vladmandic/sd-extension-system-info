@@ -153,7 +153,7 @@ def get_optimizations():
 
 def get_libs():
     try:
-        import xformers # pylint: disable=import-outside-toplevel
+        import xformers # pylint: disable=import-outside-toplevel, import-error
         xversion = xformers.__version__
     except:
         xversion = 'unavailable'
