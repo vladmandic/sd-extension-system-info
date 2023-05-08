@@ -326,8 +326,8 @@ def refresh_info_full():
 
 def on_ui_tabs():
     get_full_data()
-    with gr.Blocks(analytics_enabled = False) as system_info_tab:
-        with gr.Row(elem_id = 'system_info_tab'):
+    with gr.Blocks(analytics_enabled = False) as system_info:
+        with gr.Row(elem_id = 'system_info'):
             with gr.Column(scale = 9):
                 with gr.Box():
                     with gr.Row():
@@ -411,7 +411,7 @@ def on_ui_tabs():
                 refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, crossattention, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
-    return (system_info_tab, 'System Info', 'system_info_tab'),
+    return (system_info, 'System Info', 'system_info'),
 
 
 ### benchmarking module

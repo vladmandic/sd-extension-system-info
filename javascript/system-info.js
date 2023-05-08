@@ -41,7 +41,7 @@ function onVisible() { // start refresh interval tab is when visible
 
 function initLoading() { // triggered on gradio change to monitor when ui gets sufficiently constructed
   if (loaded) return
-  const block = gradioApp().getElementById('system_info_tab');
+  const block = gradioApp().getElementById('system_info');
   if (!block) return
   intersectionObserver = new IntersectionObserver((entries) => {
     if (entries[0].intersectionRatio <= 0) onHidden();
