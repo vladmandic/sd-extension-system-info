@@ -14,14 +14,37 @@ import gradio as gr
 import psutil
 import transformers
 
-from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions
+from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
 from modules.ui_components import FormRow
 
 from scripts.benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611
 
 ### system info globals
 
-data = {}
+data = {
+    'date': '',
+    'timestamp': '',
+    'uptime': '',
+    'version': '',
+    'torch': '',
+    'gpu': {},
+    'state': {},
+    'memory': {},
+    'optimizations': '',
+    'libs': {},
+    'repos': {},
+    'device': {},
+    'models': [],
+    'hypernetworks': [],
+    'embeddings': [],
+    'skipped': [],
+    'loras': [],
+    'lycos': [],
+    'schedulers': [],
+    'extensions': [],
+    'platform': '',
+    'crossattention': '',
+}
 
 ### benchmark globals
 
@@ -265,6 +288,20 @@ def get_loras():
     return loras
 
 
+def get_lycos():
+    return []
+
+
+def get_device():
+    dev = {
+        'active': str(devices.device),
+        'dtype': str(devices.dtype),
+        'vae': str(devices.dtype_vae),
+        'unet': str(devices.dtype_unet),
+    }
+    return dev
+
+
 def get_full_data():
     global data # pylint: disable=global-statement
     data = {
@@ -279,11 +316,13 @@ def get_full_data():
         'optimizations': get_optimizations(),
         'libs': get_libs(),
         'repos': get_repos(),
+        'device': get_device(),
         'models': get_models(),
         'hypernetworks': [name for name in shared.hypernetworks],
         'embeddings': get_embeddings(),
         'skipped': get_skipped(),
         'loras': get_loras(),
+        'lycos': get_lycos(),
         'schedulers': get_samplers(),
         'extensions': get_extensions(),
         'platform': get_platform(),
@@ -319,39 +358,39 @@ def refresh_info_quick():
 
 def refresh_info_full():
     get_full_data()
-    return dict2text(data['state']), dict2text(data['memory']), data['crossattention'], data['models'], data['hypernetworks'], data['loras'], data['embeddings'], data['skipped'], data['timestamp'], data
+    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), data['models'], data['hypernetworks'], data['embeddings'], data['skipped'], data['loras'], data['lycos'], data['timestamp'], data
 
 
 ### ui definition
 
 def on_ui_tabs():
-    get_full_data()
+    # get_full_data()
     with gr.Blocks(analytics_enabled = False) as system_info:
         with gr.Row(elem_id = 'system_info'):
             with gr.Column(scale = 9):
                 with gr.Box():
                     with gr.Row():
                         with gr.Column():
-                            gr.Textbox(data['uptime'], label = 'Server start time', lines = 1)
-                            gr.Textbox(dict2text(data['version']), label = 'Version', lines = len(data['version']))
+                            uptimetxt = gr.Textbox(data['uptime'], label = 'Server start time', lines = 1)
+                            versiontxt = gr.Textbox(dict2text(data['version']), label = 'Version', lines = len(data['version']))
                         with gr.Column():
-                            state = gr.Textbox(dict2text(data['state']), label = 'State', lines = len(data['state']))
+                            statetxt = gr.Textbox(dict2text(data['state']), label = 'State', lines = len(data['state']))
                         with gr.Column():
-                            memory = gr.Textbox(dict2text(data['memory']), label = 'Memory', lines = len(data['memory']))
+                            memorytxt = gr.Textbox(dict2text(data['memory']), label = 'Memory', lines = len(data['memory']))
                 with gr.Box():
-                    with gr.Accordion('System data', open = True, visible = True):
-                        with gr.Row():
-                            with gr.Column():
-                                gr.Textbox(dict2text(data['platform']), label = 'Platform', lines = len(data['platform']))
-                            with gr.Column():
-                                gr.Textbox(data['torch'], label = 'Torch', lines = 1)
-                                gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
-                                with gr.Row():
-                                    gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
-                                    crossattention = gr.Textbox(data['crossattention'], label = 'Cross-attention')
-                            with gr.Column():
-                                gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
-                                gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']))
+                    with gr.Row():
+                        with gr.Column():
+                            platformtxt = gr.Textbox(dict2text(data['platform']), label = 'Platform', lines = len(data['platform']))
+                        with gr.Column():
+                            torchtxt = gr.Textbox(data['torch'], label = 'Torch', lines = 1)
+                            gputxt = gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
+                            with gr.Row():
+                                opttxt = gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
+                                attentiontxt = gr.Textbox(data['crossattention'], label = 'Cross-attention')
+                        with gr.Column():
+                            libstxt = gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
+                            repostxt = gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']))
+                            devtxt = gr.Textbox(dict2text(data['device']), label = 'Device Info', lines = len(data['device']))
                 with gr.Box():
                     with gr.Accordion('Benchmarks...', open = True, visible = True):
                         bench_load()
@@ -392,7 +431,8 @@ def on_ui_tabs():
                             with gr.Column():
                                 embeddings = gr.JSON(data['embeddings'], label = 'Embeddings: loaded', lines = len(data['embeddings']))
                                 skipped = gr.JSON(data['skipped'], label = 'Embeddings: skipped', lines = len(data['embeddings']))
-                                loras = gr.JSON(data['loras'], label = 'Available LORAs', lines = len(data['loras']))
+                                loras = gr.JSON(data['loras'], label = 'Available LORA', lines = len(data['loras']))
+                                lycos = gr.JSON(data['lycos'], label = 'Available LyCORIS', lines = len(data['lycos']))
                 with gr.Box():
                     with gr.Accordion('Info object', open = False, visible = True):
                         # reduce json data to avoid private info
@@ -405,10 +445,14 @@ def on_ui_tabs():
                         js = gr.JSON(data)
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(default=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
-                refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
-                refresh_quick_btn.click(refresh_info_quick, inputs = [], outputs = [state, memory, crossattention, timestamp, js], show_progress = False)
-                refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style(full_width = False)
-                refresh_full_btn.click(refresh_info_full, inputs = [], outputs = [state, memory, crossattention, models, hypernetworks, loras, embeddings, skipped, timestamp, js])
+                refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style() # quick refresh is used from js interval
+                refresh_quick_btn.click(refresh_info_quick, show_progress = False, inputs = [],
+                    outputs = [statetxt, memorytxt, attentiontxt, timestamp, js]
+                )
+                refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
+                refresh_full_btn.click(refresh_info_full, show_progress = False, inputs = [],
+                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, libstxt, repostxt, devtxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
+                )
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
     return (system_info, 'System Info', 'system_info'),
