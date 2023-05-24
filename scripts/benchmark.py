@@ -9,7 +9,7 @@ from modules.processing import StableDiffusionProcessingTxt2Img, Processed, proc
 
 
 args = {
-    'sd_model': shared.sd_model,
+    'sd_model': None,
     'prompt': 'postapocalyptic steampunk city, exploration, cinematic, realistic, hyper detailed, photorealistic maximum detail, volumetric light, (((focus))), wide-angle, (((brightly lit))), (((vegetation))), lightning, vines, destruction, devastation, wartorn, ruins',
     'sampler_name': 'Euler a',
     'batch_size': 1,
@@ -29,6 +29,8 @@ args = {
 
 def run_benchmark(batch: int, extra: bool):
     shared.state.begin()
+    if args['sd_model'] is None:
+        args['sd_model'] = shared.sd_model
     args['batch_size'] = batch
     args['steps'] = 20 if not extra else 50
     p = StableDiffusionProcessingTxt2Img(**args)
