@@ -9,6 +9,10 @@ from hashlib import sha256
 from html.parser import HTMLParser
 
 import torch
+try:
+    import intel_extension_for_pytorch as ipex # pylint: disable=import-error, unused-import
+except:
+    pass
 import accelerate
 import gradio as gr
 import psutil
@@ -75,7 +79,13 @@ def get_user():
 
 def get_gpu():
     if not torch.cuda.is_available():
-        return {}
+        try:
+            return {
+                'device': f'{torch.xpu.get_device_name(torch.xpu.current_device())} ({str(torch.xpu.device_count())})',
+                'ipex': str(ipex.__version__),
+            }
+        except:
+            return {}
     else:
         try:
             if torch.version.cuda:
@@ -156,6 +166,24 @@ def get_memory():
                 'gpu-inactive': inactive,
                 'events': warnings,
                 'utilization': torch.cuda.utilization(),
+            })
+        else:
+            s = [(torch.xpu.get_device_properties("xpu").total_memory - torch.xpu.memory_allocated()), torch.xpu.get_device_properties("xpu").total_memory]
+            gpu = { 'free': gb(s[0]), 'used': gb(s[1] - s[0]), 'total': gb(s[1]) }
+            s = dict(torch.xpu.memory_stats(shared.device))
+            allocated = { 'current': gb(s['allocated_bytes.all.current']), 'peak': gb(s['allocated_bytes.all.peak']) }
+            reserved = { 'current': gb(s['reserved_bytes.all.current']), 'peak': gb(s['reserved_bytes.all.peak']) }
+            active = { 'current': gb(s['active_bytes.all.current']), 'peak': gb(s['active_bytes.all.peak']) }
+            inactive = { 'current': gb(s['inactive_split_bytes.all.current']), 'peak': gb(s['inactive_split_bytes.all.peak']) }
+            warnings = { 'retries': s['num_alloc_retries'], 'oom': s['num_ooms'] }
+            mem.update({
+                'gpu': gpu,
+                'gpu-active': active,
+                'gpu-allocated': allocated,
+                'gpu-reserved': reserved,
+                'gpu-inactive': inactive,
+                'events': warnings,
+                'utilization': -1,
             })
     except:
         pass
