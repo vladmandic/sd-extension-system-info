@@ -155,6 +155,7 @@ def get_memory():
                 'gpu-reserved': reserved,
                 'gpu-inactive': inactive,
                 'events': warnings,
+                'utilization': torch.cuda.utilization(),
             })
     except:
         pass
@@ -354,7 +355,7 @@ def dict2text(d: dict):
     return list2text(arr)
 
 
-def refresh_info_quick():
+def refresh_info_quick(_old_data):
     get_quick_data()
     return dict2text(data['state']), dict2text(data['memory']), data['crossattention'], data['timestamp'], data
 
@@ -412,9 +413,9 @@ def on_ui_tabs():
                                 level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
                                 # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
                             with gr.Column(scale=1):
-                                bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn').style(full_width = False)
+                                bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary').style()
                                 bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
-                                bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn').style(full_width = False)
+                                bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary').style()
                                 bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
                                 _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
                         with gr.Row():
@@ -448,12 +449,16 @@ def on_ui_tabs():
                         js = gr.JSON(data)
             with gr.Column(scale = 1, min_width = 120):
                 timestamp = gr.Text(default=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
+                gr.HTML('Load<br><div id="si-sparkline-load"></div>')
+                gr.HTML('Memory<br><div id="si-sparkline-memo"></div>')
                 refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style() # quick refresh is used from js interval
-                refresh_quick_btn.click(refresh_info_quick, show_progress = False, inputs = [],
+                refresh_quick_btn.click(refresh_info_quick, _js='receive_system_info', show_progress = False,
+                    inputs = [js],
                     outputs = [statetxt, memorytxt, attentiontxt, timestamp, js]
                 )
                 refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
-                refresh_full_btn.click(refresh_info_full, show_progress = False, inputs = [],
+                refresh_full_btn.click(refresh_info_full, show_progress = False,
+                    inputs = [],
                     outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, libstxt, repostxt, devtxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
                 )
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
