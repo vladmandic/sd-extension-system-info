@@ -148,8 +148,8 @@ def get_memory():
         mem.update({ 'ram': ram })
     except Exception as e:
         mem.update({ 'ram': e })
-    try:
-        if torch.cuda.is_available():
+    if torch.cuda.is_available():
+        try:
             s = torch.cuda.mem_get_info()
             gpu = { 'free': gb(s[0]), 'used': gb(s[1] - s[0]), 'total': gb(s[1]) }
             s = dict(torch.cuda.memory_stats(shared.device))
@@ -165,9 +165,13 @@ def get_memory():
                 'gpu-reserved': reserved,
                 'gpu-inactive': inactive,
                 'events': warnings,
-                'utilization': torch.cuda.utilization(),
+                'utilization': 0,
             })
-        else:
+            mem.update({ 'utilization': torch.cuda.utilization() }) # do this one separately as it may fail
+        except:
+            pass
+    else:
+        try:
             s = [(torch.xpu.get_device_properties("xpu").total_memory - torch.xpu.memory_allocated()), torch.xpu.get_device_properties("xpu").total_memory]
             gpu = { 'free': gb(s[0]), 'used': gb(s[1] - s[0]), 'total': gb(s[1]) }
             s = dict(torch.xpu.memory_stats(shared.device))
@@ -183,10 +187,10 @@ def get_memory():
                 'gpu-reserved': reserved,
                 'gpu-inactive': inactive,
                 'events': warnings,
-                'utilization': -1,
+                'utilization': 0,
             })
-    except:
-        pass
+        except:
+            pass
     return mem
 
 
