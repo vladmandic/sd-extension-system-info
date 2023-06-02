@@ -172,7 +172,7 @@ def get_memory():
             pass
     else:
         try:
-            s = [(torch.xpu.get_device_properties("xpu").total_memory - torch.xpu.memory_allocated()), torch.xpu.get_device_properties("xpu").total_memory]
+            s = [(torch.xpu.get_device_properties(shared.device).total_memory - torch.xpu.memory_allocated()), torch.xpu.get_device_properties(shared.device).total_memory]
             gpu = { 'free': gb(s[0]), 'used': gb(s[1] - s[0]), 'total': gb(s[1]) }
             s = dict(torch.xpu.memory_stats(shared.device))
             allocated = { 'current': gb(s['allocated_bytes.all.current']), 'peak': gb(s['allocated_bytes.all.peak']) }
