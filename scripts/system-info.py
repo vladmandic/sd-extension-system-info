@@ -5,13 +5,14 @@ import json
 import platform
 import subprocess
 import datetime
+import logging
 from hashlib import sha256
 from html.parser import HTMLParser
 
 import torch
 try:
     import intel_extension_for_pytorch as ipex # pylint: disable=import-error, unused-import
-except:
+except Exception:
     pass
 import accelerate
 import gradio as gr
@@ -21,9 +22,12 @@ import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
 from modules.ui_components import FormRow
 
-from scripts.benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611
+from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611
 
 ### system info globals
+
+log = logging.getLogger('steps-animation')
+log.setLevel(logging.INFO)
 
 data = {
     'date': '',
@@ -66,13 +70,13 @@ def get_user():
     if user == '':
         try:
             user = os.getlogin()
-        except:
+        except Exception:
             pass
     if user == '':
         try:
             import pwd
             user = pwd.getpwuid(os.getuid())[0]
-        except:
+        except Exception:
             pass
     return user
 
@@ -84,7 +88,7 @@ def get_gpu():
                 'device': f'{torch.xpu.get_device_name(torch.xpu.current_device())} ({str(torch.xpu.device_count())})',
                 'ipex': str(ipex.__version__),
             }
-        except:
+        except Exception:
             return {}
     else:
         try:
@@ -168,7 +172,7 @@ def get_memory():
                 'utilization': 0,
             })
             mem.update({ 'utilization': torch.cuda.utilization() }) # do this one separately as it may fail
-        except:
+        except Exception:
             pass
     else:
         try:
@@ -189,7 +193,7 @@ def get_memory():
                 'events': warnings,
                 'utilization': 0,
             })
-        except:
+        except Exception:
             pass
     return mem
 
@@ -211,7 +215,7 @@ def get_libs():
     try:
         import xformers # pylint: disable=import-outside-toplevel, import-error
         xversion = xformers.__version__
-    except:
+    except Exception:
         xversion = 'unavailable'
     return {
         'xformers': xversion,
@@ -229,7 +233,7 @@ def get_repos():
             stdout = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
             words = stdout.split(' ')
             repos[key] = f'[{words[0]}] {words[1]}'
-        except:
+        except Exception:
             repos[key] = '(unknown)'
     return repos
 
@@ -257,7 +261,7 @@ def get_platform():
 def get_torch():
     try:
         ver = torch.__long_version__
-    except:
+    except Exception:
         ver = torch.__version__
     return f"{ver} {shared.cmd_opts.precision} {' nohalf' if shared.cmd_opts.no_half else ' half'}"
 
@@ -278,7 +282,7 @@ def get_version():
                 'hash': githash,
                 'url': origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
             }
-        except:
+        except Exception:
             pass
     return version
 
@@ -297,7 +301,7 @@ def get_crossattention():
         if ca is None:
             return 'none'
         else: return ca
-    except:
+    except Exception:
         return 'unknown'
 
 
@@ -319,7 +323,7 @@ def get_loras():
         sys.path.append(extensions.extensions_builtin_dir)
         from Lora import lora # pylint: disable=E0401
         loras = sorted([l for l in lora.available_loras.keys()])
-    except:
+    except Exception:
         pass
     return loras
 
@@ -500,41 +504,34 @@ def on_ui_tabs():
 
 ### benchmarking module
 
-def bench_log(msg: str):
-    global bench_text # pylint: disable=global-statement
-    bench_text = msg
-    if console_logging is not None and console_logging.value:
-        print('benchmark', msg)
-
-
 def bench_submit(username: str):
     if username is None or username == '':
-        bench_log('username is required to submit results')
+        log.debug('SD-System-Info: username is required to submit results')
         return
     submit_benchmark(bench_data, username, console_logging.value)
-    bench_log(f'data submitted: {len(bench_data)} records')
+    log.debug(f'SD-System-Info: benchmark data submitted: {len(bench_data)} records')
 
 
 def bench_run(batches: list = [1], extra: bool = False):
     results = []
     for batch in batches:
-        bench_log(f'running for batch size {batch}')
+        log.debug(f'SD-System-Info: benchmark running for batch size {batch}')
         res = run_benchmark(batch, extra)
-        bench_log(f'results batch size {batch}: {res} it/s')
+        log.debug(f'SD-System-Info: benchmark results batch size {batch}: {res} it/s')
         results.append(str(res))
     its = ' / '.join(results)
     return its
 
 
 def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
-    bench_log('starting')
+    log.debug('SD-System-Info: benchmark starting')
     hash256 = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
     existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash256)]
     if len(existing) > 0:
-        bench_log('replacing existing entry')
+        log.debug('SD-System-Info: benchmark replacing existing entry')
         d = existing[0]
     elif bench_data[-1][0] is not None:
-        bench_log('new entry')
+        log.debug('SD-System-Info: benchmark new entry')
         bench_data.append([None] * len(bench_headers))
         d = bench_data[-1]
     else:
@@ -549,16 +546,12 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     else:
         batches = []
 
-    model_hash = shared.opts.data['sd_model_checkpoint'].split('[')[-1].split(']')[0]
-    if model_hash != 'cc6cb27103':
-        bench_log('using non standard model')
-
     if warmup:
         bench_run([1], False)
 
     try:
         mem = data['memory']['gpu']['total']
-    except:
+    except Exception:
         mem = 0
 
     # bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
@@ -575,7 +568,7 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     d[10] = hash256
 
     md = '| ' + ' | '.join(d) + ' |'
-    bench_log(md)
+    log.debug(f'SD-System-Info: benchmark result: {md}')
 
     bench_save()
     return bench_data
@@ -589,9 +582,9 @@ def bench_load():
             with open(bench_file, 'r', encoding='utf-8') as f:
                 tmp = json.load(f)
                 bench_data = tmp
-                bench_log('data loaded: ' + bench_file)
+                log.debug(f'SD-System-Info: benchmark data loaded: {bench_file}')
         except Exception as err:
-            bench_log('error loading: ' + bench_file + ' ' + str(err))
+            log.debug(f'SD-System-Info: benchmark error loading: {bench_file} {str(err)}')
     if len(bench_data) == 0:
         bench_data.append([None] * len(bench_headers))
     return bench_data
@@ -603,9 +596,9 @@ def bench_save():
     try:
         with open(bench_file, 'w', encoding='utf-8') as f:
             json.dump(bench_data, f, indent=2, default=str, skipkeys=True)
-            bench_log('data saved: ' + bench_file)
+            log.debug(f'SD-System-Info: benchmark data saved: {bench_file}')
     except Exception as err:
-        bench_log('error saving: ' + bench_file + ' ' + str(err))
+        log.error(f'SD-System-Info: benchmark error saving:  {bench_file} {str(err)}')
 
 
 def bench_refresh():
