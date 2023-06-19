@@ -22,7 +22,8 @@ import transformers
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
 from modules.ui_components import FormRow
 
-from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611
+from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611,C0411
+
 
 ### system info globals
 
@@ -113,6 +114,7 @@ def get_gpu():
 def get_uptime():
     s = vars(shared.state)
     return time.strftime('%c', time.localtime(s.get('server_start', time.time())))
+
 
 class HTMLFilter(HTMLParser):
     text = ""
@@ -391,7 +393,7 @@ def dict2text(d: dict):
     return list2text(arr)
 
 
-def refresh_info_quick(_old_data):
+def refresh_info_quick(_old_data = None):
     get_quick_data()
     return dict2text(data['state']), dict2text(data['memory']), data['crossattention'], data['timestamp'], data
 
@@ -605,4 +607,14 @@ def bench_refresh():
     return gr.HTML.update(value = bench_text)
 
 
+def on_app_started(_block, app): # register api
+
+    @app.get("/sdapi/v1/system-info/status")
+    async def sysinfo_api():
+        get_quick_data()
+        res = { 'state': data['state'], 'memory': data['memory'], 'timestamp': data['timestamp'] }
+        return res
+
+
 script_callbacks.on_ui_tabs(on_ui_tabs)
+script_callbacks.on_app_started(on_app_started)
