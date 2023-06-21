@@ -98,7 +98,7 @@
             { name: 'Optimizations', formatter: (cell) => html(cell.replace(/ /g, '<br>').toLowerCase()) },
             { name: 'Model', width: '260px', formatter: (cell) => html(`<span style="color: bisque">${cell.split(/\/|\\/).pop().replace(/\[/g, '<br>[')}</span>`) },
             { name: 'Username' },
-            { name: 'Note', formatter: (cell) => html(`<span style="font-size: 0.9rem">${attrs(cell.replace('device:', ''))}</span>`) },
+            { name: 'Note', formatter: (cell) => html(`<span style="font-size: 0.9rem">${attrs(cell?.replace('device:', '') || '')}</span>`) },
           ],
           // pagination: true,
           search: true,
