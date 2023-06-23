@@ -18,7 +18,7 @@
       html { font-family: 'Roboto', 'Segoe UI'; font-size: 14px; }
       body { margin: 0; background: black; color: white; overflow: hidden; width: 100vw; height: 100vh; line-height: 1.5rem; }
       body::-webkit-scrollbar { display: none; }
-      div { margin-bottom: 1rem; }
+      div { margin-bottom: 0.5rem; }
       a { color: #AAA; text-decoration: none; }
       th { top: -2px !important; } /* fix for gridjs header */
       input[type=search] { background-color: #333; font-size: 1.2rem; border-color: #222; color: white; margin-left: 12px; }
@@ -27,6 +27,8 @@
       ::-webkit-scrollbar-thumb { background-color: #AAA; border-radius: 2px; border-width: 0; box-shadow: 2px 2px 3px #111111; }
       table td:nth-child(3) { background-color: #555 !important; letter-spacing: 1px; text-align: right; }
       td.gridjs-td:last-child { white-space: nowrap; }
+      .gridjs-footer { background-color: unset !important; border-top: unset !important; }
+      .gridjs-pagination { color: white; }
     </style>
   </head>
   <body>
@@ -39,8 +41,7 @@
       <span id="modified" style="color: #AAA"> (page is updated automatically hourly if new data is found) <a href="https://github.com/vladmandic/sd-data/actions" target="_blank"> | STATUS</a></span>
       <div>Download 
         | <a href="https://vladmandic.github.io/sd-data/pages/benchmark-data.json" style="color: #AAA" target="_blank">DATA</a></b>
-        | <a href="https://vladmandic.github.io/sd-data/pages/benchmark-raw.json" style="color: #AAA" target="_blank">RAW</a></b>
-        | <a href="https://github.com/vladmandic/sd-data/blob/main/pages/benchmark.md" style="color: #AAA" target="_blank">MD</a></b> |
+        | <a href="https://vladmandic.github.io/sd-data/input/benchmark-raw.json" style="color: #AAA" target="_blank">RAW</a></b>
       </div>
       <div style="color: #CCC"><i>Note | Performance is measured as iterations per second for different batch sizes (1, 2, 4, 8 ...) and using standardized txt2img settings</i></div>
       <br>
@@ -100,7 +101,10 @@
             { name: 'Username' },
             { name: 'Note', formatter: (cell) => html(`<span style="font-size: 0.9rem">${attrs(cell?.replace('device:', '') || '')}</span>`) },
           ],
-          // pagination: true,
+          pagination: {
+            limit: 200,
+            summary: true,
+          },
           search: true,
           sort: { multiColumn: false },
           resizable: true,
