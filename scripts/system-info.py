@@ -8,20 +8,10 @@ import datetime
 import logging
 from hashlib import sha256
 from html.parser import HTMLParser
-
 import torch
-try:
-    import intel_extension_for_pytorch as ipex # pylint: disable=import-error, unused-import
-except Exception:
-    pass
-import accelerate
 import gradio as gr
 import psutil
-import transformers
-
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
-from modules.ui_components import FormRow
-
 from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611,C0411
 
 
@@ -53,6 +43,8 @@ data = {
     'extensions': [],
     'platform': '',
     'crossattention': '',
+    'backend': getattr(devices, 'backend', ''),
+    'pipeline': shared.opts.data.get('sd_backend', ''),
 }
 
 ### benchmark globals
@@ -85,9 +77,10 @@ def get_user():
 def get_gpu():
     if not torch.cuda.is_available():
         try:
+            import intel_extension_for_pytorch # pylint: disable=import-error, unused-import
             return {
                 'device': f'{torch.xpu.get_device_name(torch.xpu.current_device())} ({str(torch.xpu.device_count())})',
-                'ipex': str(ipex.__version__),
+                'ipex': get_package_version('intel-extension-for-pytorch'),
             }
         except Exception:
             return {}
@@ -213,16 +206,18 @@ def get_optimizations():
     return ram
 
 
+def get_package_version(pkg: str):
+    import pkg_resources
+    spec = pkg_resources.working_set.by_key.get(pkg, None) # more reliable than importlib
+    version = pkg_resources.get_distribution(pkg).version if spec is not None else ''
+    return version
+
+
 def get_libs():
-    try:
-        import xformers # pylint: disable=import-outside-toplevel, import-error
-        xversion = xformers.__version__
-    except Exception:
-        xversion = 'unavailable'
     return {
-        'xformers': xversion,
-        'accelerate': accelerate.__version__,
-        'transformers': transformers.__version__,
+        'xformers': get_package_version('xformers'),
+        'diffusers': get_package_version('diffusers'),
+        'transformers': get_package_version('transformers'),
     }
 
 
@@ -279,10 +274,15 @@ def get_version():
             origin = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
             res = subprocess.run('git rev-parse --abbrev-ref HEAD', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
             branch = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
+            url = origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
+            app = origin.replace('\n', '').split('/')[-1]
+            if app == 'automatic':
+                app = 'SD.next'
             version = {
+                'app': app,
                 'updated': updated,
                 'hash': githash,
-                'url': origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
+                'url': url
             }
         except Exception:
             pass
@@ -299,10 +299,8 @@ def get_skipped():
 
 def get_crossattention():
     try:
-        ca = sd_hijack.model_hijack.optimization_method
-        if ca is None:
-            return 'none'
-        else: return ca
+        ca = sd_hijack.model_hijack.optimization_method or getattr(shared.opts, 'cross_attention_optimization', 'none')
+        return ca
     except Exception:
         return 'unknown'
 
@@ -369,6 +367,8 @@ def get_full_data():
         'extensions': get_extensions(),
         'platform': get_platform(),
         'crossattention': get_crossattention(),
+        'backend': getattr(devices, 'backend', ''),
+        'pipeline': shared.opts.data.get('sd_backend', ''),
     }
     return data
 
@@ -400,7 +400,7 @@ def refresh_info_quick(_old_data = None):
 
 def refresh_info_full():
     get_full_data()
-    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), data['models'], data['hypernetworks'], data['embeddings'], data['skipped'], data['loras'], data['lycos'], data['timestamp'], data
+    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), data['models'], data['hypernetworks'], data['embeddings'], data['skipped'], data['loras'], data['lycos'], data['timestamp'], data
 
 
 ### ui definition
@@ -423,6 +423,9 @@ def on_ui_tabs():
                     with gr.Row():
                         with gr.Column():
                             platformtxt = gr.Textbox(dict2text(data['platform']), label = 'Platform', lines = len(data['platform']))
+                            with gr.Row():
+                                backendtxt = gr.Textbox(data['backend'], label = 'Backend')
+                                pipelinetxt = gr.Textbox(data['pipeline'], label = 'Pipeline')
                         with gr.Column():
                             torchtxt = gr.Textbox(data['torch'], label = 'Torch', lines = 1)
                             gputxt = gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
@@ -431,7 +434,7 @@ def on_ui_tabs():
                                 attentiontxt = gr.Textbox(data['crossattention'], label = 'Cross-attention')
                         with gr.Column():
                             libstxt = gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
-                            repostxt = gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']))
+                            repostxt = gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']), visible = False)
                             devtxt = gr.Textbox(dict2text(data['device']), label = 'Device Info', lines = len(data['device']))
                 with gr.Box():
                     with gr.Accordion('Benchmarks...', open = True, visible = True):
@@ -443,7 +446,7 @@ def on_ui_tabs():
                                 username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
                                 note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                             with gr.Column(scale=1):
-                                with FormRow():
+                                with gr.Row():
                                     global console_logging # pylint: disable=global-statement
                                     console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
                                     warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
@@ -497,7 +500,7 @@ def on_ui_tabs():
                 refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
                 refresh_full_btn.click(refresh_info_full, show_progress = False,
                     inputs = [],
-                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, libstxt, repostxt, devtxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
+                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, backendtxt, pipelinetxt, libstxt, repostxt, devtxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
                 )
                 interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
