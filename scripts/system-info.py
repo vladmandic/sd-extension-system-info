@@ -24,12 +24,12 @@ data = {
     'date': '',
     'timestamp': '',
     'uptime': '',
-    'version': '',
+    'version': {},
     'torch': '',
     'gpu': {},
     'state': {},
     'memory': {},
-    'optimizations': '',
+    'optimizations': [],
     'libs': {},
     'repos': {},
     'device': {},
@@ -264,28 +264,27 @@ def get_torch():
 
 
 def get_version():
-    version = None
-    if version is None:
-        try:
-            res = subprocess.run('git log --pretty=format:"%h %ad" -1 --date=short', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-            ver = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-            githash, updated = ver.split(' ')
-            res = subprocess.run('git remote get-url origin', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-            origin = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-            res = subprocess.run('git rev-parse --abbrev-ref HEAD', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-            branch = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-            url = origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
-            app = origin.replace('\n', '').split('/')[-1]
-            if app == 'automatic':
-                app = 'SD.next'
-            version = {
-                'app': app,
-                'updated': updated,
-                'hash': githash,
-                'url': url
-            }
-        except Exception:
-            pass
+    version = {}
+    try:
+        res = subprocess.run('git log --pretty=format:"%h %ad" -1 --date=short', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
+        ver = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
+        githash, updated = ver.split(' ')
+        res = subprocess.run('git remote get-url origin', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
+        origin = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
+        res = subprocess.run('git rev-parse --abbrev-ref HEAD', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
+        branch = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
+        url = origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
+        app = origin.replace('\n', '').split('/')[-1]
+        if app == 'automatic':
+            app = 'SD.next'
+        version = {
+            'app': app,
+            'updated': updated,
+            'hash': githash,
+            'url': url
+        }
+    except Exception:
+        pass
     return version
 
 
@@ -610,13 +609,75 @@ def bench_refresh():
     return gr.HTML.update(value = bench_text)
 
 
-def on_app_started(_block, app): # register api
+### API
 
+from typing import Optional # pylint: disable=wrong-import-order
+from fastapi import FastAPI, Depends # pylint: disable=wrong-import-order
+from pydantic import BaseModel, Field # pylint: disable=wrong-import-order,no-name-in-module
+
+
+class StatusReq(BaseModel): # definition of http request
+    state: bool = Field(title="State", description="Get server state", default=False)
+    memory: bool = Field(title="Memory", description="Get server memory status", default=False)
+    full: bool = Field(title="FullInfo", description="Get full server info", default=False)
+    refresh: bool = Field(title="FullInfo", description="Force refresh server info", default=False)
+
+class StatusRes(BaseModel): # definition of http response
+    version: dict = Field(title="Version", description="Server version")
+    uptime: str = Field(title="Uptime", description="Server uptime")
+    timestamp: str = Field(title="Timestamp", description="Data timestamp")
+    state: Optional[dict] = Field(title="State", description="Server state")
+    memory: Optional[dict] = Field(title="Memory", description="Server memory status")
+    platform: Optional[dict] = Field(title="Platform", description="Server platform")
+    torch: Optional[str] = Field(title="Torch", description="Torch version")
+    gpu: Optional[dict] = Field(title="GPU", description="GPU info")
+    optimizations: Optional[list] = Field(title="Optimizations", description="Memory optimizations")
+    crossatention: Optional[str] = Field(title="CrossAttention", description="Cross-attention optimization")
+    device: Optional[dict] = Field(title="Device", description="Device info")
+    backend: Optional[str] = Field(title="Backend", description="Backend")
+    pipeline: Optional[str] = Field(title="Pipeline", description="Pipeline")
+
+def get_status_api(req: StatusReq = Depends()):
+    if req.refresh:
+        get_full_data()
+    else:
+        get_quick_data()
+    res = StatusRes(
+        version = data['version'],
+        timestamp = data['timestamp'],
+        uptime = data['uptime']
+    )
+    if req.state or req.full:
+        res.state = data['state']
+    if req.memory or req.full:
+        res.memory = data['memory']
+    if req.full:
+        res.platform = data['platform']
+        res.torch = data['torch']
+        res.gpu = data['gpu']
+        res.optimizations = data['optimizations']
+        res.crossatention = data['crossattention']
+        res.device = data['device']
+        res.backend = data['backend']
+        res.pipeline = data['pipeline']
+    return res
+
+
+def register_api(app: FastAPI):
+    app.add_api_route("/sdapi/v1/system-info/status", get_status_api, methods=["GET"], response_model=StatusRes)
+
+
+### Entry point
+
+def on_app_started(_block, app): # register api
+    register_api(app)
+    """
     @app.get("/sdapi/v1/system-info/status")
     async def sysinfo_api():
         get_quick_data()
         res = { 'state': data['state'], 'memory': data['memory'], 'timestamp': data['timestamp'] }
         return res
+    """
 
 
 script_callbacks.on_ui_tabs(on_ui_tabs)
