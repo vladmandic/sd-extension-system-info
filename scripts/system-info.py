@@ -51,7 +51,7 @@ data = {
 
 bench_text = ''
 bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data-local.json')
-bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
+bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'pipeline', 'model', 'username', 'note', 'hash']
 bench_data = []
 console_logging = None
 
@@ -566,7 +566,7 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     d[3] = dict2str(data['platform'])
     d[4] = f"torch:{data['torch']} {dict2str(data['libs'])}"
     d[5] = dict2str(data['gpu']) + f' {str(round(mem))}GB'
-    d[6] = data['crossattention'] + ' ' + ','.join(data['optimizations'])
+    d[6] = (data['pipeline'] + ' ' + data['crossattention'] + ' ' + ','.join(data['optimizations'])).strip()
     d[7] = shared.opts.data['sd_model_checkpoint']
     d[8] = username
     d[9] = note
