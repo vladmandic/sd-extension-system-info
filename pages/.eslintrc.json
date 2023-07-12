@@ -3,7 +3,7 @@
   "env": {
       "browser": true,
       "commonjs": true,
-      "node": true,
+      "node": false,
       "jquery": false,
       "es2020": true
   },
@@ -12,9 +12,6 @@
   "extends": [
       "eslint:recommended",
       "plugin:json/recommended",
-      "plugin:import/errors",
-      "plugin:import/warnings",
-      "plugin:node/recommended",
       "airbnb-base"
   ],
   "rules": {
