@@ -91,6 +91,7 @@ def get_gpu():
                     'device': f'{torch.cuda.get_device_name(torch.cuda.current_device())} ({str(torch.cuda.device_count())}) ({torch.cuda.get_arch_list()[-1]}) {str(torch.cuda.get_device_capability(shared.device))}',
                     'cuda': torch.version.cuda,
                     'cudnn': torch.backends.cudnn.version(),
+                    'driver': get_driver(),
                 }
             elif torch.version.hip:
                 return {
@@ -103,6 +104,19 @@ def get_gpu():
                 }
         except Exception as e:
             return { 'error': e }
+
+
+def get_driver():
+    if torch.cuda.is_available() and torch.version.cuda:
+        try:
+            result = subprocess.run('nvidia-smi --query-gpu=driver_version --format=csv,noheader', shell=True, check=False, env=os.environ, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            version = result.stdout.decode(encoding="utf8", errors="ignore").strip()
+            return version
+        except Exception:
+            return ''
+    else:
+        return ''
+
 
 def get_uptime():
     s = vars(shared.state)
