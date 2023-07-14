@@ -76,14 +76,7 @@ def get_user():
 
 def get_gpu():
     if not torch.cuda.is_available():
-        try:
-            import intel_extension_for_pytorch # pylint: disable=import-error, unused-import
-            return {
-                'device': f'{torch.xpu.get_device_name(torch.xpu.current_device())} ({str(torch.xpu.device_count())})',
-                'ipex': get_package_version('intel-extension-for-pytorch'),
-            }
-        except Exception:
-            return {}
+        return {}
     else:
         try:
             if torch.version.cuda:
@@ -99,9 +92,16 @@ def get_gpu():
                     'hip': torch.version.hip,
                 }
             else:
-                return {
-                    'device': 'unknown'
-                }
+                try:
+                    import intel_extension_for_pytorch # pylint: disable=import-error, unused-import
+                    return {
+                        'device': f'{torch.xpu.get_device_name(torch.xpu.current_device())} ({str(torch.xpu.device_count())})',
+                        'ipex': get_package_version('intel-extension-for-pytorch'),
+                    }
+                except Exception:
+                    return {
+                        'device': 'unknown'
+                    }
         except Exception as e:
             return { 'error': e }
 
@@ -181,27 +181,6 @@ def get_memory():
                 'utilization': 0,
             })
             mem.update({ 'utilization': torch.cuda.utilization() }) # do this one separately as it may fail
-        except Exception:
-            pass
-    else:
-        try:
-            s = [(torch.xpu.get_device_properties(shared.device).total_memory - torch.xpu.memory_allocated()), torch.xpu.get_device_properties(shared.device).total_memory]
-            gpu = { 'free': gb(s[0]), 'used': gb(s[1] - s[0]), 'total': gb(s[1]) }
-            s = dict(torch.xpu.memory_stats(shared.device))
-            allocated = { 'current': gb(s['allocated_bytes.all.current']), 'peak': gb(s['allocated_bytes.all.peak']) }
-            reserved = { 'current': gb(s['reserved_bytes.all.current']), 'peak': gb(s['reserved_bytes.all.peak']) }
-            active = { 'current': gb(s['active_bytes.all.current']), 'peak': gb(s['active_bytes.all.peak']) }
-            inactive = { 'current': gb(s['inactive_split_bytes.all.current']), 'peak': gb(s['inactive_split_bytes.all.peak']) }
-            warnings = { 'retries': s['num_alloc_retries'], 'oom': s['num_ooms'] }
-            mem.update({
-                'gpu': gpu,
-                'gpu-active': active,
-                'gpu-allocated': allocated,
-                'gpu-reserved': reserved,
-                'gpu-inactive': inactive,
-                'events': warnings,
-                'utilization': 0,
-            })
         except Exception:
             pass
     return mem
