@@ -51,6 +51,7 @@
     <script type="module">
       import { Grid, html } from 'https://cdn.jsdelivr.net/npm/gridjs@6.0.6/dist/gridjs.module.js'; // eslint-disable-line import/no-unresolved, node/no-missing-import, import/extensions
 
+      const currentUrl = new URL(location.href);
       const dataUrl = 'https://vladmandic.github.io/sd-data/pages/benchmark-data.json';
 
       const log = (...msg) => {
@@ -105,7 +106,9 @@
             limit: 200,
             summary: true,
           },
-          search: true,
+          search: {
+            keyword: currentUrl.searchParams.get('keyword') || ''
+          },
           sort: { multiColumn: false },
           resizable: true,
           fixedHeader: true,
