@@ -1,5 +1,7 @@
 // this would not be needed if automatic run gradio with loop enabled
 
+const refresh_interval = 2000
+const data_length = 120
 let loaded = false;
 let interval_sys;
 let interval_bench;
@@ -19,31 +21,32 @@ const colorRangeMap = $.range_map({
   '81:90': '#7c2d12',
   '91:100': '#6c2e12',
 })
-const sparklineConfig = { type: 'bar', height: '60px', barWidth: '2px', disableInteraction: true, chartRangeMin: 0, chartRangeMax: 100, disableHiddenCheck: true, colorMap: colorRangeMap, fillColor: false }
+const sparklineConfig = { type: 'bar', height: '100px', barWidth: '3px', barSpacing: '1px', disableInteraction: true, chartRangeMin: 0, chartRangeMax: 100, disableHiddenCheck: true, colorMap: colorRangeMap, fillColor: false };
 
 function refresh_info() {
-  const btn = gradioApp().getElementById('system_info_tab_refresh_btn') // we could cache this dom element
-  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
+  const btn = gradioApp().getElementById('system_info_tab_refresh_btn'); // we could cache this dom element
+  if (btn) btn.click(); // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
 }
 
 function refresh_info_full() {
-  const btn = gradioApp().getElementById('system_info_tab_refresh_full_btn') // we could cache this dom element
-  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
+  const btn = gradioApp().getElementById('system_info_tab_refresh_full_btn'); // we could cache this dom element
+  if (btn) btn.click(); // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
 }
 
 function refresh_bench() {
-  const btn = gradioApp().getElementById('system_info_tab_refresh_bench_btn') // we could cache this dom element
-  if (btn) btn.click() // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
+  const btn = gradioApp().getElementById('system_info_tab_refresh_bench_btn'); // we could cache this dom element
+  if (btn) btn.click(); // but ui may get destroyed, actual refresh is done from python code we just trigger it but simulating button click
 }
 
 function receive_system_info(data) {
   // https://omnipotent.net/jquery.sparkline/#s-docs
-  if (loadData.length > 60) loadData.shift();
-  loadData.push(data?.memory?.utilization || 0)
+  if (loadData.length > data_length) loadData.shift();
+  loadData.push(data?.memory?.utilization || 0);
+  sparklineConfig.barWidth = Math.floor((gradioApp().getElementById('tab_system').clientWidth - 20) / data_length / 2);
   $('#si-sparkline-load').sparkline(loadData, sparklineConfig);
 
-  if (memoData.length > 60) memoData.shift();
-  memoData.push(100 * (data?.memory?.gpu?.used || 0) / (data?.memory?.gpu?.total || 1))
+  if (memoData.length > data_length) memoData.shift();
+  memoData.push(100 * (data?.memory?.gpu?.used || 0) / (data?.memory?.gpu?.total || 1));
   $('#si-sparkline-memo').sparkline(memoData, sparklineConfig);
 }
 
@@ -62,15 +65,15 @@ function onVisible() { // start refresh interval tab is when visible
   if (!interval_sys) {
     setTimeout(refresh_info_full, 50); // do full refresh on first show
     refresh_info_full(); // do full refresh on first show
-    interval_sys = setInterval(refresh_info, 1500); // check interval already started so dont start it again
+    interval_sys = setInterval(refresh_info, refresh_interval); // check interval already started so dont start it again
   }
   if (!interval_bench) interval_bench = setInterval(refresh_bench, 1000); // check interval already started so dont start it again
 }
 
 function initLoading() { // triggered on gradio change to monitor when ui gets sufficiently constructed
-  if (loaded) return
-  const block = gradioApp().getElementById('system_info');
-  if (!block) return
+  if (loaded) return;
+  const block = gradioApp().getElementById('si-sparkline-load');
+  if (!block) return;
   intersectionObserver = new IntersectionObserver((entries) => {
     if (entries[0].intersectionRatio <= 0) onHidden();
     if (entries[0].intersectionRatio > 0) onVisible();
@@ -79,7 +82,7 @@ function initLoading() { // triggered on gradio change to monitor when ui gets s
 }
 
 function initInitial() { // just setup monitor for gradio events
-  const mutationObserver = new MutationObserver(initLoading)
+  const mutationObserver = new MutationObserver(initLoading);
   mutationObserver.observe(gradioApp(), { childList: true, subtree: true }); // monitor changes to gradio
 }
 

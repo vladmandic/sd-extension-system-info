@@ -33,18 +33,22 @@ data = {
     'libs': {},
     'repos': {},
     'device': {},
-    'models': [],
-    'hypernetworks': [],
-    'embeddings': [],
-    'skipped': [],
-    'loras': [],
-    'lycos': [],
     'schedulers': [],
     'extensions': [],
     'platform': '',
     'crossattention': '',
     'backend': getattr(devices, 'backend', ''),
     'pipeline': shared.opts.data.get('sd_backend', ''),
+    'model': {},
+}
+
+networks = {
+    'models': [],
+    'hypernetworks': [],
+    'embeddings': [],
+    'skipped': [],
+    'loras': [],
+    'lycos': [],
 }
 
 ### benchmark globals
@@ -297,6 +301,36 @@ def get_crossattention():
         return 'unknown'
 
 
+def get_model():
+    from modules.sd_models import model_data
+    import modules.sd_vae
+    obj = {
+        'configured': {
+            'base': shared.opts.data.get('sd_model_checkpoint', ''),
+            'refiner': shared.opts.data.get('sd_model_refiner', ''),
+            'vae': shared.opts.data.get('sd_vae', ''),
+        },
+        'loaded': {
+            'base': '',
+            'refiner': '',
+            'vae': '',
+        }
+    }
+    try:
+        obj['loaded']['base'] = model_data.sd_model.sd_checkpoint_info.filename if model_data.sd_model is not None and hasattr(model_data.sd_model, 'sd_checkpoint_info') else ''
+    except Exception :
+        pass
+    try:
+        obj['loaded']['refiner'] = model_data.sd_refiner.sd_checkpoint_info.filename if model_data.sd_refiner is not None and hasattr(model_data.sd_refiner, 'sd_checkpoint_info') else ''
+    except Exception :
+        pass
+    try:
+        obj['loaded']['vae'] = modules.sd_vae.loaded_vae_file
+    except Exception:
+        pass
+    return obj
+
+
 def get_models():
     return sorted([x.title for x in sd_models.checkpoints_list.values()])
 
@@ -349,18 +383,22 @@ def get_full_data():
         'libs': get_libs(),
         'repos': get_repos(),
         'device': get_device(),
-        'models': get_models(),
-        'hypernetworks': [name for name in shared.hypernetworks],
-        'embeddings': get_embeddings(),
-        'skipped': get_skipped(),
-        'loras': get_loras(),
-        'lycos': get_lycos(),
+        'model': get_model(),
         'schedulers': get_samplers(),
         'extensions': get_extensions(),
         'platform': get_platform(),
         'crossattention': get_crossattention(),
         'backend': getattr(devices, 'backend', ''),
         'pipeline': shared.opts.data.get('sd_backend', ''),
+    }
+    global networks # pylint: disable=global-statement
+    networks = {
+        'models': get_models(),
+        'hypernetworks': [name for name in shared.hypernetworks],
+        'embeddings': get_embeddings(),
+        'skipped': get_skipped(),
+        'loras': get_loras(),
+        'lycos': get_lycos(),
     }
     return data
 
@@ -369,6 +407,7 @@ def get_quick_data():
     data['timestamp'] = datetime.datetime.now().strftime('%X')
     data['state'] = get_state()
     data['memory'] = get_memory()
+    data['model'] = get_model()
 
 
 def list2text(lst: list):
@@ -392,17 +431,26 @@ def refresh_info_quick(_old_data = None):
 
 def refresh_info_full():
     get_full_data()
-    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), data['models'], data['hypernetworks'], data['embeddings'], data['skipped'], data['loras'], data['lycos'], data['timestamp'], data
+    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), dict2text(data['model']), networks['models'], networks['hypernetworks'], networks['embeddings'], networks['skipped'], networks['loras'], networks['lycos'], data['timestamp'], data
 
 
 ### ui definition
 
-def on_ui_tabs():
-    # get_full_data()
-    with gr.Blocks(analytics_enabled = False) as system_info:
+def create_ui(blocks: gr.Blocks = None):
+    if not standalone:
+        from modules.ui import ui_system_tabs
+    else:
+        ui_system_tabs = None
+
+    with gr.Blocks(analytics_enabled = False) if standalone else blocks as system_info:
         with gr.Row(elem_id = 'system_info'):
-            with gr.Column(scale = 9):
-                with gr.Box():
+            with gr.Tabs(elem_id = 'system_info_tabs', active = 0) if standalone else ui_system_tabs:
+                with gr.TabItem('System Info'):
+                    with gr.Row():
+                        timestamp = gr.Textbox(default=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update', container=False)
+                        refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style() # quick refresh is used from js interval
+                        refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
+                        interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                     with gr.Row():
                         with gr.Column():
                             uptimetxt = gr.Textbox(data['uptime'], label = 'Server start time', lines = 1)
@@ -411,7 +459,6 @@ def on_ui_tabs():
                             statetxt = gr.Textbox(dict2text(data['state']), label = 'State', lines = len(data['state']))
                         with gr.Column():
                             memorytxt = gr.Textbox(dict2text(data['memory']), label = 'Memory', lines = len(data['memory']))
-                with gr.Box():
                     with gr.Row():
                         with gr.Column():
                             platformtxt = gr.Textbox(dict2text(data['platform']), label = 'Platform', lines = len(data['platform']))
@@ -428,75 +475,69 @@ def on_ui_tabs():
                             libstxt = gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
                             repostxt = gr.Textbox(dict2text(data['repos']), label = 'Repos', lines = len(data['repos']), visible = False)
                             devtxt = gr.Textbox(dict2text(data['device']), label = 'Device Info', lines = len(data['device']))
-                with gr.Box():
-                    with gr.Accordion('Benchmarks...', open = True, visible = True):
-                        bench_load()
-                        with gr.Row():
-                            benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
-                        with gr.Row():
-                            with gr.Column(scale=3):
-                                username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
-                                note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
-                            with gr.Column(scale=1):
-                                with gr.Row():
-                                    global console_logging # pylint: disable=global-statement
-                                    console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
-                                    warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
-                                    extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
-                                level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
-                                # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
-                            with gr.Column(scale=1):
-                                bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary').style()
-                                bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
-                                bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary').style()
-                                bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
-                                _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
-                        with gr.Row():
-                            _bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
-                                <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
-                                <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
-                        with gr.Row():
-                            bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
-                            refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
-                            refresh_bench_btn.click(bench_refresh, inputs = [], outputs = [bench_label])
-                with gr.Box():
-                    with gr.Accordion('Models...', open = False, visible = True):
-                        with gr.Row():
-                            with gr.Column():
-                                models = gr.JSON(data['models'], label = 'Models', lines = len(data['models']))
-                                hypernetworks = gr.JSON(data['hypernetworks'], label = 'Hypernetworks', lines = len(data['hypernetworks']))
-                            with gr.Column():
-                                embeddings = gr.JSON(data['embeddings'], label = 'Embeddings: loaded', lines = len(data['embeddings']))
-                                skipped = gr.JSON(data['skipped'], label = 'Embeddings: skipped', lines = len(data['embeddings']))
-                                loras = gr.JSON(data['loras'], label = 'Available LORA', lines = len(data['loras']))
-                                lycos = gr.JSON(data['lycos'], label = 'Available LyCORIS', lines = len(data['lycos']))
-                with gr.Box():
+                            modeltxt = gr.Textbox(dict2text(data['model']), label = 'Model Info', lines = len(data['model']))
+                    with gr.Row():
+                        gr.HTML('Load<br><div id="si-sparkline-load"></div>')
+                        gr.HTML('Memory<br><div id="si-sparkline-memo"></div>')
                     with gr.Accordion('Info object', open = False, visible = True):
                         # reduce json data to avoid private info
-                        data.pop('models', None)
-                        data.pop('embeddings', None)
-                        data.pop('skipped', None)
-                        data.pop('hypernetworks', None)
-                        data.pop('schedulers', None)
-                        data.pop('loras', None)
+                        refresh_info_quick()
                         js = gr.JSON(data)
-            with gr.Column(scale = 1, min_width = 120):
-                timestamp = gr.Text(default=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update')
-                gr.HTML('Load<br><div id="si-sparkline-load"></div>')
-                gr.HTML('Memory<br><div id="si-sparkline-memo"></div>')
-                refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style() # quick refresh is used from js interval
+
+                with gr.TabItem('Benchmark'):
+                    bench_load()
+                    with gr.Row():
+                        benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
+                    with gr.Row():
+                        with gr.Column(scale=3):
+                            username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
+                            note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
+                        with gr.Column(scale=1):
+                            with gr.Row():
+                                global console_logging # pylint: disable=global-statement
+                                console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
+                                warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
+                                extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
+                            level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
+                            # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
+                        with gr.Column(scale=1):
+                            bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary').style()
+                            bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
+                            bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary').style()
+                            bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
+                            _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
+                    with gr.Row():
+                        _bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
+                            <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
+                            <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
+                    with gr.Row():
+                        bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
+                        refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
+                        refresh_bench_btn.click(bench_refresh, inputs = [], outputs = [bench_label])
+
+                with gr.TabItem('Models & Networks'):
+                    with gr.Row():
+                        with gr.Column():
+                            models = gr.JSON(networks['models'], label = 'Models')
+                        with gr.Column():
+                            loras = gr.JSON(networks['loras'], label = 'Available LORA')
+                            lycos = gr.JSON(networks['lycos'], label = 'Available LyCORIS')
+                        with gr.Column():
+                            embeddings = gr.JSON(networks['embeddings'], label = 'Embeddings: loaded')
+                            skipped = gr.JSON(networks['skipped'], label = 'Embeddings: skipped')
+                            hypernetworks = gr.JSON(networks['hypernetworks'], label = 'Hypernetworks')
+
                 refresh_quick_btn.click(refresh_info_quick, _js='receive_system_info', show_progress = False,
                     inputs = [js],
                     outputs = [statetxt, memorytxt, attentiontxt, timestamp, js]
                 )
-                refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
                 refresh_full_btn.click(refresh_info_full, show_progress = False,
                     inputs = [],
-                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, backendtxt, pipelinetxt, libstxt, repostxt, devtxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
+                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, backendtxt, pipelinetxt, libstxt, repostxt, devtxt, modeltxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
                 )
-                interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
-    return (system_info, 'System Info', 'system_info'),
+
+    return [(system_info, 'System Info', 'system_info')]
 
 
 ### benchmarking module
@@ -662,8 +703,10 @@ def register_api(app: FastAPI):
 
 ### Entry point
 
-def on_app_started(_block, app): # register api
+def on_app_started(blocks, app): # register api
     register_api(app)
+    if not standalone:
+        create_ui(blocks)
     """
     @app.get("/sdapi/v1/system-info/status")
     async def sysinfo_api():
@@ -672,6 +715,12 @@ def on_app_started(_block, app): # register api
         return res
     """
 
+try:
+    from modules.ui import ui_system_tabs # pylint: disable=unused-import,ungrouped-imports
+    standalone = False
+except:
+    standalone = True
 
-script_callbacks.on_ui_tabs(on_ui_tabs)
+if standalone:
+    script_callbacks.on_ui_tabs(create_ui)
 script_callbacks.on_app_started(on_app_started)
