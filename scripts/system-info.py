@@ -6,20 +6,16 @@ import platform
 import subprocess
 import datetime
 import logging
-from hashlib import sha256
 from html.parser import HTMLParser
 import torch
 import gradio as gr
-import psutil
 from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
 from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611,C0411
 
 
 ### system info globals
 
-log = logging.getLogger('steps-animation')
-log.setLevel(logging.INFO)
-
+log = logging.getLogger('sd')
 data = {
     'date': '',
     'timestamp': '',
@@ -41,7 +37,6 @@ data = {
     'pipeline': shared.opts.data.get('sd_backend', ''),
     'model': {},
 }
-
 networks = {
     'models': [],
     'hypernetworks': [],
@@ -57,8 +52,6 @@ bench_text = ''
 bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data-local.json')
 bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'pipeline', 'model', 'username', 'note', 'hash']
 bench_data = []
-console_logging = None
-
 
 ### system info module
 
@@ -158,6 +151,7 @@ def get_memory():
         return round(val / 1024 / 1024 / 1024, 2)
     mem = {}
     try:
+        import psutil
         process = psutil.Process(os.getpid())
         res = process.memory_info()
         ram_total = 100 * res.rss / process.memory_percent()
@@ -494,8 +488,6 @@ def create_ui(blocks: gr.Blocks = None):
                             note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
                         with gr.Column(scale=1):
                             with gr.Row():
-                                global console_logging # pylint: disable=global-statement
-                                console_logging = gr.Checkbox(label = 'Console logging', value = False, elem_id = 'system_info_tab_console', interactive = True)
                                 warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
                                 extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
                             level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
@@ -544,25 +536,28 @@ def create_ui(blocks: gr.Blocks = None):
 
 def bench_submit(username: str):
     if username is None or username == '':
-        log.debug('SD-System-Info: username is required to submit results')
+        log.error('SD-System-Info: username is required to submit results')
         return
-    submit_benchmark(bench_data, username, console_logging.value)
-    log.debug(f'SD-System-Info: benchmark data submitted: {len(bench_data)} records')
+    submit_benchmark(bench_data, username)
+    log.info(f'SD-System-Info: benchmark data submitted: {len(bench_data)} records')
 
 
 def bench_run(batches: list = [1], extra: bool = False):
     results = []
     for batch in batches:
-        log.debug(f'SD-System-Info: benchmark running for batch size {batch}')
+        log.debug(f'SD-System-Info: benchmark starting: batch-size={batch}')
         res = run_benchmark(batch, extra)
-        log.debug(f'SD-System-Info: benchmark results batch size {batch}: {res} it/s')
+        log.info(f'SD-System-Info: benchmark batch-size={batch} it/s={res}')
         results.append(str(res))
     its = ' / '.join(results)
     return its
 
 
 def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
+    from hashlib import sha256
+
     log.debug('SD-System-Info: benchmark starting')
+    get_full_data()
     hash256 = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
     existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash256)]
     if len(existing) > 0:
@@ -606,7 +601,7 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
     d[10] = hash256
 
     md = '| ' + ' | '.join(d) + ' |'
-    log.debug(f'SD-System-Info: benchmark result: {md}')
+    log.info(f'SD-System-Info: benchmark result: {md}')
 
     bench_save()
     return bench_data
