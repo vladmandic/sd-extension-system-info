@@ -73,7 +73,17 @@ def get_user():
 
 def get_gpu():
     if not torch.cuda.is_available():
-        return {}
+        try:
+            if shared.cmd_opts.use_openvino:
+                from modules.intel.openvino import get_openvino_device
+                return {
+                    'device': get_openvino_device(),
+                    'openvino': get_package_version("openvino")
+                }
+            else:
+                return {}
+        except Exception:
+            return {}
     else:
         try:
             if torch.version.cuda:
