@@ -191,6 +191,16 @@ def get_memory():
             mem.update({ 'utilization': torch.cuda.utilization() }) # do this one separately as it may fail
         except Exception:
             pass
+    else:
+        try:
+            from openvino.runtime import Core as OpenVINO_Core
+            from modules.intel.openvino import get_device as get_raw_openvino_device
+            openvino_core = OpenVINO_Core()
+            mem.update({
+                'gpu': { 'total': gb(openvino_core.get_property(get_raw_openvino_device(), 'GPU_DEVICE_TOTAL_MEM_SIZE')) },
+            })
+        except Exception:
+            pass
     return mem
 
 
