@@ -204,11 +204,13 @@ def get_memory():
 
 def get_optimizations():
     ram = []
-    if shared.cmd_opts.medvram:
+    if getattr(shared.cmd_opts, 'medvram', False):
         ram.append('medvram')
-    if shared.cmd_opts.lowvram:
+    if getattr(shared.cmd_opts, 'medvram_sdxl', False):
+        ram.append('medvram-sdxl')
+    if getattr(shared.cmd_opts, 'lowvram', False):
         ram.append('lowvram')
-    if shared.cmd_opts.lowram:
+    if getattr(shared.cmd_opts, 'lowvam', False):
         ram.append('lowram')
     if len(ram) == 0:
         ram.append('none')
@@ -450,7 +452,7 @@ def refresh_info_full():
 
 def create_ui(blocks: gr.Blocks = None):
     if not standalone:
-        from modules.ui import ui_system_tabs
+        from modules.ui import ui_system_tabs # pylint: disable=redefined-outer-name
     else:
         ui_system_tabs = None
 
