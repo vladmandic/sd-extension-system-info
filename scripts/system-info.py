@@ -206,6 +206,8 @@ def get_optimizations():
     ram = []
     if shared.cmd_opts.medvram:
         ram.append('medvram')
+    if shared.cmd_opts.medvram_sdxl:
+        ram.append('medvram-sdxl')
     if shared.cmd_opts.lowvram:
         ram.append('lowvram')
     if shared.cmd_opts.lowram:
