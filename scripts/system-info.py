@@ -461,9 +461,9 @@ def create_ui(blocks: gr.Blocks = None):
             with gr.Tabs(elem_id = 'system_info_tabs', active = 0) if standalone else ui_system_tabs:
                 with gr.TabItem('System Info'):
                     with gr.Row():
-                        timestamp = gr.Textbox(default=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update', container=False)
-                        refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False).style() # quick refresh is used from js interval
-                        refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary').style()
+                        timestamp = gr.Textbox(value=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update', container=False)
+                        refresh_quick_btn = gr.Button('Refresh state', elem_id = 'system_info_tab_refresh_btn', visible = False) # quick refresh is used from js interval
+                        refresh_full_btn = gr.Button('Refresh data', elem_id = 'system_info_tab_refresh_full_btn', variant='primary')
                         interrupt_btn = gr.Button('Send interrupt', elem_id = 'system_info_tab_interrupt_btn', variant='primary')
                     with gr.Row():
                         with gr.Column():
@@ -513,9 +513,9 @@ def create_ui(blocks: gr.Blocks = None):
                             level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
                             # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
                         with gr.Column(scale=1):
-                            bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary').style()
+                            bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary')
                             bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
-                            bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary').style()
+                            bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary')
                             bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
                             _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
                     with gr.Row():
@@ -524,7 +524,7 @@ def create_ui(blocks: gr.Blocks = None):
                             <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
                     with gr.Row():
                         bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
-                        refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False).style(full_width = False) # quick refresh is used from js interval
+                        refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False) # quick refresh is used from js interval
                         refresh_bench_btn.click(bench_refresh, inputs = [], outputs = [bench_label])
 
                 with gr.TabItem('Models & Networks'):
