@@ -77,14 +77,12 @@
         const text2url = (text) => text.replace(/((|http|https|ftp):\/\/[\w?=&./-;#~%-]+(?![\w\s?&./;#~%"=-]*>))/g, "<a href='$1' target='_blank'>$1</a>").replace(/(url:)/g, '').replace('updated:', '');
         const attrs = (text) => text.replace(/(\w*:\b)/g, "<span style='color: #AAA'>$1 </span>");
         const perfSort = (a, b) => {
-          const a0 = a.split('/');
-          const b0 = b.split('/');
-          let a1 = parseFloat(a0[a0.length - 1].trim());
-          let b1 = parseFloat(b0[b0.length - 1].trim());
-          if (Number.isNaN(a1)) a1 = 0;
-          if (Number.isNaN(b1)) b1 = 0;
-          if (a1 > b1) return 1;
-          if (b1 > a1) return -1;
+          const a0 = a.split('/').map((v) => v.trim());
+          const b0 = b.split('/').map((v) => v.trim());
+          const amax = a0.reduce((acc, cur) => Math.max(acc, isNaN(cur) ? 0 : parseFloat(cur)), 0);
+          const bmax = b0.reduce((acc, cur) => Math.max(acc, isNaN(cur) ? 0 : parseFloat(cur)), 0);
+          if (amax > bmax) return 1;
+          if (bmax > amax) return -1;
           return 0;
         };
 
