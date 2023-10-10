@@ -42,7 +42,9 @@ function receive_system_info(data) {
   // https://omnipotent.net/jquery.sparkline/#s-docs
   if (loadData.length > data_length) loadData.shift();
   loadData.push(data?.memory?.utilization || 0);
-  sparklineConfig.barWidth = Math.floor((gradioApp().getElementById('tab_system').clientWidth - 20) / data_length / 2);
+  const tab = gradioApp().getElementById('tab_system') || gradioApp().getElementById('tabs');
+  if (!tab) return;
+  sparklineConfig.barWidth = Math.floor(tab.clientWidth - 20) / data_length / 2;
   $('#si-sparkline-load').sparkline(loadData, sparklineConfig);
 
   if (memoData.length > data_length) memoData.shift();
