@@ -4,6 +4,8 @@ from modules import shared
 from modules.processing import StableDiffusionProcessingTxt2Img, Processed, process_images
 
 
+log = logging.getLogger('sd')
+
 args = {
     'sd_model': None,
     'prompt': 'postapocalyptic steampunk city, exploration, cinematic, realistic, hyper detailed, photorealistic maximum detail, volumetric light, (((focus))), wide-angle, (((brightly lit))), (((vegetation))), lightning, vines, destruction, devastation, wartorn, ruins',
@@ -29,16 +31,31 @@ def run_benchmark(batch: int, extra: bool):
         args['sd_model'] = shared.sd_model
     args['batch_size'] = batch
     args['steps'] = 20 if not extra else 50
+    mp = 0
     p = StableDiffusionProcessingTxt2Img(**args)
     t0 = time.time()
     try:
-        _processed: Processed = process_images(p)
+        processed: Processed = process_images(p)
+        if processed is None or processed.images is None:
+            log.error(f'SD-System-Info benchmark error: {batch} no results')
+            return 'error'
+        if len(processed.images) != batch:
+            log.error(f'SD-System-Info benchmark error: {batch} results mismatch')
+            return 'error'
+        for image in processed.images:
+            if image.width * image.height < 65536:
+                log.error(f'SD-System-Info benchmark error: {batch} image too small')
+                return 'error'
+            mp += image.width * image.height
     except Exception as e:
-        print(f'SD-System-Info: benchmark error: {batch} {e}')
+        log.error(f'SD-System-Info benchmark error: {batch} {e}')
         return 'error'
     t1 = time.time()
     shared.state.end()
     its = args['steps'] * batch / (t1 - t0)
+    mp = mp / 1024 / 1024
+    mps = mp / (t1 - t0)
+    log.debug(f'SD-System-Info benchmark: batch={batch} time={t1-t0:.2f} steps={args["steps"]} its={its:.2f} mps={mps:.2f}')
     return round(its, 2)
 
 

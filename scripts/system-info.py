@@ -565,9 +565,9 @@ def bench_submit(username: str):
 def bench_run(batches: list = [1], extra: bool = False):
     results = []
     for batch in batches:
-        log.debug(f'SD-System-Info: benchmark starting: batch-size={batch}')
+        log.debug(f'SD-System-Info: benchmark starting: batch={batch}')
         res = run_benchmark(batch, extra)
-        log.info(f'SD-System-Info: benchmark batch-size={batch} it/s={res}')
+        log.info(f'SD-System-Info: benchmark batch={batch} its={res}')
         results.append(str(res))
     its = ' / '.join(results)
     return its
@@ -671,6 +671,7 @@ class StatusReq(BaseModel): # definition of http request
     full: bool = Field(title="FullInfo", description="Get full server info", default=False)
     refresh: bool = Field(title="FullInfo", description="Force refresh server info", default=False)
 
+
 class StatusRes(BaseModel): # definition of http response
     version: dict = Field(title="Version", description="Server version")
     uptime: str = Field(title="Uptime", description="Server uptime")
@@ -685,6 +686,7 @@ class StatusRes(BaseModel): # definition of http response
     device: Optional[dict] = Field(title="Device", description="Device info")
     backend: Optional[str] = Field(title="Backend", description="Backend")
     pipeline: Optional[str] = Field(title="Pipeline", description="Pipeline")
+
 
 def get_status_api(req: StatusReq = Depends()):
     if req.refresh:
