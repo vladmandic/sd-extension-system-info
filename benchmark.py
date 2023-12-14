@@ -56,6 +56,9 @@ def run_benchmark(batch: int, extra: bool):
     mp = mp / 1024 / 1024
     mps = mp / (t1 - t0)
     log.debug(f'SD-System-Info benchmark: batch={batch} time={t1-t0:.2f} steps={args["steps"]} its={its:.2f} mps={mps:.2f}')
+    if its > 300:
+        log.error(f'SD-System-Info benchmark: its={its:.2f} too high')
+        return 'error'
     return round(its, 2)
 
 
