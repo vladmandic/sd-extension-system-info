@@ -35,7 +35,7 @@
     <div style="margin: 12px">
       <h1>SD WebUI Bechmark Data</h1>
       <div>
-        Benchmark data is created using | <b>SD WebUI Extension <a href="https://github.com/vladmandic/sd-extension-system-info" style="color: #CE6400">System Info</a></b>
+        Benchmark data is created using | <b>SD WebUI Extension <a href="https://github.com/vladmandic/sd-extension-system-info" style="color: #67d2d2">System Info</a></b>
       </div>
       Last modified | <span id="modified" style="color: #CCC"></span>
       <span id="modified" style="color: #AAA"> (page is updated automatically hourly if new data is found) <a href="https://github.com/vladmandic/sd-data/actions" target="_blank"> | STATUS</a></span>
@@ -88,7 +88,7 @@
 
         const grid = new Grid({
           columns: [
-            { name: '', id: 'id', width: '50px', formatter: (cell) => html(`<span style="color: #CE6400">${cell}</span>`) },
+            { name: '', id: 'id', width: '50px', formatter: (cell) => html(`<span style="color: #67d2d2">${cell}</span>`) },
             { name: 'Date', width: '130px', formatter: (cell) => `${new Date(cell).toLocaleString()}` },
             { name: 'Performance', formatter: (cell) => html(`<b>${cell.replace(/\//g, 'it/s<br>')} it/s</b>`), sort: { compare: (a, b) => perfSort(a, b) } },
             { name: 'Version', width: '260px', formatter: (cell) => html(`${text2url(cell)}`) },
@@ -105,7 +105,9 @@
             summary: true,
           },
           search: {
-            keyword: currentUrl.searchParams.get('keyword') || ''
+            keyword: currentUrl.searchParams.get('keyword') || '',
+            debounceTimeout: 1500,
+            ignoreHiddenColumns: true
           },
           sort: { multiColumn: false },
           resizable: true,
@@ -113,7 +115,7 @@
           height: '75vh',
           style: {
             table: { 'line-break': 'strict' },
-            th: { 'background-color': '#CE6400', color: '#000', border: '2px solid #111', padding: '12px' },
+            th: { 'background-color': '#67d2d2', color: '#000', border: '2px solid #111', padding: '12px' },
             td: { overflow: 'hidden', padding: '6px 10px', 'line-height': '1.5rem', 'background-color': '#333', color: '#FFF', border: '2px solid #111' },
           },
           data,
