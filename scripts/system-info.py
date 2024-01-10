@@ -9,7 +9,7 @@ import logging
 from html.parser import HTMLParser
 import torch
 import gradio as gr
-from modules import paths, script_callbacks, sd_hijack, sd_models, sd_samplers, shared, extensions, devices
+from modules import paths, script_callbacks, sd_models, sd_samplers, shared, extensions, devices
 from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611,C0411
 
 
@@ -299,17 +299,12 @@ def get_version():
     return version
 
 
-def get_embeddings():
-    return sorted([f'{v} ({sd_hijack.model_hijack.embedding_db.word_embeddings[v].vectors})' for i, v in enumerate(sd_hijack.model_hijack.embedding_db.word_embeddings)])
-
-
-def get_skipped():
-    return sorted([k for k in sd_hijack.model_hijack.embedding_db.skipped_embeddings.keys()])
-
-
 def get_crossattention():
     try:
-        ca = sd_hijack.model_hijack.optimization_method or getattr(shared.opts, 'cross_attention_optimization', 'none')
+        ca = getattr(shared.opts, 'cross_attention_optimization', None)
+        if ca is None:
+            from modules import sd_hijack
+            ca = sd_hijack.model_hijack.optimization_method
         return ca
     except Exception:
         return 'unknown'
@@ -368,10 +363,6 @@ def get_loras():
     return loras
 
 
-def get_lycos():
-    return []
-
-
 def get_device():
     dev = {
         'active': str(devices.device),
@@ -408,11 +399,7 @@ def get_full_data():
     global networks # pylint: disable=global-statement
     networks = {
         'models': get_models(),
-        'hypernetworks': [name for name in shared.hypernetworks],
-        'embeddings': get_embeddings(),
-        'skipped': get_skipped(),
         'loras': get_loras(),
-        'lycos': get_lycos(),
     }
     return data
 
@@ -445,7 +432,7 @@ def refresh_info_quick(_old_data = None):
 
 def refresh_info_full():
     get_full_data()
-    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), dict2text(data['model']), networks['models'], networks['hypernetworks'], networks['embeddings'], networks['skipped'], networks['loras'], networks['lycos'], data['timestamp'], data
+    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), dict2text(data['model']), networks['models'], networks['loras'], data['timestamp'], data
 
 
 ### ui definition
@@ -533,11 +520,6 @@ def create_ui(blocks: gr.Blocks = None):
                             models = gr.JSON(networks['models'], label = 'Models')
                         with gr.Column():
                             loras = gr.JSON(networks['loras'], label = 'Available LORA')
-                            lycos = gr.JSON(networks['lycos'], label = 'Available LyCORIS')
-                        with gr.Column():
-                            embeddings = gr.JSON(networks['embeddings'], label = 'Embeddings: loaded')
-                            skipped = gr.JSON(networks['skipped'], label = 'Embeddings: skipped')
-                            hypernetworks = gr.JSON(networks['hypernetworks'], label = 'Hypernetworks')
 
                 refresh_quick_btn.click(refresh_info_quick, _js='receive_system_info', show_progress = False,
                     inputs = [js],
@@ -545,7 +527,7 @@ def create_ui(blocks: gr.Blocks = None):
                 )
                 refresh_full_btn.click(refresh_info_full, show_progress = False,
                     inputs = [],
-                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, backendtxt, pipelinetxt, libstxt, repostxt, devtxt, modeltxt, models, hypernetworks, embeddings, skipped, loras, lycos, timestamp, js]
+                    outputs = [uptimetxt, versiontxt, statetxt, memorytxt, platformtxt, torchtxt, gputxt, opttxt, attentiontxt, backendtxt, pipelinetxt, libstxt, repostxt, devtxt, modeltxt, models, loras, timestamp, js]
                 )
                 interrupt_btn.click(shared.state.interrupt, inputs = [], outputs = [])
 
