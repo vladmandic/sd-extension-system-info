@@ -438,8 +438,11 @@ def refresh_info_full():
 ### ui definition
 
 def create_ui(blocks: gr.Blocks = None):
-    if blocks is None:
-        return
+    try:
+        if shared.cmd_opts.api_only:
+            return
+    except:
+        pass
     if not standalone:
         from modules.ui import ui_system_tabs # pylint: disable=redefined-outer-name
     else:
