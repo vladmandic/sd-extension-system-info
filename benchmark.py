@@ -26,7 +26,7 @@ args = {
 
 
 def run_benchmark(batch: int, extra: bool):
-    shared.state.begin('benchmark')
+    shared.state.begin('Benchmark')
     if args['sd_model'] is None:
         args['sd_model'] = shared.sd_model
     args['batch_size'] = batch
