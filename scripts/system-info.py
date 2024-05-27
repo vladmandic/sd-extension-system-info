@@ -357,7 +357,7 @@ def get_loras():
     try:
         sys.path.append(extensions.extensions_builtin_dir)
         from Lora import lora # pylint: disable=E0401
-        loras = sorted([l for l in lora.available_loras.keys()])
+        loras = sorted(lora.available_loras.keys())
     except Exception:
         pass
     return loras
@@ -421,7 +421,7 @@ def dict2str(d: dict):
 
 
 def dict2text(d: dict):
-    arr = ['{name}: {val}'.format(name = name, val = d[name] if not type(d[name]) is dict else dict2str(d[name])) for i, name in enumerate(d)] # pylint: disable=consider-using-f-string
+    arr = ['{name}: {val}'.format(name = name, val = d[name] if type(d[name]) is not dict else dict2str(d[name])) for i, name in enumerate(d)] # pylint: disable=consider-using-f-string
     return list2text(arr)
 
 
@@ -441,7 +441,7 @@ def create_ui(blocks: gr.Blocks = None):
     try:
         if shared.cmd_opts.api_only:
             return
-    except:
+    except Exception:
         pass
     if not standalone:
         from modules.ui import ui_system_tabs # pylint: disable=redefined-outer-name
@@ -722,7 +722,7 @@ def on_app_started(blocks, app): # register api
 try:
     from modules.ui import ui_system_tabs # pylint: disable=unused-import,ungrouped-imports
     standalone = False
-except:
+except Exception:
     standalone = True
 
 if standalone:
