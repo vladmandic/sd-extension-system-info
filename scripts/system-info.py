@@ -440,7 +440,7 @@ def refresh_info_full():
 def create_ui(blocks: gr.Blocks = None):
     try:
         if shared.cmd_opts.api_only:
-            return
+            return []
     except Exception:
         pass
     if not standalone:
