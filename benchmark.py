@@ -16,7 +16,7 @@ args = {
     'cfg_scale': 15.0,
     'width': 512,
     'height': 512,
-    'restore_faces': False,
+    'detailer': False,
     'tiling': False,
     'do_not_save_samples': True,
     'do_not_save_grid': True,
