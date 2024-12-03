@@ -20,7 +20,7 @@ const colorRangeMap = $.range_map({
   '71:80': '#9a3412',
   '81:90': '#7c2d12',
   '91:100': '#6c2e12',
-})
+});
 const sparklineConfig = { type: 'bar', height: '100px', barWidth: '3px', barSpacing: '1px', disableInteraction: true, chartRangeMin: 0, chartRangeMax: 100, disableHiddenCheck: true, colorMap: colorRangeMap, fillColor: false };
 
 function refresh_info() {
