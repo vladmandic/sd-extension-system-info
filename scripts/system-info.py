@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 import torch
 import gradio as gr
 from modules import paths, script_callbacks, sd_models, sd_samplers, shared, extensions, devices
-from benchmark import run_benchmark, submit_benchmark # pylint: disable=E0401,E0611,C0411
+import benchmark # pylint: disable=wrong-import-order
 
 
 ### system info globals
@@ -25,7 +25,7 @@ data = {
     'gpu': {},
     'state': {},
     'memory': {},
-    'optimizations': [],
+    'flags': [],
     'libs': {},
     'repos': {},
     'device': {},
@@ -34,7 +34,7 @@ data = {
     'platform': '',
     'crossattention': '',
     'backend': getattr(devices, 'backend', ''),
-    'pipeline': shared.opts.data.get('sd_backend', ''),
+    'pipeline': ('native' if shared.native else 'original') if hasattr(shared, 'native') else 'a1111',
     'model': {},
 }
 networks = {
@@ -50,7 +50,7 @@ networks = {
 
 bench_text = ''
 bench_file = os.path.join(os.path.dirname(__file__), 'benchmark-data-local.json')
-bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'pipeline', 'model', 'username', 'note', 'hash']
+bench_headers = ['timestamp', 'it/s', 'version', 'system', 'libraries', 'gpu', 'flags', 'settings', 'username', 'note', 'hash']
 bench_data = []
 
 ### system info module
@@ -202,7 +202,7 @@ def get_memory():
     return mem
 
 
-def get_optimizations():
+def get_flags():
     ram = []
     if getattr(shared.cmd_opts, 'medvram', False):
         ram.append('medvram')
@@ -311,32 +311,13 @@ def get_crossattention():
 
 
 def get_model():
-    from modules.sd_models import model_data
-    import modules.sd_vae
     obj = {
-        'configured': {
-            'base': shared.opts.data.get('sd_model_checkpoint', ''),
-            'refiner': shared.opts.data.get('sd_model_refiner', ''),
-            'vae': shared.opts.data.get('sd_vae', ''),
-        },
-        'loaded': {
-            'base': '',
-            'refiner': '',
-            'vae': '',
-        }
+        'base': shared.opts.data.get('sd_model_checkpoint', 'none'),
+        'refiner': shared.opts.data.get('sd_model_refiner', 'none'),
+        'vae': shared.opts.data.get('sd_vae', 'none'),
+        'te': shared.opts.data.get('sd_text_encoder', 'none'),
+        'unet': shared.opts.data.get('sd_unet', 'none'),
     }
-    try:
-        obj['loaded']['base'] = model_data.sd_model.sd_checkpoint_info.filename if model_data.sd_model is not None and hasattr(model_data.sd_model, 'sd_checkpoint_info') else ''
-    except Exception :
-        pass
-    try:
-        obj['loaded']['refiner'] = model_data.sd_refiner.sd_checkpoint_info.filename if model_data.sd_refiner is not None and hasattr(model_data.sd_refiner, 'sd_checkpoint_info') else ''
-    except Exception :
-        pass
-    try:
-        obj['loaded']['vae'] = modules.sd_vae.loaded_vae_file
-    except Exception:
-        pass
     return obj
 
 
@@ -384,7 +365,7 @@ def get_full_data():
         'gpu': get_gpu(),
         'state': get_state(),
         'memory': get_memory(),
-        'optimizations': get_optimizations(),
+        'flags': get_flags(),
         'libs': get_libs(),
         'repos': get_repos(),
         'device': get_device(),
@@ -394,7 +375,7 @@ def get_full_data():
         'platform': get_platform(),
         'crossattention': get_crossattention(),
         'backend': getattr(devices, 'backend', ''),
-        'pipeline': shared.opts.data.get('sd_backend', ''),
+        'pipeline': ('native' if shared.native else 'original') if hasattr(shared, 'native') else 'a1111',
     }
     global networks # pylint: disable=global-statement
     networks = {
@@ -432,7 +413,7 @@ def refresh_info_quick(_old_data = None):
 
 def refresh_info_full():
     get_full_data()
-    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['optimizations']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), dict2text(data['model']), networks['models'], networks['loras'], data['timestamp'], data
+    return data['uptime'], dict2text(data['version']), dict2text(data['state']), dict2text(data['memory']), dict2text(data['platform']), data['torch'], dict2text(data['gpu']), list2text(data['flags']), data['crossattention'], data['backend'], data['pipeline'], dict2text(data['libs']), dict2text(data['repos']), dict2text(data['device']), dict2text(data['model']), networks['models'], networks['loras'], data['timestamp'], data
 
 
 ### ui definition
@@ -475,7 +456,7 @@ def create_ui(blocks: gr.Blocks = None):
                             torchtxt = gr.Textbox(data['torch'], label = 'Torch', lines = 1)
                             gputxt = gr.Textbox(dict2text(data['gpu']), label = 'GPU', lines = len(data['gpu']))
                             with gr.Row():
-                                opttxt = gr.Textbox(list2text(data['optimizations']), label = 'Memory optimization')
+                                opttxt = gr.Textbox(list2text(data['flags']), label = 'Memory optimization')
                                 attentiontxt = gr.Textbox(data['crossattention'], label = 'Cross-attention')
                         with gr.Column():
                             libstxt = gr.Textbox(dict2text(data['libs']), label = 'Libs', lines = len(data['libs']))
@@ -495,25 +476,28 @@ def create_ui(blocks: gr.Blocks = None):
                     with gr.Row():
                         benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
                     with gr.Row():
-                        with gr.Column(scale=3):
+                        with gr.Column(scale=1):
                             username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
+                        with gr.Column(scale=6):
                             note = gr.Textbox('', label = 'Note', placeholder='enter any additional notes', elem_id='system_info_tab_note')
-                        with gr.Column(scale=1):
+                    with gr.Row():
+                        with gr.Accordion('Settings'):
+                            warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
                             with gr.Row():
-                                warmup = gr.Checkbox(label = 'Perform warmup', value = True, elem_id = 'system_info_tab_warmup')
-                                extra = gr.Checkbox(label = 'Extra steps', value = False, elem_id = 'system_info_tab_extra')
-                            level = gr.Radio(['quick', 'normal', 'extensive'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
-                            # batches = gr.Textbox('1, 2, 4, 8', label = 'Batch sizes', elem_id = 'system_info_tab_batch_size', interactive = False)
-                        with gr.Column(scale=1):
+                                steps = gr.Dropdown(['turbo', 'default', 'long'], value = 'normal', label = 'Benchmark steps', elem_id = 'system_info_tab_steps')
+                                level = gr.Dropdown(['quick', 'normal', 'extensive', 'ludicrous'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
+                            with gr.Row():
+                                width = gr.Number(512, label = 'Image width', elem_id = 'system_info_tab_width')
+                                height = gr.Number(512, label = 'Image height', elem_id = 'system_info_tab_height')
+                        with gr.Column():
                             bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary')
-                            bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, extra], outputs = [benchmark_data])
+                            bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, steps, width, height], outputs = [benchmark_data])
                             bench_submit_btn = gr.Button('Submit results', elem_id = 'system_info_tab_submit_btn', variant='primary')
                             bench_submit_btn.click(bench_submit, inputs = [username], outputs = [])
                             _bench_link = gr.HTML('<a href="https://vladmandic.github.io/sd-extension-system-info/pages/benchmark.html" target="_blank">Link to online results</a>')
-                    with gr.Row():
-                        _bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
-                            <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
-                            <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
+                            _bench_note = gr.HTML(elem_id = 'system_info_tab_bench_note', value = """
+                                <span>performance is measured in iterations per second (it/s) and reported for different batch sizes (e.g. 1, 2, 4, 8, 16...)</span><br>
+                                <span>running benchmark may take a while. extensive tests may result in gpu out-of-memory conditions.</span>""")
                     with gr.Row():
                         bench_label = gr.HTML('', elem_id = 'system_info_tab_bench_label')
                         refresh_bench_btn = gr.Button('Refresh bench', elem_id = 'system_info_tab_refresh_bench_btn', visible = False) # quick refresh is used from js interval
@@ -545,27 +529,50 @@ def bench_submit(username: str):
     if username is None or username == '':
         log.error('SD-System-Info: username is required to submit results')
         return
-    submit_benchmark(bench_data, username)
+    benchmark.submit_benchmark(bench_data, username)
     log.info(f'SD-System-Info: benchmark data submitted: {len(bench_data)} records')
 
 
-def bench_run(batches: list = [1], extra: bool = False):
+def bench_run(batches: list = [1], steps: str = 'normal', width: int = 512, height: int = 512):
     results = []
     for batch in batches:
         log.debug(f'SD-System-Info: benchmark starting: batch={batch}')
-        res = run_benchmark(batch, extra)
+        res = benchmark.run_benchmark(batch, steps, width, height)
         log.info(f'SD-System-Info: benchmark batch={batch} its={res}')
         results.append(str(res))
     its = ' / '.join(results)
     return its
 
 
-def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
+def get_settings():
+    settings = {
+        'pipeline': shared.sd_model.__class__.__name__,
+        'model': shared.opts.data.get('sd_model_checkpoint', 'none').lower(),
+        'vae': shared.opts.data.get('sd_vae', 'none').lower(),
+        'width': benchmark.args.get('width', 512),
+        'height': benchmark.args.get('height', 512),
+    }
+    return settings
+
+
+def get_optimizations():
+    optimizations = {
+        'pipeline': data['pipeline'],
+        'crossattention': data['crossattention'],
+        'flags': ','.join(data['flags']).strip(),
+        'compute': str(devices.backend) if hasattr(devices, 'backend') else 'unknown',
+        'compile': shared.opts.data.get('cuda_compile_backend', 'none'),
+        'dtype': str(devices.dtype) if hasattr(devices, 'dtype') else 'unknown',
+    }
+    return optimizations
+
+
+def bench_init(username: str, note: str, warmup: bool, level: str, steps: str, width: int, height: int):
     from hashlib import sha256
 
     log.debug('SD-System-Info: benchmark starting')
     get_full_data()
-    hash256 = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['optimizations']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
+    hash256 = sha256((dict2str(data['platform']) + data['torch'] + dict2str(data['libs']) + dict2str(data['gpu']) + ','.join(data['flags']) + data['crossattention']).encode('utf-8')).hexdigest()[:6]
     existing = [x for x in bench_data if (x[-1] is not None and x[-1][:6] == hash256)]
     if len(existing) > 0:
         log.debug('SD-System-Info: benchmark replacing existing entry')
@@ -583,26 +590,28 @@ def bench_init(username: str, note: str, warmup: bool, level: str, extra: bool):
         batches = [1, 2, 4]
     elif level == 'extensive':
         batches = [1, 2, 4, 8, 16]
+    elif level == 'ludicrous':
+        batches = [1, 2, 4, 8, 16, 32, 64]
     else:
         batches = []
 
     if warmup:
-        bench_run([1], False)
+        bench_run([1], False, width, height)
 
     try:
         mem = data['memory']['gpu']['total']
     except Exception:
         mem = 0
 
-    # bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'optimizations', 'model', 'username', 'note', 'hash']
+    # bench_headers = ['timestamp', 'performance', 'version', 'system', 'libraries', 'gpu', 'flags', 'settings', 'username', 'note', 'hash']
     d[0] = str(datetime.datetime.now())
-    d[1] = bench_run(batches, extra)
+    d[1] = bench_run(batches, steps, width, height)
     d[2] = dict2str(data['version'])
     d[3] = dict2str(data['platform'])
     d[4] = f"torch:{data['torch']} {dict2str(data['libs'])}"
     d[5] = dict2str(data['gpu']) + f' {str(round(mem))}GB'
-    d[6] = (data['pipeline'] + ' ' + data['crossattention'] + ' ' + ','.join(data['optimizations'])).strip()
-    d[7] = shared.opts.data['sd_model_checkpoint']
+    d[6] = dict2str(get_optimizations())
+    d[7] = dict2str(get_settings())
     d[8] = username
     d[9] = note
     d[10] = hash256
@@ -668,7 +677,7 @@ class StatusRes(BaseModel): # definition of http response
     platform: Optional[dict] = Field(title="Platform", description="Server platform")
     torch: Optional[str] = Field(title="Torch", description="Torch version")
     gpu: Optional[dict] = Field(title="GPU", description="GPU info")
-    optimizations: Optional[list] = Field(title="Optimizations", description="Memory optimizations")
+    flags: Optional[list] = Field(title="Optimizations", description="Memory optimizations")
     crossatention: Optional[str] = Field(title="CrossAttention", description="Cross-attention optimization")
     device: Optional[dict] = Field(title="Device", description="Device info")
     backend: Optional[str] = Field(title="Backend", description="Backend")
@@ -693,7 +702,7 @@ def get_status_api(req: StatusReq = Depends()):
         res.platform = data['platform']
         res.torch = data['torch']
         res.gpu = data['gpu']
-        res.optimizations = data['optimizations']
+        res.flags = data['flags']
         res.crossatention = data['crossattention']
         res.device = data['device']
         res.backend = data['backend']

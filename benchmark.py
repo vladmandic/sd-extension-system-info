@@ -6,14 +6,14 @@ from modules.processing import StableDiffusionProcessingTxt2Img, Processed, proc
 
 log = logging.getLogger('sd')
 
-args = {
-    'sd_model': None,
+default_args = {
+    # 'sd_model': None,
     'prompt': 'postapocalyptic steampunk city, exploration, cinematic, realistic, hyper detailed, photorealistic maximum detail, volumetric light, (((focus))), wide-angle, (((brightly lit))), (((vegetation))), lightning, vines, destruction, devastation, wartorn, ruins',
     'sampler_name': 'Euler a',
     'batch_size': 1,
     'n_iter': 1,
     'steps': 10,
-    'cfg_scale': 15.0,
+    'cfg_scale': 7.0,
     'width': 512,
     'height': 512,
     'do_not_save_samples': True,
@@ -21,14 +21,26 @@ args = {
     'negative_prompt': '(((blurry))), ((foggy)), (((dark))), ((monochrome)), sun, (((depth of field)))',
     'do_not_reload_embeddings': True
 }
+args = {}
 
 
-def run_benchmark(batch: int, extra: bool):
+def run_benchmark(batch: int, steps: str, width: int, height: int):
+    global args # pylint: disable=global-statement
     shared.state.begin('Benchmark')
-    if args['sd_model'] is None:
-        args['sd_model'] = shared.sd_model
+    args = default_args.copy()
+    # if args['sd_model'] is None:
+    #     args['sd_model'] = shared.sd_model
     args['batch_size'] = batch
-    args['steps'] = 20 if not extra else 50
+    if steps == 'turbo':
+        args['steps'] = 10
+    elif steps == 'long':
+        args['steps'] = 50
+    else:
+        args['steps'] = 20
+    if width and width > 0:
+        args['width'] = int(width)
+    if height and height > 0:
+        args['height'] = int(height)
     mp = 0
     p = StableDiffusionProcessingTxt2Img(**args)
     t0 = time.time()
@@ -47,6 +59,8 @@ def run_benchmark(batch: int, extra: bool):
             mp += image.width * image.height
     except Exception as e:
         log.error(f'SD-System-Info benchmark error: {batch} {e}')
+        from modules import errors
+        errors.display(e, 'Benchmark')
         return 'error'
     t1 = time.time()
     shared.state.end()
