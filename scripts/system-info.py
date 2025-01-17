@@ -271,7 +271,7 @@ def get_torch():
         ver = torch.__long_version__
     except Exception:
         ver = torch.__version__
-    return f"{ver} {shared.cmd_opts.precision} {' nohalf' if shared.cmd_opts.no_half else ' half'}"
+    return f"{ver}"
 
 
 def get_version():
