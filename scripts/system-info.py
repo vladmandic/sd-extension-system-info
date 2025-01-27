@@ -154,6 +154,15 @@ def get_state():
     }
 
 
+def get_docker_limit():
+    try:
+        with open('/sys/fs/cgroup/memory/memory.limit_in_bytes', 'r', encoding='utf8') as f:
+            docker_limit = float(f.read())
+    except Exception:
+        docker_limit = sys.float_info.max
+    return docker_limit
+
+
 def get_memory():
     def gb(val: float):
         return round(val / 1024 / 1024 / 1024, 2)
@@ -163,6 +172,7 @@ def get_memory():
         process = psutil.Process(os.getpid())
         res = process.memory_info()
         ram_total = 100 * res.rss / process.memory_percent()
+        ram_total = min(ram_total, get_docker_limit())
         ram = { 'free': gb(ram_total - res.rss), 'used': gb(res.rss), 'total': gb(ram_total) }
         mem.update({ 'ram': ram })
     except Exception as e:
