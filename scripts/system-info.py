@@ -441,7 +441,7 @@ def create_ui(blocks: gr.Blocks = None):
 
     with gr.Blocks(analytics_enabled = False) if standalone else blocks as system_info:
         with gr.Row(elem_id = 'system_info'):
-            with gr.Tabs(elem_id = 'system_info_tabs') if standalone else ui_system_tabs:
+            with ui_system_tabs or gr.Tabs(elem_id = 'system_info_tabs'):
                 with gr.TabItem('System Info'):
                     with gr.Row():
                         timestamp = gr.Textbox(value=data['timestamp'], label = '', elem_id = 'system_info_tab_last_update', container=False)
