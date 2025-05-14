@@ -484,7 +484,7 @@ def create_ui(blocks: gr.Blocks = None):
                 with gr.TabItem('Benchmark'):
                     bench_load()
                     with gr.Row():
-                        benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, overflow_row_behaviour = 'paginate', max_rows = 10, headers = bench_headers)
+                        benchmark_data = gr.DataFrame(bench_data, label = 'Benchmark Data', elem_id = 'system_info_benchmark_data', show_label = True, interactive = False, wrap = True, headers = bench_headers)
                     with gr.Row():
                         with gr.Column(scale=1):
                             username = gr.Textbox(get_user, label = 'Username', placeholder='enter username for submission', elem_id='system_info_tab_username')
