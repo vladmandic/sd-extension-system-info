@@ -312,9 +312,6 @@ def get_version():
 def get_crossattention():
     try:
         ca = getattr(shared.opts, 'cross_attention_optimization', None)
-        if ca is None:
-            from modules import sd_hijack
-            ca = sd_hijack.model_hijack.optimization_method
         return ca
     except Exception:
         return 'unknown'
