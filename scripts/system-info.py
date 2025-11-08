@@ -294,7 +294,7 @@ def get_version():
         origin = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
         res = subprocess.run('git rev-parse --abbrev-ref HEAD', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
         branch = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-        url = origin.replace('\n', '') + '/tree/' + branch.replace('\n', '')
+        url = origin.replace('\n', '').removesuffix('.git') + '/tree/' + branch.replace('\n', '')
         app = origin.replace('\n', '').split('/')[-1]
         if app == 'automatic':
             app = 'SD.next'
