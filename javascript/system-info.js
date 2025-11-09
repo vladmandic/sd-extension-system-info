@@ -1,12 +1,12 @@
 // this would not be needed if automatic run gradio with loop enabled
 
-const refresh_interval = 2000
-const data_length = 120
+const refresh_interval = 2000;
+const data_length = 120;
 let loaded = false;
 let interval_sys;
 let interval_bench;
-const memoData = []
-const loadData = []
+const memoData = [];
+const loadData = [];
 
 const colorRangeMap = $.range_map({
   '0:5': '#fffafa',
@@ -76,11 +76,12 @@ function initLoading() { // triggered on gradio change to monitor when ui gets s
   if (loaded) return;
   const block = gradioApp().getElementById('si-sparkline-load');
   if (!block) return;
-  intersectionObserver = new IntersectionObserver((entries) => {
+  const intersectionObserver = new IntersectionObserver((entries) => {
     if (entries[0].intersectionRatio <= 0) onHidden();
     if (entries[0].intersectionRatio > 0) onVisible();
   });
   intersectionObserver.observe(block); // monitor visibility of tab
+  loaded = true;
 }
 
 function initInitial() { // just setup monitor for gradio events
