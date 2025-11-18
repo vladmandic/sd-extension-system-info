@@ -56,19 +56,21 @@ bench_data = []
 ### system info module
 
 def get_user():
-    user = ''
-    if user == '':
-        try:
-            user = os.getlogin()
-        except Exception:
-            pass
-    if user == '':
+    try:
+        return os.getlogin()
+    except Exception:
+        pass
+    if 'USER' in os.environ:
+        return os.environ['USER']
+    if 'USERNAME' in os.environ:
+        return os.environ['USERNAME']
+    if sys.platform != 'win32':
         try:
             import pwd
-            user = pwd.getpwuid(os.getuid())[0]
+            return pwd.getpwuid(os.getuid())[0]
         except Exception:
             pass
-    return user
+    return ''
 
 
 def get_gpu():
