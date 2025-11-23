@@ -67,7 +67,7 @@ def get_user():
     if sys.platform != 'win32':
         try:
             import pwd
-            return pwd.getpwuid(os.getuid())[0]
+            return pwd.getpwuid(os.getuid())[0] # pylint: disable=no-member
         except Exception:
             pass
     return ''
