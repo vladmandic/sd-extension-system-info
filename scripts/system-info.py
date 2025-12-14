@@ -9,6 +9,7 @@ import logging
 from html.parser import HTMLParser
 import torch
 import gradio as gr
+from sdnext_core import MODELDATA
 from modules import paths, script_callbacks, sd_models, sd_samplers, shared, extensions, devices
 import benchmark # pylint: disable=wrong-import-order
 
@@ -550,7 +551,7 @@ def bench_run(batches: list = [1], steps: str = 'normal', width: int = 512, heig
 
 def get_settings():
     settings = {
-        'pipeline': shared.sd_model.__class__.__name__,
+        'pipeline': MODELDATA.sd_model.__class__.__name__,
         'model': shared.opts.data.get('sd_model_checkpoint', 'none').lower(),
         'vae': shared.opts.data.get('sd_vae', 'none').lower(),
         'width': benchmark.args.get('width', 512),
