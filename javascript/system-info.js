@@ -21,7 +21,7 @@ const colorRangeMap = $.range_map({
   '81:90': '#7c2d12',
   '91:100': '#6c2e12',
 });
-const sparklineConfig = { type: 'bar', height: '100px', barWidth: '3px', barSpacing: '1px', disableInteraction: true, chartRangeMin: 0, chartRangeMax: 100, disableHiddenCheck: true, colorMap: colorRangeMap, fillColor: false };
+const sparklineConfig = { type: 'bar', height: '100px', barWidth: 3, barSpacing: 1, disableInteraction: true, chartRangeMin: 0, chartRangeMax: 100, disableHiddenCheck: true, colorMap: colorRangeMap, fillColor: false };
 
 function refresh_info() {
   const btn = gradioApp().getElementById('system_info_tab_refresh_btn'); // we could cache this dom element
@@ -44,7 +44,7 @@ function receive_system_info(data) {
   loadData.push(data?.memory?.utilization || 0);
   const tab = gradioApp().getElementById('tab_system') || gradioApp().getElementById('tabs');
   if (!tab) return;
-  sparklineConfig.barWidth = Math.floor(tab.clientWidth - 20) / data_length / 2;
+  sparklineConfig.barWidth = Math.max(1, Math.floor(tab.clientWidth - 20) / data_length / 2 - sparklineConfig.barSpacing);
   $('#si-sparkline-load').sparkline(loadData, sparklineConfig);
 
   if (memoData.length > data_length) memoData.shift();

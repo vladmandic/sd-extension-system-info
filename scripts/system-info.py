@@ -245,17 +245,20 @@ def get_libs():
 
 
 def get_repos():
-    repos = {}
-    for key, val in paths.paths.items():
-        try:
-            cmd = f'git -C {val} log --pretty=format:"%h %ad" -1 --date=short'
-            res = subprocess.run(f'{cmd} {val}', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-            stdout = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-            words = stdout.split(' ')
-            repos[key] = f'[{words[0]}] {words[1]}'
-        except Exception:
-            repos[key] = '(unknown)'
-    return repos
+    try:
+        repos = {}
+        for key, val in paths.paths.items():
+            try:
+                cmd = f'git -C {val} log --pretty=format:"%h %ad" -1 --date=short'
+                res = subprocess.run(f'{cmd} {val}', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
+                stdout = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
+                words = stdout.split(' ')
+                repos[key] = f'[{words[0]}] {words[1]}'
+            except Exception:
+                repos[key] = '(unknown)'
+        return repos
+    except Exception as e:
+        return { 'error': e }
 
 
 def get_platform():
