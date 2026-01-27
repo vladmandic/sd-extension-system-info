@@ -245,15 +245,20 @@ def get_libs():
     }
 
 
+def run_git_command(cmd_args: list, cwd: str = None):
+    try:
+        res = subprocess.run(cmd_args, stdout = subprocess.PIPE, stderr = subprocess.PIPE, cwd = cwd, check=True)
+        return res.stdout.decode(encoding = 'utf8', errors='ignore').strip() if len(res.stdout) > 0 else ''
+    except Exception:
+        return ''
+
+
 def get_repos():
     try:
         repos = {}
         for key, val in paths.paths.items():
             try:
-                cmd = f'git -C {val} log --pretty=format:"%h %ad" -1 --date=short'
-                res = subprocess.run(f'{cmd} {val}', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-                stdout = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-                words = stdout.split(' ')
+                words = run_git_command(['git', 'log', '--pretty=format:%h %ad', '-1', '--date=short'], cwd=val).split(' ')
                 repos[key] = f'[{words[0]}] {words[1]}'
             except Exception:
                 repos[key] = '(unknown)'
@@ -293,21 +298,21 @@ def get_torch():
 def get_version():
     version = {}
     try:
-        res = subprocess.run('git log --pretty=format:"%h %ad" -1 --date=short', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-        ver = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-        githash, updated = ver.split(' ')
-        res = subprocess.run('git remote get-url origin', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-        origin = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-        res = subprocess.run('git rev-parse --abbrev-ref HEAD', stdout = subprocess.PIPE, stderr = subprocess.PIPE, shell=True, check=True)
-        branch = res.stdout.decode(encoding = 'utf8', errors='ignore') if len(res.stdout) > 0 else ''
-        url = origin.replace('\n', '').removesuffix('.git') + '/tree/' + branch.replace('\n', '')
-        app = origin.replace('\n', '').split('/')[-1]
+        githash, updated = run_git_command(['git', 'log', '--pretty=format:%h %ad', '-1', '--date=short']).split(' ')
+        tag = run_git_command(['git', 'describe', '--tags', '--exact-match'])
+        tags = " ".join(run_git_command(['git', 'tag', '--points-at', 'HEAD']).split())
+        origin = run_git_command(['git', 'remote', 'get-url', 'origin'])
+        branch = run_git_command(['git', 'rev-parse', '--abbrev-ref', 'HEAD'])
+        url = origin.removesuffix('.git') + '/tree/' + branch
+        app = origin.split('/')[-1]
         if app == 'automatic':
             app = 'SD.next'
         version = {
             'app': app,
             'updated': updated,
             'hash': githash,
+            'tag': tag,
+            'tags': tags,
             'url': url
         }
     except Exception:
@@ -669,6 +674,8 @@ def bench_refresh():
 AVAILABLE_FIELDS = {
     'version.app': ('version', 'app'),
     'version.hash': ('version', 'hash'),
+    'version.tag': ('version', 'tag'),
+    'version.tags': ('version', 'tags'),
     'version.updated': ('version', 'updated'),
     'version.url': ('version', 'url'),
     'platform.arch': ('platform', 'arch'),
