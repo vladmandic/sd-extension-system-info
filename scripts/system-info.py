@@ -247,7 +247,7 @@ def get_libs():
 
 def run_git_command(cmd_args: list, cwd: str = None):
     try:
-        res = subprocess.run(cmd_args, stdout = subprocess.PIPE, stderr = subprocess.PIPE, cwd = cwd, check=True)
+        res = subprocess.run(cmd_args, capture_output=True, cwd = cwd, check=True)
         return res.stdout.decode(encoding = 'utf8', errors='ignore').strip() if len(res.stdout) > 0 else ''
     except Exception:
         return ''
@@ -723,7 +723,7 @@ def build_system_info_metadata():
             field_path = AVAILABLE_FIELDS[field_name]
             value = get_value_from_data(field_path)
             if value is not None:
-                metadata[field_name] = value
+                metadata[field_name] = value if not isinstance(value, list) else ' '.join(value)
     return metadata if metadata else None
 
 
@@ -753,9 +753,6 @@ class SystemInfoMetadataScript(scripts.Script):
 
     def show(self, is_img2img):
         return scripts.AlwaysVisible
-
-    def before_process(self, p, *args):
-        pass
 
     def postprocess_image(self, p, pp):
         if not shared.opts.data.get('system_info_metadata_enabled', False):
