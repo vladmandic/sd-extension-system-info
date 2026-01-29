@@ -727,24 +727,25 @@ def build_system_info_metadata():
     return metadata if metadata else None
 
 
-shared.options_templates.update(
-    shared.options_section(
-        ('infotext', "Infotext", "ui"),
-        {
-            'system_info_metadata_enabled': shared.OptionInfo(
-                False,
-                "Add system information to infotext",
-                gr.Checkbox,
-            ),
-            'system_info_metadata_fields': shared.OptionInfo(
-                DEFAULT_METADATA_FIELDS,
-                "System information to include in infotext",
-                gr.Dropdown,
-                {"choices": list(AVAILABLE_FIELDS.keys()), "multiselect": True},
-            ),
-        },
+def on_ui_settings():
+    shared.options_templates.update(
+        shared.options_section(
+            ('infotext', "Infotext", "ui"),
+            {
+                'system_info_metadata_enabled': shared.OptionInfo(
+                    False,
+                    "Add system information to infotext",
+                    gr.Checkbox,
+                ),
+                'system_info_metadata_fields': shared.OptionInfo(
+                    DEFAULT_METADATA_FIELDS,
+                    "System information to include in infotext",
+                    gr.Dropdown,
+                    {"choices": list(AVAILABLE_FIELDS.keys()), "multiselect": True},
+                ),
+            },
+        )
     )
-)
 
 
 class SystemInfoMetadataScript(scripts.Script):
@@ -850,3 +851,4 @@ except Exception:
 if standalone:
     script_callbacks.on_ui_tabs(create_ui)
 script_callbacks.on_app_started(on_app_started)
+script_callbacks.on_ui_settings(on_ui_settings)
