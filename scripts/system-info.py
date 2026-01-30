@@ -730,16 +730,12 @@ def build_system_info_metadata():
 def on_ui_settings():
     shared.options_templates.update(
         shared.options_section(
-            ('infotext', "Infotext", "ui"),
+            ('image-metadata', "Image Metadata", "ui"),
             {
-                'system_info_metadata_enabled': shared.OptionInfo(
-                    False,
-                    "Add system information to infotext",
-                    gr.Checkbox,
-                ),
+                'system_info_metadata_enabled': shared.OptionInfo(False, "Add system information to metadata", gr.Checkbox),
                 'system_info_metadata_fields': shared.OptionInfo(
                     DEFAULT_METADATA_FIELDS,
-                    "System information to include in infotext",
+                    "System information to include in metadata",
                     gr.Dropdown,
                     {"choices": list(AVAILABLE_FIELDS.keys()), "multiselect": True},
                 ),
@@ -755,7 +751,9 @@ class SystemInfoMetadataScript(scripts.Script):
     def show(self, is_img2img):
         return scripts.AlwaysVisible
 
-    def postprocess_image(self, p, pp):
+    def postprocess_image(self, p, pp): # pylint: disable=arguments-differ
+        if not p:
+            return
         if not shared.opts.data.get('system_info_metadata_enabled', False):
             return
         try:
