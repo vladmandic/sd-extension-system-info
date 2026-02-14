@@ -502,8 +502,8 @@ def create_ui(blocks: gr.Blocks = None):
                                 steps = gr.Dropdown(['turbo', 'default', 'long'], value = 'normal', label = 'Benchmark steps', elem_id = 'system_info_tab_steps')
                                 level = gr.Dropdown(['quick', 'normal', 'extensive', 'ludicrous'], value = 'normal', label = 'Benchmark level', elem_id = 'system_info_tab_level')
                             with gr.Row():
-                                width = gr.Number(512, label = 'Image width', elem_id = 'system_info_tab_width')
-                                height = gr.Number(512, label = 'Image height', elem_id = 'system_info_tab_height')
+                                width = gr.Number(512, label = 'Benchmark Image width', elem_id = 'system_info_tab_width')
+                                height = gr.Number(512, label = 'Benchmark Image height', elem_id = 'system_info_tab_height')
                         with gr.Column():
                             bench_run_btn = gr.Button('Run benchmark', elem_id = 'system_info_tab_benchmark_btn', variant='primary')
                             bench_run_btn.click(bench_init, inputs = [username, note, warmup, level, steps, width, height], outputs = [benchmark_data])
