@@ -231,10 +231,11 @@ def get_flags():
 
 
 def get_package_version(pkg: str):
-    import pkg_resources
-    spec = pkg_resources.working_set.by_key.get(pkg, None) # more reliable than importlib
-    version = pkg_resources.get_distribution(pkg).version if spec is not None else ''
-    return version
+    try:
+        import importlib.metadata
+        return importlib.metadata.version(pkg)
+    except Exception:
+        return ''
 
 
 def get_libs():
