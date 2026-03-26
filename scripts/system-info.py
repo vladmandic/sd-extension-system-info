@@ -246,7 +246,7 @@ def get_libs():
     }
 
 
-def run_git_command(cmd_args: list, cwd: str = None):
+def run_git_command(cmd_args: list, cwd: str | None = None):
     try:
         res = subprocess.run(cmd_args, capture_output=True, cwd = cwd, check=True)
         return res.stdout.decode(encoding = 'utf8', errors='ignore').strip() if len(res.stdout) > 0 else ''
